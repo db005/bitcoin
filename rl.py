@@ -10,7 +10,7 @@ import torch.optim as optim
 import torch.nn.functional as F
 from torch.distributions import Normal
 
-import environment as Env
+import environment2 as Env
 
 from IPython.display import clear_output
 import matplotlib.pyplot as plt
@@ -272,39 +272,99 @@ virtual = True
 
 env = Env.environment(eth,usdt,virtual)
 
-state = env.reset()
-while True:
-    
-    episode_reward = 0
-    
-    
-    action = policy_net.get_action(state)
-    next_state, reward, done= env.step(action)
-    
-    
-    replay_buffer.push(state, action, reward, next_state, done)
-    if len(replay_buffer) > batch_size and frame_idx % 10 == 5:
-        soft_q_update(batch_size)
-        # print(frame_idx,reward)
-    
-    state = next_state
-    episode_reward += reward
-    frame_idx += 1
-    
-    if frame_idx % 100 == 0:
-        # plot(frame_idx, rewards)
-        torch.save(value_net,"vn.pth")
-        torch.save(target_value_net,"tvn.pth")
-        torch.save(soft_q_net,"sqn.pth")
-        torch.save(policy_net,"pn.pth")
-    
-    if done:
-        torch.save(value_net,"vn.pth")
-        torch.save(target_value_net,"tvn.pth")
-        torch.save(soft_q_net,"sqn.pth")
-        torch.save(policy_net,"pn.pth")
-        break
-        
-    rewards.append(episode_reward)
 
-plot(frame_idx, rewards)
+import logging
+import pymongo as pm
+from huobi import SubscriptionClient
+from huobi.model import *
+from huobi.exception.huobiapiexception import HuobiApiException
+import time 
+
+
+logger = logging.getLogger("huobi-client")
+logger.setLevel(level=logging.INFO)
+handler = logging.StreamHandler()
+handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
+logger.addHandler(handler)
+
+mongoclient = pm.MongoClient("mongodb://localhost:27017/")
+db = mongoclient["huobi"]
+
+
+sub_client = SubscriptionClient()
+
+
+def callbackMbp(event: 'MbpRequest'):
+    # print("Timestamp: " , event.id)
+    # print("Channel : " , event.rep)
+    mbp = event.data
+    # print("seqNum : ", mbp.seqNum)
+    # print("prevSeqNum : ", mbp.prevSeqNum)
+    market = []
+    
+    
+    for i in range(6):
+        # print("Bids: " + " price: " + (mbp.bids[i].price) + ", amount: " + (mbp.bids[i].amount))
+        
+        market+=[mbp.asks[6-i].price,mbp.asks[6-i].amount]
+    
+    for i in range(6):
+        # print("Asks: " + " price: " + (mbp.asks[i].price) + ", amount: " + (mbp.asks[i].amount))
+        market+=[mbp.bids[6-i].price,mbp.bids[6-i].amount]
+    
+    env.pushmarket(market)
+        
+
+def errorMbp(e: 'HuobiApiException'):
+    print(e.error_code + e.error_message)
+#sub_client.request_candlestick_event("btcusdt", CandlestickInterval.MIN1, callback, from_ts_second=None, end_ts_second=None, auto_close=True, error_handler=None)
+#sub_client.request_candlestick_event("btcusdt", CandlestickInterval.MIN1, callback, from_ts_second=1569361140, end_ts_second=1569366420)
+#sub_client.request_candlestick_event("btcusdt", CandlestickInterval.MIN1, callback, from_ts_second=1569361140, end_ts_second=0)
+#sub_client.request_candlestick_event("btcusdt", CandlestickInterval.MIN1, callback, from_ts_second=1569379980)
+
+
+
+def train(q):
+    frame_idx = 0
+    while len(env.market)<1202:
+        sub_client.request_mbp_event("ethusdt", MbpLevel.MBP150, callbackMbp, errorMbp)
+        time.sleep(0.1)
+    state = env.reset()
+    result = ""
+    while True:
+
+        action = policy_net.get_action(state)
+        sub_client.request_mbp_event("ethusdt", MbpLevel.MBP150, callbackMbp, errorMbp)
+        time.sleep(0.1)
+        next_state, reward, done= env.step(action)
+
+        replay_buffer.push(state, action, reward, next_state, done)
+        if len(replay_buffer) > batch_size and frame_idx % 10 == 5:
+            soft_q_update(batch_size)
+            print(frame_idx,reward)
+
+        result=result,frame_idx,reward,"\n"
+        q.put(result)
+        state = next_state
+        frame_idx += 1
+
+        if frame_idx % 1000 == 0:
+            result=""
+        
+        if frame_idx % 100 == 0:
+            # plot(frame_idx, rewards)
+            torch.save(value_net,"vn.pth")
+            torch.save(target_value_net,"tvn.pth")
+            torch.save(soft_q_net,"sqn.pth")
+            torch.save(policy_net,"pn.pth")
+        
+        if done:
+            torch.save(value_net,"vn.pth")
+            torch.save(target_value_net,"tvn.pth")
+            torch.save(soft_q_net,"sqn.pth")
+            torch.save(policy_net,"pn.pth")
+            break
+            
+        rewards.append(reward)
+
+# plot(frame_idx, rewards)
