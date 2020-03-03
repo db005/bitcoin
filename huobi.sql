@@ -1,0 +1,22252 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : 谷歌云
+ Source Server Type    : MongoDB
+ Source Server Version : 30424
+ Source Host           : localhost:27017
+ Source Schema         : huobi
+
+ Target Server Type    : MongoDB
+ Target Server Version : 30424
+ File Encoding         : 65001
+
+ Date: 29/02/2020 12:50:33
+*/
+
+
+// ----------------------------
+// Collection structure for candle
+// ----------------------------
+db.getCollection("candle").drop();
+db.createCollection("candle");
+
+// ----------------------------
+// Documents of candle
+// ----------------------------
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58f6a46e3a9222bd9e905c"),
+    Timestamp: "1582888612723",
+    id: "1582887600",
+    high: "222.87",
+    low: "220.19",
+    open: "221.33",
+    close: "221.71",
+    volume: "4193278.4789294284",
+    amount: "18889.018310973934"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e905e"),
+    Timestamp: "1582888612723",
+    id: "1582888500",
+    high: "222.51",
+    low: "221.71",
+    open: "221.74",
+    close: "222.24",
+    volume: "225976.044989",
+    amount: "1017.1059952567215"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef881"),
+    Timestamp: "1582889298705",
+    id: "1582887600",
+    high: "222.87",
+    low: "220.19",
+    open: "221.33",
+    close: "221.71",
+    volume: "4193278.4789294284",
+    amount: "18889.018310973934"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef882"),
+    Timestamp: "1582889298705",
+    id: "1582888500",
+    high: "223.07",
+    low: "221.18",
+    open: "221.74",
+    close: "222.62",
+    volume: "2192263.265273184",
+    amount: "9864.827314537231"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d1677159e"),
+    Timestamp: "1582889457997",
+    id: "1582888500",
+    high: "223.07",
+    low: "221.18",
+    open: "221.74",
+    close: "222.73",
+    volume: "2886080.6645943844",
+    amount: "12982.597238482338"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a0"),
+    Timestamp: "1582889457997",
+    id: "1582889400",
+    high: "222.93",
+    low: "222.42",
+    open: "222.73",
+    close: "222.43",
+    volume: "159598.63951407",
+    amount: "716.9549192802891"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd3762a"),
+    Timestamp: "1582889473780",
+    id: "1582888500",
+    high: "223.07",
+    low: "221.18",
+    open: "221.74",
+    close: "222.73",
+    volume: "2886080.6645943844",
+    amount: "12982.597238482338"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd3762d"),
+    Timestamp: "1582889473780",
+    id: "1582889400",
+    high: "222.93",
+    low: "222.31",
+    open: "222.73",
+    close: "222.33",
+    volume: "187778.30234107",
+    amount: "843.6375192802891"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58fa286e3a9222bd9e9069"),
+    Timestamp: "1582889512812",
+    id: "1582888500",
+    high: "223.07",
+    low: "221.18",
+    open: "221.74",
+    close: "222.73",
+    volume: "2886080.6645943844",
+    amount: "12982.597238482338"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58fa286e3a9222bd9e906a"),
+    Timestamp: "1582889512812",
+    id: "1582889400",
+    high: "222.93",
+    low: "221.77",
+    open: "222.73",
+    close: "222.0",
+    volume: "627613.70127407",
+    amount: "2822.9421656376057"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd37644"),
+    Timestamp: "1582890373941",
+    id: "1582889400",
+    high: "222.93",
+    low: "219.71",
+    open: "222.73",
+    close: "219.99",
+    volume: "3064993.0402563564",
+    amount: "13868.084880814553"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd37645"),
+    Timestamp: "1582890373941",
+    id: "1582890300",
+    high: "220.47",
+    low: "219.94",
+    open: "219.98",
+    close: "220.25",
+    volume: "196716.77591904427",
+    amount: "893.4603044267877"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e9083"),
+    Timestamp: "1582890412924",
+    id: "1582889400",
+    high: "222.93",
+    low: "219.71",
+    open: "222.73",
+    close: "219.99",
+    volume: "3064993.0402563564",
+    amount: "13868.084880814553"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e9084"),
+    Timestamp: "1582890412924",
+    id: "1582890300",
+    high: "220.47",
+    low: "219.94",
+    open: "219.98",
+    close: "220.44",
+    volume: "271500.97540204425",
+    amount: "1232.7745044267876"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd37646"),
+    Timestamp: "1582891274008",
+    id: "1582890300",
+    high: "220.74",
+    low: "219.2",
+    open: "219.98",
+    close: "220.56",
+    volume: "2049030.7938429224",
+    amount: "9319.020353213296"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd37647"),
+    Timestamp: "1582891274008",
+    id: "1582891200",
+    high: "221.12",
+    low: "220.48",
+    open: "220.56",
+    close: "220.58",
+    volume: "236541.38910830888",
+    amount: "1071.0949679707494"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e908d"),
+    Timestamp: "1582891312993",
+    id: "1582890300",
+    high: "220.74",
+    low: "219.2",
+    open: "219.98",
+    close: "220.56",
+    volume: "2049030.7938429224",
+    amount: "9319.020353213296"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e908e"),
+    Timestamp: "1582891312993",
+    id: "1582891200",
+    high: "221.12",
+    low: "219.75",
+    open: "220.56",
+    close: "219.9",
+    volume: "319594.92726630886",
+    amount: "1448.4685784003643"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd37654"),
+    Timestamp: "1582892174081",
+    id: "1582891200",
+    high: "221.12",
+    low: "215.45",
+    open: "220.56",
+    close: "218.12",
+    volume: "6853191.52114351",
+    amount: "31506.132360078434"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd37655"),
+    Timestamp: "1582892174081",
+    id: "1582892100",
+    high: "218.16",
+    low: "216.68",
+    open: "218.15",
+    close: "217.29",
+    volume: "472393.6727398475",
+    amount: "2174.8110981376403"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e909f"),
+    Timestamp: "1582892213128",
+    id: "1582891200",
+    high: "221.12",
+    low: "215.45",
+    open: "220.56",
+    close: "218.12",
+    volume: "6853191.52114351",
+    amount: "31506.132360078434"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e90a0"),
+    Timestamp: "1582892213128",
+    id: "1582892100",
+    high: "218.16",
+    low: "216.68",
+    open: "218.15",
+    close: "217.09",
+    volume: "556077.9345508575",
+    amount: "2560.310112628046"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd37662"),
+    Timestamp: "1582893074187",
+    id: "1582892100",
+    high: "218.16",
+    low: "213.99",
+    open: "218.15",
+    close: "216.68",
+    volume: "8475298.642548883",
+    amount: "39349.65145811297"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd37663"),
+    Timestamp: "1582893074187",
+    id: "1582893000",
+    high: "216.67",
+    low: "215.56",
+    open: "216.67",
+    close: "215.65",
+    volume: "326264.631609",
+    amount: "1508.7299914444702"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90ad"),
+    Timestamp: "1582893113214",
+    id: "1582892100",
+    high: "218.16",
+    low: "213.99",
+    open: "218.15",
+    close: "216.68",
+    volume: "8475298.642548883",
+    amount: "39349.65145811297"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90ae"),
+    Timestamp: "1582893113214",
+    id: "1582893000",
+    high: "216.67",
+    low: "215.27",
+    open: "216.67",
+    close: "215.39",
+    volume: "491054.725998",
+    amount: "2273.54559144447"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd3767c"),
+    Timestamp: "1582893974323",
+    id: "1582893000",
+    high: "217.72",
+    low: "214.31",
+    open: "216.67",
+    close: "216.76",
+    volume: "4715238.792307123",
+    amount: "21844.592882877187"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd3767d"),
+    Timestamp: "1582893974323",
+    id: "1582893900",
+    high: "217.44",
+    low: "216.34",
+    open: "216.77",
+    close: "217.35",
+    volume: "370005.16234677046",
+    amount: "1707.4642448007496"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90bb"),
+    Timestamp: "1582894013289",
+    id: "1582893000",
+    high: "217.72",
+    low: "214.31",
+    open: "216.67",
+    close: "216.76",
+    volume: "4715238.792307123",
+    amount: "21844.592882877187"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90bc"),
+    Timestamp: "1582894013289",
+    id: "1582893900",
+    high: "217.9",
+    low: "216.34",
+    open: "216.77",
+    close: "217.78",
+    volume: "511999.85368089186",
+    amount: "2360.160469502656"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd3767e"),
+    Timestamp: "1582894874318",
+    id: "1582893900",
+    high: "218.24",
+    low: "216.34",
+    open: "216.77",
+    close: "217.77",
+    volume: "3622234.1945089684",
+    amount: "16652.834552617558"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd3767f"),
+    Timestamp: "1582894874318",
+    id: "1582894800",
+    high: "217.87",
+    low: "216.61",
+    open: "217.76",
+    close: "216.61",
+    volume: "173593.74658983",
+    amount: "799.119904764357"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c9"),
+    Timestamp: "1582894913415",
+    id: "1582893900",
+    high: "218.24",
+    low: "216.34",
+    open: "216.77",
+    close: "217.77",
+    volume: "3622234.1945089684",
+    amount: "16652.834552617558"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90ca"),
+    Timestamp: "1582894913415",
+    id: "1582894800",
+    high: "217.87",
+    low: "216.33",
+    open: "217.76",
+    close: "216.95",
+    volume: "582615.96330983",
+    amount: "2687.905904764357"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37698"),
+    Timestamp: "1582895774366",
+    id: "1582894800",
+    high: "222.86",
+    low: "216.33",
+    open: "217.76",
+    close: "221.44",
+    volume: "8918748.31681454",
+    amount: "40449.4462158063"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37699"),
+    Timestamp: "1582895774366",
+    id: "1582895700",
+    high: "222.5",
+    low: "221.01",
+    open: "221.45",
+    close: "222.5",
+    volume: "845315.2609897394",
+    amount: "3814.7945113868423"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90d7"),
+    Timestamp: "1582895813461",
+    id: "1582894800",
+    high: "222.86",
+    low: "216.33",
+    open: "217.76",
+    close: "221.44",
+    volume: "8918748.31681454",
+    amount: "40449.4462158063"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90d8"),
+    Timestamp: "1582895813461",
+    id: "1582895700",
+    high: "223.5",
+    low: "221.01",
+    open: "221.45",
+    close: "223.38",
+    volume: "1422007.3752707832",
+    amount: "6399.904400692329"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd376a6"),
+    Timestamp: "1582896674487",
+    id: "1582895700",
+    high: "223.85",
+    low: "221.01",
+    open: "221.45",
+    close: "223.34",
+    volume: "4819912.035684897",
+    amount: "21644.0812771386"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd376a7"),
+    Timestamp: "1582896674487",
+    id: "1582896600",
+    high: "223.6",
+    low: "223.0",
+    open: "223.3",
+    close: "223.04",
+    volume: "271654.21051842",
+    amount: "1216.2371626761615"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90e5"),
+    Timestamp: "1582896713623",
+    id: "1582895700",
+    high: "223.85",
+    low: "221.01",
+    open: "221.45",
+    close: "223.34",
+    volume: "4819912.035684897",
+    amount: "21644.0812771386"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90e6"),
+    Timestamp: "1582896713623",
+    id: "1582896600",
+    high: "223.6",
+    low: "222.72",
+    open: "223.3",
+    close: "222.73",
+    volume: "404665.7314139",
+    amount: "1812.8323108894879"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376a8"),
+    Timestamp: "1582897574588",
+    id: "1582896600",
+    high: "225.0",
+    low: "222.67",
+    open: "223.3",
+    close: "223.58",
+    volume: "4389957.632443785",
+    amount: "19597.996395982922"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376a9"),
+    Timestamp: "1582897574588",
+    id: "1582897500",
+    high: "223.76",
+    low: "223.32",
+    open: "223.56",
+    close: "223.59",
+    volume: "305857.87290646",
+    amount: "1368.4067254517788"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90f3"),
+    Timestamp: "1582897613708",
+    id: "1582896600",
+    high: "225.0",
+    low: "222.67",
+    open: "223.3",
+    close: "223.58",
+    volume: "4389957.632443785",
+    amount: "19597.996395982922"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90f4"),
+    Timestamp: "1582897613708",
+    id: "1582897500",
+    high: "223.76",
+    low: "223.0",
+    open: "223.56",
+    close: "223.11",
+    volume: "788374.99306446",
+    amount: "3529.6376254517786"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376b6"),
+    Timestamp: "1582898474636",
+    id: "1582897500",
+    high: "224.0",
+    low: "222.08",
+    open: "223.56",
+    close: "223.55",
+    volume: "3361951.6156772603",
+    amount: "15071.700661743416"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376b7"),
+    Timestamp: "1582898474636",
+    id: "1582898400",
+    high: "224.5",
+    low: "223.47",
+    open: "223.47",
+    close: "224.13",
+    volume: "427871.3938316668",
+    amount: "1908.6927346435643"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e591d516e3a9222bd9e90f5"),
+    Timestamp: "1582898513768",
+    id: "1582897500",
+    high: "224.0",
+    low: "222.08",
+    open: "223.56",
+    close: "223.55",
+    volume: "3361951.6156772603",
+    amount: "15071.700661743416"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e591d516e3a9222bd9e90f6"),
+    Timestamp: "1582898513768",
+    id: "1582898400",
+    high: "224.5",
+    low: "223.47",
+    open: "223.47",
+    close: "223.98",
+    volume: "575930.0865066667",
+    amount: "2569.6941346435647"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376d0"),
+    Timestamp: "1582899374751",
+    id: "1582898400",
+    high: "224.5",
+    low: "222.06",
+    open: "223.47",
+    close: "222.24",
+    volume: "2739257.649615144",
+    amount: "12278.22099659775"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376d1"),
+    Timestamp: "1582899374751",
+    id: "1582899300",
+    high: "223.2",
+    low: "222.2",
+    open: "222.24",
+    close: "223.19",
+    volume: "449889.944567",
+    amount: "2021.5559822566133"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e910f"),
+    Timestamp: "1582899413894",
+    id: "1582898400",
+    high: "224.5",
+    low: "222.06",
+    open: "223.47",
+    close: "222.24",
+    volume: "2739257.649615144",
+    amount: "12278.22099659775"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e9110"),
+    Timestamp: "1582899413894",
+    id: "1582899300",
+    high: "223.5",
+    low: "222.2",
+    open: "222.24",
+    close: "223.47",
+    volume: "703860.68999027",
+    amount: "3159.049620496334"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5924336e3a922d2fd376de"),
+    Timestamp: "1582900274920",
+    id: "1582899300",
+    high: "224.92",
+    low: "220.54",
+    open: "222.24",
+    close: "221.16",
+    volume: "3810738.4076335467",
+    amount: "17114.76978478102"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5924336e3a922d2fd376df"),
+    Timestamp: "1582900274920",
+    id: "1582900200",
+    high: "222.0",
+    low: "221.13",
+    open: "221.16",
+    close: "221.58",
+    volume: "231591.269147",
+    amount: "1045.310731349037"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e9111"),
+    Timestamp: "1582900313931",
+    id: "1582899300",
+    high: "224.92",
+    low: "220.54",
+    open: "222.24",
+    close: "221.16",
+    volume: "3810738.4076335467",
+    amount: "17114.76978478102"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e9112"),
+    Timestamp: "1582900313931",
+    id: "1582900200",
+    high: "222.0",
+    low: "220.91",
+    open: "221.16",
+    close: "221.0",
+    volume: "324790.668675",
+    amount: "1466.4766269021825"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e0"),
+    Timestamp: "1582901174911",
+    id: "1582900200",
+    high: "223.58",
+    low: "220.88",
+    open: "221.16",
+    close: "223.18",
+    volume: "2737542.08451688",
+    amount: "12298.053889076295"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e1"),
+    Timestamp: "1582901174911",
+    id: "1582901100",
+    high: "223.19",
+    low: "222.92",
+    open: "223.08",
+    close: "222.95",
+    volume: "45468.150619",
+    amount: "203.8481"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e911f"),
+    Timestamp: "1582901214034",
+    id: "1582900200",
+    high: "223.58",
+    low: "220.88",
+    open: "221.16",
+    close: "223.18",
+    volume: "2737542.08451688",
+    amount: "12298.053889076295"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9120"),
+    Timestamp: "1582901214034",
+    id: "1582901100",
+    high: "223.19",
+    low: "222.39",
+    open: "223.08",
+    close: "222.49",
+    volume: "74190.62029301",
+    amount: "332.8563591021662"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376ee"),
+    Timestamp: "1582902074944",
+    id: "1582901100",
+    high: "224.92",
+    low: "222.25",
+    open: "223.08",
+    close: "224.45",
+    volume: "2238811.32834115",
+    amount: "10007.533227789912"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376ef"),
+    Timestamp: "1582902074944",
+    id: "1582902000",
+    high: "224.5",
+    low: "223.66",
+    open: "224.43",
+    close: "223.73",
+    volume: "353410.195538",
+    amount: "1577.4130756838636"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9139"),
+    Timestamp: "1582902114275",
+    id: "1582901100",
+    high: "224.92",
+    low: "222.25",
+    open: "223.08",
+    close: "224.45",
+    volume: "2238811.32834115",
+    amount: "10007.533227789912"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e913a"),
+    Timestamp: "1582902114275",
+    id: "1582902000",
+    high: "224.5",
+    low: "223.59",
+    open: "224.43",
+    close: "223.9",
+    volume: "529861.574651",
+    amount: "2366.2442023964063"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37700"),
+    Timestamp: "1582902975109",
+    id: "1582902000",
+    high: "224.5",
+    low: "222.65",
+    open: "224.43",
+    close: "223.33",
+    volume: "2317463.307159496",
+    amount: "10363.7187088219"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37701"),
+    Timestamp: "1582902975109",
+    id: "1582902900",
+    high: "223.47",
+    low: "222.8",
+    open: "223.31",
+    close: "222.8",
+    volume: "259914.311405",
+    amount: "1165.4971"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e9147"),
+    Timestamp: "1582903014264",
+    id: "1582902000",
+    high: "224.5",
+    low: "222.65",
+    open: "224.43",
+    close: "223.33",
+    volume: "2317463.307159496",
+    amount: "10363.7187088219"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e9148"),
+    Timestamp: "1582903014264",
+    id: "1582902900",
+    high: "223.47",
+    low: "222.8",
+    open: "223.31",
+    close: "222.8",
+    volume: "283981.993736",
+    amount: "1273.4805"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd37716"),
+    Timestamp: "1582903875140",
+    id: "1582902900",
+    high: "224.35",
+    low: "222.0",
+    open: "223.31",
+    close: "224.27",
+    volume: "1938016.8731984384",
+    amount: "8686.928155933618"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd37717"),
+    Timestamp: "1582903875140",
+    id: "1582903800",
+    high: "225.04",
+    low: "224.0",
+    open: "224.27",
+    close: "225.04",
+    volume: "1136949.75660773",
+    amount: "5058.684197553921"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e9155"),
+    Timestamp: "1582903914455",
+    id: "1582902900",
+    high: "224.35",
+    low: "222.0",
+    open: "223.31",
+    close: "224.27",
+    volume: "1938016.8731984384",
+    amount: "8686.928155933618"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e9156"),
+    Timestamp: "1582903914455",
+    id: "1582903800",
+    high: "225.24",
+    low: "224.0",
+    open: "224.27",
+    close: "225.12",
+    volume: "1517892.9346681014",
+    amount: "6751.963503058009"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd37724"),
+    Timestamp: "1582904775361",
+    id: "1582903800",
+    high: "226.1",
+    low: "224.0",
+    open: "224.27",
+    close: "224.48",
+    volume: "4223492.776491679",
+    amount: "18763.04522814639"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd37725"),
+    Timestamp: "1582904775361",
+    id: "1582904700",
+    high: "224.95",
+    low: "224.37",
+    open: "224.46",
+    close: "224.71",
+    volume: "172490.845902",
+    amount: "767.8076707229077"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e9157"),
+    Timestamp: "1582904814377",
+    id: "1582903800",
+    high: "226.1",
+    low: "224.0",
+    open: "224.27",
+    close: "224.48",
+    volume: "4223492.776491679",
+    amount: "18763.04522814639"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e9158"),
+    Timestamp: "1582904814377",
+    id: "1582904700",
+    high: "224.95",
+    low: "224.37",
+    open: "224.46",
+    close: "224.72",
+    volume: "253155.769498",
+    amount: "1126.7393707229078"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd37732"),
+    Timestamp: "1582905675370",
+    id: "1582904700",
+    high: "227.66",
+    low: "224.37",
+    open: "224.46",
+    close: "227.3",
+    volume: "3945654.5633040112",
+    amount: "17445.00121216104"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd37733"),
+    Timestamp: "1582905675370",
+    id: "1582905600",
+    high: "227.69",
+    low: "226.33",
+    open: "227.29",
+    close: "227.55",
+    volume: "1131251.4666742976",
+    amount: "4984.738871782664"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e9171"),
+    Timestamp: "1582905714615",
+    id: "1582904700",
+    high: "227.66",
+    low: "224.37",
+    open: "224.46",
+    close: "227.3",
+    volume: "3945654.5633040112",
+    amount: "17445.00121216104"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e9172"),
+    Timestamp: "1582905714615",
+    id: "1582905600",
+    high: "228.36",
+    low: "226.33",
+    open: "227.29",
+    close: "228.22",
+    volume: "1688553.8606967377",
+    amount: "7430.850789633706"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd37734"),
+    Timestamp: "1582906575414",
+    id: "1582905600",
+    high: "228.5",
+    low: "226.33",
+    open: "227.29",
+    close: "227.67",
+    volume: "8176274.262901408",
+    amount: "35957.92623800745"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd3773c"),
+    Timestamp: "1582906575414",
+    id: "1582906500",
+    high: "228.19",
+    low: "227.59",
+    open: "227.64",
+    close: "228.0",
+    volume: "507855.8495724",
+    amount: "2228.87581117655"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e917f"),
+    Timestamp: "1582906614729",
+    id: "1582905600",
+    high: "228.5",
+    low: "226.33",
+    open: "227.29",
+    close: "227.67",
+    volume: "8176274.262901408",
+    amount: "35957.92623800745"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e9180"),
+    Timestamp: "1582906614729",
+    id: "1582906500",
+    high: "228.19",
+    low: "227.59",
+    open: "227.64",
+    close: "227.85",
+    volume: "705638.78819093",
+    amount: "3096.2545250143858"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd3774e"),
+    Timestamp: "1582907475520",
+    id: "1582906500",
+    high: "228.19",
+    low: "225.6",
+    open: "227.64",
+    close: "225.83",
+    volume: "4641889.6041266965",
+    amount: "20462.83915197399"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd3774f"),
+    Timestamp: "1582907475520",
+    id: "1582907400",
+    high: "225.88",
+    low: "225.55",
+    open: "225.82",
+    close: "225.57",
+    volume: "77848.75532662",
+    amount: "344.95164795013505"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e9181"),
+    Timestamp: "1582907514659",
+    id: "1582906500",
+    high: "228.19",
+    low: "225.6",
+    open: "227.64",
+    close: "225.83",
+    volume: "4641889.6041266965",
+    amount: "20462.83915197399"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e9182"),
+    Timestamp: "1582907514659",
+    id: "1582907400",
+    high: "226.63",
+    low: "225.55",
+    open: "225.82",
+    close: "226.37",
+    volume: "396964.45601862",
+    amount: "1756.7206479501351"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37750"),
+    Timestamp: "1582908375602",
+    id: "1582907400",
+    high: "227.29",
+    low: "225.02",
+    open: "225.82",
+    close: "225.32",
+    volume: "2762673.516774742",
+    amount: "12218.173214140787"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37751"),
+    Timestamp: "1582908375602",
+    id: "1582908300",
+    high: "225.29",
+    low: "224.78",
+    open: "225.29",
+    close: "224.96",
+    volume: "253868.476834",
+    amount: "1128.172735663382"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e919b"),
+    Timestamp: "1582908414810",
+    id: "1582907400",
+    high: "227.29",
+    low: "225.02",
+    open: "225.82",
+    close: "225.32",
+    volume: "2762673.516774742",
+    amount: "12218.173214140787"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e919c"),
+    Timestamp: "1582908414810",
+    id: "1582908300",
+    high: "225.29",
+    low: "224.36",
+    open: "225.29",
+    close: "224.41",
+    volume: "422441.121327",
+    amount: "1878.9084421784855"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd3775e"),
+    Timestamp: "1582909275725",
+    id: "1582908300",
+    high: "225.29",
+    low: "223.52",
+    open: "225.29",
+    close: "223.83",
+    volume: "3994629.202218489",
+    amount: "17818.09735919384"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd3775f"),
+    Timestamp: "1582909275725",
+    id: "1582909200",
+    high: "224.16",
+    low: "223.75",
+    open: "223.84",
+    close: "224.14",
+    volume: "159416.00538113713",
+    amount: "711.9362120758336"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e919d"),
+    Timestamp: "1582909314853",
+    id: "1582908300",
+    high: "225.29",
+    low: "223.52",
+    open: "225.29",
+    close: "223.83",
+    volume: "3994629.202218489",
+    amount: "17818.09735919384"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e919e"),
+    Timestamp: "1582909314853",
+    id: "1582909200",
+    high: "224.24",
+    low: "223.61",
+    open: "223.84",
+    close: "223.68",
+    volume: "355451.1730386633",
+    amount: "1587.561531398275"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e594adf6e3a922d2fd3776c"),
+    Timestamp: "1582910175819",
+    id: "1582909200",
+    high: "224.24",
+    low: "221.72",
+    open: "223.84",
+    close: "221.96",
+    volume: "4186626.526874994",
+    amount: "18795.582328401786"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e594adf6e3a922d2fd3776d"),
+    Timestamp: "1582910175819",
+    id: "1582910100",
+    high: "222.08",
+    low: "221.64",
+    open: "221.95",
+    close: "221.9",
+    volume: "281079.4081217717",
+    amount: "1266.6907873601313"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91ab"),
+    Timestamp: "1582910214966",
+    id: "1582909200",
+    high: "224.24",
+    low: "221.72",
+    open: "223.84",
+    close: "221.96",
+    volume: "4186626.526874994",
+    amount: "18795.582328401786"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91ac"),
+    Timestamp: "1582910214966",
+    id: "1582910100",
+    high: "222.08",
+    low: "221.64",
+    open: "221.95",
+    close: "221.89",
+    volume: "475500.1860667717",
+    amount: "2142.849796824437"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd37786"),
+    Timestamp: "1582911075953",
+    id: "1582910100",
+    high: "224.0",
+    low: "221.64",
+    open: "221.95",
+    close: "223.66",
+    volume: "2768096.115616308",
+    amount: "12431.47601497434"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd37787"),
+    Timestamp: "1582911075953",
+    id: "1582911000",
+    high: "223.66",
+    low: "223.34",
+    open: "223.6",
+    close: "223.56",
+    volume: "100392.15822191488",
+    amount: "449.19495003751587"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91bb"),
+    Timestamp: "1582911115076",
+    id: "1582910100",
+    high: "224.0",
+    low: "221.64",
+    open: "221.95",
+    close: "223.66",
+    volume: "2768096.115616308",
+    amount: "12431.47601497434"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91be"),
+    Timestamp: "1582911115076",
+    id: "1582911000",
+    high: "223.66",
+    low: "223.09",
+    open: "223.6",
+    close: "223.23",
+    volume: "145120.42844738488",
+    amount: "649.4701266196358"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd37794"),
+    Timestamp: "1582911976003",
+    id: "1582911000",
+    high: "223.66",
+    low: "219.92",
+    open: "223.6",
+    close: "220.3",
+    volume: "5829306.944715996",
+    amount: "26374.073508698737"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd37795"),
+    Timestamp: "1582911976003",
+    id: "1582911900",
+    high: "220.66",
+    low: "220.16",
+    open: "220.3",
+    close: "220.32",
+    volume: "658477.5904418",
+    amount: "2988.4674100124316"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91d3"),
+    Timestamp: "1582912015204",
+    id: "1582911000",
+    high: "223.66",
+    low: "219.92",
+    open: "223.6",
+    close: "220.3",
+    volume: "5829306.944715996",
+    amount: "26374.073508698737"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91d4"),
+    Timestamp: "1582912015204",
+    id: "1582911900",
+    high: "220.66",
+    low: "220.16",
+    open: "220.3",
+    close: "220.46",
+    volume: "1154636.4460108",
+    amount: "5240.37588074591"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd37796"),
+    Timestamp: "1582912876082",
+    id: "1582911900",
+    high: "223.41",
+    low: "220.16",
+    open: "220.3",
+    close: "222.78",
+    volume: "5135796.603254407",
+    amount: "23131.768029588053"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd37797"),
+    Timestamp: "1582912876082",
+    id: "1582912800",
+    high: "223.04",
+    low: "222.32",
+    open: "222.81",
+    close: "222.47",
+    volume: "224749.58552849627",
+    amount: "1008.5131"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91d8"),
+    Timestamp: "1582912915246",
+    id: "1582911900",
+    high: "223.41",
+    low: "220.16",
+    open: "220.3",
+    close: "222.78",
+    volume: "5135796.603254407",
+    amount: "23131.768029588053"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91dc"),
+    Timestamp: "1582912915246",
+    id: "1582912800",
+    high: "223.04",
+    low: "221.97",
+    open: "222.81",
+    close: "221.99",
+    volume: "303142.5164934963",
+    amount: "1361.0248"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377a4"),
+    Timestamp: "1582913776115",
+    id: "1582912800",
+    high: "225.86",
+    low: "221.93",
+    open: "222.81",
+    close: "224.36",
+    volume: "3053813.96954108",
+    amount: "13630.325504260332"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377a5"),
+    Timestamp: "1582913776115",
+    id: "1582913700",
+    high: "224.41",
+    low: "223.77",
+    open: "224.29",
+    close: "224.18",
+    volume: "372299.4996458",
+    amount: "1661.6709608703916"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91ef"),
+    Timestamp: "1582913815405",
+    id: "1582912800",
+    high: "225.86",
+    low: "221.93",
+    open: "222.81",
+    close: "224.36",
+    volume: "3053813.96954108",
+    amount: "13630.325504260332"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91f0"),
+    Timestamp: "1582913815405",
+    id: "1582913700",
+    high: "224.79",
+    low: "223.77",
+    open: "224.29",
+    close: "224.73",
+    volume: "433374.6557718",
+    amount: "1933.7092608703917"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377be"),
+    Timestamp: "1582914676283",
+    id: "1582913700",
+    high: "225.03",
+    low: "222.75",
+    open: "224.29",
+    close: "223.15",
+    volume: "2218070.8156033",
+    amount: "9899.409238779364"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377bf"),
+    Timestamp: "1582914676283",
+    id: "1582914600",
+    high: "223.53",
+    low: "222.68",
+    open: "223.08",
+    close: "222.68",
+    volume: "172386.699923",
+    amount: "772.5476652011248"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91f1"),
+    Timestamp: "1582914715412",
+    id: "1582913700",
+    high: "225.03",
+    low: "222.75",
+    open: "224.29",
+    close: "223.15",
+    volume: "2218070.8156033",
+    amount: "9899.409238779364"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91f2"),
+    Timestamp: "1582914715412",
+    id: "1582914600",
+    high: "223.53",
+    low: "222.47",
+    open: "223.08",
+    close: "222.85",
+    volume: "284598.461491",
+    amount: "1276.0728652011248"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c0"),
+    Timestamp: "1582915576317",
+    id: "1582914600",
+    high: "223.53",
+    low: "221.32",
+    open: "223.08",
+    close: "221.72",
+    volume: "1691799.604341063",
+    amount: "7602.281263739356"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c6"),
+    Timestamp: "1582915576317",
+    id: "1582915500",
+    high: "221.78",
+    low: "221.2",
+    open: "221.72",
+    close: "221.5",
+    volume: "305209.858245",
+    amount: "1378.3499727224316"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e91ff"),
+    Timestamp: "1582915615498",
+    id: "1582914600",
+    high: "223.53",
+    low: "221.32",
+    open: "223.08",
+    close: "221.72",
+    volume: "1691799.604341063",
+    amount: "7602.281263739356"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9200"),
+    Timestamp: "1582915615498",
+    id: "1582915500",
+    high: "221.85",
+    low: "221.2",
+    open: "221.72",
+    close: "221.4",
+    volume: "391924.87721",
+    amount: "1769.6181489311807"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377ce"),
+    Timestamp: "1582916476386",
+    id: "1582915500",
+    high: "223.14",
+    low: "221.2",
+    open: "221.72",
+    close: "221.53",
+    volume: "1354650.1460222485",
+    amount: "6101.802845211527"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377cf"),
+    Timestamp: "1582916476386",
+    id: "1582916400",
+    high: "221.91",
+    low: "221.32",
+    open: "221.51",
+    close: "221.8",
+    volume: "154615.171718",
+    amount: "698.0054037216781"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9219"),
+    Timestamp: "1582916515593",
+    id: "1582915500",
+    high: "223.14",
+    low: "221.2",
+    open: "221.72",
+    close: "221.53",
+    volume: "1354650.1460222485",
+    amount: "6101.802845211527"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e921a"),
+    Timestamp: "1582916515593",
+    id: "1582916400",
+    high: "222.0",
+    low: "221.32",
+    open: "221.51",
+    close: "221.94",
+    volume: "195946.760981",
+    amount: "884.2602037216781"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e8"),
+    Timestamp: "1582917376526",
+    id: "1582916400",
+    high: "222.67",
+    low: "220.32",
+    open: "221.51",
+    close: "220.54",
+    volume: "1691102.485372091",
+    amount: "7642.652884092178"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e9"),
+    Timestamp: "1582917376526",
+    id: "1582917300",
+    high: "220.96",
+    low: "220.53",
+    open: "220.54",
+    close: "220.95",
+    volume: "133409.31916330577",
+    amount: "604.3261441066497"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e921b"),
+    Timestamp: "1582917415650",
+    id: "1582916400",
+    high: "222.67",
+    low: "220.32",
+    open: "221.51",
+    close: "220.54",
+    volume: "1691102.485372091",
+    amount: "7642.652884092178"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e921c"),
+    Timestamp: "1582917415650",
+    id: "1582917300",
+    high: "221.67",
+    low: "220.53",
+    open: "220.54",
+    close: "221.57",
+    volume: "191045.16106597116",
+    amount: "864.6661678979007"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377ed"),
+    Timestamp: "1582918276590",
+    id: "1582917300",
+    high: "223.3",
+    low: "220.53",
+    open: "220.54",
+    close: "222.99",
+    volume: "1654100.8264704344",
+    amount: "7445.4409604514785"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377ee"),
+    Timestamp: "1582918276590",
+    id: "1582918200",
+    high: "223.18",
+    low: "222.24",
+    open: "223.03",
+    close: "222.29",
+    volume: "106551.034959",
+    amount: "478.47813762340695"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e9235"),
+    Timestamp: "1582918315788",
+    id: "1582917300",
+    high: "223.3",
+    low: "220.53",
+    open: "220.54",
+    close: "222.99",
+    volume: "1654100.8264704344",
+    amount: "7445.4409604514785"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e9236"),
+    Timestamp: "1582918315788",
+    id: "1582918200",
+    high: "223.18",
+    low: "222.13",
+    open: "223.03",
+    close: "222.14",
+    volume: "142191.6768",
+    amount: "638.779737623407"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd37804"),
+    Timestamp: "1582919176724",
+    id: "1582918200",
+    high: "223.18",
+    low: "220.9",
+    open: "223.03",
+    close: "221.46",
+    volume: "866379.1333739201",
+    amount: "3906.016641239474"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd37805"),
+    Timestamp: "1582919176724",
+    id: "1582919100",
+    high: "222.0",
+    low: "221.36",
+    open: "221.36",
+    close: "221.84",
+    volume: "82912.196298",
+    amount: "373.8628274341079"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e596e306e3a9222bd9e9243"),
+    Timestamp: "1582919215844",
+    id: "1582918200",
+    high: "223.18",
+    low: "220.9",
+    open: "223.03",
+    close: "221.46",
+    volume: "866379.1333739201",
+    amount: "3906.016641239474"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e596e306e3a9222bd9e9244"),
+    Timestamp: "1582919215844",
+    id: "1582919100",
+    high: "222.0",
+    low: "221.36",
+    open: "221.36",
+    close: "221.69",
+    volume: "152520.144942",
+    amount: "687.6968252696057"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd37806"),
+    Timestamp: "1582920076772",
+    id: "1582919100",
+    high: "222.58",
+    low: "221.36",
+    open: "221.36",
+    close: "222.57",
+    volume: "1156888.7003041974",
+    amount: "5211.291399564099"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd37807"),
+    Timestamp: "1582920076772",
+    id: "1582920000",
+    high: "222.58",
+    low: "222.12",
+    open: "222.58",
+    close: "222.34",
+    volume: "52406.626425",
+    amount: "235.6822921277553"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e9245"),
+    Timestamp: "1582920115946",
+    id: "1582919100",
+    high: "222.58",
+    low: "221.36",
+    open: "221.36",
+    close: "222.57",
+    volume: "1156888.7003041974",
+    amount: "5211.291399564099"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e9246"),
+    Timestamp: "1582920115946",
+    id: "1582920000",
+    high: "222.87",
+    low: "222.12",
+    open: "222.58",
+    close: "222.7",
+    volume: "111689.790818",
+    amount: "502.0792921277553"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd37814"),
+    Timestamp: "1582920976866",
+    id: "1582920000",
+    high: "225.38",
+    low: "222.12",
+    open: "222.58",
+    close: "224.41",
+    volume: "2612779.172528046",
+    amount: "11656.13824889002"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd37815"),
+    Timestamp: "1582920976866",
+    id: "1582920900",
+    high: "225.5",
+    low: "224.41",
+    open: "224.41",
+    close: "225.38",
+    volume: "174800.487509",
+    amount: "776.7483594402518"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e925f"),
+    Timestamp: "1582921016042",
+    id: "1582920000",
+    high: "225.38",
+    low: "222.12",
+    open: "222.58",
+    close: "224.41",
+    volume: "2612779.172528046",
+    amount: "11656.13824889002"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e9260"),
+    Timestamp: "1582921016042",
+    id: "1582920900",
+    high: "225.98",
+    low: "224.41",
+    open: "224.41",
+    close: "225.85",
+    volume: "328734.89344325",
+    amount: "1458.9919458080421"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd37822"),
+    Timestamp: "1582921876954",
+    id: "1582920900",
+    high: "226.16",
+    low: "223.77",
+    open: "224.41",
+    close: "224.46",
+    volume: "2183468.4491926734",
+    amount: "9696.201037358152"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd37823"),
+    Timestamp: "1582921876954",
+    id: "1582921800",
+    high: "224.39",
+    low: "223.58",
+    open: "224.39",
+    close: "224.07",
+    volume: "168029.347094",
+    amount: "750.7092"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e9261"),
+    Timestamp: "1582921916087",
+    id: "1582920900",
+    high: "226.16",
+    low: "223.77",
+    open: "224.41",
+    close: "224.46",
+    volume: "2183468.4491926734",
+    amount: "9696.201037358152"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e9262"),
+    Timestamp: "1582921916087",
+    id: "1582921800",
+    high: "224.39",
+    low: "223.58",
+    open: "224.39",
+    close: "223.8",
+    volume: "184988.83159",
+    amount: "826.4360576974565"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37830"),
+    Timestamp: "1582922777020",
+    id: "1582921800",
+    high: "225.66",
+    low: "223.58",
+    open: "224.39",
+    close: "224.48",
+    volume: "1079392.018757351",
+    amount: "4804.6944718103"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37831"),
+    Timestamp: "1582922777020",
+    id: "1582922700",
+    high: "224.53",
+    low: "224.06",
+    open: "224.49",
+    close: "224.22",
+    volume: "80721.591512",
+    amount: "360.007351737907"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e927b"),
+    Timestamp: "1582922816190",
+    id: "1582921800",
+    high: "225.66",
+    low: "223.58",
+    open: "224.39",
+    close: "224.48",
+    volume: "1079392.018757351",
+    amount: "4804.6944718103"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e927c"),
+    Timestamp: "1582922816190",
+    id: "1582922700",
+    high: "224.53",
+    low: "224.02",
+    open: "224.49",
+    close: "224.03",
+    volume: "82875.214328",
+    amount: "369.614451737907"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd3784a"),
+    Timestamp: "1582923677274",
+    id: "1582922700",
+    high: "224.53",
+    low: "223.38",
+    open: "224.49",
+    close: "223.46",
+    volume: "448626.8952296677",
+    amount: "2003.2315420595646"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd3784b"),
+    Timestamp: "1582923677274",
+    id: "1582923600",
+    high: "224.06",
+    low: "223.17",
+    open: "223.46",
+    close: "224.04",
+    volume: "49621.375584",
+    amount: "222.00813411685695"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e927d"),
+    Timestamp: "1582923716253",
+    id: "1582922700",
+    high: "224.53",
+    low: "223.38",
+    open: "224.49",
+    close: "223.46",
+    volume: "448626.8952296677",
+    amount: "2003.2315420595646"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e927e"),
+    Timestamp: "1582923716253",
+    id: "1582923600",
+    high: "224.51",
+    low: "223.17",
+    open: "223.46",
+    close: "224.51",
+    volume: "136275.088317",
+    amount: "608.5041341168569"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37858"),
+    Timestamp: "1582924577293",
+    id: "1582923600",
+    high: "225.94",
+    low: "223.17",
+    open: "223.46",
+    close: "225.92",
+    volume: "721556.248146914",
+    amount: "3209.131850188836"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37859"),
+    Timestamp: "1582924577293",
+    id: "1582924500",
+    high: "226.0",
+    low: "224.95",
+    open: "225.9",
+    close: "224.98",
+    volume: "105794.799453",
+    amount: "469.2893"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e928b"),
+    Timestamp: "1582924616304",
+    id: "1582923600",
+    high: "225.94",
+    low: "223.17",
+    open: "223.46",
+    close: "225.92",
+    volume: "721556.248146914",
+    amount: "3209.131850188836"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e928c"),
+    Timestamp: "1582924616304",
+    id: "1582924500",
+    high: "226.0",
+    low: "224.95",
+    open: "225.9",
+    close: "225.27",
+    volume: "160954.633977",
+    amount: "714.1246324664951"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd3785a"),
+    Timestamp: "1582925477306",
+    id: "1582924500",
+    high: "226.68",
+    low: "224.95",
+    open: "225.9",
+    close: "225.83",
+    volume: "1023285.802752",
+    amount: "4530.383202679854"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd3785b"),
+    Timestamp: "1582925477306",
+    id: "1582925400",
+    high: "225.97",
+    low: "225.59",
+    open: "225.83",
+    close: "225.62",
+    volume: "57290.536961",
+    amount: "253.83366115592588"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e92a5"),
+    Timestamp: "1582925516692",
+    id: "1582924500",
+    high: "226.68",
+    low: "224.95",
+    open: "225.9",
+    close: "225.83",
+    volume: "1023285.802752",
+    amount: "4530.383202679854"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e92a6"),
+    Timestamp: "1582925516692",
+    id: "1582925400",
+    high: "225.97",
+    low: "225.53",
+    open: "225.83",
+    close: "225.55",
+    volume: "65749.088381",
+    amount: "291.3306611559259"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd37874"),
+    Timestamp: "1582926377434",
+    id: "1582925400",
+    high: "225.97",
+    low: "224.65",
+    open: "225.83",
+    close: "225.11",
+    volume: "390891.06687733",
+    amount: "1736.0177435671353"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd37875"),
+    Timestamp: "1582926377434",
+    id: "1582926300",
+    high: "225.11",
+    low: "224.7",
+    open: "225.11",
+    close: "224.74",
+    volume: "18961.677351",
+    amount: "84.31682024708915"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92a7"),
+    Timestamp: "1582926416453",
+    id: "1582925400",
+    high: "225.97",
+    low: "224.65",
+    open: "225.83",
+    close: "225.11",
+    volume: "390891.06687733",
+    amount: "1736.0177435671353"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92a8"),
+    Timestamp: "1582926416453",
+    id: "1582926300",
+    high: "225.11",
+    low: "224.58",
+    open: "225.11",
+    close: "224.62",
+    volume: "38070.516366",
+    amount: "169.33652024708914"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd37876"),
+    Timestamp: "1582927277687",
+    id: "1582926300",
+    high: "226.31",
+    low: "224.4",
+    open: "225.11",
+    close: "225.75",
+    volume: "374838.4571302558",
+    amount: "1660.3835683859686"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd37877"),
+    Timestamp: "1582927277687",
+    id: "1582927200",
+    high: "226.11",
+    low: "225.73",
+    open: "225.75",
+    close: "226.05",
+    volume: "9929.590317",
+    amount: "43.9468"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92c1"),
+    Timestamp: "1582927316616",
+    id: "1582926300",
+    high: "226.31",
+    low: "224.4",
+    open: "225.11",
+    close: "225.75",
+    volume: "374838.4571302558",
+    amount: "1660.3835683859686"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92c2"),
+    Timestamp: "1582927316616",
+    id: "1582927200",
+    high: "226.24",
+    low: "225.73",
+    open: "225.75",
+    close: "226.17",
+    volume: "21192.359384",
+    amount: "93.74180433244916"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5991316e3a922d2fd37884"),
+    Timestamp: "1582928177570",
+    id: "1582927200",
+    high: "226.68",
+    low: "225.4",
+    open: "225.75",
+    close: "226.05",
+    volume: "460890.88972302",
+    amount: "2040.285094163886"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5991316e3a922d2fd37885"),
+    Timestamp: "1582928177570",
+    id: "1582928100",
+    high: "226.68",
+    low: "226.06",
+    open: "226.06",
+    close: "226.67",
+    volume: "43977.616911",
+    amount: "194.1686"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5991586e3a9222bd9e92c3"),
+    Timestamp: "1582928216609",
+    id: "1582927200",
+    high: "226.68",
+    low: "225.4",
+    open: "225.75",
+    close: "226.05",
+    volume: "460890.88972302",
+    amount: "2040.285094163886"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5991586e3a9222bd9e92c4"),
+    Timestamp: "1582928216609",
+    id: "1582928100",
+    high: "226.68",
+    low: "226.06",
+    open: "226.06",
+    close: "226.42",
+    volume: "58108.340757",
+    amount: "256.545"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5994b66e3a922d2fd3789e"),
+    Timestamp: "1582929077898",
+    id: "1582928100",
+    high: "227.6",
+    low: "226.06",
+    open: "226.06",
+    close: "226.32",
+    volume: "1471976.389133866",
+    amount: "6483.264834011901"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5994b66e3a922d2fd3789f"),
+    Timestamp: "1582929077898",
+    id: "1582929000",
+    high: "226.5",
+    low: "226.27",
+    open: "226.27",
+    close: "226.5",
+    volume: "18669.954487",
+    amount: "82.4648"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92dd"),
+    Timestamp: "1582929116786",
+    id: "1582928100",
+    high: "227.6",
+    low: "226.06",
+    open: "226.06",
+    close: "226.32",
+    volume: "1471976.389133866",
+    amount: "6483.264834011901"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92de"),
+    Timestamp: "1582929116786",
+    id: "1582929000",
+    high: "226.83",
+    low: "226.27",
+    open: "226.27",
+    close: "226.74",
+    volume: "58415.74375",
+    amount: "257.7983"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378ac"),
+    Timestamp: "1582929977874",
+    id: "1582929000",
+    high: "229.05",
+    low: "226.27",
+    open: "226.27",
+    close: "228.89",
+    volume: "1962603.5656403375",
+    amount: "8606.743439283066"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378ad"),
+    Timestamp: "1582929977874",
+    id: "1582929900",
+    high: "228.94",
+    low: "228.08",
+    open: "228.92",
+    close: "228.23",
+    volume: "211899.8724",
+    amount: "927.8019829909466"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92eb"),
+    Timestamp: "1582930017146",
+    id: "1582929000",
+    high: "229.05",
+    low: "226.27",
+    open: "226.27",
+    close: "228.89",
+    volume: "1962603.5656403375",
+    amount: "8606.743439283066"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92ec"),
+    Timestamp: "1582930017146",
+    id: "1582929900",
+    high: "228.94",
+    low: "228.08",
+    open: "228.92",
+    close: "228.33",
+    volume: "320299.862785",
+    amount: "1402.5254790706663"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378ba"),
+    Timestamp: "1582930878163",
+    id: "1582929900",
+    high: "229.74",
+    low: "227.79",
+    open: "228.92",
+    close: "229.72",
+    volume: "1625686.6326513954",
+    amount: "7106.0320297820035"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378bb"),
+    Timestamp: "1582930878163",
+    id: "1582930800",
+    high: "230.46",
+    low: "229.68",
+    open: "229.69",
+    close: "230.19",
+    volume: "1389764.29057854",
+    amount: "6041.166219324249"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f9"),
+    Timestamp: "1582930917184",
+    id: "1582929900",
+    high: "229.74",
+    low: "227.79",
+    open: "228.92",
+    close: "229.72",
+    volume: "1625686.6326513954",
+    amount: "7106.0320297820035"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92fa"),
+    Timestamp: "1582930917184",
+    id: "1582930800",
+    high: "230.46",
+    low: "229.68",
+    open: "229.69",
+    close: "230.05",
+    volume: "1455804.43395354",
+    amount: "6328.246219324249"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c8"),
+    Timestamp: "1582931778331",
+    id: "1582930800",
+    high: "230.46",
+    low: "228.0",
+    open: "229.69",
+    close: "228.28",
+    volume: "2700746.66091188",
+    amount: "11765.915140389481"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c9"),
+    Timestamp: "1582931778331",
+    id: "1582931700",
+    high: "228.3",
+    low: "227.45",
+    open: "228.26",
+    close: "227.51",
+    volume: "339783.470677",
+    amount: "1492.8602721497014"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e92fb"),
+    Timestamp: "1582931817349",
+    id: "1582930800",
+    high: "230.46",
+    low: "228.0",
+    open: "229.69",
+    close: "228.28",
+    volume: "2700746.66091188",
+    amount: "11765.915140389481"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e92fc"),
+    Timestamp: "1582931817349",
+    id: "1582931700",
+    high: "228.3",
+    low: "227.43",
+    open: "228.26",
+    close: "228.08",
+    volume: "432710.287138",
+    amount: "1900.9859721497014"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378ca"),
+    Timestamp: "1582932678051",
+    id: "1582931700",
+    high: "229.11",
+    low: "227.43",
+    open: "228.26",
+    close: "229.11",
+    volume: "1609411.4950211693",
+    amount: "7051.722825069332"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378cb"),
+    Timestamp: "1582932678051",
+    id: "1582932600",
+    high: "229.69",
+    low: "229.12",
+    open: "229.12",
+    close: "229.39",
+    volume: "245868.531134",
+    amount: "1071.4892746678283"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e9309"),
+    Timestamp: "1582932717122",
+    id: "1582931700",
+    high: "229.11",
+    low: "227.43",
+    open: "228.26",
+    close: "229.11",
+    volume: "1609411.4950211693",
+    amount: "7051.722825069332"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e930a"),
+    Timestamp: "1582932717122",
+    id: "1582932600",
+    high: "229.69",
+    low: "229.12",
+    open: "229.12",
+    close: "229.37",
+    volume: "291737.044571",
+    amount: "1271.4460746678283"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378e4"),
+    Timestamp: "1582933578478",
+    id: "1582932600",
+    high: "230.26",
+    low: "228.57",
+    open: "229.12",
+    close: "229.15",
+    volume: "1768726.91706097",
+    amount: "7706.6353732526195"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378e5"),
+    Timestamp: "1582933578478",
+    id: "1582933500",
+    high: "229.14",
+    low: "228.4",
+    open: "229.14",
+    close: "228.52",
+    volume: "65691.283754",
+    amount: "287.2011"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e9323"),
+    Timestamp: "1582933617231",
+    id: "1582932600",
+    high: "230.26",
+    low: "228.57",
+    open: "229.12",
+    close: "229.15",
+    volume: "1768726.91706097",
+    amount: "7706.6353732526195"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e9324"),
+    Timestamp: "1582933617231",
+    id: "1582933500",
+    high: "229.14",
+    low: "228.17",
+    open: "229.14",
+    close: "228.46",
+    volume: "181814.995903",
+    amount: "795.7389"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378e6"),
+    Timestamp: "1582934478538",
+    id: "1582933500",
+    high: "229.14",
+    low: "226.14",
+    open: "229.14",
+    close: "226.73",
+    volume: "1985910.4290242179",
+    amount: "8726.235351602623"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378e7"),
+    Timestamp: "1582934478538",
+    id: "1582934400",
+    high: "227.59",
+    low: "226.57",
+    open: "226.73",
+    close: "227.33",
+    volume: "267404.90187504137",
+    amount: "1177.2601417655076"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e9331"),
+    Timestamp: "1582934517709",
+    id: "1582933500",
+    high: "229.14",
+    low: "226.14",
+    open: "229.14",
+    close: "226.73",
+    volume: "1985910.4290242179",
+    amount: "8726.235351602623"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e9332"),
+    Timestamp: "1582934517709",
+    id: "1582934400",
+    high: "227.9",
+    low: "226.57",
+    open: "226.73",
+    close: "227.75",
+    volume: "416809.3306201614",
+    amount: "1833.1349654299217"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378f4"),
+    Timestamp: "1582935378665",
+    id: "1582934400",
+    high: "229.39",
+    low: "226.57",
+    open: "226.73",
+    close: "229.26",
+    volume: "2316513.7034782595",
+    amount: "10143.364389169872"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378f5"),
+    Timestamp: "1582935378665",
+    id: "1582935300",
+    high: "229.64",
+    low: "229.16",
+    open: "229.21",
+    close: "229.46",
+    volume: "158090.04253",
+    amount: "688.9999"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e9333"),
+    Timestamp: "1582935417765",
+    id: "1582934400",
+    high: "229.39",
+    low: "226.57",
+    open: "226.73",
+    close: "229.26",
+    volume: "2316513.7034782595",
+    amount: "10143.364389169872"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e9334"),
+    Timestamp: "1582935417765",
+    id: "1582935300",
+    high: "229.64",
+    low: "229.0",
+    open: "229.21",
+    close: "229.04",
+    volume: "307881.819647",
+    amount: "1342.4504"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd37902"),
+    Timestamp: "1582936278774",
+    id: "1582935300",
+    high: "230.81",
+    low: "228.95",
+    open: "229.21",
+    close: "229.69",
+    volume: "2560665.5202203067",
+    amount: "11137.067653006518"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd37903"),
+    Timestamp: "1582936278774",
+    id: "1582936200",
+    high: "230.35",
+    low: "229.61",
+    open: "229.68",
+    close: "230.21",
+    volume: "415224.2243917",
+    amount: "1804.3474449157713"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59b0fe6e3a9222bd9e934d"),
+    Timestamp: "1582936317815",
+    id: "1582935300",
+    high: "230.81",
+    low: "228.95",
+    open: "229.21",
+    close: "229.69",
+    volume: "2560665.5202203067",
+    amount: "11137.067653006518"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59b0fe6e3a9222bd9e934e"),
+    Timestamp: "1582936317815",
+    id: "1582936200",
+    high: "230.35",
+    low: "229.61",
+    open: "229.68",
+    close: "230.26",
+    volume: "478965.0149767",
+    amount: "2081.266044915771"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d1876e3a927897bab842"),
+    Timestamp: "1582944647291",
+    id: "1582943100",
+    high: "229.69",
+    low: "228.9",
+    open: "229.2",
+    close: "229.4",
+    volume: "624787.55259469",
+    amount: "2725.2287625608424"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d1876e3a927897bab843"),
+    Timestamp: "1582944647291",
+    id: "1582943400",
+    high: "229.47",
+    low: "228.42",
+    open: "229.39",
+    close: "228.58",
+    volume: "289678.77607036",
+    amount: "1265.583884740088"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d1876e3a927897bab844"),
+    Timestamp: "1582944647291",
+    id: "1582943700",
+    high: "229.45",
+    low: "228.53",
+    open: "228.58",
+    close: "229.2",
+    volume: "607716.7291343069",
+    amount: "2651.7083887455324"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d1876e3a927897bab845"),
+    Timestamp: "1582944647291",
+    id: "1582944000",
+    high: "229.2",
+    low: "228.46",
+    open: "229.18",
+    close: "228.56",
+    volume: "324775.56210485",
+    amount: "1419.4017134731266"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d1876e3a927897bab846"),
+    Timestamp: "1582944647291",
+    id: "1582944300",
+    high: "228.57",
+    low: "227.64",
+    open: "228.51",
+    close: "228.06",
+    volume: "473192.50327287795",
+    amount: "2075.4113649495466"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d1876e3a927897bab847"),
+    Timestamp: "1582944647291",
+    id: "1582944600",
+    high: "228.12",
+    low: "227.83",
+    open: "228.05",
+    close: "228.09",
+    volume: "36506.213818",
+    amount: "160.1028"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c21"),
+    Timestamp: "1582944796422",
+    id: "1582943100",
+    high: "229.69",
+    low: "228.9",
+    open: "229.2",
+    close: "229.4",
+    volume: "624787.55259469",
+    amount: "2725.2287625608424"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c22"),
+    Timestamp: "1582944796422",
+    id: "1582943400",
+    high: "229.47",
+    low: "228.42",
+    open: "229.39",
+    close: "228.58",
+    volume: "289678.77607036",
+    amount: "1265.583884740088"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c23"),
+    Timestamp: "1582944796422",
+    id: "1582943700",
+    high: "229.45",
+    low: "228.53",
+    open: "228.58",
+    close: "229.2",
+    volume: "607716.7291343069",
+    amount: "2651.7083887455324"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c24"),
+    Timestamp: "1582944796422",
+    id: "1582944000",
+    high: "229.2",
+    low: "228.46",
+    open: "229.18",
+    close: "228.56",
+    volume: "324775.56210485",
+    amount: "1419.4017134731266"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c25"),
+    Timestamp: "1582944796422",
+    id: "1582944300",
+    high: "228.57",
+    low: "227.64",
+    open: "228.51",
+    close: "228.06",
+    volume: "473192.50327287795",
+    amount: "2075.4113649495466"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c26"),
+    Timestamp: "1582944796422",
+    id: "1582944600",
+    high: "228.26",
+    low: "227.76",
+    open: "228.05",
+    close: "228.26",
+    volume: "172604.2702569",
+    amount: "757.1521652741216"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d4de6e3a920529f1c407"),
+    Timestamp: "1582945502640",
+    id: "1582944000",
+    high: "229.2",
+    low: "228.46",
+    open: "229.18",
+    close: "228.56",
+    volume: "324775.56210485",
+    amount: "1419.4017134731266"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d4de6e3a920529f1c408"),
+    Timestamp: "1582945502640",
+    id: "1582944300",
+    high: "228.57",
+    low: "227.64",
+    open: "228.51",
+    close: "228.06",
+    volume: "473192.50327287795",
+    amount: "2075.4113649495466"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d4de6e3a920529f1c409"),
+    Timestamp: "1582945502640",
+    id: "1582944600",
+    high: "229.06",
+    low: "227.76",
+    open: "228.05",
+    close: "228.9",
+    volume: "591176.5304339",
+    amount: "2588.6131652741215"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d4de6e3a920529f1c40a"),
+    Timestamp: "1582945502640",
+    id: "1582944900",
+    high: "229.38",
+    low: "228.56",
+    open: "228.91",
+    close: "228.87",
+    volume: "591843.465381",
+    amount: "2584.2593447991967"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d4de6e3a920529f1c40b"),
+    Timestamp: "1582945502640",
+    id: "1582945200",
+    high: "229.85",
+    low: "228.83",
+    open: "228.83",
+    close: "229.85",
+    volume: "956117.175805406",
+    amount: "4165.541245927963"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d4de6e3a920529f1c40c"),
+    Timestamp: "1582945502640",
+    id: "1582945500",
+    high: "229.85",
+    low: "229.73",
+    open: "229.85",
+    close: "229.73",
+    volume: "1396.400933",
+    amount: "6.077"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d50f6e3a9205673e81c2"),
+    Timestamp: "1582945550931",
+    id: "1582944000",
+    high: "229.2",
+    low: "228.46",
+    open: "229.18",
+    close: "228.56",
+    volume: "324775.56210485",
+    amount: "1419.4017134731266"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d50f6e3a9205673e81c3"),
+    Timestamp: "1582945550931",
+    id: "1582944300",
+    high: "228.57",
+    low: "227.64",
+    open: "228.51",
+    close: "228.06",
+    volume: "473192.50327287795",
+    amount: "2075.4113649495466"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d50f6e3a9205673e81c4"),
+    Timestamp: "1582945550931",
+    id: "1582944600",
+    high: "229.06",
+    low: "227.76",
+    open: "228.05",
+    close: "228.9",
+    volume: "591176.5304339",
+    amount: "2588.6131652741215"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d50f6e3a9205673e81c5"),
+    Timestamp: "1582945550931",
+    id: "1582944900",
+    high: "229.38",
+    low: "228.56",
+    open: "228.91",
+    close: "228.87",
+    volume: "591843.465381",
+    amount: "2584.2593447991967"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d50f6e3a9205673e81c6"),
+    Timestamp: "1582945550931",
+    id: "1582945200",
+    high: "229.85",
+    low: "228.83",
+    open: "228.83",
+    close: "229.85",
+    volume: "956117.175805406",
+    amount: "4165.541245927963"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d50f6e3a9205673e81c7"),
+    Timestamp: "1582945550931",
+    id: "1582945500",
+    high: "230.3",
+    low: "229.73",
+    open: "229.85",
+    close: "230.06",
+    volume: "254305.57781",
+    amount: "1105.5398709379072"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c8a"),
+    Timestamp: "1582945799178",
+    id: "1582944300",
+    high: "228.57",
+    low: "227.64",
+    open: "228.51",
+    close: "228.06",
+    volume: "473192.50327287795",
+    amount: "2075.4113649495466"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c8b"),
+    Timestamp: "1582945799178",
+    id: "1582944600",
+    high: "229.06",
+    low: "227.76",
+    open: "228.05",
+    close: "228.9",
+    volume: "591176.5304339",
+    amount: "2588.6131652741215"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c8c"),
+    Timestamp: "1582945799178",
+    id: "1582944900",
+    high: "229.38",
+    low: "228.56",
+    open: "228.91",
+    close: "228.87",
+    volume: "591843.465381",
+    amount: "2584.2593447991967"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c8d"),
+    Timestamp: "1582945799178",
+    id: "1582945200",
+    high: "229.85",
+    low: "228.83",
+    open: "228.83",
+    close: "229.85",
+    volume: "956117.175805406",
+    amount: "4165.541245927963"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c8e"),
+    Timestamp: "1582945799178",
+    id: "1582945500",
+    high: "230.3",
+    low: "229.64",
+    open: "229.85",
+    close: "230.16",
+    volume: "798355.05439601",
+    amount: "3471.2592029763387"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4929"),
+    Timestamp: "1582947179794",
+    id: "1582945500",
+    high: "230.3",
+    low: "229.64",
+    open: "229.85",
+    close: "230.19",
+    volume: "798764.17108301",
+    amount: "3473.036502976339"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f492a"),
+    Timestamp: "1582947179794",
+    id: "1582945800",
+    high: "230.27",
+    low: "229.5",
+    open: "230.19",
+    close: "229.73",
+    volume: "575725.66618932",
+    amount: "2504.2364113730778"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f492b"),
+    Timestamp: "1582947179794",
+    id: "1582946100",
+    high: "229.79",
+    low: "229.23",
+    open: "229.73",
+    close: "229.32",
+    volume: "238293.053507",
+    amount: "1038.2475"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f492c"),
+    Timestamp: "1582947179794",
+    id: "1582946400",
+    high: "229.71",
+    low: "228.79",
+    open: "229.31",
+    close: "228.89",
+    volume: "441404.183838",
+    amount: "1925.692665345684"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f492d"),
+    Timestamp: "1582947179794",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f492e"),
+    Timestamp: "1582947179794",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.3",
+    open: "228.85",
+    close: "228.66",
+    volume: "282573.386883",
+    amount: "1235.6607"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b48"),
+    Timestamp: "1582947857241",
+    id: "1582946400",
+    high: "229.71",
+    low: "228.79",
+    open: "229.31",
+    close: "228.89",
+    volume: "441404.183838",
+    amount: "1925.692665345684"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b4a"),
+    Timestamp: "1582947857241",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b4b"),
+    Timestamp: "1582947857241",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b4c"),
+    Timestamp: "1582947857241",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b4d"),
+    Timestamp: "1582947857241",
+    id: "1582947600",
+    high: "229.42",
+    low: "228.25",
+    open: "228.25",
+    close: "229.41",
+    volume: "436305.060108",
+    amount: "1905.252303435615"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de4e6e3a9205c6ae4b65"),
+    Timestamp: "1582947918112",
+    id: "1582946400",
+    high: "229.71",
+    low: "228.79",
+    open: "229.31",
+    close: "228.89",
+    volume: "441404.183838",
+    amount: "1925.692665345684"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de4e6e3a9205c6ae4b66"),
+    Timestamp: "1582947918112",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de4e6e3a9205c6ae4b67"),
+    Timestamp: "1582947918112",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de4e6e3a9205c6ae4b68"),
+    Timestamp: "1582947918112",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de4e6e3a9205c6ae4b69"),
+    Timestamp: "1582947918112",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de4e6e3a9205c6ae4b6a"),
+    Timestamp: "1582947918112",
+    id: "1582947900",
+    high: "229.41",
+    low: "229.19",
+    open: "229.4",
+    close: "229.24",
+    volume: "15849.180317",
+    amount: "69.1194"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de8b6e3a9205c6ae4b77"),
+    Timestamp: "1582947978425",
+    id: "1582946400",
+    high: "229.71",
+    low: "228.79",
+    open: "229.31",
+    close: "228.89",
+    volume: "441404.183838",
+    amount: "1925.692665345684"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de8b6e3a9205c6ae4b78"),
+    Timestamp: "1582947978425",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de8b6e3a9205c6ae4b79"),
+    Timestamp: "1582947978425",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de8b6e3a9205c6ae4b7a"),
+    Timestamp: "1582947978425",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de8b6e3a9205c6ae4b7b"),
+    Timestamp: "1582947978425",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59de8b6e3a9205c6ae4b7c"),
+    Timestamp: "1582947978425",
+    id: "1582947900",
+    high: "229.44",
+    low: "229.19",
+    open: "229.4",
+    close: "229.22",
+    volume: "51839.470825",
+    amount: "226.05038096733395"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dec66e3a9205c6ae4b89"),
+    Timestamp: "1582948038459",
+    id: "1582946400",
+    high: "229.71",
+    low: "228.79",
+    open: "229.31",
+    close: "228.89",
+    volume: "441404.183838",
+    amount: "1925.692665345684"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dec66e3a9205c6ae4b8a"),
+    Timestamp: "1582948038459",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dec66e3a9205c6ae4b8b"),
+    Timestamp: "1582948038459",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dec66e3a9205c6ae4b8c"),
+    Timestamp: "1582948038459",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dec66e3a9205c6ae4b8d"),
+    Timestamp: "1582948038459",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dec66e3a9205c6ae4b8e"),
+    Timestamp: "1582948038459",
+    id: "1582947900",
+    high: "229.44",
+    low: "229.15",
+    open: "229.4",
+    close: "229.17",
+    volume: "134335.146714",
+    amount: "585.9587146235717"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b9b"),
+    Timestamp: "1582948097383",
+    id: "1582946400",
+    high: "229.71",
+    low: "228.79",
+    open: "229.31",
+    close: "228.89",
+    volume: "441404.183838",
+    amount: "1925.692665345684"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b9c"),
+    Timestamp: "1582948097383",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b9d"),
+    Timestamp: "1582948097383",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b9e"),
+    Timestamp: "1582948097383",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b9f"),
+    Timestamp: "1582948097383",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4ba0"),
+    Timestamp: "1582948097383",
+    id: "1582947900",
+    high: "229.44",
+    low: "229.14",
+    open: "229.4",
+    close: "229.31",
+    volume: "156341.28102",
+    amount: "681.9522146235716"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4ba1"),
+    Timestamp: "1582948157197",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4ba2"),
+    Timestamp: "1582948157197",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4ba3"),
+    Timestamp: "1582948157197",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4ba4"),
+    Timestamp: "1582948157197",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4ba5"),
+    Timestamp: "1582948157197",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.12",
+    open: "229.4",
+    close: "229.3",
+    volume: "277126.888998",
+    amount: "1208.4908985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df7a6e3a9205c6ae4bbe"),
+    Timestamp: "1582948218441",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df7a6e3a9205c6ae4bbf"),
+    Timestamp: "1582948218441",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df7a6e3a9205c6ae4bc0"),
+    Timestamp: "1582948218441",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df7a6e3a9205c6ae4bc1"),
+    Timestamp: "1582948218441",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df7a6e3a9205c6ae4bc2"),
+    Timestamp: "1582948218441",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59df7a6e3a9205c6ae4bc3"),
+    Timestamp: "1582948218441",
+    id: "1582948200",
+    high: "229.29",
+    low: "228.95",
+    open: "229.07",
+    close: "229.29",
+    volume: "49011.283746",
+    amount: "213.9031"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bc4"),
+    Timestamp: "1582948277445",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bc5"),
+    Timestamp: "1582948277445",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bc6"),
+    Timestamp: "1582948277445",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bc7"),
+    Timestamp: "1582948277445",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bc8"),
+    Timestamp: "1582948277445",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bc9"),
+    Timestamp: "1582948277445",
+    id: "1582948200",
+    high: "229.74",
+    low: "228.95",
+    open: "229.07",
+    close: "229.72",
+    volume: "218254.604811",
+    amount: "951.2275"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4be2"),
+    Timestamp: "1582948337595",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4be3"),
+    Timestamp: "1582948337595",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4be4"),
+    Timestamp: "1582948337595",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4be5"),
+    Timestamp: "1582948337595",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4be6"),
+    Timestamp: "1582948337595",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4be7"),
+    Timestamp: "1582948337595",
+    id: "1582948200",
+    high: "229.97",
+    low: "228.95",
+    open: "229.07",
+    close: "229.86",
+    volume: "422359.691494",
+    amount: "1839.4607"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e02e6e3a9205c6ae4bf4"),
+    Timestamp: "1582948397618",
+    id: "1582946700",
+    high: "229.04",
+    low: "228.37",
+    open: "228.87",
+    close: "228.85",
+    volume: "391236.946508",
+    amount: "1710.859554729627"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e02e6e3a9205c6ae4bf5"),
+    Timestamp: "1582948397618",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e02e6e3a9205c6ae4bf6"),
+    Timestamp: "1582948397618",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e02e6e3a9205c6ae4bf7"),
+    Timestamp: "1582948397618",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e02e6e3a9205c6ae4bf8"),
+    Timestamp: "1582948397618",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e02e6e3a9205c6ae4bf9"),
+    Timestamp: "1582948397618",
+    id: "1582948200",
+    high: "229.99",
+    low: "228.95",
+    open: "229.07",
+    close: "229.77",
+    volume: "537305.03929926",
+    amount: "2339.5840443368556"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4bfa"),
+    Timestamp: "1582948457759",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4bfb"),
+    Timestamp: "1582948457759",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4bfc"),
+    Timestamp: "1582948457759",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4bfd"),
+    Timestamp: "1582948457759",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4bfe"),
+    Timestamp: "1582948457759",
+    id: "1582948200",
+    high: "230.16",
+    low: "228.95",
+    open: "229.07",
+    close: "230.15",
+    volume: "854095.81616526",
+    amount: "3717.169144336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c17"),
+    Timestamp: "1582948517368",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c18"),
+    Timestamp: "1582948517368",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c19"),
+    Timestamp: "1582948517368",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c1a"),
+    Timestamp: "1582948517368",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c1b"),
+    Timestamp: "1582948517368",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c1c"),
+    Timestamp: "1582948517368",
+    id: "1582948500",
+    high: "230.37",
+    low: "230.22",
+    open: "230.27",
+    close: "230.32",
+    volume: "44971.30780442",
+    amount: "195.27969658557973"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c27"),
+    Timestamp: "1582948577800",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c28"),
+    Timestamp: "1582948577800",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c29"),
+    Timestamp: "1582948577800",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c2a"),
+    Timestamp: "1582948577800",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c2b"),
+    Timestamp: "1582948577800",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c2c"),
+    Timestamp: "1582948577800",
+    id: "1582948500",
+    high: "230.42",
+    low: "230.19",
+    open: "230.27",
+    close: "230.38",
+    volume: "206880.58128742",
+    amount: "898.3290965855797"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e11e6e3a9205c6ae4c3b"),
+    Timestamp: "1582948637857",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e11e6e3a9205c6ae4c3c"),
+    Timestamp: "1582948637857",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e11e6e3a9205c6ae4c3d"),
+    Timestamp: "1582948637857",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e11e6e3a9205c6ae4c3e"),
+    Timestamp: "1582948637857",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e11e6e3a9205c6ae4c3f"),
+    Timestamp: "1582948637857",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e11e6e3a9205c6ae4c40"),
+    Timestamp: "1582948637857",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.19",
+    open: "230.27",
+    close: "230.27",
+    volume: "345754.11965442",
+    amount: "1500.936879434783"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e15a6e3a9205c6ae4c4d"),
+    Timestamp: "1582948697836",
+    id: "1582947000",
+    high: "229.31",
+    low: "228.25",
+    open: "228.85",
+    close: "228.5",
+    volume: "362334.66637058",
+    amount: "1584.8553561896385"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e15a6e3a9205c6ae4c4e"),
+    Timestamp: "1582948697836",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e15a6e3a9205c6ae4c4f"),
+    Timestamp: "1582948697836",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e15a6e3a9205c6ae4c50"),
+    Timestamp: "1582948697836",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e15a6e3a9205c6ae4c51"),
+    Timestamp: "1582948697836",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e15a6e3a9205c6ae4c52"),
+    Timestamp: "1582948697836",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.06",
+    open: "230.27",
+    close: "230.06",
+    volume: "449569.52387942",
+    amount: "1951.854879434783"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c5f"),
+    Timestamp: "1582948757706",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c60"),
+    Timestamp: "1582948757706",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c61"),
+    Timestamp: "1582948757706",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c62"),
+    Timestamp: "1582948757706",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c63"),
+    Timestamp: "1582948757706",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.2",
+    volume: "734433.95621786",
+    amount: "3189.196568684848"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c70"),
+    Timestamp: "1582948818014",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c71"),
+    Timestamp: "1582948818014",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c72"),
+    Timestamp: "1582948818014",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c73"),
+    Timestamp: "1582948818014",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c74"),
+    Timestamp: "1582948818014",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c75"),
+    Timestamp: "1582948818014",
+    id: "1582948800",
+    high: "230.21",
+    low: "230.05",
+    open: "230.05",
+    close: "230.18",
+    volume: "32250.380019",
+    amount: "140.1446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e20e6e3a9205c6ae4c76"),
+    Timestamp: "1582948878060",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e20e6e3a9205c6ae4c77"),
+    Timestamp: "1582948878060",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e20e6e3a9205c6ae4c78"),
+    Timestamp: "1582948878060",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e20e6e3a9205c6ae4c79"),
+    Timestamp: "1582948878060",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e20e6e3a9205c6ae4c7a"),
+    Timestamp: "1582948878060",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e20e6e3a9205c6ae4c7b"),
+    Timestamp: "1582948878060",
+    id: "1582948800",
+    high: "230.71",
+    low: "230.05",
+    open: "230.05",
+    close: "230.65",
+    volume: "275577.72968163",
+    amount: "1195.8976002546583"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c94"),
+    Timestamp: "1582948937736",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c95"),
+    Timestamp: "1582948937736",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c96"),
+    Timestamp: "1582948937736",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c97"),
+    Timestamp: "1582948937736",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c98"),
+    Timestamp: "1582948937736",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c99"),
+    Timestamp: "1582948937736",
+    id: "1582948800",
+    high: "230.77",
+    low: "230.05",
+    open: "230.05",
+    close: "230.76",
+    volume: "414686.93876149",
+    amount: "1799.1003619554072"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4c9b"),
+    Timestamp: "1582948998123",
+    id: "1582947300",
+    high: "228.67",
+    low: "227.88",
+    open: "228.47",
+    close: "228.26",
+    volume: "506434.314529",
+    amount: "2219.0732500877502"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4c9c"),
+    Timestamp: "1582948998123",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4c9f"),
+    Timestamp: "1582948998123",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca1"),
+    Timestamp: "1582948998123",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca2"),
+    Timestamp: "1582948998123",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca5"),
+    Timestamp: "1582948998123",
+    id: "1582948800",
+    high: "230.94",
+    low: "230.05",
+    open: "230.05",
+    close: "230.86",
+    volume: "552690.50072249",
+    amount: "2396.87987417123"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb8"),
+    Timestamp: "1582949058227",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb9"),
+    Timestamp: "1582949058227",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cba"),
+    Timestamp: "1582949058227",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cbb"),
+    Timestamp: "1582949058227",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cbc"),
+    Timestamp: "1582949058227",
+    id: "1582948800",
+    high: "230.95",
+    low: "230.05",
+    open: "230.05",
+    close: "230.87",
+    volume: "648045.80161649",
+    amount: "2810.00437417123"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cbd"),
+    Timestamp: "1582949118131",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cbe"),
+    Timestamp: "1582949118131",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cbf"),
+    Timestamp: "1582949118131",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc0"),
+    Timestamp: "1582949118131",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc1"),
+    Timestamp: "1582949118131",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc2"),
+    Timestamp: "1582949118131",
+    id: "1582949100",
+    high: "231.1",
+    low: "231.0",
+    open: "231.1",
+    close: "231.07",
+    volume: "37430.269168",
+    amount: "161.9875"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4ccf"),
+    Timestamp: "1582949178286",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd0"),
+    Timestamp: "1582949178286",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd1"),
+    Timestamp: "1582949178286",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd2"),
+    Timestamp: "1582949178286",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd3"),
+    Timestamp: "1582949178286",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd4"),
+    Timestamp: "1582949178286",
+    id: "1582949100",
+    high: "231.2",
+    low: "230.85",
+    open: "231.1",
+    close: "230.88",
+    volume: "262613.17335559044",
+    amount: "1136.679636062865"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ce1"),
+    Timestamp: "1582949237952",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ce7"),
+    Timestamp: "1582949237952",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4cea"),
+    Timestamp: "1582949237952",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4cec"),
+    Timestamp: "1582949237952",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4cee"),
+    Timestamp: "1582949237952",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4cf1"),
+    Timestamp: "1582949237952",
+    id: "1582949100",
+    high: "231.2",
+    low: "230.66",
+    open: "231.1",
+    close: "230.94",
+    volume: "388545.2496745804",
+    amount: "1682.3546287091872"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cff"),
+    Timestamp: "1582949298392",
+    id: "1582947600",
+    high: "229.5",
+    low: "228.25",
+    open: "228.25",
+    close: "229.48",
+    volume: "573966.306142",
+    amount: "2505.1890953571838"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4d00"),
+    Timestamp: "1582949298392",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4d01"),
+    Timestamp: "1582949298392",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4d02"),
+    Timestamp: "1582949298392",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4d03"),
+    Timestamp: "1582949298392",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4d04"),
+    Timestamp: "1582949298392",
+    id: "1582949100",
+    high: "231.2",
+    low: "230.66",
+    open: "231.1",
+    close: "231.02",
+    volume: "468087.4742425804",
+    amount: "2026.6918287091871"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d05"),
+    Timestamp: "1582949358055",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d06"),
+    Timestamp: "1582949358055",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d07"),
+    Timestamp: "1582949358055",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d08"),
+    Timestamp: "1582949358055",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d09"),
+    Timestamp: "1582949358055",
+    id: "1582949100",
+    high: "231.29",
+    low: "230.66",
+    open: "231.1",
+    close: "231.16",
+    volume: "690948.4233817304",
+    amount: "2990.8012968326734"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d22"),
+    Timestamp: "1582949418517",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d23"),
+    Timestamp: "1582949418517",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d24"),
+    Timestamp: "1582949418517",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d25"),
+    Timestamp: "1582949418517",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d26"),
+    Timestamp: "1582949418517",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d27"),
+    Timestamp: "1582949418517",
+    id: "1582949400",
+    high: "231.36",
+    low: "231.26",
+    open: "231.28",
+    close: "231.34",
+    volume: "45703.391233",
+    amount: "197.57"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4676e3a9205c6ae4d34"),
+    Timestamp: "1582949478565",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4676e3a9205c6ae4d35"),
+    Timestamp: "1582949478565",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4676e3a9205c6ae4d36"),
+    Timestamp: "1582949478565",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4676e3a9205c6ae4d37"),
+    Timestamp: "1582949478565",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4676e3a9205c6ae4d38"),
+    Timestamp: "1582949478565",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4676e3a9205c6ae4d39"),
+    Timestamp: "1582949478565",
+    id: "1582949400",
+    high: "231.38",
+    low: "231.07",
+    open: "231.28",
+    close: "231.21",
+    volume: "188960.020969",
+    amount: "817.086"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4a26e3a9205c6ae4d3a"),
+    Timestamp: "1582949538609",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4a26e3a9205c6ae4d3b"),
+    Timestamp: "1582949538609",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4a26e3a9205c6ae4d3c"),
+    Timestamp: "1582949538609",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4a26e3a9205c6ae4d3d"),
+    Timestamp: "1582949538609",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4a26e3a9205c6ae4d3e"),
+    Timestamp: "1582949538609",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4a26e3a9205c6ae4d3f"),
+    Timestamp: "1582949538609",
+    id: "1582949400",
+    high: "231.47",
+    low: "231.07",
+    open: "231.28",
+    close: "231.44",
+    volume: "278314.8725969",
+    amount: "1203.3264136514595"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4df6e3a9205c6ae4d58"),
+    Timestamp: "1582949599640",
+    id: "1582947900",
+    high: "229.5",
+    low: "229.08",
+    open: "229.4",
+    close: "229.09",
+    volume: "366646.421466",
+    amount: "1598.9258985404597"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4df6e3a9205c6ae4d59"),
+    Timestamp: "1582949599640",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4df6e3a9205c6ae4d5a"),
+    Timestamp: "1582949599640",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4df6e3a9205c6ae4d5b"),
+    Timestamp: "1582949599640",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4df6e3a9205c6ae4d5c"),
+    Timestamp: "1582949599640",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e4df6e3a9205c6ae4d5d"),
+    Timestamp: "1582949599640",
+    id: "1582949400",
+    high: "231.59",
+    low: "231.07",
+    open: "231.28",
+    close: "231.56",
+    volume: "473159.3817469",
+    amount: "2045.1050136514596"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e51b6e3a9205c6ae4d6a"),
+    Timestamp: "1582949658730",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e51b6e3a9205c6ae4d6b"),
+    Timestamp: "1582949658730",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e51b6e3a9205c6ae4d6c"),
+    Timestamp: "1582949658730",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e51b6e3a9205c6ae4d6d"),
+    Timestamp: "1582949658730",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e51b6e3a9205c6ae4d6e"),
+    Timestamp: "1582949658730",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.63",
+    volume: "718117.13119278",
+    amount: "3102.302934719214"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5576e3a9205c6ae4d7b"),
+    Timestamp: "1582949718786",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5576e3a9205c6ae4d7c"),
+    Timestamp: "1582949718786",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5576e3a9205c6ae4d7d"),
+    Timestamp: "1582949718786",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5576e3a9205c6ae4d7e"),
+    Timestamp: "1582949718786",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5576e3a9205c6ae4d7f"),
+    Timestamp: "1582949718786",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5576e3a9205c6ae4d80"),
+    Timestamp: "1582949718786",
+    id: "1582949700",
+    high: "231.57",
+    low: "231.45",
+    open: "231.57",
+    close: "231.47",
+    volume: "33803.126911",
+    amount: "146.0073"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5936e3a9205c6ae4d8d"),
+    Timestamp: "1582949778810",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5936e3a9205c6ae4d8e"),
+    Timestamp: "1582949778810",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5936e3a9205c6ae4d8f"),
+    Timestamp: "1582949778810",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5936e3a9205c6ae4d90"),
+    Timestamp: "1582949778810",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5936e3a9205c6ae4d91"),
+    Timestamp: "1582949778810",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5936e3a9205c6ae4d92"),
+    Timestamp: "1582949778810",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.96",
+    open: "231.57",
+    close: "231.31",
+    volume: "167275.377013",
+    amount: "723.2634092864253"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d93"),
+    Timestamp: "1582949838840",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d94"),
+    Timestamp: "1582949838840",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d95"),
+    Timestamp: "1582949838840",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d96"),
+    Timestamp: "1582949838840",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d97"),
+    Timestamp: "1582949838840",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d98"),
+    Timestamp: "1582949838840",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.96",
+    open: "231.57",
+    close: "231.22",
+    volume: "241805.98596603",
+    amount: "1045.5588812003657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e60a6e3a9205c6ae4da5"),
+    Timestamp: "1582949898499",
+    id: "1582948200",
+    high: "230.43",
+    low: "228.95",
+    open: "229.07",
+    close: "230.36",
+    volume: "993378.1665769693",
+    amount: "4322.035244336856"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e60a6e3a9205c6ae4da6"),
+    Timestamp: "1582949898499",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e60a6e3a9205c6ae4da7"),
+    Timestamp: "1582949898499",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e60a6e3a9205c6ae4da8"),
+    Timestamp: "1582949898499",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e60a6e3a9205c6ae4da9"),
+    Timestamp: "1582949898499",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e60a6e3a9205c6ae4daa"),
+    Timestamp: "1582949898499",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.01",
+    volume: "360564.19683003",
+    amount: "1559.6008925305853"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4db7"),
+    Timestamp: "1582949959008",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4db8"),
+    Timestamp: "1582949959008",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4db9"),
+    Timestamp: "1582949959008",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dba"),
+    Timestamp: "1582949959008",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dbb"),
+    Timestamp: "1582949959008",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.18",
+    volume: "462194.33093803",
+    amount: "1999.4591925305854"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6826e3a9205c6ae4dc8"),
+    Timestamp: "1582950018658",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6826e3a9205c6ae4dc9"),
+    Timestamp: "1582950018658",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6826e3a9205c6ae4dca"),
+    Timestamp: "1582950018658",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6826e3a9205c6ae4dcb"),
+    Timestamp: "1582950018658",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6826e3a9205c6ae4dcc"),
+    Timestamp: "1582950018658",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6826e3a9205c6ae4dcd"),
+    Timestamp: "1582950018658",
+    id: "1582950000",
+    high: "231.5",
+    low: "231.34",
+    open: "231.35",
+    close: "231.44",
+    volume: "45347.075005",
+    amount: "195.92414227828417"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de4"),
+    Timestamp: "1582950079122",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de5"),
+    Timestamp: "1582950079122",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de6"),
+    Timestamp: "1582950079122",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de7"),
+    Timestamp: "1582950079122",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de8"),
+    Timestamp: "1582950079122",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de9"),
+    Timestamp: "1582950079122",
+    id: "1582950000",
+    high: "231.66",
+    low: "231.34",
+    open: "231.35",
+    close: "231.39",
+    volume: "218340.26028575",
+    amount: "943.1257958842451"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6fb6e3a9205c6ae4df8"),
+    Timestamp: "1582950139018",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6fb6e3a9205c6ae4df9"),
+    Timestamp: "1582950139018",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6fb6e3a9205c6ae4dfa"),
+    Timestamp: "1582950139018",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6fb6e3a9205c6ae4dfb"),
+    Timestamp: "1582950139018",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6fb6e3a9205c6ae4dfc"),
+    Timestamp: "1582950139018",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e6fb6e3a9205c6ae4dfd"),
+    Timestamp: "1582950139018",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.92",
+    open: "231.35",
+    close: "231.44",
+    volume: "303305.62243875",
+    amount: "1310.661177425645"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e0a"),
+    Timestamp: "1582950199124",
+    id: "1582948500",
+    high: "230.54",
+    low: "230.0",
+    open: "230.27",
+    close: "230.05",
+    volume: "817419.0810613",
+    amount: "3549.739353115794"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e0b"),
+    Timestamp: "1582950199124",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e0c"),
+    Timestamp: "1582950199124",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e0d"),
+    Timestamp: "1582950199124",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e0e"),
+    Timestamp: "1582950199124",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e0f"),
+    Timestamp: "1582950199124",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.92",
+    open: "231.35",
+    close: "231.29",
+    volume: "354017.56471575",
+    amount: "1529.950577425645"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e10"),
+    Timestamp: "1582950259088",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e11"),
+    Timestamp: "1582950259088",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e12"),
+    Timestamp: "1582950259088",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e13"),
+    Timestamp: "1582950259088",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e14"),
+    Timestamp: "1582950259088",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.89",
+    open: "231.35",
+    close: "230.93",
+    volume: "407743.89377675",
+    amount: "1762.539877425645"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3308"),
+    Timestamp: "1582950337183",
+    id: "1582948800",
+    high: "231.1",
+    low: "230.05",
+    open: "230.05",
+    close: "231.1",
+    volume: "932055.10007349",
+    amount: "4039.3310550444107"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3309"),
+    Timestamp: "1582950337183",
+    id: "1582949100",
+    high: "231.36",
+    low: "230.66",
+    open: "231.1",
+    close: "231.25",
+    volume: "720094.0247977304",
+    amount: "3116.815622874333"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd330a"),
+    Timestamp: "1582950337183",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd330b"),
+    Timestamp: "1582950337183",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd330c"),
+    Timestamp: "1582950337183",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd330d"),
+    Timestamp: "1582950337183",
+    id: "1582950300",
+    high: "231.0",
+    low: "230.53",
+    open: "230.7",
+    close: "230.95",
+    volume: "47317.144045",
+    amount: "205.15805106235365"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e273"),
+    Timestamp: "1582950916314",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e274"),
+    Timestamp: "1582950916314",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e275"),
+    Timestamp: "1582950916314",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e276"),
+    Timestamp: "1582950916314",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e277"),
+    Timestamp: "1582950916314",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e278"),
+    Timestamp: "1582950916314",
+    id: "1582950900",
+    high: "230.06",
+    low: "229.99",
+    open: "230.0",
+    close: "230.03",
+    volume: "16943.290646",
+    amount: "73.6653"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea356e3a9209974ea8d9"),
+    Timestamp: "1582950965792",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea356e3a9209974ea8da"),
+    Timestamp: "1582950965792",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea356e3a9209974ea8db"),
+    Timestamp: "1582950965792",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea356e3a9209974ea8dc"),
+    Timestamp: "1582950965792",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea356e3a9209974ea8dd"),
+    Timestamp: "1582950965792",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea356e3a9209974ea8de"),
+    Timestamp: "1582950965792",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.99",
+    open: "230.0",
+    close: "230.36",
+    volume: "116384.534046",
+    amount: "505.454"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f7"),
+    Timestamp: "1582951026212",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f8"),
+    Timestamp: "1582951026212",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f9"),
+    Timestamp: "1582951026212",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8fa"),
+    Timestamp: "1582951026212",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8fb"),
+    Timestamp: "1582951026212",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8fc"),
+    Timestamp: "1582951026212",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.35",
+    volume: "212509.073704",
+    amount: "922.9541"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea8fd"),
+    Timestamp: "1582951085939",
+    id: "1582949400",
+    high: "231.86",
+    low: "231.07",
+    open: "231.28",
+    close: "231.6",
+    volume: "775611.94862026",
+    amount: "3350.569503857089"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea8fe"),
+    Timestamp: "1582951085939",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea8ff"),
+    Timestamp: "1582951085939",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea900"),
+    Timestamp: "1582951085939",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea901"),
+    Timestamp: "1582951085939",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea902"),
+    Timestamp: "1582951085939",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.48",
+    volume: "290758.656146",
+    amount: "1262.7622"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb426e3a920a078ba87b"),
+    Timestamp: "1582951234722",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb426e3a920a078ba87c"),
+    Timestamp: "1582951234722",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb426e3a920a078ba87d"),
+    Timestamp: "1582951234722",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb426e3a920a078ba87e"),
+    Timestamp: "1582951234722",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb426e3a920a078ba87f"),
+    Timestamp: "1582951234722",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb426e3a920a078ba880"),
+    Timestamp: "1582951234722",
+    id: "1582951200",
+    high: "230.27",
+    low: "230.21",
+    open: "230.27",
+    close: "230.27",
+    volume: "19800.211184",
+    amount: "85.9917"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb7f6e3a920a078ba899"),
+    Timestamp: "1582951295029",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb7f6e3a920a078ba89a"),
+    Timestamp: "1582951295029",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb7f6e3a920a078ba89b"),
+    Timestamp: "1582951295029",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb7f6e3a920a078ba89c"),
+    Timestamp: "1582951295029",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb7f6e3a920a078ba89d"),
+    Timestamp: "1582951295029",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59eb7f6e3a920a078ba89e"),
+    Timestamp: "1582951295029",
+    id: "1582951200",
+    high: "230.85",
+    low: "230.19",
+    open: "230.27",
+    close: "230.65",
+    volume: "126528.0922207462",
+    amount: "548.9003442420341"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8ab"),
+    Timestamp: "1582951354736",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8ac"),
+    Timestamp: "1582951354736",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8ad"),
+    Timestamp: "1582951354736",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8ae"),
+    Timestamp: "1582951354736",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8af"),
+    Timestamp: "1582951354736",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8b0"),
+    Timestamp: "1582951354736",
+    id: "1582951200",
+    high: "230.99",
+    low: "230.19",
+    open: "230.27",
+    close: "230.95",
+    volume: "205674.0323937462",
+    amount: "891.815944242034"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebf66e3a920a078ba8b1"),
+    Timestamp: "1582951414807",
+    id: "1582949700",
+    high: "231.57",
+    low: "230.9",
+    open: "231.57",
+    close: "231.33",
+    volume: "546246.29686603",
+    amount: "2362.8882896695864"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebf66e3a920a078ba8b2"),
+    Timestamp: "1582951414807",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebf66e3a920a078ba8b3"),
+    Timestamp: "1582951414807",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebf66e3a920a078ba8b4"),
+    Timestamp: "1582951414807",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebf66e3a920a078ba8b5"),
+    Timestamp: "1582951414807",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ebf66e3a920a078ba8b6"),
+    Timestamp: "1582951414807",
+    id: "1582951200",
+    high: "231.33",
+    low: "230.19",
+    open: "230.27",
+    close: "231.28",
+    volume: "405013.1349227462",
+    amount: "1754.524444242034"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8cf"),
+    Timestamp: "1582951475139",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8d0"),
+    Timestamp: "1582951475139",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8d1"),
+    Timestamp: "1582951475139",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8d2"),
+    Timestamp: "1582951475139",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8d3"),
+    Timestamp: "1582951475139",
+    id: "1582951200",
+    high: "231.33",
+    low: "230.19",
+    open: "230.27",
+    close: "231.18",
+    volume: "446614.1480627462",
+    amount: "1934.498344242034"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8e0"),
+    Timestamp: "1582951534973",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8e1"),
+    Timestamp: "1582951534973",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8e2"),
+    Timestamp: "1582951534973",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8e3"),
+    Timestamp: "1582951534973",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8e4"),
+    Timestamp: "1582951534973",
+    id: "1582951200",
+    high: "231.34",
+    low: "230.19",
+    open: "230.27",
+    close: "231.25",
+    volume: "468330.1399107462",
+    amount: "2028.396644242034"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8e5"),
+    Timestamp: "1582951534973",
+    id: "1582951500",
+    high: "231.5",
+    low: "231.17",
+    open: "231.17",
+    close: "231.5",
+    volume: "60236.202827",
+    amount: "260.351"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8e6"),
+    Timestamp: "1582951595269",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8e7"),
+    Timestamp: "1582951595269",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8e8"),
+    Timestamp: "1582951595269",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8e9"),
+    Timestamp: "1582951595269",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8ea"),
+    Timestamp: "1582951595269",
+    id: "1582951200",
+    high: "231.34",
+    low: "230.19",
+    open: "230.27",
+    close: "231.25",
+    volume: "468330.1399107462",
+    amount: "2028.396644242034"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8eb"),
+    Timestamp: "1582951595269",
+    id: "1582951500",
+    high: "231.78",
+    low: "231.17",
+    open: "231.17",
+    close: "231.7",
+    volume: "396265.6570134189",
+    amount: "1711.7854106731756"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba904"),
+    Timestamp: "1582951655422",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba905"),
+    Timestamp: "1582951655422",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba906"),
+    Timestamp: "1582951655422",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba907"),
+    Timestamp: "1582951655422",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba908"),
+    Timestamp: "1582951655422",
+    id: "1582951200",
+    high: "231.34",
+    low: "230.19",
+    open: "230.27",
+    close: "231.25",
+    volume: "468330.1399107462",
+    amount: "2028.396644242034"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba909"),
+    Timestamp: "1582951655422",
+    id: "1582951500",
+    high: "231.94",
+    low: "231.17",
+    open: "231.17",
+    close: "231.92",
+    volume: "647069.0371948589",
+    amount: "2793.8608609564867"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba916"),
+    Timestamp: "1582951715087",
+    id: "1582950000",
+    high: "231.66",
+    low: "230.64",
+    open: "231.35",
+    close: "230.71",
+    volume: "477716.71608275",
+    amount: "2065.6129415158935"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba917"),
+    Timestamp: "1582951715087",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba918"),
+    Timestamp: "1582951715087",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba919"),
+    Timestamp: "1582951715087",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba91a"),
+    Timestamp: "1582951715087",
+    id: "1582951200",
+    high: "231.34",
+    low: "230.19",
+    open: "230.27",
+    close: "231.25",
+    volume: "468330.1399107462",
+    amount: "2028.396644242034"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba91b"),
+    Timestamp: "1582951715087",
+    id: "1582951500",
+    high: "232.34",
+    low: "231.17",
+    open: "231.17",
+    close: "232.27",
+    volume: "1332862.5590054288",
+    amount: "5749.333256385556"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba91c"),
+    Timestamp: "1582951775174",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba91d"),
+    Timestamp: "1582951775174",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba91e"),
+    Timestamp: "1582951775174",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba91f"),
+    Timestamp: "1582951775174",
+    id: "1582951200",
+    high: "231.34",
+    low: "230.19",
+    open: "230.27",
+    close: "231.25",
+    volume: "468330.1399107462",
+    amount: "2028.396644242034"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba920"),
+    Timestamp: "1582951775174",
+    id: "1582951500",
+    high: "232.6",
+    low: "231.17",
+    open: "231.17",
+    close: "232.0",
+    volume: "1732990.9351501989",
+    amount: "7471.283388011615"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba92d"),
+    Timestamp: "1582951835215",
+    id: "1582950300",
+    high: "231.25",
+    low: "230.39",
+    open: "230.7",
+    close: "230.56",
+    volume: "504688.30172631",
+    amount: "2187.106146284446"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba92e"),
+    Timestamp: "1582951835215",
+    id: "1582950600",
+    high: "230.88",
+    low: "230.0",
+    open: "230.55",
+    close: "230.01",
+    volume: "404835.1866443393",
+    amount: "1757.3557373500093"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba92f"),
+    Timestamp: "1582951835215",
+    id: "1582950900",
+    high: "230.52",
+    low: "229.98",
+    open: "230.0",
+    close: "230.28",
+    volume: "342163.238485",
+    amount: "1486.060459360657"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba930"),
+    Timestamp: "1582951835215",
+    id: "1582951200",
+    high: "231.34",
+    low: "230.19",
+    open: "230.27",
+    close: "231.25",
+    volume: "468330.1399107462",
+    amount: "2028.396644242034"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba931"),
+    Timestamp: "1582951835215",
+    id: "1582951500",
+    high: "232.6",
+    low: "231.17",
+    open: "231.17",
+    close: "232.13",
+    volume: "1770289.1677837789",
+    amount: "7632.045300377875"
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba932"),
+    Timestamp: "1582951835215",
+    id: "1582951800",
+    high: "232.4",
+    low: "232.1",
+    open: "232.12",
+    close: "232.19",
+    volume: "91528.21792242",
+    amount: "394.18008763373973"
+} ]);
+
+// ----------------------------
+// Collection structure for market
+// ----------------------------
+db.getCollection("market").drop();
+db.createCollection("market");
+
+// ----------------------------
+// Documents of market
+// ----------------------------
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6a46e3a9222bd9e905b"),
+    Timestamp: "1582888612729",
+    direction: "Bids",
+    price: "222.2",
+    amount: "8.6321"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e905d"),
+    Timestamp: "1582888612729",
+    direction: "Bids",
+    price: "222.18",
+    amount: "1.8238"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e905f"),
+    Timestamp: "1582888612729",
+    direction: "Bids",
+    price: "222.17",
+    amount: "2.761"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e9060"),
+    Timestamp: "1582888612729",
+    direction: "Bids",
+    price: "222.16",
+    amount: "6.219"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e9061"),
+    Timestamp: "1582888612729",
+    direction: "Bids",
+    price: "222.14",
+    amount: "10.4916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e9062"),
+    Timestamp: "1582888612729",
+    direction: "Bids",
+    price: "222.11",
+    amount: "15.6965"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e9063"),
+    Timestamp: "1582888612729",
+    direction: "Asks",
+    price: "222.2",
+    amount: "8.6321"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e9064"),
+    Timestamp: "1582888612729",
+    direction: "Asks",
+    price: "222.18",
+    amount: "1.8238"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e9065"),
+    Timestamp: "1582888612729",
+    direction: "Asks",
+    price: "222.17",
+    amount: "2.761"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e9066"),
+    Timestamp: "1582888612729",
+    direction: "Asks",
+    price: "222.16",
+    amount: "6.219"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e9067"),
+    Timestamp: "1582888612729",
+    direction: "Asks",
+    price: "222.14",
+    amount: "10.4916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f6c26e3a9222bd9e9068"),
+    Timestamp: "1582888612729",
+    direction: "Asks",
+    price: "222.11",
+    amount: "15.6965"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef883"),
+    Timestamp: "1582889298712",
+    direction: "Bids",
+    price: "222.57",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef884"),
+    Timestamp: "1582889298712",
+    direction: "Bids",
+    price: "222.56",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef885"),
+    Timestamp: "1582889298712",
+    direction: "Bids",
+    price: "222.52",
+    amount: "5.297"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef886"),
+    Timestamp: "1582889298712",
+    direction: "Bids",
+    price: "222.49",
+    amount: "2.8393"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef887"),
+    Timestamp: "1582889298712",
+    direction: "Bids",
+    price: "222.47",
+    amount: "8.0562"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef888"),
+    Timestamp: "1582889298712",
+    direction: "Bids",
+    price: "222.46",
+    amount: "2.5476"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef889"),
+    Timestamp: "1582889298712",
+    direction: "Asks",
+    price: "222.57",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef88a"),
+    Timestamp: "1582889298712",
+    direction: "Asks",
+    price: "222.56",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef88b"),
+    Timestamp: "1582889298712",
+    direction: "Asks",
+    price: "222.52",
+    amount: "5.297"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef88c"),
+    Timestamp: "1582889298712",
+    direction: "Asks",
+    price: "222.49",
+    amount: "2.8393"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef88d"),
+    Timestamp: "1582889298712",
+    direction: "Asks",
+    price: "222.47",
+    amount: "8.0562"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9526e3a922cd7cef88e"),
+    Timestamp: "1582889298712",
+    direction: "Asks",
+    price: "222.46",
+    amount: "2.5476"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d1677159f"),
+    Timestamp: "1582889457995",
+    direction: "Bids",
+    price: "222.41",
+    amount: "17.9848"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a1"),
+    Timestamp: "1582889457995",
+    direction: "Bids",
+    price: "222.39",
+    amount: "2.8435"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a2"),
+    Timestamp: "1582889457995",
+    direction: "Bids",
+    price: "222.36",
+    amount: "8.9916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a3"),
+    Timestamp: "1582889457995",
+    direction: "Bids",
+    price: "222.35",
+    amount: "0.7816"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a4"),
+    Timestamp: "1582889457995",
+    direction: "Bids",
+    price: "222.34",
+    amount: "8.995"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a5"),
+    Timestamp: "1582889457995",
+    direction: "Bids",
+    price: "222.33",
+    amount: "13.5878"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a6"),
+    Timestamp: "1582889457995",
+    direction: "Asks",
+    price: "222.41",
+    amount: "17.9848"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a7"),
+    Timestamp: "1582889457995",
+    direction: "Asks",
+    price: "222.39",
+    amount: "2.8435"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a8"),
+    Timestamp: "1582889457995",
+    direction: "Asks",
+    price: "222.36",
+    amount: "8.9916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715a9"),
+    Timestamp: "1582889457995",
+    direction: "Asks",
+    price: "222.35",
+    amount: "0.7816"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715aa"),
+    Timestamp: "1582889457995",
+    direction: "Asks",
+    price: "222.34",
+    amount: "8.995"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58f9f26e3a922d167715ab"),
+    Timestamp: "1582889457995",
+    direction: "Asks",
+    price: "222.33",
+    amount: "13.5878"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd3762b"),
+    Timestamp: "1582889473783",
+    direction: "Bids",
+    price: "222.3",
+    amount: "1302.1051"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd3762c"),
+    Timestamp: "1582889473783",
+    direction: "Bids",
+    price: "222.29",
+    amount: "0.4349"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd3762e"),
+    Timestamp: "1582889473783",
+    direction: "Bids",
+    price: "222.28",
+    amount: "0.7812"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd3762f"),
+    Timestamp: "1582889473783",
+    direction: "Bids",
+    price: "222.27",
+    amount: "14.5639"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd37630"),
+    Timestamp: "1582889473783",
+    direction: "Bids",
+    price: "222.22",
+    amount: "13.5376"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd37631"),
+    Timestamp: "1582889473783",
+    direction: "Bids",
+    price: "222.2",
+    amount: "0.4226"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd37632"),
+    Timestamp: "1582889473783",
+    direction: "Asks",
+    price: "222.3",
+    amount: "1302.1051"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd37633"),
+    Timestamp: "1582889473783",
+    direction: "Asks",
+    price: "222.29",
+    amount: "0.4349"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd37634"),
+    Timestamp: "1582889473783",
+    direction: "Asks",
+    price: "222.28",
+    amount: "0.7812"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd37635"),
+    Timestamp: "1582889473783",
+    direction: "Asks",
+    price: "222.27",
+    amount: "14.5639"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd37636"),
+    Timestamp: "1582889473783",
+    direction: "Asks",
+    price: "222.22",
+    amount: "13.5376"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa016e3a922d2fd37637"),
+    Timestamp: "1582889473783",
+    direction: "Asks",
+    price: "222.2",
+    amount: "0.4226"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e906b"),
+    Timestamp: "1582889512836",
+    direction: "Bids",
+    price: "221.96",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e906c"),
+    Timestamp: "1582889512836",
+    direction: "Bids",
+    price: "221.95",
+    amount: "0.2498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e906d"),
+    Timestamp: "1582889512836",
+    direction: "Bids",
+    price: "221.89",
+    amount: "25.577"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e906e"),
+    Timestamp: "1582889512836",
+    direction: "Bids",
+    price: "221.88",
+    amount: "29.9999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e906f"),
+    Timestamp: "1582889512836",
+    direction: "Bids",
+    price: "221.87",
+    amount: "9.2639"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e9070"),
+    Timestamp: "1582889512836",
+    direction: "Bids",
+    price: "221.85",
+    amount: "49.3211"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e9071"),
+    Timestamp: "1582889512836",
+    direction: "Asks",
+    price: "221.96",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e9072"),
+    Timestamp: "1582889512836",
+    direction: "Asks",
+    price: "221.95",
+    amount: "0.2498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e9073"),
+    Timestamp: "1582889512836",
+    direction: "Asks",
+    price: "221.89",
+    amount: "25.577"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e9074"),
+    Timestamp: "1582889512836",
+    direction: "Asks",
+    price: "221.88",
+    amount: "29.9999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e9075"),
+    Timestamp: "1582889512836",
+    direction: "Asks",
+    price: "221.87",
+    amount: "9.2639"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fa296e3a9222bd9e9076"),
+    Timestamp: "1582889512836",
+    direction: "Asks",
+    price: "221.85",
+    amount: "49.3211"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd37638"),
+    Timestamp: "1582890373913",
+    direction: "Bids",
+    price: "220.27",
+    amount: "39.1874"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd37639"),
+    Timestamp: "1582890373913",
+    direction: "Bids",
+    price: "220.26",
+    amount: "0.2028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd3763a"),
+    Timestamp: "1582890373913",
+    direction: "Bids",
+    price: "220.25",
+    amount: "2.2028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd3763b"),
+    Timestamp: "1582890373913",
+    direction: "Bids",
+    price: "220.22",
+    amount: "3.9996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd3763c"),
+    Timestamp: "1582890373913",
+    direction: "Bids",
+    price: "220.21",
+    amount: "0.6528"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd3763d"),
+    Timestamp: "1582890373913",
+    direction: "Bids",
+    price: "220.17",
+    amount: "9.8908"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd3763e"),
+    Timestamp: "1582890373913",
+    direction: "Asks",
+    price: "220.27",
+    amount: "39.1874"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd3763f"),
+    Timestamp: "1582890373913",
+    direction: "Asks",
+    price: "220.26",
+    amount: "0.2028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd37640"),
+    Timestamp: "1582890373913",
+    direction: "Asks",
+    price: "220.25",
+    amount: "2.2028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd37641"),
+    Timestamp: "1582890373913",
+    direction: "Asks",
+    price: "220.22",
+    amount: "3.9996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd37642"),
+    Timestamp: "1582890373913",
+    direction: "Asks",
+    price: "220.21",
+    amount: "0.6528"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fd866e3a922d2fd37643"),
+    Timestamp: "1582890373913",
+    direction: "Asks",
+    price: "220.17",
+    amount: "9.8908"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e9077"),
+    Timestamp: "1582890412868",
+    direction: "Bids",
+    price: "220.44",
+    amount: "6.4045"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e9078"),
+    Timestamp: "1582890412868",
+    direction: "Bids",
+    price: "220.41",
+    amount: "8.6629"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e9079"),
+    Timestamp: "1582890412868",
+    direction: "Bids",
+    price: "220.38",
+    amount: "61.9885"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e907a"),
+    Timestamp: "1582890412868",
+    direction: "Bids",
+    price: "220.36",
+    amount: "10.79"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e907b"),
+    Timestamp: "1582890412868",
+    direction: "Bids",
+    price: "220.35",
+    amount: "0.6851"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e907c"),
+    Timestamp: "1582890412868",
+    direction: "Bids",
+    price: "220.34",
+    amount: "75.3845"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e907d"),
+    Timestamp: "1582890412868",
+    direction: "Asks",
+    price: "220.44",
+    amount: "6.4045"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e907e"),
+    Timestamp: "1582890412868",
+    direction: "Asks",
+    price: "220.41",
+    amount: "8.6629"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e907f"),
+    Timestamp: "1582890412868",
+    direction: "Asks",
+    price: "220.38",
+    amount: "61.9885"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e9080"),
+    Timestamp: "1582890412868",
+    direction: "Asks",
+    price: "220.36",
+    amount: "10.79"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e9081"),
+    Timestamp: "1582890412868",
+    direction: "Asks",
+    price: "220.35",
+    amount: "0.6851"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e58fdad6e3a9222bd9e9082"),
+    Timestamp: "1582890412868",
+    direction: "Asks",
+    price: "220.34",
+    amount: "75.3845"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd37648"),
+    Timestamp: "1582891274013",
+    direction: "Bids",
+    price: "220.55",
+    amount: "9.0483"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd37649"),
+    Timestamp: "1582891274013",
+    direction: "Bids",
+    price: "220.53",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd3764a"),
+    Timestamp: "1582891274013",
+    direction: "Bids",
+    price: "220.52",
+    amount: "17.4028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd3764b"),
+    Timestamp: "1582891274013",
+    direction: "Bids",
+    price: "220.5",
+    amount: "12.0708"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd3764c"),
+    Timestamp: "1582891274013",
+    direction: "Bids",
+    price: "220.48",
+    amount: "9.5609"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd3764d"),
+    Timestamp: "1582891274013",
+    direction: "Bids",
+    price: "220.47",
+    amount: "11.6846"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd3764e"),
+    Timestamp: "1582891274013",
+    direction: "Asks",
+    price: "220.55",
+    amount: "9.0483"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd3764f"),
+    Timestamp: "1582891274013",
+    direction: "Asks",
+    price: "220.53",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd37650"),
+    Timestamp: "1582891274013",
+    direction: "Asks",
+    price: "220.52",
+    amount: "17.4028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd37651"),
+    Timestamp: "1582891274013",
+    direction: "Asks",
+    price: "220.5",
+    amount: "12.0708"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd37652"),
+    Timestamp: "1582891274013",
+    direction: "Asks",
+    price: "220.48",
+    amount: "9.5609"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59010a6e3a922d2fd37653"),
+    Timestamp: "1582891274013",
+    direction: "Asks",
+    price: "220.47",
+    amount: "11.6846"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e9085"),
+    Timestamp: "1582891312970",
+    direction: "Bids",
+    price: "219.86",
+    amount: "2.692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e9086"),
+    Timestamp: "1582891312970",
+    direction: "Bids",
+    price: "219.85",
+    amount: "0.0332"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e9087"),
+    Timestamp: "1582891312970",
+    direction: "Bids",
+    price: "219.84",
+    amount: "11.3692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e9088"),
+    Timestamp: "1582891312970",
+    direction: "Bids",
+    price: "219.83",
+    amount: "3.8785"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e9089"),
+    Timestamp: "1582891312970",
+    direction: "Bids",
+    price: "219.79",
+    amount: "46.6995"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e908a"),
+    Timestamp: "1582891312970",
+    direction: "Bids",
+    price: "219.78",
+    amount: "41.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e908b"),
+    Timestamp: "1582891312970",
+    direction: "Asks",
+    price: "219.86",
+    amount: "2.692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e908c"),
+    Timestamp: "1582891312970",
+    direction: "Asks",
+    price: "219.85",
+    amount: "0.0332"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e908f"),
+    Timestamp: "1582891312970",
+    direction: "Asks",
+    price: "219.84",
+    amount: "11.3692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e9090"),
+    Timestamp: "1582891312970",
+    direction: "Asks",
+    price: "219.83",
+    amount: "3.8785"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e9091"),
+    Timestamp: "1582891312970",
+    direction: "Asks",
+    price: "219.79",
+    amount: "46.6995"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5901316e3a9222bd9e9092"),
+    Timestamp: "1582891312970",
+    direction: "Asks",
+    price: "219.78",
+    amount: "41.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd37656"),
+    Timestamp: "1582892174216",
+    direction: "Bids",
+    price: "217.2",
+    amount: "14.5213"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd37657"),
+    Timestamp: "1582892174216",
+    direction: "Bids",
+    price: "217.19",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd37658"),
+    Timestamp: "1582892174216",
+    direction: "Bids",
+    price: "217.18",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd37659"),
+    Timestamp: "1582892174216",
+    direction: "Bids",
+    price: "217.17",
+    amount: "30.9946"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd3765a"),
+    Timestamp: "1582892174216",
+    direction: "Bids",
+    price: "217.16",
+    amount: "0.2057"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd3765b"),
+    Timestamp: "1582892174216",
+    direction: "Bids",
+    price: "217.15",
+    amount: "0.2057"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd3765c"),
+    Timestamp: "1582892174216",
+    direction: "Asks",
+    price: "217.2",
+    amount: "14.5213"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd3765d"),
+    Timestamp: "1582892174216",
+    direction: "Asks",
+    price: "217.19",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd3765e"),
+    Timestamp: "1582892174216",
+    direction: "Asks",
+    price: "217.18",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd3765f"),
+    Timestamp: "1582892174216",
+    direction: "Asks",
+    price: "217.17",
+    amount: "30.9946"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd37660"),
+    Timestamp: "1582892174216",
+    direction: "Asks",
+    price: "217.16",
+    amount: "0.2057"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59048e6e3a922d2fd37661"),
+    Timestamp: "1582892174216",
+    direction: "Asks",
+    price: "217.15",
+    amount: "0.2057"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e9093"),
+    Timestamp: "1582892213060",
+    direction: "Bids",
+    price: "217.05",
+    amount: "2.2951"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e9094"),
+    Timestamp: "1582892213060",
+    direction: "Bids",
+    price: "217.04",
+    amount: "0.0816"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e9095"),
+    Timestamp: "1582892213060",
+    direction: "Bids",
+    price: "217.0",
+    amount: "5.3334"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e9096"),
+    Timestamp: "1582892213060",
+    direction: "Bids",
+    price: "216.98",
+    amount: "0.25"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e9097"),
+    Timestamp: "1582892213060",
+    direction: "Bids",
+    price: "216.97",
+    amount: "4.8761"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e9098"),
+    Timestamp: "1582892213060",
+    direction: "Bids",
+    price: "216.95",
+    amount: "0.3995"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e9099"),
+    Timestamp: "1582892213060",
+    direction: "Asks",
+    price: "217.05",
+    amount: "2.2951"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e909a"),
+    Timestamp: "1582892213060",
+    direction: "Asks",
+    price: "217.04",
+    amount: "0.0816"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e909b"),
+    Timestamp: "1582892213060",
+    direction: "Asks",
+    price: "217.0",
+    amount: "5.3334"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e909c"),
+    Timestamp: "1582892213060",
+    direction: "Asks",
+    price: "216.98",
+    amount: "0.25"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e909d"),
+    Timestamp: "1582892213060",
+    direction: "Asks",
+    price: "216.97",
+    amount: "4.8761"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5904b56e3a9222bd9e909e"),
+    Timestamp: "1582892213060",
+    direction: "Asks",
+    price: "216.95",
+    amount: "0.3995"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd37664"),
+    Timestamp: "1582893074218",
+    direction: "Bids",
+    price: "215.62",
+    amount: "0.083"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd37665"),
+    Timestamp: "1582893074218",
+    direction: "Bids",
+    price: "215.58",
+    amount: "0.3646"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd37666"),
+    Timestamp: "1582893074218",
+    direction: "Bids",
+    price: "215.57",
+    amount: "7.7547"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd37667"),
+    Timestamp: "1582893074218",
+    direction: "Bids",
+    price: "215.56",
+    amount: "3.796"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd37668"),
+    Timestamp: "1582893074218",
+    direction: "Bids",
+    price: "215.55",
+    amount: "45.9976"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd37669"),
+    Timestamp: "1582893074218",
+    direction: "Bids",
+    price: "215.53",
+    amount: "10.6149"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd3766a"),
+    Timestamp: "1582893074218",
+    direction: "Asks",
+    price: "215.62",
+    amount: "0.083"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd3766b"),
+    Timestamp: "1582893074218",
+    direction: "Asks",
+    price: "215.58",
+    amount: "0.3646"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd3766c"),
+    Timestamp: "1582893074218",
+    direction: "Asks",
+    price: "215.57",
+    amount: "7.7547"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd3766d"),
+    Timestamp: "1582893074218",
+    direction: "Asks",
+    price: "215.56",
+    amount: "3.796"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd3766e"),
+    Timestamp: "1582893074218",
+    direction: "Asks",
+    price: "215.55",
+    amount: "45.9976"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908126e3a922d2fd3766f"),
+    Timestamp: "1582893074218",
+    direction: "Asks",
+    price: "215.53",
+    amount: "10.6149"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90a1"),
+    Timestamp: "1582893113186",
+    direction: "Bids",
+    price: "215.34",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90a2"),
+    Timestamp: "1582893113186",
+    direction: "Bids",
+    price: "215.33",
+    amount: "31.2877"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90a3"),
+    Timestamp: "1582893113186",
+    direction: "Bids",
+    price: "215.31",
+    amount: "30.4"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90a4"),
+    Timestamp: "1582893113186",
+    direction: "Bids",
+    price: "215.3",
+    amount: "0.029"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90a5"),
+    Timestamp: "1582893113186",
+    direction: "Bids",
+    price: "215.29",
+    amount: "26.1578"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90a6"),
+    Timestamp: "1582893113186",
+    direction: "Bids",
+    price: "215.28",
+    amount: "81.7276"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90a7"),
+    Timestamp: "1582893113186",
+    direction: "Asks",
+    price: "215.34",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90a8"),
+    Timestamp: "1582893113186",
+    direction: "Asks",
+    price: "215.33",
+    amount: "31.2877"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90a9"),
+    Timestamp: "1582893113186",
+    direction: "Asks",
+    price: "215.31",
+    amount: "30.4"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90aa"),
+    Timestamp: "1582893113186",
+    direction: "Asks",
+    price: "215.3",
+    amount: "0.029"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90ab"),
+    Timestamp: "1582893113186",
+    direction: "Asks",
+    price: "215.29",
+    amount: "26.1578"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5908396e3a9222bd9e90ac"),
+    Timestamp: "1582893113186",
+    direction: "Asks",
+    price: "215.28",
+    amount: "81.7276"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37670"),
+    Timestamp: "1582893974312",
+    direction: "Bids",
+    price: "217.3",
+    amount: "2.524"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37671"),
+    Timestamp: "1582893974312",
+    direction: "Bids",
+    price: "217.29",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37672"),
+    Timestamp: "1582893974312",
+    direction: "Bids",
+    price: "217.27",
+    amount: "0.2777"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37673"),
+    Timestamp: "1582893974312",
+    direction: "Bids",
+    price: "217.26",
+    amount: "30.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37674"),
+    Timestamp: "1582893974312",
+    direction: "Bids",
+    price: "217.25",
+    amount: "9.452"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37675"),
+    Timestamp: "1582893974312",
+    direction: "Bids",
+    price: "217.23",
+    amount: "42.3328"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37676"),
+    Timestamp: "1582893974312",
+    direction: "Asks",
+    price: "217.3",
+    amount: "2.524"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37677"),
+    Timestamp: "1582893974312",
+    direction: "Asks",
+    price: "217.29",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37678"),
+    Timestamp: "1582893974312",
+    direction: "Asks",
+    price: "217.27",
+    amount: "0.2777"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd37679"),
+    Timestamp: "1582893974312",
+    direction: "Asks",
+    price: "217.26",
+    amount: "30.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd3767a"),
+    Timestamp: "1582893974312",
+    direction: "Asks",
+    price: "217.25",
+    amount: "9.452"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590b966e3a922d2fd3767b"),
+    Timestamp: "1582893974312",
+    direction: "Asks",
+    price: "217.23",
+    amount: "42.3328"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90af"),
+    Timestamp: "1582894013271",
+    direction: "Bids",
+    price: "217.72",
+    amount: "6.535"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b0"),
+    Timestamp: "1582894013271",
+    direction: "Bids",
+    price: "217.7",
+    amount: "31.0096"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b1"),
+    Timestamp: "1582894013271",
+    direction: "Bids",
+    price: "217.69",
+    amount: "2.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b2"),
+    Timestamp: "1582894013271",
+    direction: "Bids",
+    price: "217.68",
+    amount: "11.7305"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b3"),
+    Timestamp: "1582894013271",
+    direction: "Bids",
+    price: "217.67",
+    amount: "20.25"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b4"),
+    Timestamp: "1582894013271",
+    direction: "Bids",
+    price: "217.66",
+    amount: "11.4831"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b5"),
+    Timestamp: "1582894013271",
+    direction: "Asks",
+    price: "217.72",
+    amount: "6.535"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b6"),
+    Timestamp: "1582894013271",
+    direction: "Asks",
+    price: "217.7",
+    amount: "31.0096"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b7"),
+    Timestamp: "1582894013271",
+    direction: "Asks",
+    price: "217.69",
+    amount: "2.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b8"),
+    Timestamp: "1582894013271",
+    direction: "Asks",
+    price: "217.68",
+    amount: "11.7305"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90b9"),
+    Timestamp: "1582894013271",
+    direction: "Asks",
+    price: "217.67",
+    amount: "20.25"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590bbd6e3a9222bd9e90ba"),
+    Timestamp: "1582894013271",
+    direction: "Asks",
+    price: "217.66",
+    amount: "11.4831"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37680"),
+    Timestamp: "1582894874347",
+    direction: "Bids",
+    price: "216.58",
+    amount: "1.1626"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37681"),
+    Timestamp: "1582894874347",
+    direction: "Bids",
+    price: "216.56",
+    amount: "0.569"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37682"),
+    Timestamp: "1582894874347",
+    direction: "Bids",
+    price: "216.53",
+    amount: "0.1529"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37683"),
+    Timestamp: "1582894874347",
+    direction: "Bids",
+    price: "216.52",
+    amount: "5.5814"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37684"),
+    Timestamp: "1582894874347",
+    direction: "Bids",
+    price: "216.51",
+    amount: "10.6106"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37685"),
+    Timestamp: "1582894874347",
+    direction: "Bids",
+    price: "216.5",
+    amount: "178.591"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37686"),
+    Timestamp: "1582894874347",
+    direction: "Asks",
+    price: "216.58",
+    amount: "1.1626"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37687"),
+    Timestamp: "1582894874347",
+    direction: "Asks",
+    price: "216.56",
+    amount: "0.569"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37688"),
+    Timestamp: "1582894874347",
+    direction: "Asks",
+    price: "216.53",
+    amount: "0.1529"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd37689"),
+    Timestamp: "1582894874347",
+    direction: "Asks",
+    price: "216.52",
+    amount: "5.5814"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd3768a"),
+    Timestamp: "1582894874347",
+    direction: "Asks",
+    price: "216.51",
+    amount: "10.6106"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f1a6e3a922d2fd3768b"),
+    Timestamp: "1582894874347",
+    direction: "Asks",
+    price: "216.5",
+    amount: "178.591"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90bd"),
+    Timestamp: "1582894913413",
+    direction: "Bids",
+    price: "216.93",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90be"),
+    Timestamp: "1582894913413",
+    direction: "Bids",
+    price: "216.88",
+    amount: "2.0369"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90bf"),
+    Timestamp: "1582894913413",
+    direction: "Bids",
+    price: "216.87",
+    amount: "10.5631"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c0"),
+    Timestamp: "1582894913413",
+    direction: "Bids",
+    price: "216.83",
+    amount: "26.2753"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c1"),
+    Timestamp: "1582894913413",
+    direction: "Bids",
+    price: "216.81",
+    amount: "3.3773"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c2"),
+    Timestamp: "1582894913413",
+    direction: "Bids",
+    price: "216.8",
+    amount: "117.0799"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c3"),
+    Timestamp: "1582894913413",
+    direction: "Asks",
+    price: "216.93",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c4"),
+    Timestamp: "1582894913413",
+    direction: "Asks",
+    price: "216.88",
+    amount: "2.0369"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c5"),
+    Timestamp: "1582894913413",
+    direction: "Asks",
+    price: "216.87",
+    amount: "10.5631"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c6"),
+    Timestamp: "1582894913413",
+    direction: "Asks",
+    price: "216.83",
+    amount: "26.2753"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c7"),
+    Timestamp: "1582894913413",
+    direction: "Asks",
+    price: "216.81",
+    amount: "3.3773"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e590f416e3a9222bd9e90c8"),
+    Timestamp: "1582894913413",
+    direction: "Asks",
+    price: "216.8",
+    amount: "117.0799"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd3768c"),
+    Timestamp: "1582895774340",
+    direction: "Bids",
+    price: "222.49",
+    amount: "42.5475"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd3768d"),
+    Timestamp: "1582895774340",
+    direction: "Bids",
+    price: "222.48",
+    amount: "0.6112"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd3768e"),
+    Timestamp: "1582895774340",
+    direction: "Bids",
+    price: "222.46",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd3768f"),
+    Timestamp: "1582895774340",
+    direction: "Bids",
+    price: "222.42",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37690"),
+    Timestamp: "1582895774340",
+    direction: "Bids",
+    price: "222.41",
+    amount: "38.7049"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37691"),
+    Timestamp: "1582895774340",
+    direction: "Bids",
+    price: "222.4",
+    amount: "7.6034"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37692"),
+    Timestamp: "1582895774340",
+    direction: "Asks",
+    price: "222.49",
+    amount: "42.5475"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37693"),
+    Timestamp: "1582895774340",
+    direction: "Asks",
+    price: "222.48",
+    amount: "0.6112"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37694"),
+    Timestamp: "1582895774340",
+    direction: "Asks",
+    price: "222.46",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37695"),
+    Timestamp: "1582895774340",
+    direction: "Asks",
+    price: "222.42",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37696"),
+    Timestamp: "1582895774340",
+    direction: "Asks",
+    price: "222.41",
+    amount: "38.7049"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59129e6e3a922d2fd37697"),
+    Timestamp: "1582895774340",
+    direction: "Asks",
+    price: "222.4",
+    amount: "7.6034"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90cb"),
+    Timestamp: "1582895813463",
+    direction: "Bids",
+    price: "223.39",
+    amount: "0.0581"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90cc"),
+    Timestamp: "1582895813463",
+    direction: "Bids",
+    price: "223.38",
+    amount: "0.1462"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90cd"),
+    Timestamp: "1582895813463",
+    direction: "Bids",
+    price: "223.35",
+    amount: "12.4973"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90ce"),
+    Timestamp: "1582895813463",
+    direction: "Bids",
+    price: "223.34",
+    amount: "16.7364"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90cf"),
+    Timestamp: "1582895813463",
+    direction: "Bids",
+    price: "223.33",
+    amount: "3.1641"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90d0"),
+    Timestamp: "1582895813463",
+    direction: "Bids",
+    price: "223.32",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90d1"),
+    Timestamp: "1582895813463",
+    direction: "Asks",
+    price: "223.39",
+    amount: "0.0581"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90d2"),
+    Timestamp: "1582895813463",
+    direction: "Asks",
+    price: "223.38",
+    amount: "0.1462"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90d3"),
+    Timestamp: "1582895813463",
+    direction: "Asks",
+    price: "223.35",
+    amount: "12.4973"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90d4"),
+    Timestamp: "1582895813463",
+    direction: "Asks",
+    price: "223.34",
+    amount: "16.7364"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90d5"),
+    Timestamp: "1582895813463",
+    direction: "Asks",
+    price: "223.33",
+    amount: "3.1641"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5912c56e3a9222bd9e90d6"),
+    Timestamp: "1582895813463",
+    direction: "Asks",
+    price: "223.32",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd3769a"),
+    Timestamp: "1582896674464",
+    direction: "Bids",
+    price: "223.02",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd3769b"),
+    Timestamp: "1582896674464",
+    direction: "Bids",
+    price: "223.0",
+    amount: "0.9523"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd3769c"),
+    Timestamp: "1582896674464",
+    direction: "Bids",
+    price: "222.95",
+    amount: "0.5497"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd3769d"),
+    Timestamp: "1582896674464",
+    direction: "Bids",
+    price: "222.94",
+    amount: "0.5677"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd3769e"),
+    Timestamp: "1582896674464",
+    direction: "Bids",
+    price: "222.93",
+    amount: "33.3349"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd3769f"),
+    Timestamp: "1582896674464",
+    direction: "Bids",
+    price: "222.92",
+    amount: "8.3904"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd376a0"),
+    Timestamp: "1582896674464",
+    direction: "Asks",
+    price: "223.02",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd376a1"),
+    Timestamp: "1582896674464",
+    direction: "Asks",
+    price: "223.0",
+    amount: "0.9523"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd376a2"),
+    Timestamp: "1582896674464",
+    direction: "Asks",
+    price: "222.95",
+    amount: "0.5497"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd376a3"),
+    Timestamp: "1582896674464",
+    direction: "Asks",
+    price: "222.94",
+    amount: "0.5677"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd376a4"),
+    Timestamp: "1582896674464",
+    direction: "Asks",
+    price: "222.93",
+    amount: "33.3349"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916226e3a922d2fd376a5"),
+    Timestamp: "1582896674464",
+    direction: "Asks",
+    price: "222.92",
+    amount: "8.3904"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90d9"),
+    Timestamp: "1582896713599",
+    direction: "Bids",
+    price: "222.73",
+    amount: "0.2379"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90da"),
+    Timestamp: "1582896713599",
+    direction: "Bids",
+    price: "222.72",
+    amount: "30.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90db"),
+    Timestamp: "1582896713599",
+    direction: "Bids",
+    price: "222.71",
+    amount: "41.7196"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90dc"),
+    Timestamp: "1582896713599",
+    direction: "Bids",
+    price: "222.67",
+    amount: "2.221"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90dd"),
+    Timestamp: "1582896713599",
+    direction: "Bids",
+    price: "222.66",
+    amount: "0.118"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90de"),
+    Timestamp: "1582896713599",
+    direction: "Bids",
+    price: "222.65",
+    amount: "2.8392"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90df"),
+    Timestamp: "1582896713599",
+    direction: "Asks",
+    price: "222.73",
+    amount: "0.2379"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90e0"),
+    Timestamp: "1582896713599",
+    direction: "Asks",
+    price: "222.72",
+    amount: "30.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90e1"),
+    Timestamp: "1582896713599",
+    direction: "Asks",
+    price: "222.71",
+    amount: "41.7196"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90e2"),
+    Timestamp: "1582896713599",
+    direction: "Asks",
+    price: "222.67",
+    amount: "2.221"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90e3"),
+    Timestamp: "1582896713599",
+    direction: "Asks",
+    price: "222.66",
+    amount: "0.118"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5916496e3a9222bd9e90e4"),
+    Timestamp: "1582896713599",
+    direction: "Asks",
+    price: "222.65",
+    amount: "2.8392"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376aa"),
+    Timestamp: "1582897574600",
+    direction: "Bids",
+    price: "223.54",
+    amount: "32.7973"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376ab"),
+    Timestamp: "1582897574600",
+    direction: "Bids",
+    price: "223.51",
+    amount: "11.5155"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376ac"),
+    Timestamp: "1582897574600",
+    direction: "Bids",
+    price: "223.5",
+    amount: "40.336"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376ad"),
+    Timestamp: "1582897574600",
+    direction: "Bids",
+    price: "223.49",
+    amount: "32.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376ae"),
+    Timestamp: "1582897574600",
+    direction: "Bids",
+    price: "223.48",
+    amount: "0.5116"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376af"),
+    Timestamp: "1582897574600",
+    direction: "Bids",
+    price: "223.47",
+    amount: "0.7645"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376b0"),
+    Timestamp: "1582897574600",
+    direction: "Asks",
+    price: "223.54",
+    amount: "32.7973"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376b1"),
+    Timestamp: "1582897574600",
+    direction: "Asks",
+    price: "223.51",
+    amount: "11.5155"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376b2"),
+    Timestamp: "1582897574600",
+    direction: "Asks",
+    price: "223.5",
+    amount: "40.336"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376b3"),
+    Timestamp: "1582897574600",
+    direction: "Asks",
+    price: "223.49",
+    amount: "32.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376b4"),
+    Timestamp: "1582897574600",
+    direction: "Asks",
+    price: "223.48",
+    amount: "0.5116"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919a66e3a922d2fd376b5"),
+    Timestamp: "1582897574600",
+    direction: "Asks",
+    price: "223.47",
+    amount: "0.7645"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90e7"),
+    Timestamp: "1582897613681",
+    direction: "Bids",
+    price: "223.12",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90e8"),
+    Timestamp: "1582897613681",
+    direction: "Bids",
+    price: "223.09",
+    amount: "0.0767"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90e9"),
+    Timestamp: "1582897613681",
+    direction: "Bids",
+    price: "223.08",
+    amount: "18.0195"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90ea"),
+    Timestamp: "1582897613681",
+    direction: "Bids",
+    price: "223.06",
+    amount: "11.2041"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90eb"),
+    Timestamp: "1582897613681",
+    direction: "Bids",
+    price: "223.04",
+    amount: "2.8511"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90ec"),
+    Timestamp: "1582897613681",
+    direction: "Bids",
+    price: "223.03",
+    amount: "18.7114"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90ed"),
+    Timestamp: "1582897613681",
+    direction: "Asks",
+    price: "223.12",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90ee"),
+    Timestamp: "1582897613681",
+    direction: "Asks",
+    price: "223.09",
+    amount: "0.0767"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90ef"),
+    Timestamp: "1582897613681",
+    direction: "Asks",
+    price: "223.08",
+    amount: "18.0195"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90f0"),
+    Timestamp: "1582897613681",
+    direction: "Asks",
+    price: "223.06",
+    amount: "11.2041"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90f1"),
+    Timestamp: "1582897613681",
+    direction: "Asks",
+    price: "223.04",
+    amount: "2.8511"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5919cd6e3a9222bd9e90f2"),
+    Timestamp: "1582897613681",
+    direction: "Asks",
+    price: "223.03",
+    amount: "18.7114"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376b8"),
+    Timestamp: "1582898474644",
+    direction: "Bids",
+    price: "224.11",
+    amount: "56.1251"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376b9"),
+    Timestamp: "1582898474644",
+    direction: "Bids",
+    price: "224.09",
+    amount: "0.5498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376ba"),
+    Timestamp: "1582898474644",
+    direction: "Bids",
+    price: "224.08",
+    amount: "41.7943"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376bb"),
+    Timestamp: "1582898474644",
+    direction: "Bids",
+    price: "224.07",
+    amount: "8.9232"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376bc"),
+    Timestamp: "1582898474644",
+    direction: "Bids",
+    price: "224.06",
+    amount: "0.7739"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376bd"),
+    Timestamp: "1582898474644",
+    direction: "Bids",
+    price: "224.05",
+    amount: "17.9265"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376be"),
+    Timestamp: "1582898474644",
+    direction: "Asks",
+    price: "224.11",
+    amount: "56.1251"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376bf"),
+    Timestamp: "1582898474644",
+    direction: "Asks",
+    price: "224.09",
+    amount: "0.5498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376c0"),
+    Timestamp: "1582898474644",
+    direction: "Asks",
+    price: "224.08",
+    amount: "41.7943"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376c1"),
+    Timestamp: "1582898474644",
+    direction: "Asks",
+    price: "224.07",
+    amount: "8.9232"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376c2"),
+    Timestamp: "1582898474644",
+    direction: "Asks",
+    price: "224.06",
+    amount: "0.7739"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d2a6e3a922d2fd376c3"),
+    Timestamp: "1582898474644",
+    direction: "Asks",
+    price: "224.05",
+    amount: "17.9265"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e90f7"),
+    Timestamp: "1582898513829",
+    direction: "Bids",
+    price: "224.01",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e90f8"),
+    Timestamp: "1582898513829",
+    direction: "Bids",
+    price: "223.99",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e90f9"),
+    Timestamp: "1582898513829",
+    direction: "Bids",
+    price: "223.98",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e90fa"),
+    Timestamp: "1582898513829",
+    direction: "Bids",
+    price: "223.96",
+    amount: "16.1785"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e90fb"),
+    Timestamp: "1582898513829",
+    direction: "Bids",
+    price: "223.95",
+    amount: "15.5557"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e90fc"),
+    Timestamp: "1582898513829",
+    direction: "Bids",
+    price: "223.94",
+    amount: "51.5318"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e90fd"),
+    Timestamp: "1582898513829",
+    direction: "Asks",
+    price: "224.01",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e90fe"),
+    Timestamp: "1582898513829",
+    direction: "Asks",
+    price: "223.99",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e90ff"),
+    Timestamp: "1582898513829",
+    direction: "Asks",
+    price: "223.98",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e9100"),
+    Timestamp: "1582898513829",
+    direction: "Asks",
+    price: "223.96",
+    amount: "16.1785"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e9101"),
+    Timestamp: "1582898513829",
+    direction: "Asks",
+    price: "223.95",
+    amount: "15.5557"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e591d526e3a9222bd9e9102"),
+    Timestamp: "1582898513829",
+    direction: "Asks",
+    price: "223.94",
+    amount: "51.5318"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376c4"),
+    Timestamp: "1582899374753",
+    direction: "Bids",
+    price: "223.19",
+    amount: "17.8956"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376c5"),
+    Timestamp: "1582899374753",
+    direction: "Bids",
+    price: "223.18",
+    amount: "31.1288"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376c6"),
+    Timestamp: "1582899374753",
+    direction: "Bids",
+    price: "223.16",
+    amount: "33.8749"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376c7"),
+    Timestamp: "1582899374753",
+    direction: "Bids",
+    price: "223.12",
+    amount: "41.3871"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376c8"),
+    Timestamp: "1582899374753",
+    direction: "Bids",
+    price: "223.11",
+    amount: "9.226"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376c9"),
+    Timestamp: "1582899374753",
+    direction: "Bids",
+    price: "223.1",
+    amount: "10.2101"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376ca"),
+    Timestamp: "1582899374753",
+    direction: "Asks",
+    price: "223.19",
+    amount: "17.8956"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376cb"),
+    Timestamp: "1582899374753",
+    direction: "Asks",
+    price: "223.18",
+    amount: "31.1288"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376cc"),
+    Timestamp: "1582899374753",
+    direction: "Asks",
+    price: "223.16",
+    amount: "33.8749"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376cd"),
+    Timestamp: "1582899374753",
+    direction: "Asks",
+    price: "223.12",
+    amount: "41.3871"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376ce"),
+    Timestamp: "1582899374753",
+    direction: "Asks",
+    price: "223.11",
+    amount: "9.226"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920ae6e3a922d2fd376cf"),
+    Timestamp: "1582899374753",
+    direction: "Asks",
+    price: "223.1",
+    amount: "10.2101"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e9103"),
+    Timestamp: "1582899413855",
+    direction: "Bids",
+    price: "223.41",
+    amount: "4.4043"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e9104"),
+    Timestamp: "1582899413855",
+    direction: "Bids",
+    price: "223.4",
+    amount: "7.8563"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e9105"),
+    Timestamp: "1582899413855",
+    direction: "Bids",
+    price: "223.39",
+    amount: "9.9061"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e9106"),
+    Timestamp: "1582899413855",
+    direction: "Bids",
+    price: "223.38",
+    amount: "6.001"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e9107"),
+    Timestamp: "1582899413855",
+    direction: "Bids",
+    price: "223.36",
+    amount: "5.743"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e9108"),
+    Timestamp: "1582899413855",
+    direction: "Bids",
+    price: "223.35",
+    amount: "31.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e9109"),
+    Timestamp: "1582899413855",
+    direction: "Asks",
+    price: "223.41",
+    amount: "4.4043"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e910a"),
+    Timestamp: "1582899413855",
+    direction: "Asks",
+    price: "223.4",
+    amount: "7.8563"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e910b"),
+    Timestamp: "1582899413855",
+    direction: "Asks",
+    price: "223.39",
+    amount: "9.9061"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e910c"),
+    Timestamp: "1582899413855",
+    direction: "Asks",
+    price: "223.38",
+    amount: "6.001"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e910d"),
+    Timestamp: "1582899413855",
+    direction: "Asks",
+    price: "223.36",
+    amount: "5.743"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5920d66e3a9222bd9e910e"),
+    Timestamp: "1582899413855",
+    direction: "Asks",
+    price: "223.35",
+    amount: "31.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376d2"),
+    Timestamp: "1582900274775",
+    direction: "Bids",
+    price: "221.58",
+    amount: "70.4014"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376d3"),
+    Timestamp: "1582900274775",
+    direction: "Bids",
+    price: "221.55",
+    amount: "11.2809"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376d4"),
+    Timestamp: "1582900274775",
+    direction: "Bids",
+    price: "221.54",
+    amount: "4.649"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376d5"),
+    Timestamp: "1582900274775",
+    direction: "Bids",
+    price: "221.52",
+    amount: "0.5495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376d6"),
+    Timestamp: "1582900274775",
+    direction: "Bids",
+    price: "221.51",
+    amount: "7.7452"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376d7"),
+    Timestamp: "1582900274775",
+    direction: "Bids",
+    price: "221.5",
+    amount: "17.664"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376d8"),
+    Timestamp: "1582900274775",
+    direction: "Asks",
+    price: "221.58",
+    amount: "70.4014"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376d9"),
+    Timestamp: "1582900274775",
+    direction: "Asks",
+    price: "221.55",
+    amount: "11.2809"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376da"),
+    Timestamp: "1582900274775",
+    direction: "Asks",
+    price: "221.54",
+    amount: "4.649"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376db"),
+    Timestamp: "1582900274775",
+    direction: "Asks",
+    price: "221.52",
+    amount: "0.5495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376dc"),
+    Timestamp: "1582900274775",
+    direction: "Asks",
+    price: "221.51",
+    amount: "7.7452"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5924326e3a922d2fd376dd"),
+    Timestamp: "1582900274775",
+    direction: "Asks",
+    price: "221.5",
+    amount: "17.664"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e9113"),
+    Timestamp: "1582900313971",
+    direction: "Bids",
+    price: "221.01",
+    amount: "28.5907"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e9114"),
+    Timestamp: "1582900313971",
+    direction: "Bids",
+    price: "221.0",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e9115"),
+    Timestamp: "1582900313971",
+    direction: "Bids",
+    price: "220.97",
+    amount: "11.3095"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e9116"),
+    Timestamp: "1582900313971",
+    direction: "Bids",
+    price: "220.94",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e9117"),
+    Timestamp: "1582900313971",
+    direction: "Bids",
+    price: "220.93",
+    amount: "7.7539"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e9118"),
+    Timestamp: "1582900313971",
+    direction: "Bids",
+    price: "220.92",
+    amount: "1.9246"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e9119"),
+    Timestamp: "1582900313971",
+    direction: "Asks",
+    price: "221.01",
+    amount: "28.5907"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e911a"),
+    Timestamp: "1582900313971",
+    direction: "Asks",
+    price: "221.0",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e911b"),
+    Timestamp: "1582900313971",
+    direction: "Asks",
+    price: "220.97",
+    amount: "11.3095"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e911c"),
+    Timestamp: "1582900313971",
+    direction: "Asks",
+    price: "220.94",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e911d"),
+    Timestamp: "1582900313971",
+    direction: "Asks",
+    price: "220.93",
+    amount: "7.7539"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59245a6e3a9222bd9e911e"),
+    Timestamp: "1582900313971",
+    direction: "Asks",
+    price: "220.92",
+    amount: "1.9246"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e2"),
+    Timestamp: "1582901174938",
+    direction: "Bids",
+    price: "222.94",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e3"),
+    Timestamp: "1582901174938",
+    direction: "Bids",
+    price: "222.93",
+    amount: "0.027"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e4"),
+    Timestamp: "1582901174938",
+    direction: "Bids",
+    price: "222.92",
+    amount: "5.4062"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e5"),
+    Timestamp: "1582901174938",
+    direction: "Bids",
+    price: "222.91",
+    amount: "0.1568"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e6"),
+    Timestamp: "1582901174938",
+    direction: "Bids",
+    price: "222.9",
+    amount: "2.3864"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e7"),
+    Timestamp: "1582901174938",
+    direction: "Bids",
+    price: "222.89",
+    amount: "16.1749"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e8"),
+    Timestamp: "1582901174938",
+    direction: "Asks",
+    price: "222.94",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376e9"),
+    Timestamp: "1582901174938",
+    direction: "Asks",
+    price: "222.93",
+    amount: "0.027"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376ea"),
+    Timestamp: "1582901174938",
+    direction: "Asks",
+    price: "222.92",
+    amount: "5.4062"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376eb"),
+    Timestamp: "1582901174938",
+    direction: "Asks",
+    price: "222.91",
+    amount: "0.1568"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376ec"),
+    Timestamp: "1582901174938",
+    direction: "Asks",
+    price: "222.9",
+    amount: "2.3864"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927b76e3a922d2fd376ed"),
+    Timestamp: "1582901174938",
+    direction: "Asks",
+    price: "222.89",
+    amount: "16.1749"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9121"),
+    Timestamp: "1582901214096",
+    direction: "Bids",
+    price: "222.4",
+    amount: "3.3429"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9122"),
+    Timestamp: "1582901214096",
+    direction: "Bids",
+    price: "222.39",
+    amount: "0.0485"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9123"),
+    Timestamp: "1582901214096",
+    direction: "Bids",
+    price: "222.38",
+    amount: "1.4533"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9124"),
+    Timestamp: "1582901214096",
+    direction: "Bids",
+    price: "222.37",
+    amount: "2.0002"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9125"),
+    Timestamp: "1582901214096",
+    direction: "Bids",
+    price: "222.35",
+    amount: "6.7245"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9126"),
+    Timestamp: "1582901214096",
+    direction: "Bids",
+    price: "222.34",
+    amount: "0.0287"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9127"),
+    Timestamp: "1582901214096",
+    direction: "Asks",
+    price: "222.4",
+    amount: "3.3429"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9128"),
+    Timestamp: "1582901214096",
+    direction: "Asks",
+    price: "222.39",
+    amount: "0.0485"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e9129"),
+    Timestamp: "1582901214096",
+    direction: "Asks",
+    price: "222.38",
+    amount: "1.4533"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e912a"),
+    Timestamp: "1582901214096",
+    direction: "Asks",
+    price: "222.37",
+    amount: "2.0002"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e912b"),
+    Timestamp: "1582901214096",
+    direction: "Asks",
+    price: "222.35",
+    amount: "6.7245"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5927de6e3a9222bd9e912c"),
+    Timestamp: "1582901214096",
+    direction: "Asks",
+    price: "222.34",
+    amount: "0.0287"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f0"),
+    Timestamp: "1582902075006",
+    direction: "Bids",
+    price: "223.65",
+    amount: "0.7709"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f1"),
+    Timestamp: "1582902075006",
+    direction: "Bids",
+    price: "223.64",
+    amount: "1.587"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f2"),
+    Timestamp: "1582902075006",
+    direction: "Bids",
+    price: "223.63",
+    amount: "7.7617"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f3"),
+    Timestamp: "1582902075006",
+    direction: "Bids",
+    price: "223.62",
+    amount: "0.025"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f4"),
+    Timestamp: "1582902075006",
+    direction: "Bids",
+    price: "223.61",
+    amount: "0.4387"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f5"),
+    Timestamp: "1582902075006",
+    direction: "Bids",
+    price: "223.59",
+    amount: "54.9123"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f6"),
+    Timestamp: "1582902075006",
+    direction: "Asks",
+    price: "223.65",
+    amount: "0.7709"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f7"),
+    Timestamp: "1582902075006",
+    direction: "Asks",
+    price: "223.64",
+    amount: "1.587"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f8"),
+    Timestamp: "1582902075006",
+    direction: "Asks",
+    price: "223.63",
+    amount: "7.7617"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376f9"),
+    Timestamp: "1582902075006",
+    direction: "Asks",
+    price: "223.62",
+    amount: "0.025"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376fa"),
+    Timestamp: "1582902075006",
+    direction: "Asks",
+    price: "223.61",
+    amount: "0.4387"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b3b6e3a922d2fd376fb"),
+    Timestamp: "1582902075006",
+    direction: "Asks",
+    price: "223.59",
+    amount: "54.9123"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e912d"),
+    Timestamp: "1582902114139",
+    direction: "Bids",
+    price: "223.82",
+    amount: "2.7294"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e912e"),
+    Timestamp: "1582902114139",
+    direction: "Bids",
+    price: "223.8",
+    amount: "1.1616"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e912f"),
+    Timestamp: "1582902114139",
+    direction: "Bids",
+    price: "223.79",
+    amount: "3.0366"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9130"),
+    Timestamp: "1582902114139",
+    direction: "Bids",
+    price: "223.77",
+    amount: "4.4664"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9131"),
+    Timestamp: "1582902114139",
+    direction: "Bids",
+    price: "223.76",
+    amount: "15.9399"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9132"),
+    Timestamp: "1582902114139",
+    direction: "Bids",
+    price: "223.75",
+    amount: "76.671"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9133"),
+    Timestamp: "1582902114139",
+    direction: "Asks",
+    price: "223.82",
+    amount: "2.7294"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9134"),
+    Timestamp: "1582902114139",
+    direction: "Asks",
+    price: "223.8",
+    amount: "1.1616"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9135"),
+    Timestamp: "1582902114139",
+    direction: "Asks",
+    price: "223.79",
+    amount: "3.0366"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9136"),
+    Timestamp: "1582902114139",
+    direction: "Asks",
+    price: "223.77",
+    amount: "4.4664"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9137"),
+    Timestamp: "1582902114139",
+    direction: "Asks",
+    price: "223.76",
+    amount: "15.9399"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592b626e3a9222bd9e9138"),
+    Timestamp: "1582902114139",
+    direction: "Asks",
+    price: "223.75",
+    amount: "76.671"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd376fc"),
+    Timestamp: "1582902975062",
+    direction: "Bids",
+    price: "222.8",
+    amount: "193.5697"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd376fd"),
+    Timestamp: "1582902975062",
+    direction: "Bids",
+    price: "222.79",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd376fe"),
+    Timestamp: "1582902975062",
+    direction: "Bids",
+    price: "222.78",
+    amount: "9.8774"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd376ff"),
+    Timestamp: "1582902975062",
+    direction: "Bids",
+    price: "222.77",
+    amount: "0.3774"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37702"),
+    Timestamp: "1582902975062",
+    direction: "Bids",
+    price: "222.73",
+    amount: "0.045"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37703"),
+    Timestamp: "1582902975062",
+    direction: "Bids",
+    price: "222.72",
+    amount: "0.6647"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37704"),
+    Timestamp: "1582902975062",
+    direction: "Asks",
+    price: "222.8",
+    amount: "193.5697"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37705"),
+    Timestamp: "1582902975062",
+    direction: "Asks",
+    price: "222.79",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37706"),
+    Timestamp: "1582902975062",
+    direction: "Asks",
+    price: "222.78",
+    amount: "9.8774"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37707"),
+    Timestamp: "1582902975062",
+    direction: "Asks",
+    price: "222.77",
+    amount: "0.3774"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37708"),
+    Timestamp: "1582902975062",
+    direction: "Asks",
+    price: "222.73",
+    amount: "0.045"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ebf6e3a922d2fd37709"),
+    Timestamp: "1582902975062",
+    direction: "Asks",
+    price: "222.72",
+    amount: "0.6647"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e913b"),
+    Timestamp: "1582903014218",
+    direction: "Bids",
+    price: "222.8",
+    amount: "202.85"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e913c"),
+    Timestamp: "1582903014218",
+    direction: "Bids",
+    price: "222.79",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e913d"),
+    Timestamp: "1582903014218",
+    direction: "Bids",
+    price: "222.78",
+    amount: "9.8774"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e913e"),
+    Timestamp: "1582903014218",
+    direction: "Bids",
+    price: "222.77",
+    amount: "0.3774"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e913f"),
+    Timestamp: "1582903014218",
+    direction: "Bids",
+    price: "222.74",
+    amount: "7.7626"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e9140"),
+    Timestamp: "1582903014218",
+    direction: "Bids",
+    price: "222.73",
+    amount: "0.045"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e9141"),
+    Timestamp: "1582903014218",
+    direction: "Asks",
+    price: "222.8",
+    amount: "202.85"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e9142"),
+    Timestamp: "1582903014218",
+    direction: "Asks",
+    price: "222.79",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e9143"),
+    Timestamp: "1582903014218",
+    direction: "Asks",
+    price: "222.78",
+    amount: "9.8774"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e9144"),
+    Timestamp: "1582903014218",
+    direction: "Asks",
+    price: "222.77",
+    amount: "0.3774"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e9145"),
+    Timestamp: "1582903014218",
+    direction: "Asks",
+    price: "222.74",
+    amount: "7.7626"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e592ee66e3a9222bd9e9146"),
+    Timestamp: "1582903014218",
+    direction: "Asks",
+    price: "222.73",
+    amount: "0.045"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd3770a"),
+    Timestamp: "1582903875130",
+    direction: "Bids",
+    price: "225.06",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd3770b"),
+    Timestamp: "1582903875130",
+    direction: "Bids",
+    price: "225.04",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd3770c"),
+    Timestamp: "1582903875130",
+    direction: "Bids",
+    price: "225.03",
+    amount: "18.5424"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd3770d"),
+    Timestamp: "1582903875130",
+    direction: "Bids",
+    price: "225.02",
+    amount: "5.6372"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd3770e"),
+    Timestamp: "1582903875130",
+    direction: "Bids",
+    price: "225.01",
+    amount: "7.8632"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd3770f"),
+    Timestamp: "1582903875130",
+    direction: "Bids",
+    price: "225.0",
+    amount: "2.1844"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd37710"),
+    Timestamp: "1582903875130",
+    direction: "Asks",
+    price: "225.06",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd37711"),
+    Timestamp: "1582903875130",
+    direction: "Asks",
+    price: "225.04",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd37712"),
+    Timestamp: "1582903875130",
+    direction: "Asks",
+    price: "225.03",
+    amount: "18.5424"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd37713"),
+    Timestamp: "1582903875130",
+    direction: "Asks",
+    price: "225.02",
+    amount: "5.6372"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd37714"),
+    Timestamp: "1582903875130",
+    direction: "Asks",
+    price: "225.01",
+    amount: "7.8632"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5932436e3a922d2fd37715"),
+    Timestamp: "1582903875130",
+    direction: "Asks",
+    price: "225.0",
+    amount: "2.1844"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e9149"),
+    Timestamp: "1582903914320",
+    direction: "Bids",
+    price: "225.12",
+    amount: "31.8108"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e914a"),
+    Timestamp: "1582903914320",
+    direction: "Bids",
+    price: "225.08",
+    amount: "2.419"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e914b"),
+    Timestamp: "1582903914320",
+    direction: "Bids",
+    price: "225.06",
+    amount: "25.158"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e914c"),
+    Timestamp: "1582903914320",
+    direction: "Bids",
+    price: "225.03",
+    amount: "3.0996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e914d"),
+    Timestamp: "1582903914320",
+    direction: "Bids",
+    price: "225.02",
+    amount: "23.6622"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e914e"),
+    Timestamp: "1582903914320",
+    direction: "Bids",
+    price: "224.98",
+    amount: "12.8843"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e914f"),
+    Timestamp: "1582903914320",
+    direction: "Asks",
+    price: "225.12",
+    amount: "31.8108"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e9150"),
+    Timestamp: "1582903914320",
+    direction: "Asks",
+    price: "225.08",
+    amount: "2.419"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e9151"),
+    Timestamp: "1582903914320",
+    direction: "Asks",
+    price: "225.06",
+    amount: "25.158"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e9152"),
+    Timestamp: "1582903914320",
+    direction: "Asks",
+    price: "225.03",
+    amount: "3.0996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e9153"),
+    Timestamp: "1582903914320",
+    direction: "Asks",
+    price: "225.02",
+    amount: "23.6622"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59326a6e3a9222bd9e9154"),
+    Timestamp: "1582903914320",
+    direction: "Asks",
+    price: "224.98",
+    amount: "12.8843"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd37718"),
+    Timestamp: "1582904775227",
+    direction: "Bids",
+    price: "224.64",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd37719"),
+    Timestamp: "1582904775227",
+    direction: "Bids",
+    price: "224.63",
+    amount: "0.5499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd3771a"),
+    Timestamp: "1582904775227",
+    direction: "Bids",
+    price: "224.62",
+    amount: "1.5672"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd3771b"),
+    Timestamp: "1582904775227",
+    direction: "Bids",
+    price: "224.61",
+    amount: "15.1715"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd3771c"),
+    Timestamp: "1582904775227",
+    direction: "Bids",
+    price: "224.6",
+    amount: "11.0145"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd3771d"),
+    Timestamp: "1582904775227",
+    direction: "Bids",
+    price: "224.59",
+    amount: "19.3942"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd3771e"),
+    Timestamp: "1582904775227",
+    direction: "Asks",
+    price: "224.64",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd3771f"),
+    Timestamp: "1582904775227",
+    direction: "Asks",
+    price: "224.63",
+    amount: "0.5499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd37720"),
+    Timestamp: "1582904775227",
+    direction: "Asks",
+    price: "224.62",
+    amount: "1.5672"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd37721"),
+    Timestamp: "1582904775227",
+    direction: "Asks",
+    price: "224.61",
+    amount: "15.1715"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd37722"),
+    Timestamp: "1582904775227",
+    direction: "Asks",
+    price: "224.6",
+    amount: "11.0145"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935c76e3a922d2fd37723"),
+    Timestamp: "1582904775227",
+    direction: "Asks",
+    price: "224.59",
+    amount: "19.3942"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e9159"),
+    Timestamp: "1582904814403",
+    direction: "Bids",
+    price: "224.7",
+    amount: "29.7533"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e915a"),
+    Timestamp: "1582904814403",
+    direction: "Bids",
+    price: "224.68",
+    amount: "7.32"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e915b"),
+    Timestamp: "1582904814403",
+    direction: "Bids",
+    price: "224.65",
+    amount: "21.4134"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e915c"),
+    Timestamp: "1582904814403",
+    direction: "Bids",
+    price: "224.63",
+    amount: "26.7524"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e915d"),
+    Timestamp: "1582904814403",
+    direction: "Bids",
+    price: "224.62",
+    amount: "32.9119"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e915e"),
+    Timestamp: "1582904814403",
+    direction: "Bids",
+    price: "224.61",
+    amount: "0.8221"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e915f"),
+    Timestamp: "1582904814403",
+    direction: "Asks",
+    price: "224.7",
+    amount: "29.7533"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e9160"),
+    Timestamp: "1582904814403",
+    direction: "Asks",
+    price: "224.68",
+    amount: "7.32"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e9161"),
+    Timestamp: "1582904814403",
+    direction: "Asks",
+    price: "224.65",
+    amount: "21.4134"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e9162"),
+    Timestamp: "1582904814403",
+    direction: "Asks",
+    price: "224.63",
+    amount: "26.7524"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e9163"),
+    Timestamp: "1582904814403",
+    direction: "Asks",
+    price: "224.62",
+    amount: "32.9119"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5935ee6e3a9222bd9e9164"),
+    Timestamp: "1582904814403",
+    direction: "Asks",
+    price: "224.61",
+    amount: "0.8221"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd37726"),
+    Timestamp: "1582905675329",
+    direction: "Bids",
+    price: "227.55",
+    amount: "38.0814"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd37727"),
+    Timestamp: "1582905675329",
+    direction: "Bids",
+    price: "227.54",
+    amount: "38.0984"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd37728"),
+    Timestamp: "1582905675329",
+    direction: "Bids",
+    price: "227.51",
+    amount: "2.9628"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd37729"),
+    Timestamp: "1582905675329",
+    direction: "Bids",
+    price: "227.5",
+    amount: "3.9665"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd3772a"),
+    Timestamp: "1582905675329",
+    direction: "Bids",
+    price: "227.49",
+    amount: "14.0171"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd3772b"),
+    Timestamp: "1582905675329",
+    direction: "Bids",
+    price: "227.47",
+    amount: "27.41"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd3772c"),
+    Timestamp: "1582905675329",
+    direction: "Asks",
+    price: "227.55",
+    amount: "38.0814"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd3772d"),
+    Timestamp: "1582905675329",
+    direction: "Asks",
+    price: "227.54",
+    amount: "38.0984"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd3772e"),
+    Timestamp: "1582905675329",
+    direction: "Asks",
+    price: "227.51",
+    amount: "2.9628"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd3772f"),
+    Timestamp: "1582905675329",
+    direction: "Asks",
+    price: "227.5",
+    amount: "3.9665"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd37730"),
+    Timestamp: "1582905675329",
+    direction: "Asks",
+    price: "227.49",
+    amount: "14.0171"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59394b6e3a922d2fd37731"),
+    Timestamp: "1582905675329",
+    direction: "Asks",
+    price: "227.47",
+    amount: "27.41"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e9165"),
+    Timestamp: "1582905714473",
+    direction: "Bids",
+    price: "228.19",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e9166"),
+    Timestamp: "1582905714473",
+    direction: "Bids",
+    price: "228.16",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e9167"),
+    Timestamp: "1582905714473",
+    direction: "Bids",
+    price: "228.15",
+    amount: "8.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e9168"),
+    Timestamp: "1582905714473",
+    direction: "Bids",
+    price: "228.1",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e9169"),
+    Timestamp: "1582905714473",
+    direction: "Bids",
+    price: "228.09",
+    amount: "0.4388"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e916a"),
+    Timestamp: "1582905714473",
+    direction: "Bids",
+    price: "228.05",
+    amount: "2.7422"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e916b"),
+    Timestamp: "1582905714473",
+    direction: "Asks",
+    price: "228.19",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e916c"),
+    Timestamp: "1582905714473",
+    direction: "Asks",
+    price: "228.16",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e916d"),
+    Timestamp: "1582905714473",
+    direction: "Asks",
+    price: "228.15",
+    amount: "8.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e916e"),
+    Timestamp: "1582905714473",
+    direction: "Asks",
+    price: "228.1",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e916f"),
+    Timestamp: "1582905714473",
+    direction: "Asks",
+    price: "228.09",
+    amount: "0.4388"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5939726e3a9222bd9e9170"),
+    Timestamp: "1582905714473",
+    direction: "Asks",
+    price: "228.05",
+    amount: "2.7422"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd37735"),
+    Timestamp: "1582906575409",
+    direction: "Bids",
+    price: "227.95",
+    amount: "26.7358"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd37736"),
+    Timestamp: "1582906575409",
+    direction: "Bids",
+    price: "227.94",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd37737"),
+    Timestamp: "1582906575409",
+    direction: "Bids",
+    price: "227.93",
+    amount: "26.7063"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd37738"),
+    Timestamp: "1582906575409",
+    direction: "Bids",
+    price: "227.92",
+    amount: "9.2934"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd37739"),
+    Timestamp: "1582906575409",
+    direction: "Bids",
+    price: "227.91",
+    amount: "10.9624"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd3773a"),
+    Timestamp: "1582906575409",
+    direction: "Bids",
+    price: "227.9",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd3773b"),
+    Timestamp: "1582906575409",
+    direction: "Asks",
+    price: "227.95",
+    amount: "26.7358"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd3773d"),
+    Timestamp: "1582906575409",
+    direction: "Asks",
+    price: "227.94",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd3773e"),
+    Timestamp: "1582906575409",
+    direction: "Asks",
+    price: "227.93",
+    amount: "26.7063"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd3773f"),
+    Timestamp: "1582906575409",
+    direction: "Asks",
+    price: "227.92",
+    amount: "9.2934"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd37740"),
+    Timestamp: "1582906575409",
+    direction: "Asks",
+    price: "227.91",
+    amount: "10.9624"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593ccf6e3a922d2fd37741"),
+    Timestamp: "1582906575409",
+    direction: "Asks",
+    price: "227.9",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e9173"),
+    Timestamp: "1582906614591",
+    direction: "Bids",
+    price: "227.85",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e9174"),
+    Timestamp: "1582906614591",
+    direction: "Bids",
+    price: "227.8",
+    amount: "10.26"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e9175"),
+    Timestamp: "1582906614591",
+    direction: "Bids",
+    price: "227.79",
+    amount: "214.9152"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e9176"),
+    Timestamp: "1582906614591",
+    direction: "Bids",
+    price: "227.76",
+    amount: "1.7031"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e9177"),
+    Timestamp: "1582906614591",
+    direction: "Bids",
+    price: "227.74",
+    amount: "13.1654"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e9178"),
+    Timestamp: "1582906614591",
+    direction: "Bids",
+    price: "227.73",
+    amount: "33.4636"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e9179"),
+    Timestamp: "1582906614591",
+    direction: "Asks",
+    price: "227.85",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e917a"),
+    Timestamp: "1582906614591",
+    direction: "Asks",
+    price: "227.8",
+    amount: "10.26"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e917b"),
+    Timestamp: "1582906614591",
+    direction: "Asks",
+    price: "227.79",
+    amount: "214.9152"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e917c"),
+    Timestamp: "1582906614591",
+    direction: "Asks",
+    price: "227.76",
+    amount: "1.7031"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e917d"),
+    Timestamp: "1582906614591",
+    direction: "Asks",
+    price: "227.74",
+    amount: "13.1654"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e593cf66e3a9222bd9e917e"),
+    Timestamp: "1582906614591",
+    direction: "Asks",
+    price: "227.73",
+    amount: "33.4636"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd37742"),
+    Timestamp: "1582907475510",
+    direction: "Bids",
+    price: "225.55",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd37743"),
+    Timestamp: "1582907475510",
+    direction: "Bids",
+    price: "225.54",
+    amount: "33.0738"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd37744"),
+    Timestamp: "1582907475510",
+    direction: "Bids",
+    price: "225.53",
+    amount: "25.0293"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd37745"),
+    Timestamp: "1582907475510",
+    direction: "Bids",
+    price: "225.52",
+    amount: "31.6285"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd37746"),
+    Timestamp: "1582907475510",
+    direction: "Bids",
+    price: "225.51",
+    amount: "1.5716"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd37747"),
+    Timestamp: "1582907475510",
+    direction: "Bids",
+    price: "225.5",
+    amount: "151.4841"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd37748"),
+    Timestamp: "1582907475510",
+    direction: "Asks",
+    price: "225.55",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd37749"),
+    Timestamp: "1582907475510",
+    direction: "Asks",
+    price: "225.54",
+    amount: "33.0738"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd3774a"),
+    Timestamp: "1582907475510",
+    direction: "Asks",
+    price: "225.53",
+    amount: "25.0293"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd3774b"),
+    Timestamp: "1582907475510",
+    direction: "Asks",
+    price: "225.52",
+    amount: "31.6285"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd3774c"),
+    Timestamp: "1582907475510",
+    direction: "Asks",
+    price: "225.51",
+    amount: "1.5716"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5940536e3a922d2fd3774d"),
+    Timestamp: "1582907475510",
+    direction: "Asks",
+    price: "225.5",
+    amount: "151.4841"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e9183"),
+    Timestamp: "1582907514670",
+    direction: "Bids",
+    price: "226.33",
+    amount: "1.302"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e9184"),
+    Timestamp: "1582907514670",
+    direction: "Bids",
+    price: "226.32",
+    amount: "8.8343"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e9185"),
+    Timestamp: "1582907514670",
+    direction: "Bids",
+    price: "226.31",
+    amount: "1.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e9186"),
+    Timestamp: "1582907514670",
+    direction: "Bids",
+    price: "226.3",
+    amount: "8.8376"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e9187"),
+    Timestamp: "1582907514670",
+    direction: "Bids",
+    price: "226.28",
+    amount: "9.3995"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e9188"),
+    Timestamp: "1582907514670",
+    direction: "Bids",
+    price: "226.27",
+    amount: "0.033"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e9189"),
+    Timestamp: "1582907514670",
+    direction: "Asks",
+    price: "226.33",
+    amount: "1.302"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e918a"),
+    Timestamp: "1582907514670",
+    direction: "Asks",
+    price: "226.32",
+    amount: "8.8343"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e918b"),
+    Timestamp: "1582907514670",
+    direction: "Asks",
+    price: "226.31",
+    amount: "1.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e918c"),
+    Timestamp: "1582907514670",
+    direction: "Asks",
+    price: "226.3",
+    amount: "8.8376"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e918d"),
+    Timestamp: "1582907514670",
+    direction: "Asks",
+    price: "226.28",
+    amount: "9.3995"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59407a6e3a9222bd9e918e"),
+    Timestamp: "1582907514670",
+    direction: "Asks",
+    price: "226.27",
+    amount: "0.033"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37752"),
+    Timestamp: "1582908375600",
+    direction: "Bids",
+    price: "224.85",
+    amount: "0.9739"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37753"),
+    Timestamp: "1582908375600",
+    direction: "Bids",
+    price: "224.84",
+    amount: "1.54"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37754"),
+    Timestamp: "1582908375600",
+    direction: "Bids",
+    price: "224.83",
+    amount: "4.6159"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37755"),
+    Timestamp: "1582908375600",
+    direction: "Bids",
+    price: "224.82",
+    amount: "31.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37756"),
+    Timestamp: "1582908375600",
+    direction: "Bids",
+    price: "224.81",
+    amount: "40.3873"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37757"),
+    Timestamp: "1582908375600",
+    direction: "Bids",
+    price: "224.8",
+    amount: "8.8967"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37758"),
+    Timestamp: "1582908375600",
+    direction: "Asks",
+    price: "224.85",
+    amount: "0.9739"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd37759"),
+    Timestamp: "1582908375600",
+    direction: "Asks",
+    price: "224.84",
+    amount: "1.54"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd3775a"),
+    Timestamp: "1582908375600",
+    direction: "Asks",
+    price: "224.83",
+    amount: "4.6159"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd3775b"),
+    Timestamp: "1582908375600",
+    direction: "Asks",
+    price: "224.82",
+    amount: "31.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd3775c"),
+    Timestamp: "1582908375600",
+    direction: "Asks",
+    price: "224.81",
+    amount: "40.3873"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943d76e3a922d2fd3775d"),
+    Timestamp: "1582908375600",
+    direction: "Asks",
+    price: "224.8",
+    amount: "8.8967"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e918f"),
+    Timestamp: "1582908414802",
+    direction: "Bids",
+    price: "224.4",
+    amount: "7.2003"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9190"),
+    Timestamp: "1582908414802",
+    direction: "Bids",
+    price: "224.39",
+    amount: "2.0236"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9191"),
+    Timestamp: "1582908414802",
+    direction: "Bids",
+    price: "224.38",
+    amount: "11.0049"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9192"),
+    Timestamp: "1582908414802",
+    direction: "Bids",
+    price: "224.37",
+    amount: "34.158"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9193"),
+    Timestamp: "1582908414802",
+    direction: "Bids",
+    price: "224.36",
+    amount: "32.3026"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9194"),
+    Timestamp: "1582908414802",
+    direction: "Bids",
+    price: "224.35",
+    amount: "0.8602"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9195"),
+    Timestamp: "1582908414802",
+    direction: "Asks",
+    price: "224.4",
+    amount: "7.2003"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9196"),
+    Timestamp: "1582908414802",
+    direction: "Asks",
+    price: "224.39",
+    amount: "2.0236"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9197"),
+    Timestamp: "1582908414802",
+    direction: "Asks",
+    price: "224.38",
+    amount: "11.0049"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9198"),
+    Timestamp: "1582908414802",
+    direction: "Asks",
+    price: "224.37",
+    amount: "34.158"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e9199"),
+    Timestamp: "1582908414802",
+    direction: "Asks",
+    price: "224.36",
+    amount: "32.3026"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5943fe6e3a9222bd9e919a"),
+    Timestamp: "1582908414802",
+    direction: "Asks",
+    price: "224.35",
+    amount: "0.8602"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37760"),
+    Timestamp: "1582909275737",
+    direction: "Bids",
+    price: "224.09",
+    amount: "4.4358"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37761"),
+    Timestamp: "1582909275737",
+    direction: "Bids",
+    price: "224.05",
+    amount: "34.835"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37762"),
+    Timestamp: "1582909275737",
+    direction: "Bids",
+    price: "224.03",
+    amount: "1.3142"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37763"),
+    Timestamp: "1582909275737",
+    direction: "Bids",
+    price: "224.02",
+    amount: "6.1384"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37764"),
+    Timestamp: "1582909275737",
+    direction: "Bids",
+    price: "224.01",
+    amount: "2.2834"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37765"),
+    Timestamp: "1582909275737",
+    direction: "Bids",
+    price: "224.0",
+    amount: "11.5598"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37766"),
+    Timestamp: "1582909275737",
+    direction: "Asks",
+    price: "224.09",
+    amount: "4.4358"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37767"),
+    Timestamp: "1582909275737",
+    direction: "Asks",
+    price: "224.05",
+    amount: "34.835"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37768"),
+    Timestamp: "1582909275737",
+    direction: "Asks",
+    price: "224.03",
+    amount: "1.3142"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd37769"),
+    Timestamp: "1582909275737",
+    direction: "Asks",
+    price: "224.02",
+    amount: "6.1384"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd3776a"),
+    Timestamp: "1582909275737",
+    direction: "Asks",
+    price: "224.01",
+    amount: "2.2834"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59475b6e3a922d2fd3776b"),
+    Timestamp: "1582909275737",
+    direction: "Asks",
+    price: "224.0",
+    amount: "11.5598"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e919f"),
+    Timestamp: "1582909314884",
+    direction: "Bids",
+    price: "223.68",
+    amount: "9.5299"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a0"),
+    Timestamp: "1582909314884",
+    direction: "Bids",
+    price: "223.66",
+    amount: "2.2212"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a1"),
+    Timestamp: "1582909314884",
+    direction: "Bids",
+    price: "223.64",
+    amount: "0.4701"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a2"),
+    Timestamp: "1582909314884",
+    direction: "Bids",
+    price: "223.61",
+    amount: "40.4348"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a3"),
+    Timestamp: "1582909314884",
+    direction: "Bids",
+    price: "223.6",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a4"),
+    Timestamp: "1582909314884",
+    direction: "Bids",
+    price: "223.59",
+    amount: "6.0021"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a5"),
+    Timestamp: "1582909314884",
+    direction: "Asks",
+    price: "223.68",
+    amount: "9.5299"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a6"),
+    Timestamp: "1582909314884",
+    direction: "Asks",
+    price: "223.66",
+    amount: "2.2212"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a7"),
+    Timestamp: "1582909314884",
+    direction: "Asks",
+    price: "223.64",
+    amount: "0.4701"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a8"),
+    Timestamp: "1582909314884",
+    direction: "Asks",
+    price: "223.61",
+    amount: "40.4348"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91a9"),
+    Timestamp: "1582909314884",
+    direction: "Asks",
+    price: "223.6",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5947836e3a9222bd9e91aa"),
+    Timestamp: "1582909314884",
+    direction: "Asks",
+    price: "223.59",
+    amount: "6.0021"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd3776e"),
+    Timestamp: "1582910175823",
+    direction: "Bids",
+    price: "221.89",
+    amount: "2.2399"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd3776f"),
+    Timestamp: "1582910175823",
+    direction: "Bids",
+    price: "221.88",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37770"),
+    Timestamp: "1582910175823",
+    direction: "Bids",
+    price: "221.87",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37771"),
+    Timestamp: "1582910175823",
+    direction: "Bids",
+    price: "221.85",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37772"),
+    Timestamp: "1582910175823",
+    direction: "Bids",
+    price: "221.81",
+    amount: "32.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37773"),
+    Timestamp: "1582910175823",
+    direction: "Bids",
+    price: "221.8",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37774"),
+    Timestamp: "1582910175823",
+    direction: "Asks",
+    price: "221.89",
+    amount: "2.2399"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37775"),
+    Timestamp: "1582910175823",
+    direction: "Asks",
+    price: "221.88",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37776"),
+    Timestamp: "1582910175823",
+    direction: "Asks",
+    price: "221.87",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37777"),
+    Timestamp: "1582910175823",
+    direction: "Asks",
+    price: "221.85",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37778"),
+    Timestamp: "1582910175823",
+    direction: "Asks",
+    price: "221.81",
+    amount: "32.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594ae06e3a922d2fd37779"),
+    Timestamp: "1582910175823",
+    direction: "Asks",
+    price: "221.8",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91ad"),
+    Timestamp: "1582910214948",
+    direction: "Bids",
+    price: "221.92",
+    amount: "2.2395"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91ae"),
+    Timestamp: "1582910214948",
+    direction: "Bids",
+    price: "221.85",
+    amount: "2.2082"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91af"),
+    Timestamp: "1582910214948",
+    direction: "Bids",
+    price: "221.84",
+    amount: "0.5499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91b0"),
+    Timestamp: "1582910214948",
+    direction: "Bids",
+    price: "221.83",
+    amount: "31.2381"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91b1"),
+    Timestamp: "1582910214948",
+    direction: "Bids",
+    price: "221.82",
+    amount: "0.0988"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91b2"),
+    Timestamp: "1582910214948",
+    direction: "Bids",
+    price: "221.81",
+    amount: "32.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91b3"),
+    Timestamp: "1582910214948",
+    direction: "Asks",
+    price: "221.92",
+    amount: "2.2395"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91b4"),
+    Timestamp: "1582910214948",
+    direction: "Asks",
+    price: "221.85",
+    amount: "2.2082"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91b5"),
+    Timestamp: "1582910214948",
+    direction: "Asks",
+    price: "221.84",
+    amount: "0.5499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91b6"),
+    Timestamp: "1582910214948",
+    direction: "Asks",
+    price: "221.83",
+    amount: "31.2381"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91b7"),
+    Timestamp: "1582910214948",
+    direction: "Asks",
+    price: "221.82",
+    amount: "0.0988"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594b076e3a9222bd9e91b8"),
+    Timestamp: "1582910214948",
+    direction: "Asks",
+    price: "221.81",
+    amount: "32.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd3777a"),
+    Timestamp: "1582911075888",
+    direction: "Bids",
+    price: "223.4",
+    amount: "1.9776"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd3777b"),
+    Timestamp: "1582911075888",
+    direction: "Bids",
+    price: "223.38",
+    amount: "0.0717"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd3777c"),
+    Timestamp: "1582911075888",
+    direction: "Bids",
+    price: "223.37",
+    amount: "14.2028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd3777d"),
+    Timestamp: "1582911075888",
+    direction: "Bids",
+    price: "223.36",
+    amount: "21.2934"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd3777e"),
+    Timestamp: "1582911075888",
+    direction: "Bids",
+    price: "223.35",
+    amount: "42.0982"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd3777f"),
+    Timestamp: "1582911075888",
+    direction: "Bids",
+    price: "223.34",
+    amount: "1.5556"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd37780"),
+    Timestamp: "1582911075888",
+    direction: "Asks",
+    price: "223.4",
+    amount: "1.9776"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd37781"),
+    Timestamp: "1582911075888",
+    direction: "Asks",
+    price: "223.38",
+    amount: "0.0717"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd37782"),
+    Timestamp: "1582911075888",
+    direction: "Asks",
+    price: "223.37",
+    amount: "14.2028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd37783"),
+    Timestamp: "1582911075888",
+    direction: "Asks",
+    price: "223.36",
+    amount: "21.2934"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd37784"),
+    Timestamp: "1582911075888",
+    direction: "Asks",
+    price: "223.35",
+    amount: "42.0982"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e646e3a922d2fd37785"),
+    Timestamp: "1582911075888",
+    direction: "Asks",
+    price: "223.34",
+    amount: "1.5556"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91b9"),
+    Timestamp: "1582911115049",
+    direction: "Bids",
+    price: "223.19",
+    amount: "0.0401"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91ba"),
+    Timestamp: "1582911115049",
+    direction: "Bids",
+    price: "223.18",
+    amount: "32.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91bc"),
+    Timestamp: "1582911115049",
+    direction: "Bids",
+    price: "223.17",
+    amount: "1.7874"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91bd"),
+    Timestamp: "1582911115049",
+    direction: "Bids",
+    price: "223.15",
+    amount: "31.8274"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91bf"),
+    Timestamp: "1582911115049",
+    direction: "Bids",
+    price: "223.14",
+    amount: "3.142"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91c0"),
+    Timestamp: "1582911115049",
+    direction: "Bids",
+    price: "223.13",
+    amount: "4.647"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91c1"),
+    Timestamp: "1582911115049",
+    direction: "Asks",
+    price: "223.19",
+    amount: "0.0401"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91c2"),
+    Timestamp: "1582911115049",
+    direction: "Asks",
+    price: "223.18",
+    amount: "32.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91c3"),
+    Timestamp: "1582911115049",
+    direction: "Asks",
+    price: "223.17",
+    amount: "1.7874"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91c4"),
+    Timestamp: "1582911115049",
+    direction: "Asks",
+    price: "223.15",
+    amount: "31.8274"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91c5"),
+    Timestamp: "1582911115049",
+    direction: "Asks",
+    price: "223.14",
+    amount: "3.142"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e594e8b6e3a9222bd9e91c6"),
+    Timestamp: "1582911115049",
+    direction: "Asks",
+    price: "223.13",
+    amount: "4.647"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd37788"),
+    Timestamp: "1582911975949",
+    direction: "Bids",
+    price: "220.31",
+    amount: "38.0457"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd37789"),
+    Timestamp: "1582911975949",
+    direction: "Bids",
+    price: "220.3",
+    amount: "21.5341"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd3778a"),
+    Timestamp: "1582911975949",
+    direction: "Bids",
+    price: "220.29",
+    amount: "8.7174"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd3778b"),
+    Timestamp: "1582911975949",
+    direction: "Bids",
+    price: "220.26",
+    amount: "11.3453"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd3778c"),
+    Timestamp: "1582911975949",
+    direction: "Bids",
+    price: "220.24",
+    amount: "20.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd3778d"),
+    Timestamp: "1582911975949",
+    direction: "Bids",
+    price: "220.23",
+    amount: "17.6228"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd3778e"),
+    Timestamp: "1582911975949",
+    direction: "Asks",
+    price: "220.31",
+    amount: "38.0457"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd3778f"),
+    Timestamp: "1582911975949",
+    direction: "Asks",
+    price: "220.3",
+    amount: "21.5341"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd37790"),
+    Timestamp: "1582911975949",
+    direction: "Asks",
+    price: "220.29",
+    amount: "8.7174"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd37791"),
+    Timestamp: "1582911975949",
+    direction: "Asks",
+    price: "220.26",
+    amount: "11.3453"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd37792"),
+    Timestamp: "1582911975949",
+    direction: "Asks",
+    price: "220.24",
+    amount: "20.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5951e86e3a922d2fd37793"),
+    Timestamp: "1582911975949",
+    direction: "Asks",
+    price: "220.23",
+    amount: "17.6228"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91c7"),
+    Timestamp: "1582912015182",
+    direction: "Bids",
+    price: "220.45",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91c8"),
+    Timestamp: "1582912015182",
+    direction: "Bids",
+    price: "220.43",
+    amount: "19.1073"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91c9"),
+    Timestamp: "1582912015182",
+    direction: "Bids",
+    price: "220.42",
+    amount: "7.05"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91ca"),
+    Timestamp: "1582912015182",
+    direction: "Bids",
+    price: "220.41",
+    amount: "19.5655"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91cb"),
+    Timestamp: "1582912015182",
+    direction: "Bids",
+    price: "220.39",
+    amount: "4.8479"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91cc"),
+    Timestamp: "1582912015182",
+    direction: "Bids",
+    price: "220.38",
+    amount: "9.0748"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91cd"),
+    Timestamp: "1582912015182",
+    direction: "Asks",
+    price: "220.45",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91ce"),
+    Timestamp: "1582912015182",
+    direction: "Asks",
+    price: "220.43",
+    amount: "19.1073"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91cf"),
+    Timestamp: "1582912015182",
+    direction: "Asks",
+    price: "220.42",
+    amount: "7.05"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91d0"),
+    Timestamp: "1582912015182",
+    direction: "Asks",
+    price: "220.41",
+    amount: "19.5655"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91d1"),
+    Timestamp: "1582912015182",
+    direction: "Asks",
+    price: "220.39",
+    amount: "4.8479"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59520f6e3a9222bd9e91d2"),
+    Timestamp: "1582912015182",
+    direction: "Asks",
+    price: "220.38",
+    amount: "9.0748"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd37798"),
+    Timestamp: "1582912876120",
+    direction: "Bids",
+    price: "222.37",
+    amount: "29.9999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd37799"),
+    Timestamp: "1582912876120",
+    direction: "Bids",
+    price: "222.36",
+    amount: "2.8377"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd3779a"),
+    Timestamp: "1582912876120",
+    direction: "Bids",
+    price: "222.34",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd3779b"),
+    Timestamp: "1582912876120",
+    direction: "Bids",
+    price: "222.33",
+    amount: "48.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd3779c"),
+    Timestamp: "1582912876120",
+    direction: "Bids",
+    price: "222.32",
+    amount: "10.013"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd3779d"),
+    Timestamp: "1582912876120",
+    direction: "Bids",
+    price: "222.3",
+    amount: "8.9966"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd3779e"),
+    Timestamp: "1582912876120",
+    direction: "Asks",
+    price: "222.37",
+    amount: "29.9999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd3779f"),
+    Timestamp: "1582912876120",
+    direction: "Asks",
+    price: "222.36",
+    amount: "2.8377"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd377a0"),
+    Timestamp: "1582912876120",
+    direction: "Asks",
+    price: "222.34",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd377a1"),
+    Timestamp: "1582912876120",
+    direction: "Asks",
+    price: "222.33",
+    amount: "48.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd377a2"),
+    Timestamp: "1582912876120",
+    direction: "Asks",
+    price: "222.32",
+    amount: "10.013"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59556c6e3a922d2fd377a3"),
+    Timestamp: "1582912876120",
+    direction: "Asks",
+    price: "222.3",
+    amount: "8.9966"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91d5"),
+    Timestamp: "1582912915228",
+    direction: "Bids",
+    price: "221.94",
+    amount: "0.1394"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91d6"),
+    Timestamp: "1582912915228",
+    direction: "Bids",
+    price: "221.93",
+    amount: "0.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91d7"),
+    Timestamp: "1582912915228",
+    direction: "Bids",
+    price: "221.92",
+    amount: "0.0824"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91d9"),
+    Timestamp: "1582912915228",
+    direction: "Bids",
+    price: "221.91",
+    amount: "0.0339"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91da"),
+    Timestamp: "1582912915228",
+    direction: "Bids",
+    price: "221.89",
+    amount: "0.0239"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91db"),
+    Timestamp: "1582912915228",
+    direction: "Bids",
+    price: "221.88",
+    amount: "0.0812"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91dd"),
+    Timestamp: "1582912915228",
+    direction: "Asks",
+    price: "221.94",
+    amount: "0.1394"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91de"),
+    Timestamp: "1582912915228",
+    direction: "Asks",
+    price: "221.93",
+    amount: "0.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91df"),
+    Timestamp: "1582912915228",
+    direction: "Asks",
+    price: "221.92",
+    amount: "0.0824"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91e0"),
+    Timestamp: "1582912915228",
+    direction: "Asks",
+    price: "221.91",
+    amount: "0.0339"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91e1"),
+    Timestamp: "1582912915228",
+    direction: "Asks",
+    price: "221.89",
+    amount: "0.0239"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5955936e3a9222bd9e91e2"),
+    Timestamp: "1582912915228",
+    direction: "Asks",
+    price: "221.88",
+    amount: "0.0812"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377a6"),
+    Timestamp: "1582913776124",
+    direction: "Bids",
+    price: "224.07",
+    amount: "55.9455"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377a7"),
+    Timestamp: "1582913776124",
+    direction: "Bids",
+    price: "224.05",
+    amount: "37.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377a8"),
+    Timestamp: "1582913776124",
+    direction: "Bids",
+    price: "224.04",
+    amount: "10.7199"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377a9"),
+    Timestamp: "1582913776124",
+    direction: "Bids",
+    price: "224.03",
+    amount: "9.465"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377aa"),
+    Timestamp: "1582913776124",
+    direction: "Bids",
+    price: "224.02",
+    amount: "11.1542"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377ab"),
+    Timestamp: "1582913776124",
+    direction: "Bids",
+    price: "224.01",
+    amount: "47.1261"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377ac"),
+    Timestamp: "1582913776124",
+    direction: "Asks",
+    price: "224.07",
+    amount: "55.9455"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377ad"),
+    Timestamp: "1582913776124",
+    direction: "Asks",
+    price: "224.05",
+    amount: "37.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377ae"),
+    Timestamp: "1582913776124",
+    direction: "Asks",
+    price: "224.04",
+    amount: "10.7199"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377af"),
+    Timestamp: "1582913776124",
+    direction: "Asks",
+    price: "224.03",
+    amount: "9.465"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377b0"),
+    Timestamp: "1582913776124",
+    direction: "Asks",
+    price: "224.02",
+    amount: "11.1542"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5958f06e3a922d2fd377b1"),
+    Timestamp: "1582913776124",
+    direction: "Asks",
+    price: "224.01",
+    amount: "47.1261"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91e3"),
+    Timestamp: "1582913815341",
+    direction: "Bids",
+    price: "224.76",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91e4"),
+    Timestamp: "1582913815341",
+    direction: "Bids",
+    price: "224.75",
+    amount: "0.1011"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91e5"),
+    Timestamp: "1582913815341",
+    direction: "Bids",
+    price: "224.71",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91e6"),
+    Timestamp: "1582913815341",
+    direction: "Bids",
+    price: "224.7",
+    amount: "17.9189"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91e7"),
+    Timestamp: "1582913815341",
+    direction: "Bids",
+    price: "224.69",
+    amount: "1.4947"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91e8"),
+    Timestamp: "1582913815341",
+    direction: "Bids",
+    price: "224.68",
+    amount: "37.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91e9"),
+    Timestamp: "1582913815341",
+    direction: "Asks",
+    price: "224.76",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91ea"),
+    Timestamp: "1582913815341",
+    direction: "Asks",
+    price: "224.75",
+    amount: "0.1011"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91eb"),
+    Timestamp: "1582913815341",
+    direction: "Asks",
+    price: "224.71",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91ec"),
+    Timestamp: "1582913815341",
+    direction: "Asks",
+    price: "224.7",
+    amount: "17.9189"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91ed"),
+    Timestamp: "1582913815341",
+    direction: "Asks",
+    price: "224.69",
+    amount: "1.4947"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5959176e3a9222bd9e91ee"),
+    Timestamp: "1582913815341",
+    direction: "Asks",
+    price: "224.68",
+    amount: "37.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377b2"),
+    Timestamp: "1582914676208",
+    direction: "Bids",
+    price: "222.68",
+    amount: "17.7833"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377b3"),
+    Timestamp: "1582914676208",
+    direction: "Bids",
+    price: "222.66",
+    amount: "0.0902"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377b4"),
+    Timestamp: "1582914676208",
+    direction: "Bids",
+    price: "222.65",
+    amount: "7.6352"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377b5"),
+    Timestamp: "1582914676208",
+    direction: "Bids",
+    price: "222.63",
+    amount: "0.082"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377b6"),
+    Timestamp: "1582914676208",
+    direction: "Bids",
+    price: "222.61",
+    amount: "0.2887"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377b7"),
+    Timestamp: "1582914676208",
+    direction: "Bids",
+    price: "222.6",
+    amount: "1.375"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377b8"),
+    Timestamp: "1582914676208",
+    direction: "Asks",
+    price: "222.68",
+    amount: "17.7833"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377b9"),
+    Timestamp: "1582914676208",
+    direction: "Asks",
+    price: "222.66",
+    amount: "0.0902"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377ba"),
+    Timestamp: "1582914676208",
+    direction: "Asks",
+    price: "222.65",
+    amount: "7.6352"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377bb"),
+    Timestamp: "1582914676208",
+    direction: "Asks",
+    price: "222.63",
+    amount: "0.082"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377bc"),
+    Timestamp: "1582914676208",
+    direction: "Asks",
+    price: "222.61",
+    amount: "0.2887"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c746e3a922d2fd377bd"),
+    Timestamp: "1582914676208",
+    direction: "Asks",
+    price: "222.6",
+    amount: "1.375"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91f3"),
+    Timestamp: "1582914715413",
+    direction: "Bids",
+    price: "222.71",
+    amount: "72.01"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91f4"),
+    Timestamp: "1582914715413",
+    direction: "Bids",
+    price: "222.7",
+    amount: "17.3637"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91f5"),
+    Timestamp: "1582914715413",
+    direction: "Bids",
+    price: "222.69",
+    amount: "36.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91f6"),
+    Timestamp: "1582914715413",
+    direction: "Bids",
+    price: "222.68",
+    amount: "35.6146"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91f7"),
+    Timestamp: "1582914715413",
+    direction: "Bids",
+    price: "222.66",
+    amount: "38.5476"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91f8"),
+    Timestamp: "1582914715413",
+    direction: "Bids",
+    price: "222.65",
+    amount: "28.923"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91f9"),
+    Timestamp: "1582914715413",
+    direction: "Asks",
+    price: "222.71",
+    amount: "72.01"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91fa"),
+    Timestamp: "1582914715413",
+    direction: "Asks",
+    price: "222.7",
+    amount: "17.3637"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91fb"),
+    Timestamp: "1582914715413",
+    direction: "Asks",
+    price: "222.69",
+    amount: "36.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91fc"),
+    Timestamp: "1582914715413",
+    direction: "Asks",
+    price: "222.68",
+    amount: "35.6146"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91fd"),
+    Timestamp: "1582914715413",
+    direction: "Asks",
+    price: "222.66",
+    amount: "38.5476"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595c9b6e3a9222bd9e91fe"),
+    Timestamp: "1582914715413",
+    direction: "Asks",
+    price: "222.65",
+    amount: "28.923"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c1"),
+    Timestamp: "1582915576335",
+    direction: "Bids",
+    price: "221.43",
+    amount: "7.105"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c2"),
+    Timestamp: "1582915576335",
+    direction: "Bids",
+    price: "221.42",
+    amount: "36.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c3"),
+    Timestamp: "1582915576335",
+    direction: "Bids",
+    price: "221.4",
+    amount: "12.81"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c4"),
+    Timestamp: "1582915576335",
+    direction: "Bids",
+    price: "221.39",
+    amount: "22.1356"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c5"),
+    Timestamp: "1582915576335",
+    direction: "Bids",
+    price: "221.38",
+    amount: "36.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c7"),
+    Timestamp: "1582915576335",
+    direction: "Bids",
+    price: "221.36",
+    amount: "44.8999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c8"),
+    Timestamp: "1582915576335",
+    direction: "Asks",
+    price: "221.43",
+    amount: "7.105"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377c9"),
+    Timestamp: "1582915576335",
+    direction: "Asks",
+    price: "221.42",
+    amount: "36.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377ca"),
+    Timestamp: "1582915576335",
+    direction: "Asks",
+    price: "221.4",
+    amount: "12.81"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377cb"),
+    Timestamp: "1582915576335",
+    direction: "Asks",
+    price: "221.39",
+    amount: "22.1356"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377cc"),
+    Timestamp: "1582915576335",
+    direction: "Asks",
+    price: "221.38",
+    amount: "36.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e595ff86e3a922d2fd377cd"),
+    Timestamp: "1582915576335",
+    direction: "Asks",
+    price: "221.36",
+    amount: "44.8999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9201"),
+    Timestamp: "1582915615537",
+    direction: "Bids",
+    price: "221.4",
+    amount: "0.0209"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9202"),
+    Timestamp: "1582915615537",
+    direction: "Bids",
+    price: "221.39",
+    amount: "0.0299"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9203"),
+    Timestamp: "1582915615537",
+    direction: "Bids",
+    price: "221.37",
+    amount: "1.1552"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9204"),
+    Timestamp: "1582915615537",
+    direction: "Bids",
+    price: "221.36",
+    amount: "16.5993"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9205"),
+    Timestamp: "1582915615537",
+    direction: "Bids",
+    price: "221.35",
+    amount: "11.2907"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9206"),
+    Timestamp: "1582915615537",
+    direction: "Bids",
+    price: "221.33",
+    amount: "2.636"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9207"),
+    Timestamp: "1582915615537",
+    direction: "Asks",
+    price: "221.4",
+    amount: "0.0209"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9208"),
+    Timestamp: "1582915615537",
+    direction: "Asks",
+    price: "221.39",
+    amount: "0.0299"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e9209"),
+    Timestamp: "1582915615537",
+    direction: "Asks",
+    price: "221.37",
+    amount: "1.1552"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e920a"),
+    Timestamp: "1582915615537",
+    direction: "Asks",
+    price: "221.36",
+    amount: "16.5993"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e920b"),
+    Timestamp: "1582915615537",
+    direction: "Asks",
+    price: "221.35",
+    amount: "11.2907"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59601f6e3a9222bd9e920c"),
+    Timestamp: "1582915615537",
+    direction: "Asks",
+    price: "221.33",
+    amount: "2.636"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d0"),
+    Timestamp: "1582916476443",
+    direction: "Bids",
+    price: "221.85",
+    amount: "10.71"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d1"),
+    Timestamp: "1582916476443",
+    direction: "Bids",
+    price: "221.84",
+    amount: "31.813"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d2"),
+    Timestamp: "1582916476443",
+    direction: "Bids",
+    price: "221.82",
+    amount: "31.813"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d3"),
+    Timestamp: "1582916476443",
+    direction: "Bids",
+    price: "221.81",
+    amount: "12.9996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d4"),
+    Timestamp: "1582916476443",
+    direction: "Bids",
+    price: "221.8",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d5"),
+    Timestamp: "1582916476443",
+    direction: "Bids",
+    price: "221.79",
+    amount: "7.703"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d6"),
+    Timestamp: "1582916476443",
+    direction: "Asks",
+    price: "221.85",
+    amount: "10.71"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d7"),
+    Timestamp: "1582916476443",
+    direction: "Asks",
+    price: "221.84",
+    amount: "31.813"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d8"),
+    Timestamp: "1582916476443",
+    direction: "Asks",
+    price: "221.82",
+    amount: "31.813"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377d9"),
+    Timestamp: "1582916476443",
+    direction: "Asks",
+    price: "221.81",
+    amount: "12.9996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377da"),
+    Timestamp: "1582916476443",
+    direction: "Asks",
+    price: "221.8",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59637c6e3a922d2fd377db"),
+    Timestamp: "1582916476443",
+    direction: "Asks",
+    price: "221.79",
+    amount: "7.703"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e920d"),
+    Timestamp: "1582916515580",
+    direction: "Bids",
+    price: "221.94",
+    amount: "4.4604"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e920e"),
+    Timestamp: "1582916515580",
+    direction: "Bids",
+    price: "221.93",
+    amount: "0.9271"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e920f"),
+    Timestamp: "1582916515580",
+    direction: "Bids",
+    price: "221.92",
+    amount: "97.1939"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9210"),
+    Timestamp: "1582916515580",
+    direction: "Bids",
+    price: "221.9",
+    amount: "12.7"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9211"),
+    Timestamp: "1582916515580",
+    direction: "Bids",
+    price: "221.89",
+    amount: "2.0438"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9212"),
+    Timestamp: "1582916515580",
+    direction: "Bids",
+    price: "221.87",
+    amount: "21.2625"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9213"),
+    Timestamp: "1582916515580",
+    direction: "Asks",
+    price: "221.94",
+    amount: "4.4604"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9214"),
+    Timestamp: "1582916515580",
+    direction: "Asks",
+    price: "221.93",
+    amount: "0.9271"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9215"),
+    Timestamp: "1582916515580",
+    direction: "Asks",
+    price: "221.92",
+    amount: "97.1939"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9216"),
+    Timestamp: "1582916515580",
+    direction: "Asks",
+    price: "221.9",
+    amount: "12.7"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9217"),
+    Timestamp: "1582916515580",
+    direction: "Asks",
+    price: "221.89",
+    amount: "2.0438"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5963a36e3a9222bd9e9218"),
+    Timestamp: "1582916515580",
+    direction: "Asks",
+    price: "221.87",
+    amount: "21.2625"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377dc"),
+    Timestamp: "1582917376504",
+    direction: "Bids",
+    price: "220.96",
+    amount: "8.12"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377dd"),
+    Timestamp: "1582917376504",
+    direction: "Bids",
+    price: "220.95",
+    amount: "37.8361"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377de"),
+    Timestamp: "1582917376504",
+    direction: "Bids",
+    price: "220.93",
+    amount: "20.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377df"),
+    Timestamp: "1582917376504",
+    direction: "Bids",
+    price: "220.92",
+    amount: "37.8538"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e0"),
+    Timestamp: "1582917376504",
+    direction: "Bids",
+    price: "220.91",
+    amount: "40.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e1"),
+    Timestamp: "1582917376504",
+    direction: "Bids",
+    price: "220.9",
+    amount: "17.0967"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e2"),
+    Timestamp: "1582917376504",
+    direction: "Asks",
+    price: "220.96",
+    amount: "8.12"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e3"),
+    Timestamp: "1582917376504",
+    direction: "Asks",
+    price: "220.95",
+    amount: "37.8361"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e4"),
+    Timestamp: "1582917376504",
+    direction: "Asks",
+    price: "220.93",
+    amount: "20.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e5"),
+    Timestamp: "1582917376504",
+    direction: "Asks",
+    price: "220.92",
+    amount: "37.8538"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e6"),
+    Timestamp: "1582917376504",
+    direction: "Asks",
+    price: "220.91",
+    amount: "40.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967006e3a922d2fd377e7"),
+    Timestamp: "1582917376504",
+    direction: "Asks",
+    price: "220.9",
+    amount: "17.0967"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e921d"),
+    Timestamp: "1582917415692",
+    direction: "Bids",
+    price: "221.51",
+    amount: "0.6191"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e921e"),
+    Timestamp: "1582917415692",
+    direction: "Bids",
+    price: "221.5",
+    amount: "0.2655"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e921f"),
+    Timestamp: "1582917415692",
+    direction: "Bids",
+    price: "221.49",
+    amount: "3.5992"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e9220"),
+    Timestamp: "1582917415692",
+    direction: "Bids",
+    price: "221.48",
+    amount: "28.1531"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e9221"),
+    Timestamp: "1582917415692",
+    direction: "Bids",
+    price: "221.47",
+    amount: "14.4102"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e9222"),
+    Timestamp: "1582917415692",
+    direction: "Bids",
+    price: "221.44",
+    amount: "17.9821"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e9223"),
+    Timestamp: "1582917415692",
+    direction: "Asks",
+    price: "221.51",
+    amount: "0.6191"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e9224"),
+    Timestamp: "1582917415692",
+    direction: "Asks",
+    price: "221.5",
+    amount: "0.2655"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e9225"),
+    Timestamp: "1582917415692",
+    direction: "Asks",
+    price: "221.49",
+    amount: "3.5992"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e9226"),
+    Timestamp: "1582917415692",
+    direction: "Asks",
+    price: "221.48",
+    amount: "28.1531"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e9227"),
+    Timestamp: "1582917415692",
+    direction: "Asks",
+    price: "221.47",
+    amount: "14.4102"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5967276e3a9222bd9e9228"),
+    Timestamp: "1582917415692",
+    direction: "Asks",
+    price: "221.44",
+    amount: "17.9821"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377ea"),
+    Timestamp: "1582918276600",
+    direction: "Bids",
+    price: "222.28",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377eb"),
+    Timestamp: "1582918276600",
+    direction: "Bids",
+    price: "222.24",
+    amount: "36.4809"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377ec"),
+    Timestamp: "1582918276600",
+    direction: "Bids",
+    price: "222.23",
+    amount: "0.0856"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377ef"),
+    Timestamp: "1582918276600",
+    direction: "Bids",
+    price: "222.21",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377f0"),
+    Timestamp: "1582918276600",
+    direction: "Bids",
+    price: "222.2",
+    amount: "9.234"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377f1"),
+    Timestamp: "1582918276600",
+    direction: "Bids",
+    price: "222.19",
+    amount: "2.3601"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377f2"),
+    Timestamp: "1582918276600",
+    direction: "Asks",
+    price: "222.28",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377f3"),
+    Timestamp: "1582918276600",
+    direction: "Asks",
+    price: "222.24",
+    amount: "36.4809"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377f4"),
+    Timestamp: "1582918276600",
+    direction: "Asks",
+    price: "222.23",
+    amount: "0.0856"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377f5"),
+    Timestamp: "1582918276600",
+    direction: "Asks",
+    price: "222.21",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377f6"),
+    Timestamp: "1582918276600",
+    direction: "Asks",
+    price: "222.2",
+    amount: "9.234"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596a846e3a922d2fd377f7"),
+    Timestamp: "1582918276600",
+    direction: "Asks",
+    price: "222.19",
+    amount: "2.3601"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e9229"),
+    Timestamp: "1582918315758",
+    direction: "Bids",
+    price: "222.14",
+    amount: "0.0795"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e922a"),
+    Timestamp: "1582918315758",
+    direction: "Bids",
+    price: "222.13",
+    amount: "6.1362"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e922b"),
+    Timestamp: "1582918315758",
+    direction: "Bids",
+    price: "222.12",
+    amount: "3.339"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e922c"),
+    Timestamp: "1582918315758",
+    direction: "Bids",
+    price: "222.11",
+    amount: "0.8764"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e922d"),
+    Timestamp: "1582918315758",
+    direction: "Bids",
+    price: "222.1",
+    amount: "2.2563"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e922e"),
+    Timestamp: "1582918315758",
+    direction: "Bids",
+    price: "222.09",
+    amount: "31.61"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e922f"),
+    Timestamp: "1582918315758",
+    direction: "Asks",
+    price: "222.14",
+    amount: "0.0795"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e9230"),
+    Timestamp: "1582918315758",
+    direction: "Asks",
+    price: "222.13",
+    amount: "6.1362"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e9231"),
+    Timestamp: "1582918315758",
+    direction: "Asks",
+    price: "222.12",
+    amount: "3.339"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e9232"),
+    Timestamp: "1582918315758",
+    direction: "Asks",
+    price: "222.11",
+    amount: "0.8764"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e9233"),
+    Timestamp: "1582918315758",
+    direction: "Asks",
+    price: "222.1",
+    amount: "2.2563"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596aab6e3a9222bd9e9234"),
+    Timestamp: "1582918315758",
+    direction: "Asks",
+    price: "222.09",
+    amount: "31.61"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd377f8"),
+    Timestamp: "1582919176698",
+    direction: "Bids",
+    price: "221.84",
+    amount: "19.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd377f9"),
+    Timestamp: "1582919176698",
+    direction: "Bids",
+    price: "221.83",
+    amount: "34.9477"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd377fa"),
+    Timestamp: "1582919176698",
+    direction: "Bids",
+    price: "221.82",
+    amount: "35.498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd377fb"),
+    Timestamp: "1582919176698",
+    direction: "Bids",
+    price: "221.81",
+    amount: "0.0262"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd377fc"),
+    Timestamp: "1582919176698",
+    direction: "Bids",
+    price: "221.8",
+    amount: "35.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd377fd"),
+    Timestamp: "1582919176698",
+    direction: "Bids",
+    price: "221.79",
+    amount: "35.499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd377fe"),
+    Timestamp: "1582919176698",
+    direction: "Asks",
+    price: "221.84",
+    amount: "19.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd377ff"),
+    Timestamp: "1582919176698",
+    direction: "Asks",
+    price: "221.83",
+    amount: "34.9477"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd37800"),
+    Timestamp: "1582919176698",
+    direction: "Asks",
+    price: "221.82",
+    amount: "35.498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd37801"),
+    Timestamp: "1582919176698",
+    direction: "Asks",
+    price: "221.81",
+    amount: "0.0262"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd37802"),
+    Timestamp: "1582919176698",
+    direction: "Asks",
+    price: "221.8",
+    amount: "35.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e086e3a922d2fd37803"),
+    Timestamp: "1582919176698",
+    direction: "Asks",
+    price: "221.79",
+    amount: "35.499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e9237"),
+    Timestamp: "1582919215816",
+    direction: "Bids",
+    price: "221.71",
+    amount: "11.615"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e9238"),
+    Timestamp: "1582919215816",
+    direction: "Bids",
+    price: "221.7",
+    amount: "0.0998"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e9239"),
+    Timestamp: "1582919215816",
+    direction: "Bids",
+    price: "221.69",
+    amount: "35.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e923a"),
+    Timestamp: "1582919215816",
+    direction: "Bids",
+    price: "221.68",
+    amount: "68.405"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e923b"),
+    Timestamp: "1582919215816",
+    direction: "Bids",
+    price: "221.67",
+    amount: "36.7998"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e923c"),
+    Timestamp: "1582919215816",
+    direction: "Bids",
+    price: "221.65",
+    amount: "20.136"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e923d"),
+    Timestamp: "1582919215816",
+    direction: "Asks",
+    price: "221.71",
+    amount: "11.615"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e923e"),
+    Timestamp: "1582919215816",
+    direction: "Asks",
+    price: "221.7",
+    amount: "0.0998"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e923f"),
+    Timestamp: "1582919215816",
+    direction: "Asks",
+    price: "221.69",
+    amount: "35.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e9240"),
+    Timestamp: "1582919215816",
+    direction: "Asks",
+    price: "221.68",
+    amount: "68.405"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e9241"),
+    Timestamp: "1582919215816",
+    direction: "Asks",
+    price: "221.67",
+    amount: "36.7998"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e596e2f6e3a9222bd9e9242"),
+    Timestamp: "1582919215816",
+    direction: "Asks",
+    price: "221.65",
+    amount: "20.136"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd37808"),
+    Timestamp: "1582920076796",
+    direction: "Bids",
+    price: "222.32",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd37809"),
+    Timestamp: "1582920076796",
+    direction: "Bids",
+    price: "222.3",
+    amount: "45.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd3780a"),
+    Timestamp: "1582920076796",
+    direction: "Bids",
+    price: "222.26",
+    amount: "20.3476"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd3780b"),
+    Timestamp: "1582920076796",
+    direction: "Bids",
+    price: "222.25",
+    amount: "1.8231"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd3780c"),
+    Timestamp: "1582920076796",
+    direction: "Bids",
+    price: "222.24",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd3780d"),
+    Timestamp: "1582920076796",
+    direction: "Bids",
+    price: "222.22",
+    amount: "0.3577"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd3780e"),
+    Timestamp: "1582920076796",
+    direction: "Asks",
+    price: "222.32",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd3780f"),
+    Timestamp: "1582920076796",
+    direction: "Asks",
+    price: "222.3",
+    amount: "45.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd37810"),
+    Timestamp: "1582920076796",
+    direction: "Asks",
+    price: "222.26",
+    amount: "20.3476"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd37811"),
+    Timestamp: "1582920076796",
+    direction: "Asks",
+    price: "222.25",
+    amount: "1.8231"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd37812"),
+    Timestamp: "1582920076796",
+    direction: "Asks",
+    price: "222.24",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59718c6e3a922d2fd37813"),
+    Timestamp: "1582920076796",
+    direction: "Asks",
+    price: "222.22",
+    amount: "0.3577"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e9247"),
+    Timestamp: "1582920115955",
+    direction: "Bids",
+    price: "222.71",
+    amount: "9.3167"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e9248"),
+    Timestamp: "1582920115955",
+    direction: "Bids",
+    price: "222.7",
+    amount: "16.0603"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e9249"),
+    Timestamp: "1582920115955",
+    direction: "Bids",
+    price: "222.69",
+    amount: "153.7315"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e924a"),
+    Timestamp: "1582920115955",
+    direction: "Bids",
+    price: "222.68",
+    amount: "42.2901"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e924b"),
+    Timestamp: "1582920115955",
+    direction: "Bids",
+    price: "222.67",
+    amount: "5.5739"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e924c"),
+    Timestamp: "1582920115955",
+    direction: "Bids",
+    price: "222.65",
+    amount: "0.0905"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e924d"),
+    Timestamp: "1582920115955",
+    direction: "Asks",
+    price: "222.71",
+    amount: "9.3167"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e924e"),
+    Timestamp: "1582920115955",
+    direction: "Asks",
+    price: "222.7",
+    amount: "16.0603"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e924f"),
+    Timestamp: "1582920115955",
+    direction: "Asks",
+    price: "222.69",
+    amount: "153.7315"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e9250"),
+    Timestamp: "1582920115955",
+    direction: "Asks",
+    price: "222.68",
+    amount: "42.2901"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e9251"),
+    Timestamp: "1582920115955",
+    direction: "Asks",
+    price: "222.67",
+    amount: "5.5739"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5971b46e3a9222bd9e9252"),
+    Timestamp: "1582920115955",
+    direction: "Asks",
+    price: "222.65",
+    amount: "0.0905"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd37816"),
+    Timestamp: "1582920976899",
+    direction: "Bids",
+    price: "225.3",
+    amount: "11.6417"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd37817"),
+    Timestamp: "1582920976899",
+    direction: "Bids",
+    price: "225.29",
+    amount: "7.704"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd37818"),
+    Timestamp: "1582920976899",
+    direction: "Bids",
+    price: "225.28",
+    amount: "43.3172"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd37819"),
+    Timestamp: "1582920976899",
+    direction: "Bids",
+    price: "225.27",
+    amount: "72.0679"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd3781a"),
+    Timestamp: "1582920976899",
+    direction: "Bids",
+    price: "225.25",
+    amount: "11.7089"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd3781b"),
+    Timestamp: "1582920976899",
+    direction: "Bids",
+    price: "225.24",
+    amount: "117.9055"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd3781c"),
+    Timestamp: "1582920976899",
+    direction: "Asks",
+    price: "225.3",
+    amount: "11.6417"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd3781d"),
+    Timestamp: "1582920976899",
+    direction: "Asks",
+    price: "225.29",
+    amount: "7.704"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd3781e"),
+    Timestamp: "1582920976899",
+    direction: "Asks",
+    price: "225.28",
+    amount: "43.3172"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd3781f"),
+    Timestamp: "1582920976899",
+    direction: "Asks",
+    price: "225.27",
+    amount: "72.0679"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd37820"),
+    Timestamp: "1582920976899",
+    direction: "Asks",
+    price: "225.25",
+    amount: "11.7089"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975116e3a922d2fd37821"),
+    Timestamp: "1582920976899",
+    direction: "Asks",
+    price: "225.24",
+    amount: "117.9055"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e9253"),
+    Timestamp: "1582921016034",
+    direction: "Bids",
+    price: "225.85",
+    amount: "35.499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e9254"),
+    Timestamp: "1582921016034",
+    direction: "Bids",
+    price: "225.84",
+    amount: "35.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e9255"),
+    Timestamp: "1582921016034",
+    direction: "Bids",
+    price: "225.83",
+    amount: "32.1986"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e9256"),
+    Timestamp: "1582921016034",
+    direction: "Bids",
+    price: "225.82",
+    amount: "37.2831"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e9257"),
+    Timestamp: "1582921016034",
+    direction: "Bids",
+    price: "225.8",
+    amount: "44.3571"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e9258"),
+    Timestamp: "1582921016034",
+    direction: "Bids",
+    price: "225.79",
+    amount: "14.0586"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e9259"),
+    Timestamp: "1582921016034",
+    direction: "Asks",
+    price: "225.85",
+    amount: "35.499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e925a"),
+    Timestamp: "1582921016034",
+    direction: "Asks",
+    price: "225.84",
+    amount: "35.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e925b"),
+    Timestamp: "1582921016034",
+    direction: "Asks",
+    price: "225.83",
+    amount: "32.1986"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e925c"),
+    Timestamp: "1582921016034",
+    direction: "Asks",
+    price: "225.82",
+    amount: "37.2831"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e925d"),
+    Timestamp: "1582921016034",
+    direction: "Asks",
+    price: "225.8",
+    amount: "44.3571"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5975386e3a9222bd9e925e"),
+    Timestamp: "1582921016034",
+    direction: "Asks",
+    price: "225.79",
+    amount: "14.0586"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd37824"),
+    Timestamp: "1582921876997",
+    direction: "Bids",
+    price: "224.12",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd37825"),
+    Timestamp: "1582921876997",
+    direction: "Bids",
+    price: "224.08",
+    amount: "0.7518"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd37826"),
+    Timestamp: "1582921876997",
+    direction: "Bids",
+    price: "224.07",
+    amount: "31.836"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd37827"),
+    Timestamp: "1582921876997",
+    direction: "Bids",
+    price: "224.06",
+    amount: "11.1553"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd37828"),
+    Timestamp: "1582921876997",
+    direction: "Bids",
+    price: "224.05",
+    amount: "35.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd37829"),
+    Timestamp: "1582921876997",
+    direction: "Bids",
+    price: "224.02",
+    amount: "2.0945"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd3782a"),
+    Timestamp: "1582921876997",
+    direction: "Asks",
+    price: "224.12",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd3782b"),
+    Timestamp: "1582921876997",
+    direction: "Asks",
+    price: "224.08",
+    amount: "0.7518"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd3782c"),
+    Timestamp: "1582921876997",
+    direction: "Asks",
+    price: "224.07",
+    amount: "31.836"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd3782d"),
+    Timestamp: "1582921876997",
+    direction: "Asks",
+    price: "224.06",
+    amount: "11.1553"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd3782e"),
+    Timestamp: "1582921876997",
+    direction: "Asks",
+    price: "224.05",
+    amount: "35.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978956e3a922d2fd3782f"),
+    Timestamp: "1582921876997",
+    direction: "Asks",
+    price: "224.02",
+    amount: "2.0945"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e9263"),
+    Timestamp: "1582921916162",
+    direction: "Bids",
+    price: "223.71",
+    amount: "0.8297"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e9264"),
+    Timestamp: "1582921916162",
+    direction: "Bids",
+    price: "223.7",
+    amount: "1.3141"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e9265"),
+    Timestamp: "1582921916162",
+    direction: "Bids",
+    price: "223.67",
+    amount: "4.3813"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e9266"),
+    Timestamp: "1582921916162",
+    direction: "Bids",
+    price: "223.66",
+    amount: "83.9661"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e9267"),
+    Timestamp: "1582921916162",
+    direction: "Bids",
+    price: "223.65",
+    amount: "44.4334"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e9268"),
+    Timestamp: "1582921916162",
+    direction: "Bids",
+    price: "223.64",
+    amount: "8.6287"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e9269"),
+    Timestamp: "1582921916162",
+    direction: "Asks",
+    price: "223.71",
+    amount: "0.8297"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e926a"),
+    Timestamp: "1582921916162",
+    direction: "Asks",
+    price: "223.7",
+    amount: "1.3141"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e926b"),
+    Timestamp: "1582921916162",
+    direction: "Asks",
+    price: "223.67",
+    amount: "4.3813"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e926c"),
+    Timestamp: "1582921916162",
+    direction: "Asks",
+    price: "223.66",
+    amount: "83.9661"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e926d"),
+    Timestamp: "1582921916162",
+    direction: "Asks",
+    price: "223.65",
+    amount: "44.4334"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5978bc6e3a9222bd9e926e"),
+    Timestamp: "1582921916162",
+    direction: "Asks",
+    price: "223.64",
+    amount: "8.6287"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37832"),
+    Timestamp: "1582922777169",
+    direction: "Bids",
+    price: "224.21",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37833"),
+    Timestamp: "1582922777169",
+    direction: "Bids",
+    price: "224.19",
+    amount: "11.1485"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37834"),
+    Timestamp: "1582922777169",
+    direction: "Bids",
+    price: "224.18",
+    amount: "1.7578"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37835"),
+    Timestamp: "1582922777169",
+    direction: "Bids",
+    price: "224.16",
+    amount: "12.0277"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37836"),
+    Timestamp: "1582922777169",
+    direction: "Bids",
+    price: "224.14",
+    amount: "37.1741"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37837"),
+    Timestamp: "1582922777169",
+    direction: "Bids",
+    price: "224.13",
+    amount: "47.8"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37838"),
+    Timestamp: "1582922777169",
+    direction: "Asks",
+    price: "224.21",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd37839"),
+    Timestamp: "1582922777169",
+    direction: "Asks",
+    price: "224.19",
+    amount: "11.1485"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd3783a"),
+    Timestamp: "1582922777169",
+    direction: "Asks",
+    price: "224.18",
+    amount: "1.7578"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd3783b"),
+    Timestamp: "1582922777169",
+    direction: "Asks",
+    price: "224.16",
+    amount: "12.0277"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd3783c"),
+    Timestamp: "1582922777169",
+    direction: "Asks",
+    price: "224.14",
+    amount: "37.1741"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c196e3a922d2fd3783d"),
+    Timestamp: "1582922777169",
+    direction: "Asks",
+    price: "224.13",
+    amount: "47.8"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e926f"),
+    Timestamp: "1582922816141",
+    direction: "Bids",
+    price: "224.03",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9270"),
+    Timestamp: "1582922816141",
+    direction: "Bids",
+    price: "224.02",
+    amount: "0.251"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9271"),
+    Timestamp: "1582922816141",
+    direction: "Bids",
+    price: "224.01",
+    amount: "0.4351"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9272"),
+    Timestamp: "1582922816141",
+    direction: "Bids",
+    price: "224.0",
+    amount: "179.3221"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9273"),
+    Timestamp: "1582922816141",
+    direction: "Bids",
+    price: "223.98",
+    amount: "11.1595"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9274"),
+    Timestamp: "1582922816141",
+    direction: "Bids",
+    price: "223.96",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9275"),
+    Timestamp: "1582922816141",
+    direction: "Asks",
+    price: "224.03",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9276"),
+    Timestamp: "1582922816141",
+    direction: "Asks",
+    price: "224.02",
+    amount: "0.251"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9277"),
+    Timestamp: "1582922816141",
+    direction: "Asks",
+    price: "224.01",
+    amount: "0.4351"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9278"),
+    Timestamp: "1582922816141",
+    direction: "Asks",
+    price: "224.0",
+    amount: "179.3221"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e9279"),
+    Timestamp: "1582922816141",
+    direction: "Asks",
+    price: "223.98",
+    amount: "11.1595"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597c406e3a9222bd9e927a"),
+    Timestamp: "1582922816141",
+    direction: "Asks",
+    price: "223.96",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd3783e"),
+    Timestamp: "1582923677144",
+    direction: "Bids",
+    price: "224.05",
+    amount: "37.663"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd3783f"),
+    Timestamp: "1582923677144",
+    direction: "Bids",
+    price: "224.04",
+    amount: "33.9575"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37840"),
+    Timestamp: "1582923677144",
+    direction: "Bids",
+    price: "224.03",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37841"),
+    Timestamp: "1582923677144",
+    direction: "Bids",
+    price: "224.02",
+    amount: "22.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37842"),
+    Timestamp: "1582923677144",
+    direction: "Bids",
+    price: "224.01",
+    amount: "1.225"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37843"),
+    Timestamp: "1582923677144",
+    direction: "Bids",
+    price: "224.0",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37844"),
+    Timestamp: "1582923677144",
+    direction: "Asks",
+    price: "224.05",
+    amount: "37.663"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37845"),
+    Timestamp: "1582923677144",
+    direction: "Asks",
+    price: "224.04",
+    amount: "33.9575"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37846"),
+    Timestamp: "1582923677144",
+    direction: "Asks",
+    price: "224.03",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37847"),
+    Timestamp: "1582923677144",
+    direction: "Asks",
+    price: "224.02",
+    amount: "22.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37848"),
+    Timestamp: "1582923677144",
+    direction: "Asks",
+    price: "224.01",
+    amount: "1.225"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597f9d6e3a922d2fd37849"),
+    Timestamp: "1582923677144",
+    direction: "Asks",
+    price: "224.0",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e927f"),
+    Timestamp: "1582923716263",
+    direction: "Bids",
+    price: "224.51",
+    amount: "16.349"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9280"),
+    Timestamp: "1582923716263",
+    direction: "Bids",
+    price: "224.5",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9281"),
+    Timestamp: "1582923716263",
+    direction: "Bids",
+    price: "224.49",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9282"),
+    Timestamp: "1582923716263",
+    direction: "Bids",
+    price: "224.48",
+    amount: "0.1165"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9283"),
+    Timestamp: "1582923716263",
+    direction: "Bids",
+    price: "224.47",
+    amount: "1.3778"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9284"),
+    Timestamp: "1582923716263",
+    direction: "Bids",
+    price: "224.46",
+    amount: "31.9728"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9285"),
+    Timestamp: "1582923716263",
+    direction: "Asks",
+    price: "224.51",
+    amount: "16.349"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9286"),
+    Timestamp: "1582923716263",
+    direction: "Asks",
+    price: "224.5",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9287"),
+    Timestamp: "1582923716263",
+    direction: "Asks",
+    price: "224.49",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9288"),
+    Timestamp: "1582923716263",
+    direction: "Asks",
+    price: "224.48",
+    amount: "0.1165"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e9289"),
+    Timestamp: "1582923716263",
+    direction: "Asks",
+    price: "224.47",
+    amount: "1.3778"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e597fc46e3a9222bd9e928a"),
+    Timestamp: "1582923716263",
+    direction: "Asks",
+    price: "224.46",
+    amount: "31.9728"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd3784c"),
+    Timestamp: "1582924577238",
+    direction: "Bids",
+    price: "224.99",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd3784d"),
+    Timestamp: "1582924577238",
+    direction: "Bids",
+    price: "224.97",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd3784e"),
+    Timestamp: "1582924577238",
+    direction: "Bids",
+    price: "224.96",
+    amount: "1.2376"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd3784f"),
+    Timestamp: "1582924577238",
+    direction: "Bids",
+    price: "224.95",
+    amount: "0.299"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37850"),
+    Timestamp: "1582924577238",
+    direction: "Bids",
+    price: "224.92",
+    amount: "8.8916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37851"),
+    Timestamp: "1582924577238",
+    direction: "Bids",
+    price: "224.9",
+    amount: "123.9532"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37852"),
+    Timestamp: "1582924577238",
+    direction: "Asks",
+    price: "224.99",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37853"),
+    Timestamp: "1582924577238",
+    direction: "Asks",
+    price: "224.97",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37854"),
+    Timestamp: "1582924577238",
+    direction: "Asks",
+    price: "224.96",
+    amount: "1.2376"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37855"),
+    Timestamp: "1582924577238",
+    direction: "Asks",
+    price: "224.95",
+    amount: "0.299"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37856"),
+    Timestamp: "1582924577238",
+    direction: "Asks",
+    price: "224.92",
+    amount: "8.8916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983216e3a922d2fd37857"),
+    Timestamp: "1582924577238",
+    direction: "Asks",
+    price: "224.9",
+    amount: "123.9532"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e928d"),
+    Timestamp: "1582924616635",
+    direction: "Bids",
+    price: "225.29",
+    amount: "0.0848"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e928e"),
+    Timestamp: "1582924616635",
+    direction: "Bids",
+    price: "225.26",
+    amount: "7.6832"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e928f"),
+    Timestamp: "1582924616635",
+    direction: "Bids",
+    price: "225.24",
+    amount: "24.4587"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e9290"),
+    Timestamp: "1582924616635",
+    direction: "Bids",
+    price: "225.23",
+    amount: "70.1117"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e9291"),
+    Timestamp: "1582924616635",
+    direction: "Bids",
+    price: "225.22",
+    amount: "38.7883"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e9292"),
+    Timestamp: "1582924616635",
+    direction: "Bids",
+    price: "225.21",
+    amount: "50.6834"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e9293"),
+    Timestamp: "1582924616635",
+    direction: "Asks",
+    price: "225.29",
+    amount: "0.0848"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e9294"),
+    Timestamp: "1582924616635",
+    direction: "Asks",
+    price: "225.26",
+    amount: "7.6832"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e9295"),
+    Timestamp: "1582924616635",
+    direction: "Asks",
+    price: "225.24",
+    amount: "24.4587"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e9296"),
+    Timestamp: "1582924616635",
+    direction: "Asks",
+    price: "225.23",
+    amount: "70.1117"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e9297"),
+    Timestamp: "1582924616635",
+    direction: "Asks",
+    price: "225.22",
+    amount: "38.7883"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5983486e3a9222bd9e9298"),
+    Timestamp: "1582924616635",
+    direction: "Asks",
+    price: "225.21",
+    amount: "50.6834"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd3785c"),
+    Timestamp: "1582925477358",
+    direction: "Bids",
+    price: "225.62",
+    amount: "0.6874"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd3785d"),
+    Timestamp: "1582925477358",
+    direction: "Bids",
+    price: "225.6",
+    amount: "10.7188"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd3785e"),
+    Timestamp: "1582925477358",
+    direction: "Bids",
+    price: "225.59",
+    amount: "0.5482"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd3785f"),
+    Timestamp: "1582925477358",
+    direction: "Bids",
+    price: "225.57",
+    amount: "0.5497"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd37860"),
+    Timestamp: "1582925477358",
+    direction: "Bids",
+    price: "225.56",
+    amount: "1.1753"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd37861"),
+    Timestamp: "1582925477358",
+    direction: "Bids",
+    price: "225.55",
+    amount: "7.6787"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd37862"),
+    Timestamp: "1582925477358",
+    direction: "Asks",
+    price: "225.62",
+    amount: "0.6874"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd37863"),
+    Timestamp: "1582925477358",
+    direction: "Asks",
+    price: "225.6",
+    amount: "10.7188"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd37864"),
+    Timestamp: "1582925477358",
+    direction: "Asks",
+    price: "225.59",
+    amount: "0.5482"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd37865"),
+    Timestamp: "1582925477358",
+    direction: "Asks",
+    price: "225.57",
+    amount: "0.5497"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd37866"),
+    Timestamp: "1582925477358",
+    direction: "Asks",
+    price: "225.56",
+    amount: "1.1753"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986a56e3a922d2fd37867"),
+    Timestamp: "1582925477358",
+    direction: "Asks",
+    price: "225.55",
+    amount: "7.6787"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e9299"),
+    Timestamp: "1582925516617",
+    direction: "Bids",
+    price: "225.55",
+    amount: "1.999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e929a"),
+    Timestamp: "1582925516617",
+    direction: "Bids",
+    price: "225.54",
+    amount: "1.3119"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e929b"),
+    Timestamp: "1582925516617",
+    direction: "Bids",
+    price: "225.53",
+    amount: "0.0998"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e929c"),
+    Timestamp: "1582925516617",
+    direction: "Bids",
+    price: "225.52",
+    amount: "19.7561"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e929d"),
+    Timestamp: "1582925516617",
+    direction: "Bids",
+    price: "225.51",
+    amount: "21.7347"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e929e"),
+    Timestamp: "1582925516617",
+    direction: "Bids",
+    price: "225.5",
+    amount: "16.8338"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e929f"),
+    Timestamp: "1582925516617",
+    direction: "Asks",
+    price: "225.55",
+    amount: "1.999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e92a0"),
+    Timestamp: "1582925516617",
+    direction: "Asks",
+    price: "225.54",
+    amount: "1.3119"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e92a1"),
+    Timestamp: "1582925516617",
+    direction: "Asks",
+    price: "225.53",
+    amount: "0.0998"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e92a2"),
+    Timestamp: "1582925516617",
+    direction: "Asks",
+    price: "225.52",
+    amount: "19.7561"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e92a3"),
+    Timestamp: "1582925516617",
+    direction: "Asks",
+    price: "225.51",
+    amount: "21.7347"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5986cc6e3a9222bd9e92a4"),
+    Timestamp: "1582925516617",
+    direction: "Asks",
+    price: "225.5",
+    amount: "16.8338"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd37868"),
+    Timestamp: "1582926377408",
+    direction: "Bids",
+    price: "224.74",
+    amount: "0.099"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd37869"),
+    Timestamp: "1582926377408",
+    direction: "Bids",
+    price: "224.73",
+    amount: "6.297"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd3786a"),
+    Timestamp: "1582926377408",
+    direction: "Bids",
+    price: "224.71",
+    amount: "1.2363"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd3786b"),
+    Timestamp: "1582926377408",
+    direction: "Bids",
+    price: "224.69",
+    amount: "0.3723"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd3786c"),
+    Timestamp: "1582926377408",
+    direction: "Bids",
+    price: "224.68",
+    amount: "45.7039"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd3786d"),
+    Timestamp: "1582926377408",
+    direction: "Bids",
+    price: "224.67",
+    amount: "42.7756"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd3786e"),
+    Timestamp: "1582926377408",
+    direction: "Asks",
+    price: "224.74",
+    amount: "0.099"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd3786f"),
+    Timestamp: "1582926377408",
+    direction: "Asks",
+    price: "224.73",
+    amount: "6.297"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd37870"),
+    Timestamp: "1582926377408",
+    direction: "Asks",
+    price: "224.71",
+    amount: "1.2363"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd37871"),
+    Timestamp: "1582926377408",
+    direction: "Asks",
+    price: "224.69",
+    amount: "0.3723"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd37872"),
+    Timestamp: "1582926377408",
+    direction: "Asks",
+    price: "224.68",
+    amount: "45.7039"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a296e3a922d2fd37873"),
+    Timestamp: "1582926377408",
+    direction: "Asks",
+    price: "224.67",
+    amount: "42.7756"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92a9"),
+    Timestamp: "1582926416486",
+    direction: "Bids",
+    price: "224.63",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92aa"),
+    Timestamp: "1582926416486",
+    direction: "Bids",
+    price: "224.61",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92ab"),
+    Timestamp: "1582926416486",
+    direction: "Bids",
+    price: "224.59",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92ac"),
+    Timestamp: "1582926416486",
+    direction: "Bids",
+    price: "224.58",
+    amount: "0.499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92ad"),
+    Timestamp: "1582926416486",
+    direction: "Bids",
+    price: "224.57",
+    amount: "10.9904"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92ae"),
+    Timestamp: "1582926416486",
+    direction: "Bids",
+    price: "224.56",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92af"),
+    Timestamp: "1582926416486",
+    direction: "Asks",
+    price: "224.63",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92b0"),
+    Timestamp: "1582926416486",
+    direction: "Asks",
+    price: "224.61",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92b1"),
+    Timestamp: "1582926416486",
+    direction: "Asks",
+    price: "224.59",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92b2"),
+    Timestamp: "1582926416486",
+    direction: "Asks",
+    price: "224.58",
+    amount: "0.499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92b3"),
+    Timestamp: "1582926416486",
+    direction: "Asks",
+    price: "224.57",
+    amount: "10.9904"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598a506e3a9222bd9e92b4"),
+    Timestamp: "1582926416486",
+    direction: "Asks",
+    price: "224.56",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd37878"),
+    Timestamp: "1582927277743",
+    direction: "Bids",
+    price: "226.05",
+    amount: "0.9543"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd37879"),
+    Timestamp: "1582927277743",
+    direction: "Bids",
+    price: "226.03",
+    amount: "45.3241"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd3787a"),
+    Timestamp: "1582927277743",
+    direction: "Bids",
+    price: "226.01",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd3787b"),
+    Timestamp: "1582927277743",
+    direction: "Bids",
+    price: "226.0",
+    amount: "32.9301"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd3787c"),
+    Timestamp: "1582927277743",
+    direction: "Bids",
+    price: "225.99",
+    amount: "20.321"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd3787d"),
+    Timestamp: "1582927277743",
+    direction: "Bids",
+    price: "225.97",
+    amount: "1.48"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd3787e"),
+    Timestamp: "1582927277743",
+    direction: "Asks",
+    price: "226.05",
+    amount: "0.9543"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd3787f"),
+    Timestamp: "1582927277743",
+    direction: "Asks",
+    price: "226.03",
+    amount: "45.3241"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd37880"),
+    Timestamp: "1582927277743",
+    direction: "Asks",
+    price: "226.01",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd37881"),
+    Timestamp: "1582927277743",
+    direction: "Asks",
+    price: "226.0",
+    amount: "32.9301"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd37882"),
+    Timestamp: "1582927277743",
+    direction: "Asks",
+    price: "225.99",
+    amount: "20.321"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dad6e3a922d2fd37883"),
+    Timestamp: "1582927277743",
+    direction: "Asks",
+    price: "225.97",
+    amount: "1.48"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92b5"),
+    Timestamp: "1582927316579",
+    direction: "Bids",
+    price: "226.18",
+    amount: "11.9506"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92b6"),
+    Timestamp: "1582927316579",
+    direction: "Bids",
+    price: "226.17",
+    amount: "32.999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92b7"),
+    Timestamp: "1582927316579",
+    direction: "Bids",
+    price: "226.15",
+    amount: "11.0513"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92b8"),
+    Timestamp: "1582927316579",
+    direction: "Bids",
+    price: "226.12",
+    amount: "43.3038"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92b9"),
+    Timestamp: "1582927316579",
+    direction: "Bids",
+    price: "226.11",
+    amount: "52.1483"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92ba"),
+    Timestamp: "1582927316579",
+    direction: "Bids",
+    price: "226.1",
+    amount: "55.3846"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92bb"),
+    Timestamp: "1582927316579",
+    direction: "Asks",
+    price: "226.18",
+    amount: "11.9506"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92bc"),
+    Timestamp: "1582927316579",
+    direction: "Asks",
+    price: "226.17",
+    amount: "32.999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92bd"),
+    Timestamp: "1582927316579",
+    direction: "Asks",
+    price: "226.15",
+    amount: "11.0513"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92be"),
+    Timestamp: "1582927316579",
+    direction: "Asks",
+    price: "226.12",
+    amount: "43.3038"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92bf"),
+    Timestamp: "1582927316579",
+    direction: "Asks",
+    price: "226.11",
+    amount: "52.1483"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e598dd46e3a9222bd9e92c0"),
+    Timestamp: "1582927316579",
+    direction: "Asks",
+    price: "226.1",
+    amount: "55.3846"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd37886"),
+    Timestamp: "1582928177824",
+    direction: "Bids",
+    price: "226.67",
+    amount: "6.6625"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd37887"),
+    Timestamp: "1582928177824",
+    direction: "Bids",
+    price: "226.64",
+    amount: "0.0867"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd37888"),
+    Timestamp: "1582928177824",
+    direction: "Bids",
+    price: "226.63",
+    amount: "30.8771"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd37889"),
+    Timestamp: "1582928177824",
+    direction: "Bids",
+    price: "226.62",
+    amount: "43.0331"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd3788a"),
+    Timestamp: "1582928177824",
+    direction: "Bids",
+    price: "226.6",
+    amount: "11.0292"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd3788b"),
+    Timestamp: "1582928177824",
+    direction: "Bids",
+    price: "226.58",
+    amount: "6.781"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd3788c"),
+    Timestamp: "1582928177824",
+    direction: "Asks",
+    price: "226.67",
+    amount: "6.6625"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd3788d"),
+    Timestamp: "1582928177824",
+    direction: "Asks",
+    price: "226.64",
+    amount: "0.0867"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd3788e"),
+    Timestamp: "1582928177824",
+    direction: "Asks",
+    price: "226.63",
+    amount: "30.8771"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd3788f"),
+    Timestamp: "1582928177824",
+    direction: "Asks",
+    price: "226.62",
+    amount: "43.0331"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd37890"),
+    Timestamp: "1582928177824",
+    direction: "Asks",
+    price: "226.6",
+    amount: "11.0292"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991326e3a922d2fd37891"),
+    Timestamp: "1582928177824",
+    direction: "Asks",
+    price: "226.58",
+    amount: "6.781"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92c5"),
+    Timestamp: "1582928216931",
+    direction: "Bids",
+    price: "226.36",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92c6"),
+    Timestamp: "1582928216931",
+    direction: "Bids",
+    price: "226.32",
+    amount: "4.4164"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92c7"),
+    Timestamp: "1582928216931",
+    direction: "Bids",
+    price: "226.29",
+    amount: "0.5495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92c8"),
+    Timestamp: "1582928216931",
+    direction: "Bids",
+    price: "226.28",
+    amount: "0.7626"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92c9"),
+    Timestamp: "1582928216931",
+    direction: "Bids",
+    price: "226.27",
+    amount: "15.389"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92ca"),
+    Timestamp: "1582928216931",
+    direction: "Bids",
+    price: "226.25",
+    amount: "20.3519"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92cb"),
+    Timestamp: "1582928216931",
+    direction: "Asks",
+    price: "226.36",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92cc"),
+    Timestamp: "1582928216931",
+    direction: "Asks",
+    price: "226.32",
+    amount: "4.4164"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92cd"),
+    Timestamp: "1582928216931",
+    direction: "Asks",
+    price: "226.29",
+    amount: "0.5495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92ce"),
+    Timestamp: "1582928216931",
+    direction: "Asks",
+    price: "226.28",
+    amount: "0.7626"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92cf"),
+    Timestamp: "1582928216931",
+    direction: "Asks",
+    price: "226.27",
+    amount: "15.389"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5991596e3a9222bd9e92d0"),
+    Timestamp: "1582928216931",
+    direction: "Asks",
+    price: "226.25",
+    amount: "20.3519"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd37892"),
+    Timestamp: "1582929077657",
+    direction: "Bids",
+    price: "226.49",
+    amount: "8.2058"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd37893"),
+    Timestamp: "1582929077657",
+    direction: "Bids",
+    price: "226.48",
+    amount: "1.2686"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd37894"),
+    Timestamp: "1582929077657",
+    direction: "Bids",
+    price: "226.39",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd37895"),
+    Timestamp: "1582929077657",
+    direction: "Bids",
+    price: "226.38",
+    amount: "7.4358"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd37896"),
+    Timestamp: "1582929077657",
+    direction: "Bids",
+    price: "226.37",
+    amount: "1.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd37897"),
+    Timestamp: "1582929077657",
+    direction: "Bids",
+    price: "226.36",
+    amount: "10.9864"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd37898"),
+    Timestamp: "1582929077657",
+    direction: "Asks",
+    price: "226.49",
+    amount: "8.2058"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd37899"),
+    Timestamp: "1582929077657",
+    direction: "Asks",
+    price: "226.48",
+    amount: "1.2686"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd3789a"),
+    Timestamp: "1582929077657",
+    direction: "Asks",
+    price: "226.39",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd3789b"),
+    Timestamp: "1582929077657",
+    direction: "Asks",
+    price: "226.38",
+    amount: "7.4358"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd3789c"),
+    Timestamp: "1582929077657",
+    direction: "Asks",
+    price: "226.37",
+    amount: "1.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994b56e3a922d2fd3789d"),
+    Timestamp: "1582929077657",
+    direction: "Asks",
+    price: "226.36",
+    amount: "10.9864"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92d1"),
+    Timestamp: "1582929116752",
+    direction: "Bids",
+    price: "226.79",
+    amount: "0.5574"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92d2"),
+    Timestamp: "1582929116752",
+    direction: "Bids",
+    price: "226.74",
+    amount: "30.2094"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92d3"),
+    Timestamp: "1582929116752",
+    direction: "Bids",
+    price: "226.73",
+    amount: "8.8659"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92d4"),
+    Timestamp: "1582929116752",
+    direction: "Bids",
+    price: "226.72",
+    amount: "30.274"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92d5"),
+    Timestamp: "1582929116752",
+    direction: "Bids",
+    price: "226.71",
+    amount: "11.0244"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92d6"),
+    Timestamp: "1582929116752",
+    direction: "Bids",
+    price: "226.69",
+    amount: "8.9233"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92d7"),
+    Timestamp: "1582929116752",
+    direction: "Asks",
+    price: "226.79",
+    amount: "0.5574"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92d8"),
+    Timestamp: "1582929116752",
+    direction: "Asks",
+    price: "226.74",
+    amount: "30.2094"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92d9"),
+    Timestamp: "1582929116752",
+    direction: "Asks",
+    price: "226.73",
+    amount: "8.8659"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92da"),
+    Timestamp: "1582929116752",
+    direction: "Asks",
+    price: "226.72",
+    amount: "30.274"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92db"),
+    Timestamp: "1582929116752",
+    direction: "Asks",
+    price: "226.71",
+    amount: "11.0244"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5994dc6e3a9222bd9e92dc"),
+    Timestamp: "1582929116752",
+    direction: "Asks",
+    price: "226.69",
+    amount: "8.9233"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a0"),
+    Timestamp: "1582929977818",
+    direction: "Bids",
+    price: "228.22",
+    amount: "25.8764"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a1"),
+    Timestamp: "1582929977818",
+    direction: "Bids",
+    price: "228.2",
+    amount: "6.5575"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a2"),
+    Timestamp: "1582929977818",
+    direction: "Bids",
+    price: "228.19",
+    amount: "8.76"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a3"),
+    Timestamp: "1582929977818",
+    direction: "Bids",
+    price: "228.18",
+    amount: "17.52"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a4"),
+    Timestamp: "1582929977818",
+    direction: "Bids",
+    price: "228.16",
+    amount: "34.0828"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a5"),
+    Timestamp: "1582929977818",
+    direction: "Bids",
+    price: "228.15",
+    amount: "16.0569"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a6"),
+    Timestamp: "1582929977818",
+    direction: "Asks",
+    price: "228.22",
+    amount: "25.8764"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a7"),
+    Timestamp: "1582929977818",
+    direction: "Asks",
+    price: "228.2",
+    amount: "6.5575"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a8"),
+    Timestamp: "1582929977818",
+    direction: "Asks",
+    price: "228.19",
+    amount: "8.76"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378a9"),
+    Timestamp: "1582929977818",
+    direction: "Asks",
+    price: "228.18",
+    amount: "17.52"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378aa"),
+    Timestamp: "1582929977818",
+    direction: "Asks",
+    price: "228.16",
+    amount: "34.0828"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59983a6e3a922d2fd378ab"),
+    Timestamp: "1582929977818",
+    direction: "Asks",
+    price: "228.15",
+    amount: "16.0569"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92df"),
+    Timestamp: "1582930016944",
+    direction: "Bids",
+    price: "228.32",
+    amount: "7.6519"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e0"),
+    Timestamp: "1582930016944",
+    direction: "Bids",
+    price: "228.31",
+    amount: "33.4896"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e1"),
+    Timestamp: "1582930016944",
+    direction: "Bids",
+    price: "228.3",
+    amount: "16.2821"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e2"),
+    Timestamp: "1582930016944",
+    direction: "Bids",
+    price: "228.29",
+    amount: "50.6256"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e3"),
+    Timestamp: "1582930016944",
+    direction: "Bids",
+    price: "228.28",
+    amount: "13.383"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e4"),
+    Timestamp: "1582930016944",
+    direction: "Bids",
+    price: "228.27",
+    amount: "0.7542"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e5"),
+    Timestamp: "1582930016944",
+    direction: "Asks",
+    price: "228.32",
+    amount: "7.6519"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e6"),
+    Timestamp: "1582930016944",
+    direction: "Asks",
+    price: "228.31",
+    amount: "33.4896"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e7"),
+    Timestamp: "1582930016944",
+    direction: "Asks",
+    price: "228.3",
+    amount: "16.2821"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e8"),
+    Timestamp: "1582930016944",
+    direction: "Asks",
+    price: "228.29",
+    amount: "50.6256"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92e9"),
+    Timestamp: "1582930016944",
+    direction: "Asks",
+    price: "228.28",
+    amount: "13.383"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e5998616e3a9222bd9e92ea"),
+    Timestamp: "1582930016944",
+    direction: "Asks",
+    price: "228.27",
+    amount: "0.7542"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378ae"),
+    Timestamp: "1582930878110",
+    direction: "Bids",
+    price: "230.18",
+    amount: "10.8212"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378af"),
+    Timestamp: "1582930878110",
+    direction: "Bids",
+    price: "230.15",
+    amount: "10.8583"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b0"),
+    Timestamp: "1582930878110",
+    direction: "Bids",
+    price: "230.14",
+    amount: "5.2916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b1"),
+    Timestamp: "1582930878110",
+    direction: "Bids",
+    price: "230.12",
+    amount: "4.3426"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b2"),
+    Timestamp: "1582930878110",
+    direction: "Bids",
+    price: "230.11",
+    amount: "7.6328"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b3"),
+    Timestamp: "1582930878110",
+    direction: "Bids",
+    price: "230.1",
+    amount: "21.7825"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b4"),
+    Timestamp: "1582930878110",
+    direction: "Asks",
+    price: "230.18",
+    amount: "10.8212"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b5"),
+    Timestamp: "1582930878110",
+    direction: "Asks",
+    price: "230.15",
+    amount: "10.8583"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b6"),
+    Timestamp: "1582930878110",
+    direction: "Asks",
+    price: "230.14",
+    amount: "5.2916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b7"),
+    Timestamp: "1582930878110",
+    direction: "Asks",
+    price: "230.12",
+    amount: "4.3426"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b8"),
+    Timestamp: "1582930878110",
+    direction: "Asks",
+    price: "230.11",
+    amount: "7.6328"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599bbe6e3a922d2fd378b9"),
+    Timestamp: "1582930878110",
+    direction: "Asks",
+    price: "230.1",
+    amount: "21.7825"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92ed"),
+    Timestamp: "1582930916908",
+    direction: "Bids",
+    price: "230.05",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92ee"),
+    Timestamp: "1582930916908",
+    direction: "Bids",
+    price: "230.04",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92ef"),
+    Timestamp: "1582930916908",
+    direction: "Bids",
+    price: "230.01",
+    amount: "4.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f0"),
+    Timestamp: "1582930916908",
+    direction: "Bids",
+    price: "230.0",
+    amount: "30.9861"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f1"),
+    Timestamp: "1582930916908",
+    direction: "Bids",
+    price: "229.95",
+    amount: "0.5499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f2"),
+    Timestamp: "1582930916908",
+    direction: "Bids",
+    price: "229.92",
+    amount: "13.0329"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f3"),
+    Timestamp: "1582930916908",
+    direction: "Asks",
+    price: "230.05",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f4"),
+    Timestamp: "1582930916908",
+    direction: "Asks",
+    price: "230.04",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f5"),
+    Timestamp: "1582930916908",
+    direction: "Asks",
+    price: "230.01",
+    amount: "4.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f6"),
+    Timestamp: "1582930916908",
+    direction: "Asks",
+    price: "230.0",
+    amount: "30.9861"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f7"),
+    Timestamp: "1582930916908",
+    direction: "Asks",
+    price: "229.95",
+    amount: "0.5499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599be56e3a9222bd9e92f8"),
+    Timestamp: "1582930916908",
+    direction: "Asks",
+    price: "229.92",
+    amount: "13.0329"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378bc"),
+    Timestamp: "1582931777972",
+    direction: "Bids",
+    price: "227.5",
+    amount: "40.6951"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378bd"),
+    Timestamp: "1582931777972",
+    direction: "Bids",
+    price: "227.49",
+    amount: "10.1367"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378be"),
+    Timestamp: "1582931777972",
+    direction: "Bids",
+    price: "227.48",
+    amount: "0.5985"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378bf"),
+    Timestamp: "1582931777972",
+    direction: "Bids",
+    price: "227.47",
+    amount: "9.69"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c0"),
+    Timestamp: "1582931777972",
+    direction: "Bids",
+    price: "227.46",
+    amount: "10.9864"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c1"),
+    Timestamp: "1582931777972",
+    direction: "Bids",
+    price: "227.44",
+    amount: "0.3619"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c2"),
+    Timestamp: "1582931777972",
+    direction: "Asks",
+    price: "227.5",
+    amount: "40.6951"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c3"),
+    Timestamp: "1582931777972",
+    direction: "Asks",
+    price: "227.49",
+    amount: "10.1367"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c4"),
+    Timestamp: "1582931777972",
+    direction: "Asks",
+    price: "227.48",
+    amount: "0.5985"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c5"),
+    Timestamp: "1582931777972",
+    direction: "Asks",
+    price: "227.47",
+    amount: "9.69"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c6"),
+    Timestamp: "1582931777972",
+    direction: "Asks",
+    price: "227.46",
+    amount: "10.9864"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f426e3a922d2fd378c7"),
+    Timestamp: "1582931777972",
+    direction: "Asks",
+    price: "227.44",
+    amount: "0.3619"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e92fd"),
+    Timestamp: "1582931817399",
+    direction: "Bids",
+    price: "228.08",
+    amount: "42.4089"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e92fe"),
+    Timestamp: "1582931817399",
+    direction: "Bids",
+    price: "228.03",
+    amount: "3.5965"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e92ff"),
+    Timestamp: "1582931817399",
+    direction: "Bids",
+    price: "228.02",
+    amount: "2.1796"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e9300"),
+    Timestamp: "1582931817399",
+    direction: "Bids",
+    price: "228.01",
+    amount: "13.738"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e9301"),
+    Timestamp: "1582931817399",
+    direction: "Bids",
+    price: "227.99",
+    amount: "7.6574"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e9302"),
+    Timestamp: "1582931817399",
+    direction: "Bids",
+    price: "227.98",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e9303"),
+    Timestamp: "1582931817399",
+    direction: "Asks",
+    price: "228.08",
+    amount: "42.4089"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e9304"),
+    Timestamp: "1582931817399",
+    direction: "Asks",
+    price: "228.03",
+    amount: "3.5965"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e9305"),
+    Timestamp: "1582931817399",
+    direction: "Asks",
+    price: "228.02",
+    amount: "2.1796"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e9306"),
+    Timestamp: "1582931817399",
+    direction: "Asks",
+    price: "228.01",
+    amount: "13.738"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e9307"),
+    Timestamp: "1582931817399",
+    direction: "Asks",
+    price: "227.99",
+    amount: "7.6574"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e599f696e3a9222bd9e9308"),
+    Timestamp: "1582931817399",
+    direction: "Asks",
+    price: "227.98",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378cc"),
+    Timestamp: "1582932678386",
+    direction: "Bids",
+    price: "229.38",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378cd"),
+    Timestamp: "1582932678386",
+    direction: "Bids",
+    price: "229.37",
+    amount: "4.1667"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378ce"),
+    Timestamp: "1582932678386",
+    direction: "Bids",
+    price: "229.36",
+    amount: "12.0051"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378cf"),
+    Timestamp: "1582932678386",
+    direction: "Bids",
+    price: "229.35",
+    amount: "0.7274"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378d0"),
+    Timestamp: "1582932678386",
+    direction: "Bids",
+    price: "229.29",
+    amount: "10.9008"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378d1"),
+    Timestamp: "1582932678386",
+    direction: "Bids",
+    price: "229.27",
+    amount: "30.8663"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378d2"),
+    Timestamp: "1582932678386",
+    direction: "Asks",
+    price: "229.38",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378d3"),
+    Timestamp: "1582932678386",
+    direction: "Asks",
+    price: "229.37",
+    amount: "4.1667"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378d4"),
+    Timestamp: "1582932678386",
+    direction: "Asks",
+    price: "229.36",
+    amount: "12.0051"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378d5"),
+    Timestamp: "1582932678386",
+    direction: "Asks",
+    price: "229.35",
+    amount: "0.7274"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378d6"),
+    Timestamp: "1582932678386",
+    direction: "Asks",
+    price: "229.29",
+    amount: "10.9008"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2c66e3a922d2fd378d7"),
+    Timestamp: "1582932678386",
+    direction: "Asks",
+    price: "229.27",
+    amount: "30.8663"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e930b"),
+    Timestamp: "1582932717396",
+    direction: "Bids",
+    price: "229.36",
+    amount: "0.1668"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e930c"),
+    Timestamp: "1582932717396",
+    direction: "Bids",
+    price: "229.35",
+    amount: "0.0698"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e930d"),
+    Timestamp: "1582932717396",
+    direction: "Bids",
+    price: "229.33",
+    amount: "11.9996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e930e"),
+    Timestamp: "1582932717396",
+    direction: "Bids",
+    price: "229.32",
+    amount: "18.5364"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e930f"),
+    Timestamp: "1582932717396",
+    direction: "Bids",
+    price: "229.3",
+    amount: "13.4376"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e9310"),
+    Timestamp: "1582932717396",
+    direction: "Bids",
+    price: "229.29",
+    amount: "39.5748"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e9311"),
+    Timestamp: "1582932717396",
+    direction: "Asks",
+    price: "229.36",
+    amount: "0.1668"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e9312"),
+    Timestamp: "1582932717396",
+    direction: "Asks",
+    price: "229.35",
+    amount: "0.0698"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e9313"),
+    Timestamp: "1582932717396",
+    direction: "Asks",
+    price: "229.33",
+    amount: "11.9996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e9314"),
+    Timestamp: "1582932717396",
+    direction: "Asks",
+    price: "229.32",
+    amount: "18.5364"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e9315"),
+    Timestamp: "1582932717396",
+    direction: "Asks",
+    price: "229.3",
+    amount: "13.4376"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a2ed6e3a9222bd9e9316"),
+    Timestamp: "1582932717396",
+    direction: "Asks",
+    price: "229.29",
+    amount: "39.5748"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378d8"),
+    Timestamp: "1582933578450",
+    direction: "Bids",
+    price: "228.52",
+    amount: "0.1383"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378d9"),
+    Timestamp: "1582933578450",
+    direction: "Bids",
+    price: "228.51",
+    amount: "0.1523"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378da"),
+    Timestamp: "1582933578450",
+    direction: "Bids",
+    price: "228.5",
+    amount: "2.1743"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378db"),
+    Timestamp: "1582933578450",
+    direction: "Bids",
+    price: "228.48",
+    amount: "30.2608"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378dc"),
+    Timestamp: "1582933578450",
+    direction: "Bids",
+    price: "228.47",
+    amount: "0.1692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378dd"),
+    Timestamp: "1582933578450",
+    direction: "Bids",
+    price: "228.46",
+    amount: "9.7516"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378de"),
+    Timestamp: "1582933578450",
+    direction: "Asks",
+    price: "228.52",
+    amount: "0.1383"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378df"),
+    Timestamp: "1582933578450",
+    direction: "Asks",
+    price: "228.51",
+    amount: "0.1523"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378e0"),
+    Timestamp: "1582933578450",
+    direction: "Asks",
+    price: "228.5",
+    amount: "2.1743"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378e1"),
+    Timestamp: "1582933578450",
+    direction: "Asks",
+    price: "228.48",
+    amount: "30.2608"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378e2"),
+    Timestamp: "1582933578450",
+    direction: "Asks",
+    price: "228.47",
+    amount: "0.1692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a64a6e3a922d2fd378e3"),
+    Timestamp: "1582933578450",
+    direction: "Asks",
+    price: "228.46",
+    amount: "9.7516"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e9317"),
+    Timestamp: "1582933617212",
+    direction: "Bids",
+    price: "228.46",
+    amount: "8.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e9318"),
+    Timestamp: "1582933617212",
+    direction: "Bids",
+    price: "228.45",
+    amount: "44.9742"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e9319"),
+    Timestamp: "1582933617212",
+    direction: "Bids",
+    price: "228.44",
+    amount: "6.8287"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e931a"),
+    Timestamp: "1582933617212",
+    direction: "Bids",
+    price: "228.41",
+    amount: "8.7559"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e931b"),
+    Timestamp: "1582933617212",
+    direction: "Bids",
+    price: "228.4",
+    amount: "10.9409"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e931c"),
+    Timestamp: "1582933617212",
+    direction: "Bids",
+    price: "228.39",
+    amount: "29.9883"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e931d"),
+    Timestamp: "1582933617212",
+    direction: "Asks",
+    price: "228.46",
+    amount: "8.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e931e"),
+    Timestamp: "1582933617212",
+    direction: "Asks",
+    price: "228.45",
+    amount: "44.9742"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e931f"),
+    Timestamp: "1582933617212",
+    direction: "Asks",
+    price: "228.44",
+    amount: "6.8287"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e9320"),
+    Timestamp: "1582933617212",
+    direction: "Asks",
+    price: "228.41",
+    amount: "8.7559"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e9321"),
+    Timestamp: "1582933617212",
+    direction: "Asks",
+    price: "228.4",
+    amount: "10.9409"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a6716e3a9222bd9e9322"),
+    Timestamp: "1582933617212",
+    direction: "Asks",
+    price: "228.39",
+    amount: "29.9883"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378e8"),
+    Timestamp: "1582934478534",
+    direction: "Bids",
+    price: "227.33",
+    amount: "1.0013"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378e9"),
+    Timestamp: "1582934478534",
+    direction: "Bids",
+    price: "227.31",
+    amount: "2.0028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378ea"),
+    Timestamp: "1582934478534",
+    direction: "Bids",
+    price: "227.3",
+    amount: "9.0941"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378eb"),
+    Timestamp: "1582934478534",
+    direction: "Bids",
+    price: "227.29",
+    amount: "30.9731"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378ec"),
+    Timestamp: "1582934478534",
+    direction: "Bids",
+    price: "227.28",
+    amount: "0.7733"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378ed"),
+    Timestamp: "1582934478534",
+    direction: "Bids",
+    price: "227.27",
+    amount: "53.0484"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378ee"),
+    Timestamp: "1582934478534",
+    direction: "Asks",
+    price: "227.33",
+    amount: "1.0013"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378ef"),
+    Timestamp: "1582934478534",
+    direction: "Asks",
+    price: "227.31",
+    amount: "2.0028"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378f0"),
+    Timestamp: "1582934478534",
+    direction: "Asks",
+    price: "227.3",
+    amount: "9.0941"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378f1"),
+    Timestamp: "1582934478534",
+    direction: "Asks",
+    price: "227.29",
+    amount: "30.9731"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378f2"),
+    Timestamp: "1582934478534",
+    direction: "Asks",
+    price: "227.28",
+    amount: "0.7733"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9ce6e3a922d2fd378f3"),
+    Timestamp: "1582934478534",
+    direction: "Asks",
+    price: "227.27",
+    amount: "53.0484"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e9325"),
+    Timestamp: "1582934517578",
+    direction: "Bids",
+    price: "227.72",
+    amount: "2.9996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e9326"),
+    Timestamp: "1582934517578",
+    direction: "Bids",
+    price: "227.71",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e9327"),
+    Timestamp: "1582934517578",
+    direction: "Bids",
+    price: "227.7",
+    amount: "49.3998"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e9328"),
+    Timestamp: "1582934517578",
+    direction: "Bids",
+    price: "227.67",
+    amount: "7.3222"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e9329"),
+    Timestamp: "1582934517578",
+    direction: "Bids",
+    price: "227.64",
+    amount: "5.0315"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e932a"),
+    Timestamp: "1582934517578",
+    direction: "Bids",
+    price: "227.63",
+    amount: "31.3225"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e932b"),
+    Timestamp: "1582934517578",
+    direction: "Asks",
+    price: "227.72",
+    amount: "2.9996"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e932c"),
+    Timestamp: "1582934517578",
+    direction: "Asks",
+    price: "227.71",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e932d"),
+    Timestamp: "1582934517578",
+    direction: "Asks",
+    price: "227.7",
+    amount: "49.3998"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e932e"),
+    Timestamp: "1582934517578",
+    direction: "Asks",
+    price: "227.67",
+    amount: "7.3222"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e932f"),
+    Timestamp: "1582934517578",
+    direction: "Asks",
+    price: "227.64",
+    amount: "5.0315"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59a9f56e3a9222bd9e9330"),
+    Timestamp: "1582934517578",
+    direction: "Asks",
+    price: "227.63",
+    amount: "31.3225"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378f6"),
+    Timestamp: "1582935378662",
+    direction: "Bids",
+    price: "229.42",
+    amount: "0.4095"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378f7"),
+    Timestamp: "1582935378662",
+    direction: "Bids",
+    price: "229.41",
+    amount: "67.3266"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378f8"),
+    Timestamp: "1582935378662",
+    direction: "Bids",
+    price: "229.4",
+    amount: "4.7458"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378f9"),
+    Timestamp: "1582935378662",
+    direction: "Bids",
+    price: "229.38",
+    amount: "11.9786"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378fa"),
+    Timestamp: "1582935378662",
+    direction: "Bids",
+    price: "229.37",
+    amount: "30.8286"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378fb"),
+    Timestamp: "1582935378662",
+    direction: "Bids",
+    price: "229.36",
+    amount: "21.5605"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378fc"),
+    Timestamp: "1582935378662",
+    direction: "Asks",
+    price: "229.42",
+    amount: "0.4095"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378fd"),
+    Timestamp: "1582935378662",
+    direction: "Asks",
+    price: "229.41",
+    amount: "67.3266"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378fe"),
+    Timestamp: "1582935378662",
+    direction: "Asks",
+    price: "229.4",
+    amount: "4.7458"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd378ff"),
+    Timestamp: "1582935378662",
+    direction: "Asks",
+    price: "229.38",
+    amount: "11.9786"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd37900"),
+    Timestamp: "1582935378662",
+    direction: "Asks",
+    price: "229.37",
+    amount: "30.8286"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad526e3a922d2fd37901"),
+    Timestamp: "1582935378662",
+    direction: "Asks",
+    price: "229.36",
+    amount: "21.5605"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e9335"),
+    Timestamp: "1582935418423",
+    direction: "Bids",
+    price: "228.95",
+    amount: "8.4852"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e9336"),
+    Timestamp: "1582935418423",
+    direction: "Bids",
+    price: "228.93",
+    amount: "3.0263"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e9337"),
+    Timestamp: "1582935418423",
+    direction: "Bids",
+    price: "228.91",
+    amount: "75.7867"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e9338"),
+    Timestamp: "1582935418423",
+    direction: "Bids",
+    price: "228.9",
+    amount: "24.3674"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e9339"),
+    Timestamp: "1582935418423",
+    direction: "Bids",
+    price: "228.89",
+    amount: "15.5915"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e933a"),
+    Timestamp: "1582935418423",
+    direction: "Bids",
+    price: "228.88",
+    amount: "7.2507"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e933b"),
+    Timestamp: "1582935418423",
+    direction: "Asks",
+    price: "228.95",
+    amount: "8.4852"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e933c"),
+    Timestamp: "1582935418423",
+    direction: "Asks",
+    price: "228.93",
+    amount: "3.0263"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e933d"),
+    Timestamp: "1582935418423",
+    direction: "Asks",
+    price: "228.91",
+    amount: "75.7867"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e933e"),
+    Timestamp: "1582935418423",
+    direction: "Asks",
+    price: "228.9",
+    amount: "24.3674"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e933f"),
+    Timestamp: "1582935418423",
+    direction: "Asks",
+    price: "228.89",
+    amount: "15.5915"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ad7a6e3a9222bd9e9340"),
+    Timestamp: "1582935418423",
+    direction: "Asks",
+    price: "228.88",
+    amount: "7.2507"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd37904"),
+    Timestamp: "1582936279588",
+    direction: "Bids",
+    price: "230.02",
+    amount: "0.9896"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd37905"),
+    Timestamp: "1582936279588",
+    direction: "Bids",
+    price: "230.01",
+    amount: "0.8223"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd37906"),
+    Timestamp: "1582936279588",
+    direction: "Bids",
+    price: "230.0",
+    amount: "48.1245"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd37907"),
+    Timestamp: "1582936279588",
+    direction: "Bids",
+    price: "229.98",
+    amount: "2.3154"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd37908"),
+    Timestamp: "1582936279588",
+    direction: "Bids",
+    price: "229.97",
+    amount: "2.2"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd37909"),
+    Timestamp: "1582936279588",
+    direction: "Bids",
+    price: "229.95",
+    amount: "11.8999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd3790a"),
+    Timestamp: "1582936279588",
+    direction: "Asks",
+    price: "230.02",
+    amount: "0.9896"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd3790b"),
+    Timestamp: "1582936279588",
+    direction: "Asks",
+    price: "230.01",
+    amount: "0.8223"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd3790c"),
+    Timestamp: "1582936279588",
+    direction: "Asks",
+    price: "230.0",
+    amount: "48.1245"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd3790d"),
+    Timestamp: "1582936279588",
+    direction: "Asks",
+    price: "229.98",
+    amount: "2.3154"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd3790e"),
+    Timestamp: "1582936279588",
+    direction: "Asks",
+    price: "229.97",
+    amount: "2.2"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0d76e3a922d2fd3790f"),
+    Timestamp: "1582936279588",
+    direction: "Asks",
+    price: "229.95",
+    amount: "11.8999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e9341"),
+    Timestamp: "1582936317450",
+    direction: "Bids",
+    price: "230.26",
+    amount: "2.4088"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e9342"),
+    Timestamp: "1582936317450",
+    direction: "Bids",
+    price: "230.25",
+    amount: "0.4058"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e9343"),
+    Timestamp: "1582936317450",
+    direction: "Bids",
+    price: "230.24",
+    amount: "0.7121"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e9344"),
+    Timestamp: "1582936317450",
+    direction: "Bids",
+    price: "230.22",
+    amount: "17.3656"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e9345"),
+    Timestamp: "1582936317450",
+    direction: "Bids",
+    price: "230.21",
+    amount: "8.3999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e9346"),
+    Timestamp: "1582936317450",
+    direction: "Bids",
+    price: "230.2",
+    amount: "13.0409"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e9347"),
+    Timestamp: "1582936317450",
+    direction: "Asks",
+    price: "230.26",
+    amount: "2.4088"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e9348"),
+    Timestamp: "1582936317450",
+    direction: "Asks",
+    price: "230.25",
+    amount: "0.4058"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e9349"),
+    Timestamp: "1582936317450",
+    direction: "Asks",
+    price: "230.24",
+    amount: "0.7121"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e934a"),
+    Timestamp: "1582936317450",
+    direction: "Asks",
+    price: "230.22",
+    amount: "17.3656"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e934b"),
+    Timestamp: "1582936317450",
+    direction: "Asks",
+    price: "230.21",
+    amount: "8.3999"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b0fd6e3a9222bd9e934c"),
+    Timestamp: "1582936317450",
+    direction: "Asks",
+    price: "230.2",
+    amount: "13.0409"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce8f"),
+    Timestamp: "1582936817166",
+    direction: "Bids",
+    price: "231.34",
+    amount: "0.0785"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce90"),
+    Timestamp: "1582936817166",
+    direction: "Bids",
+    price: "231.33",
+    amount: "13.6421"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce91"),
+    Timestamp: "1582936817166",
+    direction: "Bids",
+    price: "231.32",
+    amount: "2.9528"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce92"),
+    Timestamp: "1582936817166",
+    direction: "Bids",
+    price: "231.3",
+    amount: "3.8169"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce93"),
+    Timestamp: "1582936817166",
+    direction: "Bids",
+    price: "231.29",
+    amount: "42.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce94"),
+    Timestamp: "1582936817166",
+    direction: "Bids",
+    price: "231.25",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce95"),
+    Timestamp: "1582936817166",
+    direction: "Asks",
+    price: "231.34",
+    amount: "0.0785"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce96"),
+    Timestamp: "1582936817166",
+    direction: "Asks",
+    price: "231.33",
+    amount: "13.6421"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce97"),
+    Timestamp: "1582936817166",
+    direction: "Asks",
+    price: "231.32",
+    amount: "2.9528"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce98"),
+    Timestamp: "1582936817166",
+    direction: "Asks",
+    price: "231.3",
+    amount: "3.8169"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce99"),
+    Timestamp: "1582936817166",
+    direction: "Asks",
+    price: "231.29",
+    amount: "42.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b2f16e3a926b1c37ce9a"),
+    Timestamp: "1582936817166",
+    direction: "Asks",
+    price: "231.25",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac07"),
+    Timestamp: "1582936841626",
+    direction: "Bids",
+    price: "231.0",
+    amount: "2.7877"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac08"),
+    Timestamp: "1582936841626",
+    direction: "Bids",
+    price: "230.98",
+    amount: "10.8216"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac09"),
+    Timestamp: "1582936841626",
+    direction: "Bids",
+    price: "230.97",
+    amount: "3.2495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac0a"),
+    Timestamp: "1582936841626",
+    direction: "Bids",
+    price: "230.96",
+    amount: "7.5753"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac0b"),
+    Timestamp: "1582936841626",
+    direction: "Bids",
+    price: "230.94",
+    amount: "40.0037"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac0c"),
+    Timestamp: "1582936841626",
+    direction: "Bids",
+    price: "230.93",
+    amount: "19.7616"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac0d"),
+    Timestamp: "1582936841626",
+    direction: "Asks",
+    price: "231.0",
+    amount: "2.7877"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac0e"),
+    Timestamp: "1582936841626",
+    direction: "Asks",
+    price: "230.98",
+    amount: "10.8216"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac0f"),
+    Timestamp: "1582936841626",
+    direction: "Asks",
+    price: "230.97",
+    amount: "3.2495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac10"),
+    Timestamp: "1582936841626",
+    direction: "Asks",
+    price: "230.96",
+    amount: "7.5753"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac11"),
+    Timestamp: "1582936841626",
+    direction: "Asks",
+    price: "230.94",
+    amount: "40.0037"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b3096e3a926b388eac12"),
+    Timestamp: "1582936841626",
+    direction: "Asks",
+    price: "230.93",
+    amount: "19.7616"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac13"),
+    Timestamp: "1582937741839",
+    direction: "Bids",
+    price: "230.21",
+    amount: "5.9585"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac14"),
+    Timestamp: "1582937741839",
+    direction: "Bids",
+    price: "230.2",
+    amount: "1.1369"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac15"),
+    Timestamp: "1582937741839",
+    direction: "Bids",
+    price: "230.19",
+    amount: "42.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac16"),
+    Timestamp: "1582937741839",
+    direction: "Bids",
+    price: "230.18",
+    amount: "5.5499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac17"),
+    Timestamp: "1582937741839",
+    direction: "Bids",
+    price: "230.17",
+    amount: "19.5387"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac18"),
+    Timestamp: "1582937741839",
+    direction: "Bids",
+    price: "230.16",
+    amount: "4.3424"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac19"),
+    Timestamp: "1582937741839",
+    direction: "Asks",
+    price: "230.21",
+    amount: "5.9585"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac1a"),
+    Timestamp: "1582937741839",
+    direction: "Asks",
+    price: "230.2",
+    amount: "1.1369"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac1b"),
+    Timestamp: "1582937741839",
+    direction: "Asks",
+    price: "230.19",
+    amount: "42.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac1c"),
+    Timestamp: "1582937741839",
+    direction: "Asks",
+    price: "230.18",
+    amount: "5.5499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac1d"),
+    Timestamp: "1582937741839",
+    direction: "Asks",
+    price: "230.17",
+    amount: "19.5387"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59b68e6e3a926b388eac1e"),
+    Timestamp: "1582937741839",
+    direction: "Asks",
+    price: "230.16",
+    amount: "4.3424"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac1f"),
+    Timestamp: "1582938642938",
+    direction: "Bids",
+    price: "229.96",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac20"),
+    Timestamp: "1582938642938",
+    direction: "Bids",
+    price: "229.95",
+    amount: "0.0695"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac21"),
+    Timestamp: "1582938642938",
+    direction: "Bids",
+    price: "229.94",
+    amount: "0.1337"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac22"),
+    Timestamp: "1582938642938",
+    direction: "Bids",
+    price: "229.92",
+    amount: "1.6017"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac23"),
+    Timestamp: "1582938642938",
+    direction: "Bids",
+    price: "229.91",
+    amount: "14.5238"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac24"),
+    Timestamp: "1582938642938",
+    direction: "Bids",
+    price: "229.9",
+    amount: "11.5339"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac25"),
+    Timestamp: "1582938642938",
+    direction: "Asks",
+    price: "229.96",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac26"),
+    Timestamp: "1582938642938",
+    direction: "Asks",
+    price: "229.95",
+    amount: "0.0695"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac27"),
+    Timestamp: "1582938642938",
+    direction: "Asks",
+    price: "229.94",
+    amount: "0.1337"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac28"),
+    Timestamp: "1582938642938",
+    direction: "Asks",
+    price: "229.92",
+    amount: "1.6017"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac29"),
+    Timestamp: "1582938642938",
+    direction: "Asks",
+    price: "229.91",
+    amount: "14.5238"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ba136e3a926b388eac2a"),
+    Timestamp: "1582938642938",
+    direction: "Asks",
+    price: "229.9",
+    amount: "11.5339"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a4f"),
+    Timestamp: "1582938904128",
+    direction: "Bids",
+    price: "228.7",
+    amount: "0.032"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a50"),
+    Timestamp: "1582938904128",
+    direction: "Bids",
+    price: "228.69",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a51"),
+    Timestamp: "1582938904128",
+    direction: "Bids",
+    price: "228.68",
+    amount: "14.5302"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a52"),
+    Timestamp: "1582938904128",
+    direction: "Bids",
+    price: "228.67",
+    amount: "8.4503"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a53"),
+    Timestamp: "1582938904128",
+    direction: "Bids",
+    price: "228.64",
+    amount: "0.0904"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a54"),
+    Timestamp: "1582938904128",
+    direction: "Bids",
+    price: "228.63",
+    amount: "17.985"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a55"),
+    Timestamp: "1582938904128",
+    direction: "Asks",
+    price: "228.7",
+    amount: "0.032"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a56"),
+    Timestamp: "1582938904128",
+    direction: "Asks",
+    price: "228.69",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a57"),
+    Timestamp: "1582938904128",
+    direction: "Asks",
+    price: "228.68",
+    amount: "14.5302"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a58"),
+    Timestamp: "1582938904128",
+    direction: "Asks",
+    price: "228.67",
+    amount: "8.4503"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a59"),
+    Timestamp: "1582938904128",
+    direction: "Asks",
+    price: "228.64",
+    amount: "0.0904"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb186e3a926ec3a72a5a"),
+    Timestamp: "1582938904128",
+    direction: "Asks",
+    price: "228.63",
+    amount: "17.985"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb56341c"),
+    Timestamp: "1582938957732",
+    direction: "Bids",
+    price: "228.59",
+    amount: "11.206"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb56341d"),
+    Timestamp: "1582938957732",
+    direction: "Bids",
+    price: "228.57",
+    amount: "29.4647"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb56341e"),
+    Timestamp: "1582938957732",
+    direction: "Bids",
+    price: "228.56",
+    amount: "5.8692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb56341f"),
+    Timestamp: "1582938957732",
+    direction: "Bids",
+    price: "228.55",
+    amount: "127.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb563420"),
+    Timestamp: "1582938957732",
+    direction: "Bids",
+    price: "228.54",
+    amount: "2.2764"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb563421"),
+    Timestamp: "1582938957732",
+    direction: "Bids",
+    price: "228.53",
+    amount: "4.3732"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb563422"),
+    Timestamp: "1582938957732",
+    direction: "Asks",
+    price: "228.59",
+    amount: "11.206"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb563423"),
+    Timestamp: "1582938957732",
+    direction: "Asks",
+    price: "228.57",
+    amount: "29.4647"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb563424"),
+    Timestamp: "1582938957732",
+    direction: "Asks",
+    price: "228.56",
+    amount: "5.8692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb563425"),
+    Timestamp: "1582938957732",
+    direction: "Asks",
+    price: "228.55",
+    amount: "127.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb563426"),
+    Timestamp: "1582938957732",
+    direction: "Asks",
+    price: "228.54",
+    amount: "2.2764"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bb4e6e3a926eeb563427"),
+    Timestamp: "1582938957732",
+    direction: "Asks",
+    price: "228.53",
+    amount: "4.3732"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb563428"),
+    Timestamp: "1582939857540",
+    direction: "Bids",
+    price: "227.64",
+    amount: "3.3695"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb563429"),
+    Timestamp: "1582939857540",
+    direction: "Bids",
+    price: "227.62",
+    amount: "2.3688"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb56342a"),
+    Timestamp: "1582939857540",
+    direction: "Bids",
+    price: "227.59",
+    amount: "0.0634"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb56342b"),
+    Timestamp: "1582939857540",
+    direction: "Bids",
+    price: "227.58",
+    amount: "39.9707"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb56342c"),
+    Timestamp: "1582939857540",
+    direction: "Bids",
+    price: "227.56",
+    amount: "12.2364"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb56342d"),
+    Timestamp: "1582939857540",
+    direction: "Bids",
+    price: "227.55",
+    amount: "1.8"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb56342e"),
+    Timestamp: "1582939857540",
+    direction: "Asks",
+    price: "227.64",
+    amount: "3.3695"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb56342f"),
+    Timestamp: "1582939857540",
+    direction: "Asks",
+    price: "227.62",
+    amount: "2.3688"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb563430"),
+    Timestamp: "1582939857540",
+    direction: "Asks",
+    price: "227.59",
+    amount: "0.0634"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb563431"),
+    Timestamp: "1582939857540",
+    direction: "Asks",
+    price: "227.58",
+    amount: "39.9707"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb563432"),
+    Timestamp: "1582939857540",
+    direction: "Asks",
+    price: "227.56",
+    amount: "12.2364"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59bed16e3a926eeb563433"),
+    Timestamp: "1582939857540",
+    direction: "Asks",
+    price: "227.55",
+    amount: "1.8"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb563434"),
+    Timestamp: "1582940757826",
+    direction: "Bids",
+    price: "228.97",
+    amount: "50.9458"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb563435"),
+    Timestamp: "1582940757826",
+    direction: "Bids",
+    price: "228.92",
+    amount: "4.565"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb563436"),
+    Timestamp: "1582940757826",
+    direction: "Bids",
+    price: "228.91",
+    amount: "0.2783"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb563437"),
+    Timestamp: "1582940757826",
+    direction: "Bids",
+    price: "228.9",
+    amount: "0.1891"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb563438"),
+    Timestamp: "1582940757826",
+    direction: "Bids",
+    price: "228.89",
+    amount: "0.2138"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb563439"),
+    Timestamp: "1582940757826",
+    direction: "Bids",
+    price: "228.88",
+    amount: "2.538"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb56343a"),
+    Timestamp: "1582940757826",
+    direction: "Asks",
+    price: "228.97",
+    amount: "50.9458"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb56343b"),
+    Timestamp: "1582940757826",
+    direction: "Asks",
+    price: "228.92",
+    amount: "4.565"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb56343c"),
+    Timestamp: "1582940757826",
+    direction: "Asks",
+    price: "228.91",
+    amount: "0.2783"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb56343d"),
+    Timestamp: "1582940757826",
+    direction: "Asks",
+    price: "228.9",
+    amount: "0.1891"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb56343e"),
+    Timestamp: "1582940757826",
+    direction: "Asks",
+    price: "228.89",
+    amount: "0.2138"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c2566e3a926eeb56343f"),
+    Timestamp: "1582940757826",
+    direction: "Asks",
+    price: "228.88",
+    amount: "2.538"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563440"),
+    Timestamp: "1582941657964",
+    direction: "Bids",
+    price: "226.93",
+    amount: "6.5317"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563441"),
+    Timestamp: "1582941657964",
+    direction: "Bids",
+    price: "226.91",
+    amount: "1.6295"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563442"),
+    Timestamp: "1582941657964",
+    direction: "Bids",
+    price: "226.9",
+    amount: "7.6406"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563443"),
+    Timestamp: "1582941657964",
+    direction: "Bids",
+    price: "226.87",
+    amount: "3.4781"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563444"),
+    Timestamp: "1582941657964",
+    direction: "Bids",
+    price: "226.86",
+    amount: "47.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563445"),
+    Timestamp: "1582941657964",
+    direction: "Bids",
+    price: "226.85",
+    amount: "4.3399"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563446"),
+    Timestamp: "1582941657964",
+    direction: "Asks",
+    price: "226.93",
+    amount: "6.5317"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563447"),
+    Timestamp: "1582941657964",
+    direction: "Asks",
+    price: "226.91",
+    amount: "1.6295"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563448"),
+    Timestamp: "1582941657964",
+    direction: "Asks",
+    price: "226.9",
+    amount: "7.6406"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb563449"),
+    Timestamp: "1582941657964",
+    direction: "Asks",
+    price: "226.87",
+    amount: "3.4781"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb56344a"),
+    Timestamp: "1582941657964",
+    direction: "Asks",
+    price: "226.86",
+    amount: "47.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c5da6e3a926eeb56344b"),
+    Timestamp: "1582941657964",
+    direction: "Asks",
+    price: "226.85",
+    amount: "4.3399"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb56344c"),
+    Timestamp: "1582942558127",
+    direction: "Bids",
+    price: "228.21",
+    amount: "0.3426"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb56344d"),
+    Timestamp: "1582942558127",
+    direction: "Bids",
+    price: "228.17",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb56344e"),
+    Timestamp: "1582942558127",
+    direction: "Bids",
+    price: "228.16",
+    amount: "11.0312"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb56344f"),
+    Timestamp: "1582942558127",
+    direction: "Bids",
+    price: "228.14",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb563450"),
+    Timestamp: "1582942558127",
+    direction: "Bids",
+    price: "228.13",
+    amount: "9.9141"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb563451"),
+    Timestamp: "1582942558127",
+    direction: "Bids",
+    price: "228.12",
+    amount: "0.032"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb563452"),
+    Timestamp: "1582942558127",
+    direction: "Asks",
+    price: "228.21",
+    amount: "0.3426"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb563453"),
+    Timestamp: "1582942558127",
+    direction: "Asks",
+    price: "228.17",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb563454"),
+    Timestamp: "1582942558127",
+    direction: "Asks",
+    price: "228.16",
+    amount: "11.0312"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb563455"),
+    Timestamp: "1582942558127",
+    direction: "Asks",
+    price: "228.14",
+    amount: "0.55"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb563456"),
+    Timestamp: "1582942558127",
+    direction: "Asks",
+    price: "228.13",
+    amount: "9.9141"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59c95f6e3a926eeb563457"),
+    Timestamp: "1582942558127",
+    direction: "Asks",
+    price: "228.12",
+    amount: "0.032"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb563458"),
+    Timestamp: "1582943459124",
+    direction: "Bids",
+    price: "229.14",
+    amount: "9.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb563459"),
+    Timestamp: "1582943459124",
+    direction: "Bids",
+    price: "229.1",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb56345a"),
+    Timestamp: "1582943459124",
+    direction: "Bids",
+    price: "229.08",
+    amount: "0.3031"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb56345b"),
+    Timestamp: "1582943459124",
+    direction: "Bids",
+    price: "229.07",
+    amount: "93.2002"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb56345c"),
+    Timestamp: "1582943459124",
+    direction: "Bids",
+    price: "229.05",
+    amount: "168.0495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb56345d"),
+    Timestamp: "1582943459124",
+    direction: "Bids",
+    price: "229.04",
+    amount: "53.9106"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb56345e"),
+    Timestamp: "1582943459124",
+    direction: "Asks",
+    price: "229.14",
+    amount: "9.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb56345f"),
+    Timestamp: "1582943459124",
+    direction: "Asks",
+    price: "229.1",
+    amount: "0.1"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb563460"),
+    Timestamp: "1582943459124",
+    direction: "Asks",
+    price: "229.08",
+    amount: "0.3031"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb563461"),
+    Timestamp: "1582943459124",
+    direction: "Asks",
+    price: "229.07",
+    amount: "93.2002"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb563462"),
+    Timestamp: "1582943459124",
+    direction: "Asks",
+    price: "229.05",
+    amount: "168.0495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cce46e3a926eeb563463"),
+    Timestamp: "1582943459124",
+    direction: "Asks",
+    price: "229.04",
+    amount: "53.9106"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b277"),
+    Timestamp: "1582943797977",
+    direction: "Bids",
+    price: "229.31",
+    amount: "14.1616"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b278"),
+    Timestamp: "1582943797977",
+    direction: "Bids",
+    price: "229.29",
+    amount: "1.5692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b279"),
+    Timestamp: "1582943797977",
+    direction: "Bids",
+    price: "229.28",
+    amount: "9.512"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b27a"),
+    Timestamp: "1582943797977",
+    direction: "Bids",
+    price: "229.27",
+    amount: "7.5904"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b27b"),
+    Timestamp: "1582943797977",
+    direction: "Bids",
+    price: "229.25",
+    amount: "9.6105"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b27c"),
+    Timestamp: "1582943797977",
+    direction: "Bids",
+    price: "229.24",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b27d"),
+    Timestamp: "1582943797977",
+    direction: "Asks",
+    price: "229.31",
+    amount: "14.1616"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b27e"),
+    Timestamp: "1582943797977",
+    direction: "Asks",
+    price: "229.29",
+    amount: "1.5692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b27f"),
+    Timestamp: "1582943797977",
+    direction: "Asks",
+    price: "229.28",
+    amount: "9.512"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b280"),
+    Timestamp: "1582943797977",
+    direction: "Asks",
+    price: "229.27",
+    amount: "7.5904"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b281"),
+    Timestamp: "1582943797977",
+    direction: "Asks",
+    price: "229.25",
+    amount: "9.6105"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ce366e3a9276cfc2b282"),
+    Timestamp: "1582943797977",
+    direction: "Asks",
+    price: "229.24",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c25"),
+    Timestamp: "1582944067480",
+    direction: "Bids",
+    price: "228.76",
+    amount: "8.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c26"),
+    Timestamp: "1582944067480",
+    direction: "Bids",
+    price: "228.75",
+    amount: "1.3924"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c27"),
+    Timestamp: "1582944067480",
+    direction: "Bids",
+    price: "228.73",
+    amount: "1.8077"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c28"),
+    Timestamp: "1582944067480",
+    direction: "Bids",
+    price: "228.71",
+    amount: "5.008"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c29"),
+    Timestamp: "1582944067480",
+    direction: "Bids",
+    price: "228.7",
+    amount: "37.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c2a"),
+    Timestamp: "1582944067480",
+    direction: "Bids",
+    price: "228.69",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c2b"),
+    Timestamp: "1582944067480",
+    direction: "Asks",
+    price: "228.76",
+    amount: "8.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c2c"),
+    Timestamp: "1582944067480",
+    direction: "Asks",
+    price: "228.75",
+    amount: "1.3924"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c2d"),
+    Timestamp: "1582944067480",
+    direction: "Asks",
+    price: "228.73",
+    amount: "1.8077"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c2e"),
+    Timestamp: "1582944067480",
+    direction: "Asks",
+    price: "228.71",
+    amount: "5.008"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c2f"),
+    Timestamp: "1582944067480",
+    direction: "Asks",
+    price: "228.7",
+    amount: "37.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cf436e3a92773fc19c30"),
+    Timestamp: "1582944067480",
+    direction: "Asks",
+    price: "228.69",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e51093"),
+    Timestamp: "1582944247466",
+    direction: "Bids",
+    price: "228.59",
+    amount: "0.0964"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e51094"),
+    Timestamp: "1582944247466",
+    direction: "Bids",
+    price: "228.58",
+    amount: "31.1201"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e51095"),
+    Timestamp: "1582944247466",
+    direction: "Bids",
+    price: "228.57",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e51096"),
+    Timestamp: "1582944247466",
+    direction: "Bids",
+    price: "228.56",
+    amount: "0.7148"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e51097"),
+    Timestamp: "1582944247466",
+    direction: "Bids",
+    price: "228.55",
+    amount: "65.0277"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e51098"),
+    Timestamp: "1582944247466",
+    direction: "Bids",
+    price: "228.53",
+    amount: "17.5143"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e51099"),
+    Timestamp: "1582944247466",
+    direction: "Asks",
+    price: "228.59",
+    amount: "0.0964"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e5109a"),
+    Timestamp: "1582944247466",
+    direction: "Asks",
+    price: "228.58",
+    amount: "31.1201"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e5109b"),
+    Timestamp: "1582944247466",
+    direction: "Asks",
+    price: "228.57",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e5109c"),
+    Timestamp: "1582944247466",
+    direction: "Asks",
+    price: "228.56",
+    amount: "0.7148"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e5109d"),
+    Timestamp: "1582944247466",
+    direction: "Asks",
+    price: "228.55",
+    amount: "65.0277"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59cff86e3a927798e5109e"),
+    Timestamp: "1582944247466",
+    direction: "Asks",
+    price: "228.53",
+    amount: "17.5143"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca598"),
+    Timestamp: "1582944369993",
+    direction: "Bids",
+    price: "228.19",
+    amount: "6.8133"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca599"),
+    Timestamp: "1582944369993",
+    direction: "Bids",
+    price: "228.18",
+    amount: "6.86"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca59a"),
+    Timestamp: "1582944369993",
+    direction: "Bids",
+    price: "228.17",
+    amount: "0.7232"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca59b"),
+    Timestamp: "1582944369993",
+    direction: "Bids",
+    price: "228.16",
+    amount: "0.0675"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca59c"),
+    Timestamp: "1582944369993",
+    direction: "Bids",
+    price: "228.15",
+    amount: "38.1354"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca59d"),
+    Timestamp: "1582944369993",
+    direction: "Bids",
+    price: "228.14",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca59e"),
+    Timestamp: "1582944369993",
+    direction: "Asks",
+    price: "228.19",
+    amount: "6.8133"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca59f"),
+    Timestamp: "1582944369993",
+    direction: "Asks",
+    price: "228.18",
+    amount: "6.86"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca5a0"),
+    Timestamp: "1582944369993",
+    direction: "Asks",
+    price: "228.17",
+    amount: "0.7232"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca5a1"),
+    Timestamp: "1582944369993",
+    direction: "Asks",
+    price: "228.16",
+    amount: "0.0675"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca5a2"),
+    Timestamp: "1582944369993",
+    direction: "Asks",
+    price: "228.15",
+    amount: "38.1354"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0726e3a9277d35ca5a3"),
+    Timestamp: "1582944369993",
+    direction: "Asks",
+    price: "228.14",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c1a"),
+    Timestamp: "1582944476027",
+    direction: "Bids",
+    price: "227.94",
+    amount: "0.6777"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c1b"),
+    Timestamp: "1582944476027",
+    direction: "Bids",
+    price: "227.89",
+    amount: "0.863"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c1c"),
+    Timestamp: "1582944476027",
+    direction: "Bids",
+    price: "227.88",
+    amount: "1.5166"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c1d"),
+    Timestamp: "1582944476027",
+    direction: "Bids",
+    price: "227.87",
+    amount: "4.8102"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c1e"),
+    Timestamp: "1582944476027",
+    direction: "Bids",
+    price: "227.86",
+    amount: "0.0485"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c1f"),
+    Timestamp: "1582944476027",
+    direction: "Bids",
+    price: "227.85",
+    amount: "34.5331"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c20"),
+    Timestamp: "1582944476027",
+    direction: "Asks",
+    price: "227.94",
+    amount: "0.6777"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c21"),
+    Timestamp: "1582944476027",
+    direction: "Asks",
+    price: "227.89",
+    amount: "0.863"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c22"),
+    Timestamp: "1582944476027",
+    direction: "Asks",
+    price: "227.88",
+    amount: "1.5166"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c23"),
+    Timestamp: "1582944476027",
+    direction: "Asks",
+    price: "227.87",
+    amount: "4.8102"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c24"),
+    Timestamp: "1582944476027",
+    direction: "Asks",
+    price: "227.86",
+    amount: "0.0485"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d0dc6e3a927850e37c25"),
+    Timestamp: "1582944476027",
+    direction: "Asks",
+    price: "227.85",
+    amount: "34.5331"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab836"),
+    Timestamp: "1582944646544",
+    direction: "Bids",
+    price: "228.09",
+    amount: "1.9949"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab837"),
+    Timestamp: "1582944646544",
+    direction: "Bids",
+    price: "228.08",
+    amount: "2.1511"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab838"),
+    Timestamp: "1582944646544",
+    direction: "Bids",
+    price: "228.02",
+    amount: "36.1901"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab839"),
+    Timestamp: "1582944646544",
+    direction: "Bids",
+    price: "227.98",
+    amount: "2.45"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab83a"),
+    Timestamp: "1582944646544",
+    direction: "Bids",
+    price: "227.97",
+    amount: "37.745"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab83b"),
+    Timestamp: "1582944646544",
+    direction: "Bids",
+    price: "227.96",
+    amount: "168.4915"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab83c"),
+    Timestamp: "1582944646544",
+    direction: "Asks",
+    price: "228.09",
+    amount: "1.9949"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab83d"),
+    Timestamp: "1582944646544",
+    direction: "Asks",
+    price: "228.08",
+    amount: "2.1511"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab83e"),
+    Timestamp: "1582944646544",
+    direction: "Asks",
+    price: "228.02",
+    amount: "36.1901"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab83f"),
+    Timestamp: "1582944646544",
+    direction: "Asks",
+    price: "227.98",
+    amount: "2.45"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab840"),
+    Timestamp: "1582944646544",
+    direction: "Asks",
+    price: "227.97",
+    amount: "37.745"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d1866e3a927897bab841"),
+    Timestamp: "1582944646544",
+    direction: "Asks",
+    price: "227.96",
+    amount: "168.4915"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c15"),
+    Timestamp: "1582944796358",
+    direction: "Bids",
+    price: "228.24",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c16"),
+    Timestamp: "1582944796358",
+    direction: "Bids",
+    price: "228.22",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c17"),
+    Timestamp: "1582944796358",
+    direction: "Bids",
+    price: "228.21",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c18"),
+    Timestamp: "1582944796358",
+    direction: "Bids",
+    price: "228.2",
+    amount: "9.8147"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c19"),
+    Timestamp: "1582944796358",
+    direction: "Bids",
+    price: "228.19",
+    amount: "2.9637"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c1a"),
+    Timestamp: "1582944796358",
+    direction: "Bids",
+    price: "228.18",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c1b"),
+    Timestamp: "1582944796358",
+    direction: "Asks",
+    price: "228.24",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c1c"),
+    Timestamp: "1582944796358",
+    direction: "Asks",
+    price: "228.22",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c1d"),
+    Timestamp: "1582944796358",
+    direction: "Asks",
+    price: "228.21",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c1e"),
+    Timestamp: "1582944796358",
+    direction: "Asks",
+    price: "228.2",
+    amount: "9.8147"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c1f"),
+    Timestamp: "1582944796358",
+    direction: "Asks",
+    price: "228.19",
+    amount: "2.9637"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d21c6e3a9278e21e6c20"),
+    Timestamp: "1582944796358",
+    direction: "Asks",
+    price: "228.18",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c40d"),
+    Timestamp: "1582945503765",
+    direction: "Bids",
+    price: "229.78",
+    amount: "17.3952"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c40e"),
+    Timestamp: "1582945503765",
+    direction: "Bids",
+    price: "229.75",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c40f"),
+    Timestamp: "1582945503765",
+    direction: "Bids",
+    price: "229.74",
+    amount: "0.3269"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c410"),
+    Timestamp: "1582945503765",
+    direction: "Bids",
+    price: "229.72",
+    amount: "3.2017"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c411"),
+    Timestamp: "1582945503765",
+    direction: "Bids",
+    price: "229.71",
+    amount: "15.372"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c412"),
+    Timestamp: "1582945503765",
+    direction: "Bids",
+    price: "229.7",
+    amount: "169.3296"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c413"),
+    Timestamp: "1582945503765",
+    direction: "Asks",
+    price: "229.78",
+    amount: "17.3952"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c414"),
+    Timestamp: "1582945503765",
+    direction: "Asks",
+    price: "229.75",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c415"),
+    Timestamp: "1582945503765",
+    direction: "Asks",
+    price: "229.74",
+    amount: "0.3269"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c416"),
+    Timestamp: "1582945503765",
+    direction: "Asks",
+    price: "229.72",
+    amount: "3.2017"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c417"),
+    Timestamp: "1582945503765",
+    direction: "Asks",
+    price: "229.71",
+    amount: "15.372"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d4e06e3a920529f1c418"),
+    Timestamp: "1582945503765",
+    direction: "Asks",
+    price: "229.7",
+    amount: "169.3296"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81c8"),
+    Timestamp: "1582945552037",
+    direction: "Bids",
+    price: "230.1",
+    amount: "0.9894"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81c9"),
+    Timestamp: "1582945552037",
+    direction: "Bids",
+    price: "230.09",
+    amount: "13.5794"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81ca"),
+    Timestamp: "1582945552037",
+    direction: "Bids",
+    price: "230.08",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81cb"),
+    Timestamp: "1582945552037",
+    direction: "Bids",
+    price: "230.06",
+    amount: "71.6104"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81cc"),
+    Timestamp: "1582945552037",
+    direction: "Bids",
+    price: "230.05",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81cd"),
+    Timestamp: "1582945552037",
+    direction: "Bids",
+    price: "230.04",
+    amount: "19.9323"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81ce"),
+    Timestamp: "1582945552037",
+    direction: "Asks",
+    price: "230.1",
+    amount: "0.9894"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81cf"),
+    Timestamp: "1582945552037",
+    direction: "Asks",
+    price: "230.09",
+    amount: "13.5794"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81d0"),
+    Timestamp: "1582945552037",
+    direction: "Asks",
+    price: "230.08",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81d1"),
+    Timestamp: "1582945552037",
+    direction: "Asks",
+    price: "230.06",
+    amount: "71.6104"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81d2"),
+    Timestamp: "1582945552037",
+    direction: "Asks",
+    price: "230.05",
+    amount: "6.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d5106e3a9205673e81d3"),
+    Timestamp: "1582945552037",
+    direction: "Asks",
+    price: "230.04",
+    amount: "19.9323"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c8f"),
+    Timestamp: "1582945799195",
+    direction: "Bids",
+    price: "230.19",
+    amount: "0.8756"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c90"),
+    Timestamp: "1582945799195",
+    direction: "Bids",
+    price: "230.18",
+    amount: "13.355"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c91"),
+    Timestamp: "1582945799195",
+    direction: "Bids",
+    price: "230.17",
+    amount: "0.5591"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c92"),
+    Timestamp: "1582945799195",
+    direction: "Bids",
+    price: "230.16",
+    amount: "34.257"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c93"),
+    Timestamp: "1582945799195",
+    direction: "Bids",
+    price: "230.15",
+    amount: "0.4276"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c94"),
+    Timestamp: "1582945799195",
+    direction: "Bids",
+    price: "230.14",
+    amount: "51.5496"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c95"),
+    Timestamp: "1582945799195",
+    direction: "Asks",
+    price: "230.19",
+    amount: "0.8756"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c96"),
+    Timestamp: "1582945799195",
+    direction: "Asks",
+    price: "230.18",
+    amount: "13.355"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c97"),
+    Timestamp: "1582945799195",
+    direction: "Asks",
+    price: "230.17",
+    amount: "0.5591"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c98"),
+    Timestamp: "1582945799195",
+    direction: "Asks",
+    price: "230.16",
+    amount: "34.257"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c99"),
+    Timestamp: "1582945799195",
+    direction: "Asks",
+    price: "230.15",
+    amount: "0.4276"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59d6076e3a9205c6111c9a"),
+    Timestamp: "1582945799195",
+    direction: "Asks",
+    price: "230.14",
+    amount: "51.5496"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f492f"),
+    Timestamp: "1582947179904",
+    direction: "Bids",
+    price: "228.65",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4930"),
+    Timestamp: "1582947179904",
+    direction: "Bids",
+    price: "228.62",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4931"),
+    Timestamp: "1582947179904",
+    direction: "Bids",
+    price: "228.61",
+    amount: "1.5205"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4932"),
+    Timestamp: "1582947179904",
+    direction: "Bids",
+    price: "228.6",
+    amount: "15.5682"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4933"),
+    Timestamp: "1582947179904",
+    direction: "Bids",
+    price: "228.59",
+    amount: "19.408"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4934"),
+    Timestamp: "1582947179904",
+    direction: "Bids",
+    price: "228.58",
+    amount: "8.7495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4935"),
+    Timestamp: "1582947179904",
+    direction: "Asks",
+    price: "228.65",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4936"),
+    Timestamp: "1582947179904",
+    direction: "Asks",
+    price: "228.62",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4937"),
+    Timestamp: "1582947179904",
+    direction: "Asks",
+    price: "228.61",
+    amount: "1.5205"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4938"),
+    Timestamp: "1582947179904",
+    direction: "Asks",
+    price: "228.6",
+    amount: "15.5682"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f4939"),
+    Timestamp: "1582947179904",
+    direction: "Asks",
+    price: "228.59",
+    amount: "19.408"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59db6c6e3a92080e2f493a"),
+    Timestamp: "1582947179904",
+    direction: "Asks",
+    price: "228.58",
+    amount: "8.7495"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b49"),
+    Timestamp: "1582947857227",
+    direction: "Bids",
+    price: "229.41",
+    amount: "1.0052"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b4e"),
+    Timestamp: "1582947857227",
+    direction: "Bids",
+    price: "229.36",
+    amount: "11.1875"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b4f"),
+    Timestamp: "1582947857227",
+    direction: "Bids",
+    price: "229.35",
+    amount: "10.8975"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b50"),
+    Timestamp: "1582947857227",
+    direction: "Bids",
+    price: "229.34",
+    amount: "0.9926"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b51"),
+    Timestamp: "1582947857227",
+    direction: "Bids",
+    price: "229.32",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b52"),
+    Timestamp: "1582947857227",
+    direction: "Bids",
+    price: "229.31",
+    amount: "15.7964"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b53"),
+    Timestamp: "1582947857227",
+    direction: "Asks",
+    price: "229.41",
+    amount: "1.0052"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b54"),
+    Timestamp: "1582947857227",
+    direction: "Asks",
+    price: "229.36",
+    amount: "11.1875"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b55"),
+    Timestamp: "1582947857227",
+    direction: "Asks",
+    price: "229.35",
+    amount: "10.8975"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b56"),
+    Timestamp: "1582947857227",
+    direction: "Asks",
+    price: "229.34",
+    amount: "0.9926"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b57"),
+    Timestamp: "1582947857227",
+    direction: "Asks",
+    price: "229.32",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de116e3a9205c6ae4b58"),
+    Timestamp: "1582947857227",
+    direction: "Asks",
+    price: "229.31",
+    amount: "15.7964"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b59"),
+    Timestamp: "1582947916943",
+    direction: "Bids",
+    price: "229.23",
+    amount: "8.9722"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b5a"),
+    Timestamp: "1582947916943",
+    direction: "Bids",
+    price: "229.2",
+    amount: "26.2415"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b5b"),
+    Timestamp: "1582947916943",
+    direction: "Bids",
+    price: "229.18",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b5c"),
+    Timestamp: "1582947916943",
+    direction: "Bids",
+    price: "229.17",
+    amount: "3.6674"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b5d"),
+    Timestamp: "1582947916943",
+    direction: "Bids",
+    price: "229.16",
+    amount: "35.9233"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b5e"),
+    Timestamp: "1582947916943",
+    direction: "Bids",
+    price: "229.15",
+    amount: "19.498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b5f"),
+    Timestamp: "1582947916943",
+    direction: "Asks",
+    price: "229.23",
+    amount: "8.9722"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b60"),
+    Timestamp: "1582947916943",
+    direction: "Asks",
+    price: "229.2",
+    amount: "26.2415"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b61"),
+    Timestamp: "1582947916943",
+    direction: "Asks",
+    price: "229.18",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b62"),
+    Timestamp: "1582947916943",
+    direction: "Asks",
+    price: "229.17",
+    amount: "3.6674"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b63"),
+    Timestamp: "1582947916943",
+    direction: "Asks",
+    price: "229.16",
+    amount: "35.9233"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de4d6e3a9205c6ae4b64"),
+    Timestamp: "1582947916943",
+    direction: "Asks",
+    price: "229.15",
+    amount: "19.498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b6b"),
+    Timestamp: "1582947977350",
+    direction: "Bids",
+    price: "229.21",
+    amount: "3.3049"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b6c"),
+    Timestamp: "1582947977350",
+    direction: "Bids",
+    price: "229.19",
+    amount: "3.955"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b6d"),
+    Timestamp: "1582947977350",
+    direction: "Bids",
+    price: "229.18",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b6e"),
+    Timestamp: "1582947977350",
+    direction: "Bids",
+    price: "229.17",
+    amount: "13.094"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b6f"),
+    Timestamp: "1582947977350",
+    direction: "Bids",
+    price: "229.16",
+    amount: "15.046"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b70"),
+    Timestamp: "1582947977350",
+    direction: "Bids",
+    price: "229.15",
+    amount: "4.0622"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b71"),
+    Timestamp: "1582947977350",
+    direction: "Asks",
+    price: "229.21",
+    amount: "3.3049"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b72"),
+    Timestamp: "1582947977350",
+    direction: "Asks",
+    price: "229.19",
+    amount: "3.955"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b73"),
+    Timestamp: "1582947977350",
+    direction: "Asks",
+    price: "229.18",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b74"),
+    Timestamp: "1582947977350",
+    direction: "Asks",
+    price: "229.17",
+    amount: "13.094"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b75"),
+    Timestamp: "1582947977350",
+    direction: "Asks",
+    price: "229.16",
+    amount: "15.046"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59de896e3a9205c6ae4b76"),
+    Timestamp: "1582947977350",
+    direction: "Asks",
+    price: "229.15",
+    amount: "4.0622"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b7d"),
+    Timestamp: "1582948037042",
+    direction: "Bids",
+    price: "229.17",
+    amount: "0.0067"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b7e"),
+    Timestamp: "1582948037042",
+    direction: "Bids",
+    price: "229.16",
+    amount: "0.0262"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b7f"),
+    Timestamp: "1582948037042",
+    direction: "Bids",
+    price: "229.15",
+    amount: "0.0437"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b80"),
+    Timestamp: "1582948037042",
+    direction: "Bids",
+    price: "229.13",
+    amount: "17.6284"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b81"),
+    Timestamp: "1582948037042",
+    direction: "Bids",
+    price: "229.11",
+    amount: "0.3362"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b82"),
+    Timestamp: "1582948037042",
+    direction: "Bids",
+    price: "229.1",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b83"),
+    Timestamp: "1582948037042",
+    direction: "Asks",
+    price: "229.17",
+    amount: "0.0067"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b84"),
+    Timestamp: "1582948037042",
+    direction: "Asks",
+    price: "229.16",
+    amount: "0.0262"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b85"),
+    Timestamp: "1582948037042",
+    direction: "Asks",
+    price: "229.15",
+    amount: "0.0437"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b86"),
+    Timestamp: "1582948037042",
+    direction: "Asks",
+    price: "229.13",
+    amount: "17.6284"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b87"),
+    Timestamp: "1582948037042",
+    direction: "Asks",
+    price: "229.11",
+    amount: "0.3362"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dec56e3a9205c6ae4b88"),
+    Timestamp: "1582948037042",
+    direction: "Asks",
+    price: "229.1",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b8f"),
+    Timestamp: "1582948097388",
+    direction: "Bids",
+    price: "229.3",
+    amount: "15.4462"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b90"),
+    Timestamp: "1582948097388",
+    direction: "Bids",
+    price: "229.28",
+    amount: "10.505"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b91"),
+    Timestamp: "1582948097388",
+    direction: "Bids",
+    price: "229.27",
+    amount: "4.9217"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b92"),
+    Timestamp: "1582948097388",
+    direction: "Bids",
+    price: "229.26",
+    amount: "88.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b93"),
+    Timestamp: "1582948097388",
+    direction: "Bids",
+    price: "229.25",
+    amount: "204.6845"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b94"),
+    Timestamp: "1582948097388",
+    direction: "Bids",
+    price: "229.24",
+    amount: "9.1756"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b95"),
+    Timestamp: "1582948097388",
+    direction: "Asks",
+    price: "229.3",
+    amount: "15.4462"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b96"),
+    Timestamp: "1582948097388",
+    direction: "Asks",
+    price: "229.28",
+    amount: "10.505"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b97"),
+    Timestamp: "1582948097388",
+    direction: "Asks",
+    price: "229.27",
+    amount: "4.9217"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b98"),
+    Timestamp: "1582948097388",
+    direction: "Asks",
+    price: "229.26",
+    amount: "88.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b99"),
+    Timestamp: "1582948097388",
+    direction: "Asks",
+    price: "229.25",
+    amount: "204.6845"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df016e3a9205c6ae4b9a"),
+    Timestamp: "1582948097388",
+    direction: "Asks",
+    price: "229.24",
+    amount: "9.1756"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4ba6"),
+    Timestamp: "1582948157262",
+    direction: "Bids",
+    price: "229.22",
+    amount: "5.5784"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4ba7"),
+    Timestamp: "1582948157262",
+    direction: "Bids",
+    price: "229.2",
+    amount: "20.6721"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4ba8"),
+    Timestamp: "1582948157262",
+    direction: "Bids",
+    price: "229.18",
+    amount: "12.3672"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4ba9"),
+    Timestamp: "1582948157262",
+    direction: "Bids",
+    price: "229.15",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4baa"),
+    Timestamp: "1582948157262",
+    direction: "Bids",
+    price: "229.14",
+    amount: "11.3701"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4bab"),
+    Timestamp: "1582948157262",
+    direction: "Bids",
+    price: "229.13",
+    amount: "42.622"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4bac"),
+    Timestamp: "1582948157262",
+    direction: "Asks",
+    price: "229.22",
+    amount: "5.5784"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4bad"),
+    Timestamp: "1582948157262",
+    direction: "Asks",
+    price: "229.2",
+    amount: "20.6721"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4bae"),
+    Timestamp: "1582948157262",
+    direction: "Asks",
+    price: "229.18",
+    amount: "12.3672"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4baf"),
+    Timestamp: "1582948157262",
+    direction: "Asks",
+    price: "229.15",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4bb0"),
+    Timestamp: "1582948157262",
+    direction: "Asks",
+    price: "229.14",
+    amount: "11.3701"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df3d6e3a9205c6ae4bb1"),
+    Timestamp: "1582948157262",
+    direction: "Asks",
+    price: "229.13",
+    amount: "42.622"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bb2"),
+    Timestamp: "1582948217578",
+    direction: "Bids",
+    price: "229.26",
+    amount: "12.0047"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bb3"),
+    Timestamp: "1582948217578",
+    direction: "Bids",
+    price: "229.25",
+    amount: "7.8128"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bb4"),
+    Timestamp: "1582948217578",
+    direction: "Bids",
+    price: "229.24",
+    amount: "0.8083"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bb5"),
+    Timestamp: "1582948217578",
+    direction: "Bids",
+    price: "229.23",
+    amount: "11.155"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bb6"),
+    Timestamp: "1582948217578",
+    direction: "Bids",
+    price: "229.21",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bb7"),
+    Timestamp: "1582948217578",
+    direction: "Bids",
+    price: "229.2",
+    amount: "34.557"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bb8"),
+    Timestamp: "1582948217578",
+    direction: "Asks",
+    price: "229.26",
+    amount: "12.0047"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bb9"),
+    Timestamp: "1582948217578",
+    direction: "Asks",
+    price: "229.25",
+    amount: "7.8128"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bba"),
+    Timestamp: "1582948217578",
+    direction: "Asks",
+    price: "229.24",
+    amount: "0.8083"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bbb"),
+    Timestamp: "1582948217578",
+    direction: "Asks",
+    price: "229.23",
+    amount: "11.155"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bbc"),
+    Timestamp: "1582948217578",
+    direction: "Asks",
+    price: "229.21",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59df796e3a9205c6ae4bbd"),
+    Timestamp: "1582948217578",
+    direction: "Asks",
+    price: "229.2",
+    amount: "34.557"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bca"),
+    Timestamp: "1582948277593",
+    direction: "Bids",
+    price: "229.72",
+    amount: "40.2035"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bcb"),
+    Timestamp: "1582948277593",
+    direction: "Bids",
+    price: "229.7",
+    amount: "78.7381"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bcc"),
+    Timestamp: "1582948277593",
+    direction: "Bids",
+    price: "229.69",
+    amount: "11.5588"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bcd"),
+    Timestamp: "1582948277593",
+    direction: "Bids",
+    price: "229.68",
+    amount: "33.4777"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bce"),
+    Timestamp: "1582948277593",
+    direction: "Bids",
+    price: "229.67",
+    amount: "6.4992"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bcf"),
+    Timestamp: "1582948277593",
+    direction: "Bids",
+    price: "229.64",
+    amount: "29.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bd0"),
+    Timestamp: "1582948277593",
+    direction: "Asks",
+    price: "229.72",
+    amount: "40.2035"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bd1"),
+    Timestamp: "1582948277593",
+    direction: "Asks",
+    price: "229.7",
+    amount: "78.7381"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bd2"),
+    Timestamp: "1582948277593",
+    direction: "Asks",
+    price: "229.69",
+    amount: "11.5588"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bd3"),
+    Timestamp: "1582948277593",
+    direction: "Asks",
+    price: "229.68",
+    amount: "33.4777"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bd4"),
+    Timestamp: "1582948277593",
+    direction: "Asks",
+    price: "229.67",
+    amount: "6.4992"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dfb56e3a9205c6ae4bd5"),
+    Timestamp: "1582948277593",
+    direction: "Asks",
+    price: "229.64",
+    amount: "29.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bd6"),
+    Timestamp: "1582948337225",
+    direction: "Bids",
+    price: "229.84",
+    amount: "1.9897"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bd7"),
+    Timestamp: "1582948337225",
+    direction: "Bids",
+    price: "229.83",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bd8"),
+    Timestamp: "1582948337225",
+    direction: "Bids",
+    price: "229.82",
+    amount: "2.3943"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bd9"),
+    Timestamp: "1582948337225",
+    direction: "Bids",
+    price: "229.81",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bda"),
+    Timestamp: "1582948337225",
+    direction: "Bids",
+    price: "229.79",
+    amount: "34.2796"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bdb"),
+    Timestamp: "1582948337225",
+    direction: "Bids",
+    price: "229.78",
+    amount: "10.8779"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bdc"),
+    Timestamp: "1582948337225",
+    direction: "Asks",
+    price: "229.84",
+    amount: "1.9897"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bdd"),
+    Timestamp: "1582948337225",
+    direction: "Asks",
+    price: "229.83",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bde"),
+    Timestamp: "1582948337225",
+    direction: "Asks",
+    price: "229.82",
+    amount: "2.3943"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4bdf"),
+    Timestamp: "1582948337225",
+    direction: "Asks",
+    price: "229.81",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4be0"),
+    Timestamp: "1582948337225",
+    direction: "Asks",
+    price: "229.79",
+    amount: "34.2796"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59dff16e3a9205c6ae4be1"),
+    Timestamp: "1582948337225",
+    direction: "Asks",
+    price: "229.78",
+    amount: "10.8779"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4be8"),
+    Timestamp: "1582948397691",
+    direction: "Bids",
+    price: "229.76",
+    amount: "33.9708"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4be9"),
+    Timestamp: "1582948397691",
+    direction: "Bids",
+    price: "229.75",
+    amount: "5.5817"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4bea"),
+    Timestamp: "1582948397691",
+    direction: "Bids",
+    price: "229.74",
+    amount: "33.0103"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4beb"),
+    Timestamp: "1582948397691",
+    direction: "Bids",
+    price: "229.73",
+    amount: "0.9909"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4bec"),
+    Timestamp: "1582948397691",
+    direction: "Bids",
+    price: "229.72",
+    amount: "33.0106"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4bed"),
+    Timestamp: "1582948397691",
+    direction: "Bids",
+    price: "229.7",
+    amount: "2.1547"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4bee"),
+    Timestamp: "1582948397691",
+    direction: "Asks",
+    price: "229.76",
+    amount: "33.9708"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4bef"),
+    Timestamp: "1582948397691",
+    direction: "Asks",
+    price: "229.75",
+    amount: "5.5817"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4bf0"),
+    Timestamp: "1582948397691",
+    direction: "Asks",
+    price: "229.74",
+    amount: "33.0103"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4bf1"),
+    Timestamp: "1582948397691",
+    direction: "Asks",
+    price: "229.73",
+    amount: "0.9909"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4bf2"),
+    Timestamp: "1582948397691",
+    direction: "Asks",
+    price: "229.72",
+    amount: "33.0106"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e02d6e3a9205c6ae4bf3"),
+    Timestamp: "1582948397691",
+    direction: "Asks",
+    price: "229.7",
+    amount: "2.1547"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4bff"),
+    Timestamp: "1582948457809",
+    direction: "Bids",
+    price: "230.12",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c00"),
+    Timestamp: "1582948457809",
+    direction: "Bids",
+    price: "230.1",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c01"),
+    Timestamp: "1582948457809",
+    direction: "Bids",
+    price: "230.09",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c02"),
+    Timestamp: "1582948457809",
+    direction: "Bids",
+    price: "230.08",
+    amount: "1.1498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c03"),
+    Timestamp: "1582948457809",
+    direction: "Bids",
+    price: "230.07",
+    amount: "101.3871"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c04"),
+    Timestamp: "1582948457809",
+    direction: "Bids",
+    price: "230.06",
+    amount: "14.1084"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c05"),
+    Timestamp: "1582948457809",
+    direction: "Asks",
+    price: "230.12",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c06"),
+    Timestamp: "1582948457809",
+    direction: "Asks",
+    price: "230.1",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c07"),
+    Timestamp: "1582948457809",
+    direction: "Asks",
+    price: "230.09",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c08"),
+    Timestamp: "1582948457809",
+    direction: "Asks",
+    price: "230.08",
+    amount: "1.1498"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c09"),
+    Timestamp: "1582948457809",
+    direction: "Asks",
+    price: "230.07",
+    amount: "101.3871"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e06a6e3a9205c6ae4c0a"),
+    Timestamp: "1582948457809",
+    direction: "Asks",
+    price: "230.06",
+    amount: "14.1084"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c0b"),
+    Timestamp: "1582948517372",
+    direction: "Bids",
+    price: "230.24",
+    amount: "1.5131"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c0c"),
+    Timestamp: "1582948517372",
+    direction: "Bids",
+    price: "230.22",
+    amount: "8.7249"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c0d"),
+    Timestamp: "1582948517372",
+    direction: "Bids",
+    price: "230.21",
+    amount: "0.0696"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c0e"),
+    Timestamp: "1582948517372",
+    direction: "Bids",
+    price: "230.16",
+    amount: "4.6331"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c0f"),
+    Timestamp: "1582948517372",
+    direction: "Bids",
+    price: "230.14",
+    amount: "10.509"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c10"),
+    Timestamp: "1582948517372",
+    direction: "Bids",
+    price: "230.13",
+    amount: "16.0759"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c11"),
+    Timestamp: "1582948517372",
+    direction: "Asks",
+    price: "230.24",
+    amount: "1.5131"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c12"),
+    Timestamp: "1582948517372",
+    direction: "Asks",
+    price: "230.22",
+    amount: "8.7249"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c13"),
+    Timestamp: "1582948517372",
+    direction: "Asks",
+    price: "230.21",
+    amount: "0.0696"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c14"),
+    Timestamp: "1582948517372",
+    direction: "Asks",
+    price: "230.16",
+    amount: "4.6331"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c15"),
+    Timestamp: "1582948517372",
+    direction: "Asks",
+    price: "230.14",
+    amount: "10.509"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0a56e3a9205c6ae4c16"),
+    Timestamp: "1582948517372",
+    direction: "Asks",
+    price: "230.13",
+    amount: "16.0759"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c1d"),
+    Timestamp: "1582948577777",
+    direction: "Bids",
+    price: "230.38",
+    amount: "2.8173"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c1e"),
+    Timestamp: "1582948577777",
+    direction: "Bids",
+    price: "230.37",
+    amount: "13.925"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c1f"),
+    Timestamp: "1582948577777",
+    direction: "Bids",
+    price: "230.36",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c20"),
+    Timestamp: "1582948577777",
+    direction: "Bids",
+    price: "230.34",
+    amount: "19.9462"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c21"),
+    Timestamp: "1582948577777",
+    direction: "Bids",
+    price: "230.33",
+    amount: "4.3402"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c22"),
+    Timestamp: "1582948577777",
+    direction: "Bids",
+    price: "230.32",
+    amount: "45.3516"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c23"),
+    Timestamp: "1582948577777",
+    direction: "Asks",
+    price: "230.38",
+    amount: "2.8173"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c24"),
+    Timestamp: "1582948577777",
+    direction: "Asks",
+    price: "230.37",
+    amount: "13.925"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c25"),
+    Timestamp: "1582948577777",
+    direction: "Asks",
+    price: "230.36",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c26"),
+    Timestamp: "1582948577777",
+    direction: "Asks",
+    price: "230.34",
+    amount: "19.9462"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c2d"),
+    Timestamp: "1582948577777",
+    direction: "Asks",
+    price: "230.33",
+    amount: "4.3402"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e0e26e3a9205c6ae4c2e"),
+    Timestamp: "1582948577777",
+    direction: "Asks",
+    price: "230.32",
+    amount: "45.3516"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c2f"),
+    Timestamp: "1582948637486",
+    direction: "Bids",
+    price: "230.26",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c30"),
+    Timestamp: "1582948637486",
+    direction: "Bids",
+    price: "230.25",
+    amount: "0.6073"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c31"),
+    Timestamp: "1582948637486",
+    direction: "Bids",
+    price: "230.24",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c32"),
+    Timestamp: "1582948637486",
+    direction: "Bids",
+    price: "230.23",
+    amount: "10.8553"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c33"),
+    Timestamp: "1582948637486",
+    direction: "Bids",
+    price: "230.22",
+    amount: "0.3955"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c34"),
+    Timestamp: "1582948637486",
+    direction: "Bids",
+    price: "230.21",
+    amount: "24.79"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c35"),
+    Timestamp: "1582948637486",
+    direction: "Asks",
+    price: "230.26",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c36"),
+    Timestamp: "1582948637486",
+    direction: "Asks",
+    price: "230.25",
+    amount: "0.6073"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c37"),
+    Timestamp: "1582948637486",
+    direction: "Asks",
+    price: "230.24",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c38"),
+    Timestamp: "1582948637486",
+    direction: "Asks",
+    price: "230.23",
+    amount: "10.8553"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c39"),
+    Timestamp: "1582948637486",
+    direction: "Asks",
+    price: "230.22",
+    amount: "0.3955"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e11d6e3a9205c6ae4c3a"),
+    Timestamp: "1582948637486",
+    direction: "Asks",
+    price: "230.21",
+    amount: "24.79"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c41"),
+    Timestamp: "1582948697498",
+    direction: "Bids",
+    price: "230.04",
+    amount: "23.1707"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c42"),
+    Timestamp: "1582948697498",
+    direction: "Bids",
+    price: "230.01",
+    amount: "12.5073"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c43"),
+    Timestamp: "1582948697498",
+    direction: "Bids",
+    price: "230.0",
+    amount: "33.0754"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c44"),
+    Timestamp: "1582948697498",
+    direction: "Bids",
+    price: "229.99",
+    amount: "25.1651"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c45"),
+    Timestamp: "1582948697498",
+    direction: "Bids",
+    price: "229.98",
+    amount: "17.385"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c46"),
+    Timestamp: "1582948697498",
+    direction: "Bids",
+    price: "229.97",
+    amount: "13.6605"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c47"),
+    Timestamp: "1582948697498",
+    direction: "Asks",
+    price: "230.04",
+    amount: "23.1707"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c48"),
+    Timestamp: "1582948697498",
+    direction: "Asks",
+    price: "230.01",
+    amount: "12.5073"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c49"),
+    Timestamp: "1582948697498",
+    direction: "Asks",
+    price: "230.0",
+    amount: "33.0754"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c4a"),
+    Timestamp: "1582948697498",
+    direction: "Asks",
+    price: "229.99",
+    amount: "25.1651"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c4b"),
+    Timestamp: "1582948697498",
+    direction: "Asks",
+    price: "229.98",
+    amount: "17.385"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1596e3a9205c6ae4c4c"),
+    Timestamp: "1582948697498",
+    direction: "Asks",
+    price: "229.97",
+    amount: "13.6605"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c53"),
+    Timestamp: "1582948757590",
+    direction: "Bids",
+    price: "230.21",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c54"),
+    Timestamp: "1582948757590",
+    direction: "Bids",
+    price: "230.19",
+    amount: "19.7278"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c55"),
+    Timestamp: "1582948757590",
+    direction: "Bids",
+    price: "230.18",
+    amount: "97.719"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c56"),
+    Timestamp: "1582948757590",
+    direction: "Bids",
+    price: "230.17",
+    amount: "11.9109"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c57"),
+    Timestamp: "1582948757590",
+    direction: "Bids",
+    price: "230.16",
+    amount: "48.9251"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c58"),
+    Timestamp: "1582948757590",
+    direction: "Bids",
+    price: "230.14",
+    amount: "14.9887"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c59"),
+    Timestamp: "1582948757590",
+    direction: "Asks",
+    price: "230.21",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c5a"),
+    Timestamp: "1582948757590",
+    direction: "Asks",
+    price: "230.19",
+    amount: "19.7278"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c5b"),
+    Timestamp: "1582948757590",
+    direction: "Asks",
+    price: "230.18",
+    amount: "97.719"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c5c"),
+    Timestamp: "1582948757590",
+    direction: "Asks",
+    price: "230.17",
+    amount: "11.9109"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c5d"),
+    Timestamp: "1582948757590",
+    direction: "Asks",
+    price: "230.16",
+    amount: "48.9251"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1956e3a9205c6ae4c5e"),
+    Timestamp: "1582948757590",
+    direction: "Asks",
+    price: "230.14",
+    amount: "14.9887"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c64"),
+    Timestamp: "1582948817987",
+    direction: "Bids",
+    price: "230.18",
+    amount: "3.1036"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c65"),
+    Timestamp: "1582948817987",
+    direction: "Bids",
+    price: "230.14",
+    amount: "12.3801"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c66"),
+    Timestamp: "1582948817987",
+    direction: "Bids",
+    price: "230.13",
+    amount: "17.374"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c67"),
+    Timestamp: "1582948817987",
+    direction: "Bids",
+    price: "230.11",
+    amount: "45.861"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c68"),
+    Timestamp: "1582948817987",
+    direction: "Bids",
+    price: "230.1",
+    amount: "11.3609"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c69"),
+    Timestamp: "1582948817987",
+    direction: "Bids",
+    price: "230.09",
+    amount: "11.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c6a"),
+    Timestamp: "1582948817987",
+    direction: "Asks",
+    price: "230.18",
+    amount: "3.1036"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c6b"),
+    Timestamp: "1582948817987",
+    direction: "Asks",
+    price: "230.14",
+    amount: "12.3801"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c6c"),
+    Timestamp: "1582948817987",
+    direction: "Asks",
+    price: "230.13",
+    amount: "17.374"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c6d"),
+    Timestamp: "1582948817987",
+    direction: "Asks",
+    price: "230.11",
+    amount: "45.861"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c6e"),
+    Timestamp: "1582948817987",
+    direction: "Asks",
+    price: "230.1",
+    amount: "11.3609"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e1d26e3a9205c6ae4c6f"),
+    Timestamp: "1582948817987",
+    direction: "Asks",
+    price: "230.09",
+    amount: "11.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c7c"),
+    Timestamp: "1582948878770",
+    direction: "Bids",
+    price: "230.67",
+    amount: "0.9869"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c7d"),
+    Timestamp: "1582948878770",
+    direction: "Bids",
+    price: "230.65",
+    amount: "0.9869"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c7e"),
+    Timestamp: "1582948878770",
+    direction: "Bids",
+    price: "230.64",
+    amount: "5.691"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c7f"),
+    Timestamp: "1582948878770",
+    direction: "Bids",
+    price: "230.61",
+    amount: "39.865"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c80"),
+    Timestamp: "1582948878770",
+    direction: "Bids",
+    price: "230.6",
+    amount: "136.842"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c81"),
+    Timestamp: "1582948878770",
+    direction: "Bids",
+    price: "230.59",
+    amount: "7.5664"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c82"),
+    Timestamp: "1582948878770",
+    direction: "Asks",
+    price: "230.67",
+    amount: "0.9869"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c83"),
+    Timestamp: "1582948878770",
+    direction: "Asks",
+    price: "230.65",
+    amount: "0.9869"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c84"),
+    Timestamp: "1582948878770",
+    direction: "Asks",
+    price: "230.64",
+    amount: "5.691"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c85"),
+    Timestamp: "1582948878770",
+    direction: "Asks",
+    price: "230.61",
+    amount: "39.865"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c86"),
+    Timestamp: "1582948878770",
+    direction: "Asks",
+    price: "230.6",
+    amount: "136.842"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e20f6e3a9205c6ae4c87"),
+    Timestamp: "1582948878770",
+    direction: "Asks",
+    price: "230.59",
+    amount: "7.5664"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c88"),
+    Timestamp: "1582948937698",
+    direction: "Bids",
+    price: "230.72",
+    amount: "4.9066"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c89"),
+    Timestamp: "1582948937698",
+    direction: "Bids",
+    price: "230.71",
+    amount: "35.4906"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c8a"),
+    Timestamp: "1582948937698",
+    direction: "Bids",
+    price: "230.7",
+    amount: "44.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c8b"),
+    Timestamp: "1582948937698",
+    direction: "Bids",
+    price: "230.69",
+    amount: "12.4908"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c8c"),
+    Timestamp: "1582948937698",
+    direction: "Bids",
+    price: "230.68",
+    amount: "3.1511"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c8d"),
+    Timestamp: "1582948937698",
+    direction: "Bids",
+    price: "230.67",
+    amount: "22.0005"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c8e"),
+    Timestamp: "1582948937698",
+    direction: "Asks",
+    price: "230.72",
+    amount: "4.9066"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c8f"),
+    Timestamp: "1582948937698",
+    direction: "Asks",
+    price: "230.71",
+    amount: "35.4906"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c90"),
+    Timestamp: "1582948937698",
+    direction: "Asks",
+    price: "230.7",
+    amount: "44.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c91"),
+    Timestamp: "1582948937698",
+    direction: "Asks",
+    price: "230.69",
+    amount: "12.4908"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c92"),
+    Timestamp: "1582948937698",
+    direction: "Asks",
+    price: "230.68",
+    amount: "3.1511"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2496e3a9205c6ae4c93"),
+    Timestamp: "1582948937698",
+    direction: "Asks",
+    price: "230.67",
+    amount: "22.0005"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4c9a"),
+    Timestamp: "1582948998122",
+    direction: "Bids",
+    price: "230.82",
+    amount: "10.8195"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4c9d"),
+    Timestamp: "1582948998122",
+    direction: "Bids",
+    price: "230.79",
+    amount: "1.4845"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4c9e"),
+    Timestamp: "1582948998122",
+    direction: "Bids",
+    price: "230.78",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca0"),
+    Timestamp: "1582948998122",
+    direction: "Bids",
+    price: "230.77",
+    amount: "5.7839"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca3"),
+    Timestamp: "1582948998122",
+    direction: "Bids",
+    price: "230.76",
+    amount: "38.8316"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca4"),
+    Timestamp: "1582948998122",
+    direction: "Bids",
+    price: "230.75",
+    amount: "11.3394"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca6"),
+    Timestamp: "1582948998122",
+    direction: "Asks",
+    price: "230.82",
+    amount: "10.8195"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca7"),
+    Timestamp: "1582948998122",
+    direction: "Asks",
+    price: "230.79",
+    amount: "1.4845"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca8"),
+    Timestamp: "1582948998122",
+    direction: "Asks",
+    price: "230.78",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4ca9"),
+    Timestamp: "1582948998122",
+    direction: "Asks",
+    price: "230.77",
+    amount: "5.7839"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4caa"),
+    Timestamp: "1582948998122",
+    direction: "Asks",
+    price: "230.76",
+    amount: "38.8316"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2866e3a9205c6ae4cab"),
+    Timestamp: "1582948998122",
+    direction: "Asks",
+    price: "230.75",
+    amount: "11.3394"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cac"),
+    Timestamp: "1582949058168",
+    direction: "Bids",
+    price: "230.87",
+    amount: "16.8191"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cad"),
+    Timestamp: "1582949058168",
+    direction: "Bids",
+    price: "230.86",
+    amount: "11.1974"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cae"),
+    Timestamp: "1582949058168",
+    direction: "Bids",
+    price: "230.85",
+    amount: "115.1569"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4caf"),
+    Timestamp: "1582949058168",
+    direction: "Bids",
+    price: "230.84",
+    amount: "2.4497"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb0"),
+    Timestamp: "1582949058168",
+    direction: "Bids",
+    price: "230.81",
+    amount: "11.3371"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb1"),
+    Timestamp: "1582949058168",
+    direction: "Bids",
+    price: "230.8",
+    amount: "88.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb2"),
+    Timestamp: "1582949058168",
+    direction: "Asks",
+    price: "230.87",
+    amount: "16.8191"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb3"),
+    Timestamp: "1582949058168",
+    direction: "Asks",
+    price: "230.86",
+    amount: "11.1974"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb4"),
+    Timestamp: "1582949058168",
+    direction: "Asks",
+    price: "230.85",
+    amount: "115.1569"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb5"),
+    Timestamp: "1582949058168",
+    direction: "Asks",
+    price: "230.84",
+    amount: "2.4497"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb6"),
+    Timestamp: "1582949058168",
+    direction: "Asks",
+    price: "230.81",
+    amount: "11.3371"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2c26e3a9205c6ae4cb7"),
+    Timestamp: "1582949058168",
+    direction: "Asks",
+    price: "230.8",
+    amount: "88.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc3"),
+    Timestamp: "1582949118285",
+    direction: "Bids",
+    price: "231.07",
+    amount: "3.3357"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc4"),
+    Timestamp: "1582949118285",
+    direction: "Bids",
+    price: "231.02",
+    amount: "1.2866"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc5"),
+    Timestamp: "1582949118285",
+    direction: "Bids",
+    price: "231.0",
+    amount: "29.7578"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc6"),
+    Timestamp: "1582949118285",
+    direction: "Bids",
+    price: "230.99",
+    amount: "7.5555"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc7"),
+    Timestamp: "1582949118285",
+    direction: "Bids",
+    price: "230.98",
+    amount: "2.4493"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc8"),
+    Timestamp: "1582949118285",
+    direction: "Bids",
+    price: "230.97",
+    amount: "36.8668"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cc9"),
+    Timestamp: "1582949118285",
+    direction: "Asks",
+    price: "231.07",
+    amount: "3.3357"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cca"),
+    Timestamp: "1582949118285",
+    direction: "Asks",
+    price: "231.02",
+    amount: "1.2866"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4ccb"),
+    Timestamp: "1582949118285",
+    direction: "Asks",
+    price: "231.0",
+    amount: "29.7578"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4ccc"),
+    Timestamp: "1582949118285",
+    direction: "Asks",
+    price: "230.99",
+    amount: "7.5555"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4ccd"),
+    Timestamp: "1582949118285",
+    direction: "Asks",
+    price: "230.98",
+    amount: "2.4493"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e2fe6e3a9205c6ae4cce"),
+    Timestamp: "1582949118285",
+    direction: "Asks",
+    price: "230.97",
+    amount: "36.8668"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd5"),
+    Timestamp: "1582949178410",
+    direction: "Bids",
+    price: "230.87",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd6"),
+    Timestamp: "1582949178410",
+    direction: "Bids",
+    price: "230.86",
+    amount: "0.3584"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd7"),
+    Timestamp: "1582949178410",
+    direction: "Bids",
+    price: "230.85",
+    amount: "22.3494"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd8"),
+    Timestamp: "1582949178410",
+    direction: "Bids",
+    price: "230.82",
+    amount: "0.0787"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cd9"),
+    Timestamp: "1582949178410",
+    direction: "Bids",
+    price: "230.81",
+    amount: "51.166"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cda"),
+    Timestamp: "1582949178410",
+    direction: "Bids",
+    price: "230.8",
+    amount: "76.4253"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cdb"),
+    Timestamp: "1582949178410",
+    direction: "Asks",
+    price: "230.87",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cdc"),
+    Timestamp: "1582949178410",
+    direction: "Asks",
+    price: "230.86",
+    amount: "0.3584"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cdd"),
+    Timestamp: "1582949178410",
+    direction: "Asks",
+    price: "230.85",
+    amount: "22.3494"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cde"),
+    Timestamp: "1582949178410",
+    direction: "Asks",
+    price: "230.82",
+    amount: "0.0787"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4cdf"),
+    Timestamp: "1582949178410",
+    direction: "Asks",
+    price: "230.81",
+    amount: "51.166"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e33a6e3a9205c6ae4ce0"),
+    Timestamp: "1582949178410",
+    direction: "Asks",
+    price: "230.8",
+    amount: "76.4253"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ce2"),
+    Timestamp: "1582949237954",
+    direction: "Bids",
+    price: "230.93",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ce3"),
+    Timestamp: "1582949237954",
+    direction: "Bids",
+    price: "230.92",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ce4"),
+    Timestamp: "1582949237954",
+    direction: "Bids",
+    price: "230.9",
+    amount: "1.8008"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ce5"),
+    Timestamp: "1582949237954",
+    direction: "Bids",
+    price: "230.89",
+    amount: "39.6246"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ce6"),
+    Timestamp: "1582949237954",
+    direction: "Bids",
+    price: "230.87",
+    amount: "18.928"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ce8"),
+    Timestamp: "1582949237954",
+    direction: "Bids",
+    price: "230.86",
+    amount: "2.45"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ce9"),
+    Timestamp: "1582949237954",
+    direction: "Asks",
+    price: "230.93",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ceb"),
+    Timestamp: "1582949237954",
+    direction: "Asks",
+    price: "230.92",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4ced"),
+    Timestamp: "1582949237954",
+    direction: "Asks",
+    price: "230.9",
+    amount: "1.8008"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4cef"),
+    Timestamp: "1582949237954",
+    direction: "Asks",
+    price: "230.89",
+    amount: "39.6246"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4cf0"),
+    Timestamp: "1582949237954",
+    direction: "Asks",
+    price: "230.87",
+    amount: "18.928"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3766e3a9205c6ae4cf2"),
+    Timestamp: "1582949237954",
+    direction: "Asks",
+    price: "230.86",
+    amount: "2.45"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cf3"),
+    Timestamp: "1582949298152",
+    direction: "Bids",
+    price: "231.01",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cf4"),
+    Timestamp: "1582949298152",
+    direction: "Bids",
+    price: "231.0",
+    amount: "13.2273"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cf5"),
+    Timestamp: "1582949298152",
+    direction: "Bids",
+    price: "230.97",
+    amount: "4.3276"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cf6"),
+    Timestamp: "1582949298152",
+    direction: "Bids",
+    price: "230.94",
+    amount: "7.557"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cf7"),
+    Timestamp: "1582949298152",
+    direction: "Bids",
+    price: "230.92",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cf8"),
+    Timestamp: "1582949298152",
+    direction: "Bids",
+    price: "230.9",
+    amount: "44.7241"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cf9"),
+    Timestamp: "1582949298152",
+    direction: "Asks",
+    price: "231.01",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cfa"),
+    Timestamp: "1582949298152",
+    direction: "Asks",
+    price: "231.0",
+    amount: "13.2273"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cfb"),
+    Timestamp: "1582949298152",
+    direction: "Asks",
+    price: "230.97",
+    amount: "4.3276"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cfc"),
+    Timestamp: "1582949298152",
+    direction: "Asks",
+    price: "230.94",
+    amount: "7.557"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cfd"),
+    Timestamp: "1582949298152",
+    direction: "Asks",
+    price: "230.92",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3b26e3a9205c6ae4cfe"),
+    Timestamp: "1582949298152",
+    direction: "Asks",
+    price: "230.9",
+    amount: "44.7241"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d0a"),
+    Timestamp: "1582949358470",
+    direction: "Bids",
+    price: "231.17",
+    amount: "10.2"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d0b"),
+    Timestamp: "1582949358470",
+    direction: "Bids",
+    price: "231.16",
+    amount: "6.5035"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d0c"),
+    Timestamp: "1582949358470",
+    direction: "Bids",
+    price: "231.15",
+    amount: "12.9128"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d0d"),
+    Timestamp: "1582949358470",
+    direction: "Bids",
+    price: "231.14",
+    amount: "15.3277"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d0e"),
+    Timestamp: "1582949358470",
+    direction: "Bids",
+    price: "231.13",
+    amount: "2.507"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d0f"),
+    Timestamp: "1582949358470",
+    direction: "Bids",
+    price: "231.1",
+    amount: "10.0599"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d10"),
+    Timestamp: "1582949358470",
+    direction: "Asks",
+    price: "231.17",
+    amount: "10.2"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d11"),
+    Timestamp: "1582949358470",
+    direction: "Asks",
+    price: "231.16",
+    amount: "6.5035"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d12"),
+    Timestamp: "1582949358470",
+    direction: "Asks",
+    price: "231.15",
+    amount: "12.9128"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d13"),
+    Timestamp: "1582949358470",
+    direction: "Asks",
+    price: "231.14",
+    amount: "15.3277"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d14"),
+    Timestamp: "1582949358470",
+    direction: "Asks",
+    price: "231.13",
+    amount: "2.507"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e3ee6e3a9205c6ae4d15"),
+    Timestamp: "1582949358470",
+    direction: "Asks",
+    price: "231.1",
+    amount: "10.0599"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d16"),
+    Timestamp: "1582949418535",
+    direction: "Bids",
+    price: "231.32",
+    amount: "0.5832"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d17"),
+    Timestamp: "1582949418535",
+    direction: "Bids",
+    price: "231.3",
+    amount: "1.3479"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d18"),
+    Timestamp: "1582949418535",
+    direction: "Bids",
+    price: "231.29",
+    amount: "93.6107"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d19"),
+    Timestamp: "1582949418535",
+    direction: "Bids",
+    price: "231.28",
+    amount: "9.3318"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d1a"),
+    Timestamp: "1582949418535",
+    direction: "Bids",
+    price: "231.27",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d1b"),
+    Timestamp: "1582949418535",
+    direction: "Bids",
+    price: "231.26",
+    amount: "10.8078"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d1c"),
+    Timestamp: "1582949418535",
+    direction: "Asks",
+    price: "231.32",
+    amount: "0.5832"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d1d"),
+    Timestamp: "1582949418535",
+    direction: "Asks",
+    price: "231.3",
+    amount: "1.3479"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d1e"),
+    Timestamp: "1582949418535",
+    direction: "Asks",
+    price: "231.29",
+    amount: "93.6107"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d1f"),
+    Timestamp: "1582949418535",
+    direction: "Asks",
+    price: "231.28",
+    amount: "9.3318"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d20"),
+    Timestamp: "1582949418535",
+    direction: "Asks",
+    price: "231.27",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e42a6e3a9205c6ae4d21"),
+    Timestamp: "1582949418535",
+    direction: "Asks",
+    price: "231.26",
+    amount: "10.8078"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d28"),
+    Timestamp: "1582949478177",
+    direction: "Bids",
+    price: "231.25",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d29"),
+    Timestamp: "1582949478177",
+    direction: "Bids",
+    price: "231.22",
+    amount: "3.4344"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d2a"),
+    Timestamp: "1582949478177",
+    direction: "Bids",
+    price: "231.21",
+    amount: "48.1457"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d2b"),
+    Timestamp: "1582949478177",
+    direction: "Bids",
+    price: "231.2",
+    amount: "10.3938"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d2c"),
+    Timestamp: "1582949478177",
+    direction: "Bids",
+    price: "231.19",
+    amount: "10.3939"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d2d"),
+    Timestamp: "1582949478177",
+    direction: "Bids",
+    price: "231.17",
+    amount: "25.9187"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d2e"),
+    Timestamp: "1582949478177",
+    direction: "Asks",
+    price: "231.25",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d2f"),
+    Timestamp: "1582949478177",
+    direction: "Asks",
+    price: "231.22",
+    amount: "3.4344"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d30"),
+    Timestamp: "1582949478177",
+    direction: "Asks",
+    price: "231.21",
+    amount: "48.1457"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d31"),
+    Timestamp: "1582949478177",
+    direction: "Asks",
+    price: "231.2",
+    amount: "10.3938"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d32"),
+    Timestamp: "1582949478177",
+    direction: "Asks",
+    price: "231.19",
+    amount: "10.3939"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4666e3a9205c6ae4d33"),
+    Timestamp: "1582949478177",
+    direction: "Asks",
+    price: "231.17",
+    amount: "25.9187"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d40"),
+    Timestamp: "1582949538767",
+    direction: "Bids",
+    price: "231.44",
+    amount: "0.5599"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d41"),
+    Timestamp: "1582949538767",
+    direction: "Bids",
+    price: "231.42",
+    amount: "38.7061"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d42"),
+    Timestamp: "1582949538767",
+    direction: "Bids",
+    price: "231.41",
+    amount: "1.7363"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d43"),
+    Timestamp: "1582949538767",
+    direction: "Bids",
+    price: "231.4",
+    amount: "7.5799"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d44"),
+    Timestamp: "1582949538767",
+    direction: "Bids",
+    price: "231.39",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d45"),
+    Timestamp: "1582949538767",
+    direction: "Bids",
+    price: "231.38",
+    amount: "7.8023"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d46"),
+    Timestamp: "1582949538767",
+    direction: "Asks",
+    price: "231.44",
+    amount: "0.5599"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d47"),
+    Timestamp: "1582949538767",
+    direction: "Asks",
+    price: "231.42",
+    amount: "38.7061"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d48"),
+    Timestamp: "1582949538767",
+    direction: "Asks",
+    price: "231.41",
+    amount: "1.7363"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d49"),
+    Timestamp: "1582949538767",
+    direction: "Asks",
+    price: "231.4",
+    amount: "7.5799"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d4a"),
+    Timestamp: "1582949538767",
+    direction: "Asks",
+    price: "231.39",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4a36e3a9205c6ae4d4b"),
+    Timestamp: "1582949538767",
+    direction: "Asks",
+    price: "231.38",
+    amount: "7.8023"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d4c"),
+    Timestamp: "1582949598629",
+    direction: "Bids",
+    price: "231.53",
+    amount: "0.5827"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d4d"),
+    Timestamp: "1582949598629",
+    direction: "Bids",
+    price: "231.51",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d4e"),
+    Timestamp: "1582949598629",
+    direction: "Bids",
+    price: "231.5",
+    amount: "43.2001"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d4f"),
+    Timestamp: "1582949598629",
+    direction: "Bids",
+    price: "231.47",
+    amount: "9.6856"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d50"),
+    Timestamp: "1582949598629",
+    direction: "Bids",
+    price: "231.46",
+    amount: "139.071"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d51"),
+    Timestamp: "1582949598629",
+    direction: "Bids",
+    price: "231.45",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d52"),
+    Timestamp: "1582949598629",
+    direction: "Asks",
+    price: "231.53",
+    amount: "0.5827"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d53"),
+    Timestamp: "1582949598629",
+    direction: "Asks",
+    price: "231.51",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d54"),
+    Timestamp: "1582949598629",
+    direction: "Asks",
+    price: "231.5",
+    amount: "43.2001"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d55"),
+    Timestamp: "1582949598629",
+    direction: "Asks",
+    price: "231.47",
+    amount: "9.6856"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d56"),
+    Timestamp: "1582949598629",
+    direction: "Asks",
+    price: "231.46",
+    amount: "139.071"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e4de6e3a9205c6ae4d57"),
+    Timestamp: "1582949598629",
+    direction: "Asks",
+    price: "231.45",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d5e"),
+    Timestamp: "1582949658354",
+    direction: "Bids",
+    price: "231.63",
+    amount: "18.7977"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d5f"),
+    Timestamp: "1582949658354",
+    direction: "Bids",
+    price: "231.62",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d60"),
+    Timestamp: "1582949658354",
+    direction: "Bids",
+    price: "231.61",
+    amount: "4.6841"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d61"),
+    Timestamp: "1582949658354",
+    direction: "Bids",
+    price: "231.6",
+    amount: "12.1335"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d62"),
+    Timestamp: "1582949658354",
+    direction: "Bids",
+    price: "231.58",
+    amount: "0.588"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d63"),
+    Timestamp: "1582949658354",
+    direction: "Bids",
+    price: "231.56",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d64"),
+    Timestamp: "1582949658354",
+    direction: "Asks",
+    price: "231.63",
+    amount: "18.7977"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d65"),
+    Timestamp: "1582949658354",
+    direction: "Asks",
+    price: "231.62",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d66"),
+    Timestamp: "1582949658354",
+    direction: "Asks",
+    price: "231.61",
+    amount: "4.6841"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d67"),
+    Timestamp: "1582949658354",
+    direction: "Asks",
+    price: "231.6",
+    amount: "12.1335"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d68"),
+    Timestamp: "1582949658354",
+    direction: "Asks",
+    price: "231.58",
+    amount: "0.588"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e51a6e3a9205c6ae4d69"),
+    Timestamp: "1582949658354",
+    direction: "Asks",
+    price: "231.56",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d6f"),
+    Timestamp: "1582949718701",
+    direction: "Bids",
+    price: "231.47",
+    amount: "0.2264"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d70"),
+    Timestamp: "1582949718701",
+    direction: "Bids",
+    price: "231.46",
+    amount: "31.821"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d71"),
+    Timestamp: "1582949718701",
+    direction: "Bids",
+    price: "231.45",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d72"),
+    Timestamp: "1582949718701",
+    direction: "Bids",
+    price: "231.44",
+    amount: "35.4255"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d73"),
+    Timestamp: "1582949718701",
+    direction: "Bids",
+    price: "231.43",
+    amount: "31.2393"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d74"),
+    Timestamp: "1582949718701",
+    direction: "Bids",
+    price: "231.41",
+    amount: "18.2099"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d75"),
+    Timestamp: "1582949718701",
+    direction: "Asks",
+    price: "231.47",
+    amount: "0.2264"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d76"),
+    Timestamp: "1582949718701",
+    direction: "Asks",
+    price: "231.46",
+    amount: "31.821"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d77"),
+    Timestamp: "1582949718701",
+    direction: "Asks",
+    price: "231.45",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d78"),
+    Timestamp: "1582949718701",
+    direction: "Asks",
+    price: "231.44",
+    amount: "35.4255"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5566e3a9205c6ae4d79"),
+    Timestamp: "1582949718701",
+    direction: "Asks",
+    price: "231.43",
+    amount: "31.2393"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5576e3a9205c6ae4d7a"),
+    Timestamp: "1582949718701",
+    direction: "Asks",
+    price: "231.41",
+    amount: "18.2099"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d81"),
+    Timestamp: "1582949778446",
+    direction: "Bids",
+    price: "231.26",
+    amount: "8.8295"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d82"),
+    Timestamp: "1582949778446",
+    direction: "Bids",
+    price: "231.25",
+    amount: "10.9458"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d83"),
+    Timestamp: "1582949778446",
+    direction: "Bids",
+    price: "231.24",
+    amount: "35.7187"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d84"),
+    Timestamp: "1582949778446",
+    direction: "Bids",
+    price: "231.23",
+    amount: "4.6935"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d85"),
+    Timestamp: "1582949778446",
+    direction: "Bids",
+    price: "231.22",
+    amount: "42.0527"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d86"),
+    Timestamp: "1582949778446",
+    direction: "Bids",
+    price: "231.21",
+    amount: "17.337759761558758"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d87"),
+    Timestamp: "1582949778446",
+    direction: "Asks",
+    price: "231.26",
+    amount: "8.8295"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d88"),
+    Timestamp: "1582949778446",
+    direction: "Asks",
+    price: "231.25",
+    amount: "10.9458"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d89"),
+    Timestamp: "1582949778446",
+    direction: "Asks",
+    price: "231.24",
+    amount: "35.7187"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d8a"),
+    Timestamp: "1582949778446",
+    direction: "Asks",
+    price: "231.23",
+    amount: "4.6935"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d8b"),
+    Timestamp: "1582949778446",
+    direction: "Asks",
+    price: "231.22",
+    amount: "42.0527"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5926e3a9205c6ae4d8c"),
+    Timestamp: "1582949778446",
+    direction: "Asks",
+    price: "231.21",
+    amount: "17.337759761558758"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d99"),
+    Timestamp: "1582949838831",
+    direction: "Bids",
+    price: "231.25",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d9a"),
+    Timestamp: "1582949838831",
+    direction: "Bids",
+    price: "231.23",
+    amount: "0.0693"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d9b"),
+    Timestamp: "1582949838831",
+    direction: "Bids",
+    price: "231.22",
+    amount: "8.8679"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d9c"),
+    Timestamp: "1582949838831",
+    direction: "Bids",
+    price: "231.21",
+    amount: "0.8692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d9d"),
+    Timestamp: "1582949838831",
+    direction: "Bids",
+    price: "231.2",
+    amount: "45.0259"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d9e"),
+    Timestamp: "1582949838831",
+    direction: "Bids",
+    price: "231.19",
+    amount: "9.7576"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4d9f"),
+    Timestamp: "1582949838831",
+    direction: "Asks",
+    price: "231.25",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4da0"),
+    Timestamp: "1582949838831",
+    direction: "Asks",
+    price: "231.23",
+    amount: "0.0693"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4da1"),
+    Timestamp: "1582949838831",
+    direction: "Asks",
+    price: "231.22",
+    amount: "8.8679"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4da2"),
+    Timestamp: "1582949838831",
+    direction: "Asks",
+    price: "231.21",
+    amount: "0.8692"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4da3"),
+    Timestamp: "1582949838831",
+    direction: "Asks",
+    price: "231.2",
+    amount: "45.0259"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e5cf6e3a9205c6ae4da4"),
+    Timestamp: "1582949838831",
+    direction: "Asks",
+    price: "231.19",
+    amount: "9.7576"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4dab"),
+    Timestamp: "1582949898921",
+    direction: "Bids",
+    price: "231.0",
+    amount: "5.0065"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4dac"),
+    Timestamp: "1582949898921",
+    direction: "Bids",
+    price: "230.98",
+    amount: "0.0693"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4dad"),
+    Timestamp: "1582949898921",
+    direction: "Bids",
+    price: "230.93",
+    amount: "3.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4dae"),
+    Timestamp: "1582949898921",
+    direction: "Bids",
+    price: "230.92",
+    amount: "0.1283"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4daf"),
+    Timestamp: "1582949898921",
+    direction: "Bids",
+    price: "230.91",
+    amount: "8.661"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4db0"),
+    Timestamp: "1582949898921",
+    direction: "Bids",
+    price: "230.9",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4db1"),
+    Timestamp: "1582949898921",
+    direction: "Asks",
+    price: "231.0",
+    amount: "5.0065"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4db2"),
+    Timestamp: "1582949898921",
+    direction: "Asks",
+    price: "230.98",
+    amount: "0.0693"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4db3"),
+    Timestamp: "1582949898921",
+    direction: "Asks",
+    price: "230.93",
+    amount: "3.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4db4"),
+    Timestamp: "1582949898921",
+    direction: "Asks",
+    price: "230.92",
+    amount: "0.1283"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4db5"),
+    Timestamp: "1582949898921",
+    direction: "Asks",
+    price: "230.91",
+    amount: "8.661"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e60b6e3a9205c6ae4db6"),
+    Timestamp: "1582949898921",
+    direction: "Asks",
+    price: "230.9",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dbc"),
+    Timestamp: "1582949959006",
+    direction: "Bids",
+    price: "231.19",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dbd"),
+    Timestamp: "1582949959006",
+    direction: "Bids",
+    price: "231.15",
+    amount: "41.5988"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dbe"),
+    Timestamp: "1582949959006",
+    direction: "Bids",
+    price: "231.14",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dbf"),
+    Timestamp: "1582949959006",
+    direction: "Bids",
+    price: "231.13",
+    amount: "11.473"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dc0"),
+    Timestamp: "1582949959006",
+    direction: "Bids",
+    price: "231.12",
+    amount: "7.5592"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dc1"),
+    Timestamp: "1582949959006",
+    direction: "Bids",
+    price: "231.11",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dc2"),
+    Timestamp: "1582949959006",
+    direction: "Asks",
+    price: "231.19",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dc3"),
+    Timestamp: "1582949959006",
+    direction: "Asks",
+    price: "231.15",
+    amount: "41.5988"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dc4"),
+    Timestamp: "1582949959006",
+    direction: "Asks",
+    price: "231.14",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dc5"),
+    Timestamp: "1582949959006",
+    direction: "Asks",
+    price: "231.13",
+    amount: "11.473"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dc6"),
+    Timestamp: "1582949959006",
+    direction: "Asks",
+    price: "231.12",
+    amount: "7.5592"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6476e3a9205c6ae4dc7"),
+    Timestamp: "1582949959006",
+    direction: "Asks",
+    price: "231.11",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dce"),
+    Timestamp: "1582950019034",
+    direction: "Bids",
+    price: "231.44",
+    amount: "4.281"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dcf"),
+    Timestamp: "1582950019034",
+    direction: "Bids",
+    price: "231.43",
+    amount: "0.6398"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd0"),
+    Timestamp: "1582950019034",
+    direction: "Bids",
+    price: "231.39",
+    amount: "25.1933"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd1"),
+    Timestamp: "1582950019034",
+    direction: "Bids",
+    price: "231.38",
+    amount: "9.5523"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd2"),
+    Timestamp: "1582950019034",
+    direction: "Bids",
+    price: "231.37",
+    amount: "31.4916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd3"),
+    Timestamp: "1582950019034",
+    direction: "Bids",
+    price: "231.36",
+    amount: "8.7395"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd4"),
+    Timestamp: "1582950019034",
+    direction: "Asks",
+    price: "231.44",
+    amount: "4.281"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd5"),
+    Timestamp: "1582950019034",
+    direction: "Asks",
+    price: "231.43",
+    amount: "0.6398"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd6"),
+    Timestamp: "1582950019034",
+    direction: "Asks",
+    price: "231.39",
+    amount: "25.1933"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd7"),
+    Timestamp: "1582950019034",
+    direction: "Asks",
+    price: "231.38",
+    amount: "9.5523"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd8"),
+    Timestamp: "1582950019034",
+    direction: "Asks",
+    price: "231.37",
+    amount: "31.4916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6836e3a9205c6ae4dd9"),
+    Timestamp: "1582950019034",
+    direction: "Asks",
+    price: "231.36",
+    amount: "8.7395"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4dda"),
+    Timestamp: "1582950079105",
+    direction: "Bids",
+    price: "231.35",
+    amount: "8.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4ddb"),
+    Timestamp: "1582950079105",
+    direction: "Bids",
+    price: "231.33",
+    amount: "0.6352"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4ddc"),
+    Timestamp: "1582950079105",
+    direction: "Bids",
+    price: "231.32",
+    amount: "14.9667"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4ddd"),
+    Timestamp: "1582950079105",
+    direction: "Bids",
+    price: "231.31",
+    amount: "17.2717"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4dde"),
+    Timestamp: "1582950079105",
+    direction: "Bids",
+    price: "231.3",
+    amount: "14.9341"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4ddf"),
+    Timestamp: "1582950079105",
+    direction: "Bids",
+    price: "231.29",
+    amount: "54.5287"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de0"),
+    Timestamp: "1582950079105",
+    direction: "Asks",
+    price: "231.35",
+    amount: "8.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de1"),
+    Timestamp: "1582950079105",
+    direction: "Asks",
+    price: "231.33",
+    amount: "0.6352"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de2"),
+    Timestamp: "1582950079105",
+    direction: "Asks",
+    price: "231.32",
+    amount: "14.9667"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4de3"),
+    Timestamp: "1582950079105",
+    direction: "Asks",
+    price: "231.31",
+    amount: "17.2717"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4dea"),
+    Timestamp: "1582950079105",
+    direction: "Asks",
+    price: "231.3",
+    amount: "14.9341"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6bf6e3a9205c6ae4deb"),
+    Timestamp: "1582950079105",
+    direction: "Asks",
+    price: "231.29",
+    amount: "54.5287"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4dec"),
+    Timestamp: "1582950138713",
+    direction: "Bids",
+    price: "231.36",
+    amount: "123.2"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4ded"),
+    Timestamp: "1582950138713",
+    direction: "Bids",
+    price: "231.35",
+    amount: "17.2689"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4dee"),
+    Timestamp: "1582950138713",
+    direction: "Bids",
+    price: "231.34",
+    amount: "1.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4def"),
+    Timestamp: "1582950138713",
+    direction: "Bids",
+    price: "231.33",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4df0"),
+    Timestamp: "1582950138713",
+    direction: "Bids",
+    price: "231.32",
+    amount: "23.5301"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4df1"),
+    Timestamp: "1582950138713",
+    direction: "Bids",
+    price: "231.31",
+    amount: "2.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4df2"),
+    Timestamp: "1582950138713",
+    direction: "Asks",
+    price: "231.36",
+    amount: "123.2"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4df3"),
+    Timestamp: "1582950138713",
+    direction: "Asks",
+    price: "231.35",
+    amount: "17.2689"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4df4"),
+    Timestamp: "1582950138713",
+    direction: "Asks",
+    price: "231.34",
+    amount: "1.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4df5"),
+    Timestamp: "1582950138713",
+    direction: "Asks",
+    price: "231.33",
+    amount: "9.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4df6"),
+    Timestamp: "1582950138713",
+    direction: "Asks",
+    price: "231.32",
+    amount: "23.5301"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e6fa6e3a9205c6ae4df7"),
+    Timestamp: "1582950138713",
+    direction: "Asks",
+    price: "231.31",
+    amount: "2.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4dfe"),
+    Timestamp: "1582950199105",
+    direction: "Bids",
+    price: "231.26",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4dff"),
+    Timestamp: "1582950199105",
+    direction: "Bids",
+    price: "231.25",
+    amount: "9.9049"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e00"),
+    Timestamp: "1582950199105",
+    direction: "Bids",
+    price: "231.24",
+    amount: "0.5886"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e01"),
+    Timestamp: "1582950199105",
+    direction: "Bids",
+    price: "231.23",
+    amount: "7.5568"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e02"),
+    Timestamp: "1582950199105",
+    direction: "Bids",
+    price: "231.22",
+    amount: "49.2873"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e03"),
+    Timestamp: "1582950199105",
+    direction: "Bids",
+    price: "231.2",
+    amount: "6.171"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e04"),
+    Timestamp: "1582950199105",
+    direction: "Asks",
+    price: "231.26",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e05"),
+    Timestamp: "1582950199105",
+    direction: "Asks",
+    price: "231.25",
+    amount: "9.9049"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e06"),
+    Timestamp: "1582950199105",
+    direction: "Asks",
+    price: "231.24",
+    amount: "0.5886"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e07"),
+    Timestamp: "1582950199105",
+    direction: "Asks",
+    price: "231.23",
+    amount: "7.5568"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e08"),
+    Timestamp: "1582950199105",
+    direction: "Asks",
+    price: "231.22",
+    amount: "49.2873"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7376e3a9205c6ae4e09"),
+    Timestamp: "1582950199105",
+    direction: "Asks",
+    price: "231.2",
+    amount: "6.171"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e15"),
+    Timestamp: "1582950259190",
+    direction: "Bids",
+    price: "230.94",
+    amount: "2.0406"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e16"),
+    Timestamp: "1582950259190",
+    direction: "Bids",
+    price: "230.93",
+    amount: "36.9714"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e17"),
+    Timestamp: "1582950259190",
+    direction: "Bids",
+    price: "230.91",
+    amount: "35.9859"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e18"),
+    Timestamp: "1582950259190",
+    direction: "Bids",
+    price: "230.9",
+    amount: "1.1196"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e19"),
+    Timestamp: "1582950259190",
+    direction: "Bids",
+    price: "230.89",
+    amount: "23.3872"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e1a"),
+    Timestamp: "1582950259190",
+    direction: "Bids",
+    price: "230.88",
+    amount: "84.5468"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e1b"),
+    Timestamp: "1582950259190",
+    direction: "Asks",
+    price: "230.94",
+    amount: "2.0406"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e1c"),
+    Timestamp: "1582950259190",
+    direction: "Asks",
+    price: "230.93",
+    amount: "36.9714"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e1d"),
+    Timestamp: "1582950259190",
+    direction: "Asks",
+    price: "230.91",
+    amount: "35.9859"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e1e"),
+    Timestamp: "1582950259190",
+    direction: "Asks",
+    price: "230.9",
+    amount: "1.1196"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e1f"),
+    Timestamp: "1582950259190",
+    direction: "Asks",
+    price: "230.89",
+    amount: "23.3872"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7736e3a9205c6ae4e20"),
+    Timestamp: "1582950259190",
+    direction: "Asks",
+    price: "230.88",
+    amount: "84.5468"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd330e"),
+    Timestamp: "1582950337497",
+    direction: "Bids",
+    price: "230.97",
+    amount: "18.08"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd330f"),
+    Timestamp: "1582950337497",
+    direction: "Bids",
+    price: "230.95",
+    amount: "10.0691"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3310"),
+    Timestamp: "1582950337497",
+    direction: "Bids",
+    price: "230.93",
+    amount: "2.0373"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3311"),
+    Timestamp: "1582950337497",
+    direction: "Bids",
+    price: "230.91",
+    amount: "1.0746"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3312"),
+    Timestamp: "1582950337497",
+    direction: "Bids",
+    price: "230.89",
+    amount: "6.3102"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3313"),
+    Timestamp: "1582950337497",
+    direction: "Bids",
+    price: "230.86",
+    amount: "26.8798"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3314"),
+    Timestamp: "1582950337497",
+    direction: "Asks",
+    price: "230.97",
+    amount: "18.08"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3315"),
+    Timestamp: "1582950337497",
+    direction: "Asks",
+    price: "230.95",
+    amount: "10.0691"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3316"),
+    Timestamp: "1582950337497",
+    direction: "Asks",
+    price: "230.93",
+    amount: "2.0373"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3317"),
+    Timestamp: "1582950337497",
+    direction: "Asks",
+    price: "230.91",
+    amount: "1.0746"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3318"),
+    Timestamp: "1582950337497",
+    direction: "Asks",
+    price: "230.89",
+    amount: "6.3102"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59e7c16e3a9208abbd3319"),
+    Timestamp: "1582950337497",
+    direction: "Asks",
+    price: "230.86",
+    amount: "26.8798"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e267"),
+    Timestamp: "1582950916068",
+    direction: "Bids",
+    price: "230.02",
+    amount: "2.0965"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e268"),
+    Timestamp: "1582950916068",
+    direction: "Bids",
+    price: "229.99",
+    amount: "0.1149"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e269"),
+    Timestamp: "1582950916068",
+    direction: "Bids",
+    price: "229.98",
+    amount: "11.3838"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e26a"),
+    Timestamp: "1582950916068",
+    direction: "Bids",
+    price: "229.96",
+    amount: "2.4499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e26b"),
+    Timestamp: "1582950916068",
+    direction: "Bids",
+    price: "229.95",
+    amount: "1.5609"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e26c"),
+    Timestamp: "1582950916068",
+    direction: "Bids",
+    price: "229.94",
+    amount: "0.152"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e26d"),
+    Timestamp: "1582950916068",
+    direction: "Asks",
+    price: "230.02",
+    amount: "2.0965"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e26e"),
+    Timestamp: "1582950916068",
+    direction: "Asks",
+    price: "229.99",
+    amount: "0.1149"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e26f"),
+    Timestamp: "1582950916068",
+    direction: "Asks",
+    price: "229.98",
+    amount: "11.3838"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e270"),
+    Timestamp: "1582950916068",
+    direction: "Asks",
+    price: "229.96",
+    amount: "2.4499"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e271"),
+    Timestamp: "1582950916068",
+    direction: "Asks",
+    price: "229.95",
+    amount: "1.5609"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea046e3a92098184e272"),
+    Timestamp: "1582950916068",
+    direction: "Asks",
+    price: "229.94",
+    amount: "0.152"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8df"),
+    Timestamp: "1582950965897",
+    direction: "Bids",
+    price: "230.31",
+    amount: "46.0233"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e0"),
+    Timestamp: "1582950965897",
+    direction: "Bids",
+    price: "230.3",
+    amount: "1.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e1"),
+    Timestamp: "1582950965897",
+    direction: "Bids",
+    price: "230.29",
+    amount: "0.7482"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e2"),
+    Timestamp: "1582950965897",
+    direction: "Bids",
+    price: "230.27",
+    amount: "7.0202"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e3"),
+    Timestamp: "1582950965897",
+    direction: "Bids",
+    price: "230.26",
+    amount: "1.4965"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e4"),
+    Timestamp: "1582950965897",
+    direction: "Bids",
+    price: "230.25",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e5"),
+    Timestamp: "1582950965897",
+    direction: "Asks",
+    price: "230.31",
+    amount: "46.0233"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e6"),
+    Timestamp: "1582950965897",
+    direction: "Asks",
+    price: "230.3",
+    amount: "1.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e7"),
+    Timestamp: "1582950965897",
+    direction: "Asks",
+    price: "230.29",
+    amount: "0.7482"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e8"),
+    Timestamp: "1582950965897",
+    direction: "Asks",
+    price: "230.27",
+    amount: "7.0202"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8e9"),
+    Timestamp: "1582950965897",
+    direction: "Asks",
+    price: "230.26",
+    amount: "1.4965"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea366e3a9209974ea8ea"),
+    Timestamp: "1582950965897",
+    direction: "Asks",
+    price: "230.25",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8eb"),
+    Timestamp: "1582951026209",
+    direction: "Bids",
+    price: "230.29",
+    amount: "91.2733"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8ec"),
+    Timestamp: "1582951026209",
+    direction: "Bids",
+    price: "230.23",
+    amount: "3.7453"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8ed"),
+    Timestamp: "1582951026209",
+    direction: "Bids",
+    price: "230.22",
+    amount: "19.4916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8ee"),
+    Timestamp: "1582951026209",
+    direction: "Bids",
+    price: "230.21",
+    amount: "58.6735"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8ef"),
+    Timestamp: "1582951026209",
+    direction: "Bids",
+    price: "230.2",
+    amount: "2.5263"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f0"),
+    Timestamp: "1582951026209",
+    direction: "Bids",
+    price: "230.18",
+    amount: "40.1272"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f1"),
+    Timestamp: "1582951026209",
+    direction: "Asks",
+    price: "230.29",
+    amount: "91.2733"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f2"),
+    Timestamp: "1582951026209",
+    direction: "Asks",
+    price: "230.23",
+    amount: "3.7453"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f3"),
+    Timestamp: "1582951026209",
+    direction: "Asks",
+    price: "230.22",
+    amount: "19.4916"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f4"),
+    Timestamp: "1582951026209",
+    direction: "Asks",
+    price: "230.21",
+    amount: "58.6735"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f5"),
+    Timestamp: "1582951026209",
+    direction: "Asks",
+    price: "230.2",
+    amount: "2.5263"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ea726e3a9209974ea8f6"),
+    Timestamp: "1582951026209",
+    direction: "Asks",
+    price: "230.18",
+    amount: "40.1272"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea903"),
+    Timestamp: "1582951086168",
+    direction: "Bids",
+    price: "230.47",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea904"),
+    Timestamp: "1582951086168",
+    direction: "Bids",
+    price: "230.45",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea905"),
+    Timestamp: "1582951086168",
+    direction: "Bids",
+    price: "230.44",
+    amount: "11.0576"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea906"),
+    Timestamp: "1582951086168",
+    direction: "Bids",
+    price: "230.43",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea907"),
+    Timestamp: "1582951086168",
+    direction: "Bids",
+    price: "230.42",
+    amount: "37.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea908"),
+    Timestamp: "1582951086168",
+    direction: "Bids",
+    price: "230.41",
+    amount: "4.9292"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea909"),
+    Timestamp: "1582951086168",
+    direction: "Asks",
+    price: "230.47",
+    amount: "2.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea90a"),
+    Timestamp: "1582951086168",
+    direction: "Asks",
+    price: "230.45",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea90b"),
+    Timestamp: "1582951086168",
+    direction: "Asks",
+    price: "230.44",
+    amount: "11.0576"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea90c"),
+    Timestamp: "1582951086168",
+    direction: "Asks",
+    price: "230.43",
+    amount: "35.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea90d"),
+    Timestamp: "1582951086168",
+    direction: "Asks",
+    price: "230.42",
+    amount: "37.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eaae6e3a9209974ea90e"),
+    Timestamp: "1582951086168",
+    direction: "Asks",
+    price: "230.41",
+    amount: "4.9292"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba881"),
+    Timestamp: "1582951234999",
+    direction: "Bids",
+    price: "230.26",
+    amount: "57.9214"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba882"),
+    Timestamp: "1582951234999",
+    direction: "Bids",
+    price: "230.25",
+    amount: "13.5543"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba883"),
+    Timestamp: "1582951234999",
+    direction: "Bids",
+    price: "230.24",
+    amount: "29.5821"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba884"),
+    Timestamp: "1582951234999",
+    direction: "Bids",
+    price: "230.23",
+    amount: "12.7565"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba885"),
+    Timestamp: "1582951234999",
+    direction: "Bids",
+    price: "230.22",
+    amount: "1.5322"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba886"),
+    Timestamp: "1582951234999",
+    direction: "Bids",
+    price: "230.21",
+    amount: "37.6808"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba887"),
+    Timestamp: "1582951234999",
+    direction: "Asks",
+    price: "230.26",
+    amount: "57.9214"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba888"),
+    Timestamp: "1582951234999",
+    direction: "Asks",
+    price: "230.25",
+    amount: "13.5543"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba889"),
+    Timestamp: "1582951234999",
+    direction: "Asks",
+    price: "230.24",
+    amount: "29.5821"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba88a"),
+    Timestamp: "1582951234999",
+    direction: "Asks",
+    price: "230.23",
+    amount: "12.7565"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba88b"),
+    Timestamp: "1582951234999",
+    direction: "Asks",
+    price: "230.22",
+    amount: "1.5322"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb436e3a920a078ba88c"),
+    Timestamp: "1582951234999",
+    direction: "Asks",
+    price: "230.21",
+    amount: "37.6808"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba88d"),
+    Timestamp: "1582951294795",
+    direction: "Bids",
+    price: "230.66",
+    amount: "25.3226"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba88e"),
+    Timestamp: "1582951294795",
+    direction: "Bids",
+    price: "230.65",
+    amount: "38.7099"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba88f"),
+    Timestamp: "1582951294795",
+    direction: "Bids",
+    price: "230.64",
+    amount: "47.6608"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba890"),
+    Timestamp: "1582951294795",
+    direction: "Bids",
+    price: "230.63",
+    amount: "20.987"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba891"),
+    Timestamp: "1582951294795",
+    direction: "Bids",
+    price: "230.62",
+    amount: "0.9871"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba892"),
+    Timestamp: "1582951294795",
+    direction: "Bids",
+    price: "230.61",
+    amount: "0.4973"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba893"),
+    Timestamp: "1582951294795",
+    direction: "Asks",
+    price: "230.66",
+    amount: "25.3226"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba894"),
+    Timestamp: "1582951294795",
+    direction: "Asks",
+    price: "230.65",
+    amount: "38.7099"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba895"),
+    Timestamp: "1582951294795",
+    direction: "Asks",
+    price: "230.64",
+    amount: "47.6608"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba896"),
+    Timestamp: "1582951294795",
+    direction: "Asks",
+    price: "230.63",
+    amount: "20.987"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba897"),
+    Timestamp: "1582951294795",
+    direction: "Asks",
+    price: "230.62",
+    amount: "0.9871"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59eb7e6e3a920a078ba898"),
+    Timestamp: "1582951294795",
+    direction: "Asks",
+    price: "230.61",
+    amount: "0.4973"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba89f"),
+    Timestamp: "1582951354706",
+    direction: "Bids",
+    price: "230.94",
+    amount: "0.0696"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a0"),
+    Timestamp: "1582951354706",
+    direction: "Bids",
+    price: "230.92",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a1"),
+    Timestamp: "1582951354706",
+    direction: "Bids",
+    price: "230.91",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a2"),
+    Timestamp: "1582951354706",
+    direction: "Bids",
+    price: "230.9",
+    amount: "1.5811"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a3"),
+    Timestamp: "1582951354706",
+    direction: "Bids",
+    price: "230.89",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a4"),
+    Timestamp: "1582951354706",
+    direction: "Bids",
+    price: "230.88",
+    amount: "10.8251"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a5"),
+    Timestamp: "1582951354706",
+    direction: "Asks",
+    price: "230.94",
+    amount: "0.0696"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a6"),
+    Timestamp: "1582951354706",
+    direction: "Asks",
+    price: "230.92",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a7"),
+    Timestamp: "1582951354706",
+    direction: "Asks",
+    price: "230.91",
+    amount: "20.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a8"),
+    Timestamp: "1582951354706",
+    direction: "Asks",
+    price: "230.9",
+    amount: "1.5811"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8a9"),
+    Timestamp: "1582951354706",
+    direction: "Asks",
+    price: "230.89",
+    amount: "34.5"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebba6e3a920a078ba8aa"),
+    Timestamp: "1582951354706",
+    direction: "Asks",
+    price: "230.88",
+    amount: "10.8251"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8b7"),
+    Timestamp: "1582951415156",
+    direction: "Bids",
+    price: "231.24",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8b8"),
+    Timestamp: "1582951415156",
+    direction: "Bids",
+    price: "231.22",
+    amount: "4.8664"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8b9"),
+    Timestamp: "1582951415156",
+    direction: "Bids",
+    price: "231.21",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8ba"),
+    Timestamp: "1582951415156",
+    direction: "Bids",
+    price: "231.18",
+    amount: "11.7932"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8bb"),
+    Timestamp: "1582951415156",
+    direction: "Bids",
+    price: "231.17",
+    amount: "7.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8bc"),
+    Timestamp: "1582951415156",
+    direction: "Bids",
+    price: "231.15",
+    amount: "8.6486"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8bd"),
+    Timestamp: "1582951415156",
+    direction: "Asks",
+    price: "231.24",
+    amount: "4.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8be"),
+    Timestamp: "1582951415156",
+    direction: "Asks",
+    price: "231.22",
+    amount: "4.8664"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8bf"),
+    Timestamp: "1582951415156",
+    direction: "Asks",
+    price: "231.21",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8c0"),
+    Timestamp: "1582951415156",
+    direction: "Asks",
+    price: "231.18",
+    amount: "11.7932"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8c1"),
+    Timestamp: "1582951415156",
+    direction: "Asks",
+    price: "231.17",
+    amount: "7.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ebf76e3a920a078ba8c2"),
+    Timestamp: "1582951415156",
+    direction: "Asks",
+    price: "231.15",
+    amount: "8.6486"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8c3"),
+    Timestamp: "1582951474890",
+    direction: "Bids",
+    price: "231.2",
+    amount: "0.9397"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8c4"),
+    Timestamp: "1582951474890",
+    direction: "Bids",
+    price: "231.19",
+    amount: "0.6081"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8c5"),
+    Timestamp: "1582951474890",
+    direction: "Bids",
+    price: "231.18",
+    amount: "1.5726"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8c6"),
+    Timestamp: "1582951474890",
+    direction: "Bids",
+    price: "231.16",
+    amount: "0.1128"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8c7"),
+    Timestamp: "1582951474890",
+    direction: "Bids",
+    price: "231.14",
+    amount: "1.5764"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8c8"),
+    Timestamp: "1582951474890",
+    direction: "Bids",
+    price: "231.12",
+    amount: "2.9162"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8c9"),
+    Timestamp: "1582951474890",
+    direction: "Asks",
+    price: "231.2",
+    amount: "0.9397"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8ca"),
+    Timestamp: "1582951474890",
+    direction: "Asks",
+    price: "231.19",
+    amount: "0.6081"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8cb"),
+    Timestamp: "1582951474890",
+    direction: "Asks",
+    price: "231.18",
+    amount: "1.5726"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8cc"),
+    Timestamp: "1582951474890",
+    direction: "Asks",
+    price: "231.16",
+    amount: "0.1128"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8cd"),
+    Timestamp: "1582951474890",
+    direction: "Asks",
+    price: "231.14",
+    amount: "1.5764"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec336e3a920a078ba8ce"),
+    Timestamp: "1582951474890",
+    direction: "Asks",
+    price: "231.12",
+    amount: "2.9162"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8d4"),
+    Timestamp: "1582951534927",
+    direction: "Bids",
+    price: "231.48",
+    amount: "0.8255"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8d5"),
+    Timestamp: "1582951534927",
+    direction: "Bids",
+    price: "231.47",
+    amount: "11.633"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8d6"),
+    Timestamp: "1582951534927",
+    direction: "Bids",
+    price: "231.46",
+    amount: "324.9958"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8d7"),
+    Timestamp: "1582951534927",
+    direction: "Bids",
+    price: "231.4",
+    amount: "17.377"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8d8"),
+    Timestamp: "1582951534927",
+    direction: "Bids",
+    price: "231.38",
+    amount: "1.4823"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8d9"),
+    Timestamp: "1582951534927",
+    direction: "Bids",
+    price: "231.37",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8da"),
+    Timestamp: "1582951534927",
+    direction: "Asks",
+    price: "231.48",
+    amount: "0.8255"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8db"),
+    Timestamp: "1582951534927",
+    direction: "Asks",
+    price: "231.47",
+    amount: "11.633"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8dc"),
+    Timestamp: "1582951534927",
+    direction: "Asks",
+    price: "231.46",
+    amount: "324.9958"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8dd"),
+    Timestamp: "1582951534927",
+    direction: "Asks",
+    price: "231.4",
+    amount: "17.377"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8de"),
+    Timestamp: "1582951534927",
+    direction: "Asks",
+    price: "231.38",
+    amount: "1.4823"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ec6f6e3a920a078ba8df"),
+    Timestamp: "1582951534927",
+    direction: "Asks",
+    price: "231.37",
+    amount: "10.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8ec"),
+    Timestamp: "1582951595357",
+    direction: "Bids",
+    price: "231.74",
+    amount: "1.464"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8ed"),
+    Timestamp: "1582951595357",
+    direction: "Bids",
+    price: "231.7",
+    amount: "14.5951"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8ee"),
+    Timestamp: "1582951595357",
+    direction: "Bids",
+    price: "231.69",
+    amount: "30.7806"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8ef"),
+    Timestamp: "1582951595357",
+    direction: "Bids",
+    price: "231.68",
+    amount: "48.8933"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8f0"),
+    Timestamp: "1582951595357",
+    direction: "Bids",
+    price: "231.67",
+    amount: "2.306"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8f1"),
+    Timestamp: "1582951595357",
+    direction: "Bids",
+    price: "231.65",
+    amount: "37.7393"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8f2"),
+    Timestamp: "1582951595357",
+    direction: "Asks",
+    price: "231.74",
+    amount: "1.464"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8f3"),
+    Timestamp: "1582951595357",
+    direction: "Asks",
+    price: "231.7",
+    amount: "14.5951"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8f4"),
+    Timestamp: "1582951595357",
+    direction: "Asks",
+    price: "231.69",
+    amount: "30.7806"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8f5"),
+    Timestamp: "1582951595357",
+    direction: "Asks",
+    price: "231.68",
+    amount: "48.8933"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8f6"),
+    Timestamp: "1582951595357",
+    direction: "Asks",
+    price: "231.67",
+    amount: "2.306"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ecab6e3a920a078ba8f7"),
+    Timestamp: "1582951595357",
+    direction: "Asks",
+    price: "231.65",
+    amount: "37.7393"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba8f8"),
+    Timestamp: "1582951655395",
+    direction: "Bids",
+    price: "231.87",
+    amount: "0.041"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba8f9"),
+    Timestamp: "1582951655395",
+    direction: "Bids",
+    price: "231.85",
+    amount: "4.3423"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba8fa"),
+    Timestamp: "1582951655395",
+    direction: "Bids",
+    price: "231.81",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba8fb"),
+    Timestamp: "1582951655395",
+    direction: "Bids",
+    price: "231.8",
+    amount: "5.8894"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba8fc"),
+    Timestamp: "1582951655395",
+    direction: "Bids",
+    price: "231.79",
+    amount: "9.9285"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba8fd"),
+    Timestamp: "1582951655395",
+    direction: "Bids",
+    price: "231.78",
+    amount: "2.486"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba8fe"),
+    Timestamp: "1582951655395",
+    direction: "Asks",
+    price: "231.87",
+    amount: "0.041"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba8ff"),
+    Timestamp: "1582951655395",
+    direction: "Asks",
+    price: "231.85",
+    amount: "4.3423"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba900"),
+    Timestamp: "1582951655395",
+    direction: "Asks",
+    price: "231.81",
+    amount: "3.6"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba901"),
+    Timestamp: "1582951655395",
+    direction: "Asks",
+    price: "231.8",
+    amount: "5.8894"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba902"),
+    Timestamp: "1582951655395",
+    direction: "Asks",
+    price: "231.79",
+    amount: "9.9285"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ece76e3a920a078ba903"),
+    Timestamp: "1582951655395",
+    direction: "Asks",
+    price: "231.78",
+    amount: "2.486"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba90a"),
+    Timestamp: "1582951715071",
+    direction: "Bids",
+    price: "232.26",
+    amount: "49.8622"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba90b"),
+    Timestamp: "1582951715071",
+    direction: "Bids",
+    price: "232.24",
+    amount: "0.5848"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba90c"),
+    Timestamp: "1582951715071",
+    direction: "Bids",
+    price: "232.23",
+    amount: "63.7422"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba90d"),
+    Timestamp: "1582951715071",
+    direction: "Bids",
+    price: "232.22",
+    amount: "11.1817"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba90e"),
+    Timestamp: "1582951715071",
+    direction: "Bids",
+    price: "232.21",
+    amount: "11.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba90f"),
+    Timestamp: "1582951715071",
+    direction: "Bids",
+    price: "232.2",
+    amount: "95.5342"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba910"),
+    Timestamp: "1582951715071",
+    direction: "Asks",
+    price: "232.26",
+    amount: "49.8622"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba911"),
+    Timestamp: "1582951715071",
+    direction: "Asks",
+    price: "232.24",
+    amount: "0.5848"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba912"),
+    Timestamp: "1582951715071",
+    direction: "Asks",
+    price: "232.23",
+    amount: "63.7422"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba913"),
+    Timestamp: "1582951715071",
+    direction: "Asks",
+    price: "232.22",
+    amount: "11.1817"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba914"),
+    Timestamp: "1582951715071",
+    direction: "Asks",
+    price: "232.21",
+    amount: "11.0"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed236e3a920a078ba915"),
+    Timestamp: "1582951715071",
+    direction: "Asks",
+    price: "232.2",
+    amount: "95.5342"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba921"),
+    Timestamp: "1582951775310",
+    direction: "Bids",
+    price: "231.97",
+    amount: "32.9536"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba922"),
+    Timestamp: "1582951775310",
+    direction: "Bids",
+    price: "231.95",
+    amount: "1.9087"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba923"),
+    Timestamp: "1582951775310",
+    direction: "Bids",
+    price: "231.93",
+    amount: "12.9057"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba924"),
+    Timestamp: "1582951775310",
+    direction: "Bids",
+    price: "231.9",
+    amount: "13.43"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba925"),
+    Timestamp: "1582951775310",
+    direction: "Bids",
+    price: "231.89",
+    amount: "6.5538"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba926"),
+    Timestamp: "1582951775310",
+    direction: "Bids",
+    price: "231.88",
+    amount: "19.2506"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba927"),
+    Timestamp: "1582951775310",
+    direction: "Asks",
+    price: "231.97",
+    amount: "32.9536"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba928"),
+    Timestamp: "1582951775310",
+    direction: "Asks",
+    price: "231.95",
+    amount: "1.9087"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba929"),
+    Timestamp: "1582951775310",
+    direction: "Asks",
+    price: "231.93",
+    amount: "12.9057"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba92a"),
+    Timestamp: "1582951775310",
+    direction: "Asks",
+    price: "231.9",
+    amount: "13.43"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba92b"),
+    Timestamp: "1582951775310",
+    direction: "Asks",
+    price: "231.89",
+    amount: "6.5538"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed5f6e3a920a078ba92c"),
+    Timestamp: "1582951775310",
+    direction: "Asks",
+    price: "231.88",
+    amount: "19.2506"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba933"),
+    Timestamp: "1582951835232",
+    direction: "Bids",
+    price: "232.16",
+    amount: "2.9805"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba934"),
+    Timestamp: "1582951835232",
+    direction: "Bids",
+    price: "232.15",
+    amount: "2.9806"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba935"),
+    Timestamp: "1582951835232",
+    direction: "Bids",
+    price: "232.14",
+    amount: "26.8288"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba936"),
+    Timestamp: "1582951835232",
+    direction: "Bids",
+    price: "232.13",
+    amount: "10.792"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba937"),
+    Timestamp: "1582951835232",
+    direction: "Bids",
+    price: "232.11",
+    amount: "16.5964"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba938"),
+    Timestamp: "1582951835232",
+    direction: "Bids",
+    price: "232.1",
+    amount: "38.8017"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba939"),
+    Timestamp: "1582951835232",
+    direction: "Asks",
+    price: "232.16",
+    amount: "2.9805"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba93a"),
+    Timestamp: "1582951835232",
+    direction: "Asks",
+    price: "232.15",
+    amount: "2.9806"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba93b"),
+    Timestamp: "1582951835232",
+    direction: "Asks",
+    price: "232.14",
+    amount: "26.8288"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba93c"),
+    Timestamp: "1582951835232",
+    direction: "Asks",
+    price: "232.13",
+    amount: "10.792"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba93d"),
+    Timestamp: "1582951835232",
+    direction: "Asks",
+    price: "232.11",
+    amount: "16.5964"
+} ]);
+db.getCollection("market").insert([ {
+    _id: ObjectId("5e59ed9b6e3a920a078ba93e"),
+    Timestamp: "1582951835232",
+    direction: "Asks",
+    price: "232.1",
+    amount: "38.8017"
+} ]);

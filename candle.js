@@ -1,0 +1,3095 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : 谷歌云
+ Source Server Type    : MongoDB
+ Source Server Version : 30424
+ Source Host           : localhost:27017
+ Source Schema         : huobi
+
+ Target Server Type    : MongoDB
+ Target Server Version : 30424
+ File Encoding         : 65001
+
+ Date: 01/03/2020 07:44:31
+*/
+
+
+// ----------------------------
+// Collection structure for candle
+// ----------------------------
+db.getCollection("candle").drop();
+db.createCollection("candle");
+
+// ----------------------------
+// Documents of candle
+// ----------------------------
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aecee6e3a9205906a0118"),
+    Timestamp: NumberLong("1583017197886"),
+    id: NumberInt("1583015400"),
+    high: 222.71,
+    low: 222.17,
+    open: 222.24,
+    close: 222.58,
+    volume: 181999.625436091,
+    amount: 818.058133591036
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aecee6e3a9205906a0119"),
+    Timestamp: NumberLong("1583017197886"),
+    id: NumberInt("1583015700"),
+    high: 222.89,
+    low: 222.58,
+    open: 222.58,
+    close: 222.84,
+    volume: 179098.46413554,
+    amount: 803.880513291108
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aecee6e3a9205906a011a"),
+    Timestamp: NumberLong("1583017197886"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aecee6e3a9205906a011b"),
+    Timestamp: NumberLong("1583017197886"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aecee6e3a9205906a011c"),
+    Timestamp: NumberLong("1583017197886"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aecee6e3a9205906a011d"),
+    Timestamp: NumberLong("1583017197886"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.43,
+    volume: 236465.93320792,
+    amount: 1059.67914856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed2a6e3a9205906a011e"),
+    Timestamp: NumberLong("1583017257860"),
+    id: NumberInt("1583015400"),
+    high: 222.71,
+    low: 222.17,
+    open: 222.24,
+    close: 222.58,
+    volume: 181999.625436091,
+    amount: 818.058133591036
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed2a6e3a9205906a011f"),
+    Timestamp: NumberLong("1583017257860"),
+    id: NumberInt("1583015700"),
+    high: 222.89,
+    low: 222.58,
+    open: 222.58,
+    close: 222.84,
+    volume: 179098.46413554,
+    amount: 803.880513291108
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed2a6e3a9205906a0120"),
+    Timestamp: NumberLong("1583017257860"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed2a6e3a9205906a0121"),
+    Timestamp: NumberLong("1583017257860"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed2a6e3a9205906a0122"),
+    Timestamp: NumberLong("1583017257860"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed2a6e3a9205906a0123"),
+    Timestamp: NumberLong("1583017257860"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed2a6e3a9205906a0124"),
+    Timestamp: NumberLong("1583017257860"),
+    id: NumberInt("1583017200"),
+    high: 223.59,
+    low: 223.21,
+    open: 223.43,
+    close: 223.22,
+    volume: 80463.111153,
+    amount: 360.0471
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed666e3a9205906a013d"),
+    Timestamp: NumberLong("1583017318072"),
+    id: NumberInt("1583015700"),
+    high: 222.89,
+    low: 222.58,
+    open: 222.58,
+    close: 222.84,
+    volume: 179098.46413554,
+    amount: 803.880513291108
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed666e3a9205906a013e"),
+    Timestamp: NumberLong("1583017318072"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed666e3a9205906a013f"),
+    Timestamp: NumberLong("1583017318072"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed666e3a9205906a0140"),
+    Timestamp: NumberLong("1583017318072"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed666e3a9205906a0141"),
+    Timestamp: NumberLong("1583017318072"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aed666e3a9205906a0142"),
+    Timestamp: NumberLong("1583017318072"),
+    id: NumberInt("1583017200"),
+    high: 223.59,
+    low: 223.2,
+    open: 223.43,
+    close: 223.25,
+    volume: 94064.97477,
+    amount: 420.9751
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeda26e3a9205906a014f"),
+    Timestamp: NumberLong("1583017377958"),
+    id: NumberInt("1583015700"),
+    high: 222.89,
+    low: 222.58,
+    open: 222.58,
+    close: 222.84,
+    volume: 179098.46413554,
+    amount: 803.880513291108
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeda26e3a9205906a0150"),
+    Timestamp: NumberLong("1583017377958"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeda26e3a9205906a0151"),
+    Timestamp: NumberLong("1583017377958"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeda26e3a9205906a0152"),
+    Timestamp: NumberLong("1583017377958"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeda26e3a9205906a0153"),
+    Timestamp: NumberLong("1583017377958"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeda26e3a9205906a0154"),
+    Timestamp: NumberLong("1583017377958"),
+    id: NumberInt("1583017200"),
+    high: 223.59,
+    low: 223.2,
+    open: 223.43,
+    close: 223.38,
+    volume: 154076.048283,
+    amount: 689.667763041046
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aedde6e3a9205906a0161"),
+    Timestamp: NumberLong("1583017437995"),
+    id: NumberInt("1583015700"),
+    high: 222.89,
+    low: 222.58,
+    open: 222.58,
+    close: 222.84,
+    volume: 179098.46413554,
+    amount: 803.880513291108
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aedde6e3a9205906a0162"),
+    Timestamp: NumberLong("1583017437995"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aedde6e3a9205906a0163"),
+    Timestamp: NumberLong("1583017437995"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aedde6e3a9205906a0164"),
+    Timestamp: NumberLong("1583017437995"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aedde6e3a9205906a0165"),
+    Timestamp: NumberLong("1583017437995"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aedde6e3a9205906a0166"),
+    Timestamp: NumberLong("1583017437995"),
+    id: NumberInt("1583017200"),
+    high: 223.59,
+    low: 223.2,
+    open: 223.43,
+    close: 223.44,
+    volume: 281635.321161,
+    amount: 1260.71316465619
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee1a6e3a9205906a0167"),
+    Timestamp: NumberLong("1583017498071"),
+    id: NumberInt("1583015700"),
+    high: 222.89,
+    low: 222.58,
+    open: 222.58,
+    close: 222.84,
+    volume: 179098.46413554,
+    amount: 803.880513291108
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee1a6e3a9205906a0168"),
+    Timestamp: NumberLong("1583017498071"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee1a6e3a9205906a0169"),
+    Timestamp: NumberLong("1583017498071"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee1a6e3a9205906a016a"),
+    Timestamp: NumberLong("1583017498071"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee1a6e3a9205906a016b"),
+    Timestamp: NumberLong("1583017498071"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee1a6e3a9205906a016c"),
+    Timestamp: NumberLong("1583017498071"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.52,
+    volume: 423235.29235179,
+    amount: 1893.69987617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee566e3a9205906a0179"),
+    Timestamp: NumberLong("1583017558096"),
+    id: NumberInt("1583015700"),
+    high: 222.89,
+    low: 222.58,
+    open: 222.58,
+    close: 222.84,
+    volume: 179098.46413554,
+    amount: 803.880513291108
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee566e3a9205906a017a"),
+    Timestamp: NumberLong("1583017558096"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee566e3a9205906a017b"),
+    Timestamp: NumberLong("1583017558096"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee566e3a9205906a017c"),
+    Timestamp: NumberLong("1583017558096"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee566e3a9205906a017d"),
+    Timestamp: NumberLong("1583017558096"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee566e3a9205906a017e"),
+    Timestamp: NumberLong("1583017558096"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee566e3a9205906a017f"),
+    Timestamp: NumberLong("1583017558096"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.41,
+    open: 223.45,
+    close: 223.48,
+    volume: 171832.20430594,
+    amount: 768.653544331381
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee926e3a9205906a018c"),
+    Timestamp: NumberLong("1583017618132"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee926e3a9205906a018d"),
+    Timestamp: NumberLong("1583017618132"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee926e3a9205906a018e"),
+    Timestamp: NumberLong("1583017618132"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee926e3a9205906a018f"),
+    Timestamp: NumberLong("1583017618132"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee926e3a9205906a0190"),
+    Timestamp: NumberLong("1583017618132"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aee926e3a9205906a0191"),
+    Timestamp: NumberLong("1583017618132"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.32,
+    volume: 264209.94695994,
+    amount: 1181.97554433138
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeece6e3a9205906a01aa"),
+    Timestamp: NumberLong("1583017678259"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeece6e3a9205906a01ab"),
+    Timestamp: NumberLong("1583017678259"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeece6e3a9205906a01ac"),
+    Timestamp: NumberLong("1583017678259"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeece6e3a9205906a01ad"),
+    Timestamp: NumberLong("1583017678259"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeece6e3a9205906a01ae"),
+    Timestamp: NumberLong("1583017678259"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeece6e3a9205906a01af"),
+    Timestamp: NumberLong("1583017678259"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.47,
+    volume: 290407.25082394,
+    amount: 1299.21607878697
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef0a6e3a9205906a01bc"),
+    Timestamp: NumberLong("1583017738273"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef0a6e3a9205906a01bd"),
+    Timestamp: NumberLong("1583017738273"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef0a6e3a9205906a01be"),
+    Timestamp: NumberLong("1583017738273"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef0a6e3a9205906a01bf"),
+    Timestamp: NumberLong("1583017738273"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef0a6e3a9205906a01c0"),
+    Timestamp: NumberLong("1583017738273"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef0a6e3a9205906a01c1"),
+    Timestamp: NumberLong("1583017738273"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.62,
+    volume: 330721.77944794,
+    amount: 1479.53866509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef466e3a9205906a01c2"),
+    Timestamp: NumberLong("1583017798277"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef466e3a9205906a01c3"),
+    Timestamp: NumberLong("1583017798277"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef466e3a9205906a01c4"),
+    Timestamp: NumberLong("1583017798277"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef466e3a9205906a01c5"),
+    Timestamp: NumberLong("1583017798277"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef466e3a9205906a01c6"),
+    Timestamp: NumberLong("1583017798277"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef466e3a9205906a01c7"),
+    Timestamp: NumberLong("1583017798277"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340719.47730894,
+    amount: 1524.25826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef826e3a9205906a01d4"),
+    Timestamp: NumberLong("1583017858272"),
+    id: NumberInt("1583016000"),
+    high: 223,
+    low: 222.8,
+    open: 222.84,
+    close: 222.99,
+    volume: 77041.3338781,
+    amount: 345.626115984792
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef826e3a9205906a01d5"),
+    Timestamp: NumberLong("1583017858272"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef826e3a9205906a01d6"),
+    Timestamp: NumberLong("1583017858272"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef826e3a9205906a01d7"),
+    Timestamp: NumberLong("1583017858272"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef826e3a9205906a01d8"),
+    Timestamp: NumberLong("1583017858272"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef826e3a9205906a01d9"),
+    Timestamp: NumberLong("1583017858272"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aef826e3a9205906a01da"),
+    Timestamp: NumberLong("1583017858272"),
+    id: NumberInt("1583017800"),
+    high: 223.57,
+    low: 223.37,
+    open: 223.57,
+    close: 223.49,
+    volume: 107242.140907,
+    amount: 479.7903
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aefbe6e3a9205906a01f3"),
+    Timestamp: NumberLong("1583017918477"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aefbe6e3a9205906a01f4"),
+    Timestamp: NumberLong("1583017918477"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aefbe6e3a9205906a01f5"),
+    Timestamp: NumberLong("1583017918477"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aefbe6e3a9205906a01f6"),
+    Timestamp: NumberLong("1583017918477"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aefbe6e3a9205906a01f7"),
+    Timestamp: NumberLong("1583017918477"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aefbe6e3a9205906a01f8"),
+    Timestamp: NumberLong("1583017918477"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 223.37,
+    open: 223.57,
+    close: 223.48,
+    volume: 201751.12757658,
+    amount: 902.429760690814
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeffa6e3a9205906a01f9"),
+    Timestamp: NumberLong("1583017978430"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeffa6e3a9205906a01fa"),
+    Timestamp: NumberLong("1583017978430"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeffa6e3a9205906a01fb"),
+    Timestamp: NumberLong("1583017978430"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeffa6e3a9205906a01fc"),
+    Timestamp: NumberLong("1583017978430"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeffa6e3a9205906a01fd"),
+    Timestamp: NumberLong("1583017978430"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5aeffa6e3a9205906a01fe"),
+    Timestamp: NumberLong("1583017978430"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 223.37,
+    open: 223.57,
+    close: 223.5,
+    volume: 212127.04145308,
+    amount: 948.854602448658
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0366e3a9205906a0217"),
+    Timestamp: NumberLong("1583018038511"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0366e3a9205906a0218"),
+    Timestamp: NumberLong("1583018038511"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0366e3a9205906a0219"),
+    Timestamp: NumberLong("1583018038511"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0366e3a9205906a021a"),
+    Timestamp: NumberLong("1583018038511"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0366e3a9205906a021b"),
+    Timestamp: NumberLong("1583018038511"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0366e3a9205906a021c"),
+    Timestamp: NumberLong("1583018038511"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 223.32,
+    open: 223.57,
+    close: 223.32,
+    volume: 228254.22982908,
+    amount: 1021.02851062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0726e3a9205906a021d"),
+    Timestamp: NumberLong("1583018098585"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0726e3a9205906a021e"),
+    Timestamp: NumberLong("1583018098585"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0726e3a9205906a021f"),
+    Timestamp: NumberLong("1583018098585"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0726e3a9205906a0221"),
+    Timestamp: NumberLong("1583018098585"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0726e3a9205906a0222"),
+    Timestamp: NumberLong("1583018098585"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0726e3a9205906a0223"),
+    Timestamp: NumberLong("1583018098585"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ae6e3a9205906a022f"),
+    Timestamp: NumberLong("1583018158568"),
+    id: NumberInt("1583016300"),
+    high: 223,
+    low: 222.38,
+    open: 222.99,
+    close: 222.51,
+    volume: 298033.518514,
+    amount: 1338.86252253016
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ae6e3a9205906a0230"),
+    Timestamp: NumberLong("1583018158568"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ae6e3a9205906a0231"),
+    Timestamp: NumberLong("1583018158568"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ae6e3a9205906a0232"),
+    Timestamp: NumberLong("1583018158568"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ae6e3a9205906a0233"),
+    Timestamp: NumberLong("1583018158568"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ae6e3a9205906a0234"),
+    Timestamp: NumberLong("1583018158568"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ae6e3a9205906a0235"),
+    Timestamp: NumberLong("1583018158568"),
+    id: NumberInt("1583018100"),
+    high: 223.02,
+    low: 222.85,
+    open: 222.87,
+    close: 223.02,
+    volume: 20609.965856,
+    amount: 92.4622
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ea6e3a9205906a0242"),
+    Timestamp: NumberLong("1583018218601"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ea6e3a9205906a0243"),
+    Timestamp: NumberLong("1583018218601"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ea6e3a9205906a0244"),
+    Timestamp: NumberLong("1583018218601"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ea6e3a9205906a0245"),
+    Timestamp: NumberLong("1583018218601"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ea6e3a9205906a0246"),
+    Timestamp: NumberLong("1583018218601"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af0ea6e3a9205906a0247"),
+    Timestamp: NumberLong("1583018218601"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.85,
+    open: 222.87,
+    close: 222.87,
+    volume: 40609.583218,
+    amount: 182.1359
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1266e3a9205906a0260"),
+    Timestamp: NumberLong("1583018278695"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1266e3a9205906a0261"),
+    Timestamp: NumberLong("1583018278695"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1266e3a9205906a0262"),
+    Timestamp: NumberLong("1583018278695"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1266e3a9205906a0263"),
+    Timestamp: NumberLong("1583018278695"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1266e3a9205906a0264"),
+    Timestamp: NumberLong("1583018278695"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1266e3a9205906a0265"),
+    Timestamp: NumberLong("1583018278695"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.03,
+    volume: 69244.6094964,
+    amount: 310.588935151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1626e3a9205906a0272"),
+    Timestamp: NumberLong("1583018338734"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1626e3a9205906a0273"),
+    Timestamp: NumberLong("1583018338734"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1626e3a9205906a0274"),
+    Timestamp: NumberLong("1583018338734"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1626e3a9205906a0275"),
+    Timestamp: NumberLong("1583018338734"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1626e3a9205906a0276"),
+    Timestamp: NumberLong("1583018338734"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1626e3a9205906a0277"),
+    Timestamp: NumberLong("1583018338734"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 222.96,
+    volume: 73157.6763524,
+    amount: 328.138735151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af19f6e3a9205906a0284"),
+    Timestamp: NumberLong("1583018398851"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af19f6e3a9205906a0285"),
+    Timestamp: NumberLong("1583018398851"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af19f6e3a9205906a0286"),
+    Timestamp: NumberLong("1583018398851"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af19f6e3a9205906a0287"),
+    Timestamp: NumberLong("1583018398851"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af19f6e3a9205906a0288"),
+    Timestamp: NumberLong("1583018398851"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af19f6e3a9205906a0289"),
+    Timestamp: NumberLong("1583018398851"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 105572.7739724,
+    amount: 473.437835151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1db6e3a9205906a0296"),
+    Timestamp: NumberLong("1583018458877"),
+    id: NumberInt("1583016600"),
+    high: 223.33,
+    low: 222.51,
+    open: 222.52,
+    close: 223.11,
+    volume: 297507.484399,
+    amount: 1334.4191
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1db6e3a9205906a0297"),
+    Timestamp: NumberLong("1583018458877"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1db6e3a9205906a0298"),
+    Timestamp: NumberLong("1583018458877"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1db6e3a9205906a0299"),
+    Timestamp: NumberLong("1583018458877"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1db6e3a9205906a029a"),
+    Timestamp: NumberLong("1583018458877"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1db6e3a9205906a029b"),
+    Timestamp: NumberLong("1583018458877"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af1db6e3a9205906a029c"),
+    Timestamp: NumberLong("1583018458877"),
+    id: NumberInt("1583018400"),
+    high: 223.3,
+    low: 223.12,
+    open: 223.12,
+    close: 223.24,
+    volume: 89369.470539,
+    amount: 400.3957
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2176e3a9205906a02a9"),
+    Timestamp: NumberLong("1583018518882"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2176e3a9205906a02aa"),
+    Timestamp: NumberLong("1583018518882"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2176e3a9205906a02ab"),
+    Timestamp: NumberLong("1583018518882"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2176e3a9205906a02ac"),
+    Timestamp: NumberLong("1583018518882"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2176e3a9205906a02ad"),
+    Timestamp: NumberLong("1583018518882"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2176e3a9205906a02ae"),
+    Timestamp: NumberLong("1583018518882"),
+    id: NumberInt("1583018400"),
+    high: 223.32,
+    low: 223.12,
+    open: 223.12,
+    close: 223.25,
+    volume: 121395.27667,
+    amount: 543.8581
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2536e3a9205906a02af"),
+    Timestamp: NumberLong("1583018578891"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2536e3a9205906a02b0"),
+    Timestamp: NumberLong("1583018578891"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2536e3a9205906a02b1"),
+    Timestamp: NumberLong("1583018578891"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2536e3a9205906a02b2"),
+    Timestamp: NumberLong("1583018578891"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2536e3a9205906a02b3"),
+    Timestamp: NumberLong("1583018578891"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2536e3a9205906a02b4"),
+    Timestamp: NumberLong("1583018578891"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.12,
+    open: 223.12,
+    close: 223.24,
+    volume: 145544.594233,
+    amount: 652.0144
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af28f6e3a9205906a02cd"),
+    Timestamp: NumberLong("1583018639009"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af28f6e3a9205906a02ce"),
+    Timestamp: NumberLong("1583018639009"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af28f6e3a9205906a02cf"),
+    Timestamp: NumberLong("1583018639009"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af28f6e3a9205906a02d0"),
+    Timestamp: NumberLong("1583018639009"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af28f6e3a9205906a02d1"),
+    Timestamp: NumberLong("1583018639009"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af28f6e3a9205906a02d2"),
+    Timestamp: NumberLong("1583018639009"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.12,
+    open: 223.12,
+    close: 223.26,
+    volume: 179897.937626,
+    amount: 805.879
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2cb6e3a9205906a02d3"),
+    Timestamp: NumberLong("1583018699036"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2cb6e3a9205906a02d4"),
+    Timestamp: NumberLong("1583018699036"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2cb6e3a9205906a02d5"),
+    Timestamp: NumberLong("1583018699036"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2cb6e3a9205906a02d6"),
+    Timestamp: NumberLong("1583018699036"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2cb6e3a9205906a02d7"),
+    Timestamp: NumberLong("1583018699036"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af2cb6e3a9205906a02d8"),
+    Timestamp: NumberLong("1583018699036"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3076e3a9205906a02e5"),
+    Timestamp: NumberLong("1583018759079"),
+    id: NumberInt("1583016900"),
+    high: 223.45,
+    low: 222.8,
+    open: 223.08,
+    close: 223.44,
+    volume: 238824.43472792,
+    amount: 1070.23514856301
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3076e3a9205906a02e6"),
+    Timestamp: NumberLong("1583018759079"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3076e3a9205906a02e7"),
+    Timestamp: NumberLong("1583018759079"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3076e3a9205906a02e8"),
+    Timestamp: NumberLong("1583018759079"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3076e3a9205906a02e9"),
+    Timestamp: NumberLong("1583018759079"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3076e3a9205906a02ea"),
+    Timestamp: NumberLong("1583018759079"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3076e3a9205906a02eb"),
+    Timestamp: NumberLong("1583018759079"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.8,
+    open: 223.07,
+    close: 222.81,
+    volume: 537537.146174,
+    amount: 2410.3223
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3436e3a9205906a02f8"),
+    Timestamp: NumberLong("1583018819106"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3436e3a9205906a02f9"),
+    Timestamp: NumberLong("1583018819106"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3436e3a9205906a02fa"),
+    Timestamp: NumberLong("1583018819106"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3436e3a9205906a02fb"),
+    Timestamp: NumberLong("1583018819106"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3436e3a9205906a02fc"),
+    Timestamp: NumberLong("1583018819106"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3436e3a9205906a02fd"),
+    Timestamp: NumberLong("1583018819106"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.8,
+    open: 223.07,
+    close: 222.8,
+    volume: 546206.499199,
+    amount: 2449.228
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af37f6e3a9205906a030a"),
+    Timestamp: NumberLong("1583018879177"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af37f6e3a9205906a030b"),
+    Timestamp: NumberLong("1583018879177"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af37f6e3a9205906a030c"),
+    Timestamp: NumberLong("1583018879177"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af37f6e3a9205906a030d"),
+    Timestamp: NumberLong("1583018879177"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af37f6e3a9205906a030e"),
+    Timestamp: NumberLong("1583018879177"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af37f6e3a9205906a030f"),
+    Timestamp: NumberLong("1583018879177"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.48,
+    open: 223.07,
+    close: 222.48,
+    volume: 583883.885344,
+    amount: 2618.5293
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3bb6e3a9205906a0328"),
+    Timestamp: NumberLong("1583018939237"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3bb6e3a9205906a0329"),
+    Timestamp: NumberLong("1583018939237"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3bb6e3a9205906a032a"),
+    Timestamp: NumberLong("1583018939237"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3bb6e3a9205906a032b"),
+    Timestamp: NumberLong("1583018939237"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3bb6e3a9205906a032c"),
+    Timestamp: NumberLong("1583018939237"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3bb6e3a9205906a032d"),
+    Timestamp: NumberLong("1583018939237"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.47,
+    open: 223.07,
+    close: 222.47,
+    volume: 645714.596592865,
+    amount: 2896.3071
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3f76e3a9205906a032e"),
+    Timestamp: NumberLong("1583018999304"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3f76e3a9205906a032f"),
+    Timestamp: NumberLong("1583018999304"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3f76e3a9205906a0330"),
+    Timestamp: NumberLong("1583018999304"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3f76e3a9205906a0331"),
+    Timestamp: NumberLong("1583018999304"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3f76e3a9205906a0332"),
+    Timestamp: NumberLong("1583018999304"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af3f76e3a9205906a0333"),
+    Timestamp: NumberLong("1583018999304"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4336e3a9205906a034c"),
+    Timestamp: NumberLong("1583019059369"),
+    id: NumberInt("1583017200"),
+    high: 223.86,
+    low: 223.2,
+    open: 223.43,
+    close: 223.5,
+    volume: 424267.47349179,
+    amount: 1898.31887617159
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4336e3a9205906a034d"),
+    Timestamp: NumberLong("1583019059369"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4336e3a9205906a034e"),
+    Timestamp: NumberLong("1583019059369"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4336e3a9205906a034f"),
+    Timestamp: NumberLong("1583019059369"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4336e3a9205906a0350"),
+    Timestamp: NumberLong("1583019059369"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4336e3a9205906a0351"),
+    Timestamp: NumberLong("1583019059369"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4336e3a9205906a0352"),
+    Timestamp: NumberLong("1583019059369"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 222.38,
+    open: 222.45,
+    close: 222.39,
+    volume: 14846.561502,
+    amount: 66.759
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af46f6e3a9205906a035f"),
+    Timestamp: NumberLong("1583019119427"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af46f6e3a9205906a0360"),
+    Timestamp: NumberLong("1583019119427"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af46f6e3a9205906a0361"),
+    Timestamp: NumberLong("1583019119427"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af46f6e3a9205906a0362"),
+    Timestamp: NumberLong("1583019119427"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af46f6e3a9205906a0363"),
+    Timestamp: NumberLong("1583019119427"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af46f6e3a9205906a0364"),
+    Timestamp: NumberLong("1583019119427"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 222.1,
+    open: 222.45,
+    close: 222.1,
+    volume: 102948.609921,
+    amount: 463.0964
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4ab6e3a9205906a0365"),
+    Timestamp: NumberLong("1583019179431"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4ab6e3a9205906a0366"),
+    Timestamp: NumberLong("1583019179431"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4ab6e3a9205906a0367"),
+    Timestamp: NumberLong("1583019179431"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4ab6e3a9205906a0368"),
+    Timestamp: NumberLong("1583019179431"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4ab6e3a9205906a0369"),
+    Timestamp: NumberLong("1583019179431"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4ab6e3a9205906a036a"),
+    Timestamp: NumberLong("1583019179431"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.93,
+    open: 222.45,
+    close: 222.3,
+    volume: 245887.49188,
+    amount: 1106.86179414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4e76e3a9205906a0377"),
+    Timestamp: NumberLong("1583019239527"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4e76e3a9205906a0378"),
+    Timestamp: NumberLong("1583019239527"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4e76e3a9205906a0379"),
+    Timestamp: NumberLong("1583019239527"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4e76e3a9205906a037a"),
+    Timestamp: NumberLong("1583019239527"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4e76e3a9205906a037b"),
+    Timestamp: NumberLong("1583019239527"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af4e76e3a9205906a037c"),
+    Timestamp: NumberLong("1583019239527"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.93,
+    open: 222.45,
+    close: 222.14,
+    volume: 304083.718582,
+    amount: 1368.66769414838
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5236e3a9205906a0395"),
+    Timestamp: NumberLong("1583019299590"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5236e3a9205906a0396"),
+    Timestamp: NumberLong("1583019299590"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5236e3a9205906a0397"),
+    Timestamp: NumberLong("1583019299590"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5236e3a9205906a0398"),
+    Timestamp: NumberLong("1583019299590"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5236e3a9205906a0399"),
+    Timestamp: NumberLong("1583019299590"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5236e3a9205906a039a"),
+    Timestamp: NumberLong("1583019299590"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af55f6e3a9205906a03a7"),
+    Timestamp: NumberLong("1583019359610"),
+    id: NumberInt("1583017500"),
+    high: 223.69,
+    low: 223.31,
+    open: 223.45,
+    close: 223.57,
+    volume: 340741.83430894,
+    amount: 1524.35826509165
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af55f6e3a9205906a03a8"),
+    Timestamp: NumberLong("1583019359610"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af55f6e3a9205906a03a9"),
+    Timestamp: NumberLong("1583019359610"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af55f6e3a9205906a03aa"),
+    Timestamp: NumberLong("1583019359610"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af55f6e3a9205906a03ab"),
+    Timestamp: NumberLong("1583019359610"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af55f6e3a9205906a03ac"),
+    Timestamp: NumberLong("1583019359610"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af55f6e3a9205906a03ad"),
+    Timestamp: NumberLong("1583019359610"),
+    id: NumberInt("1583019300"),
+    high: 222,
+    low: 221.5,
+    open: 221.9,
+    close: 221.5,
+    volume: 77180.932711,
+    amount: 348.029804180193
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af59b6e3a9205906a03ba"),
+    Timestamp: NumberLong("1583019419624"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af59b6e3a9205906a03bb"),
+    Timestamp: NumberLong("1583019419624"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af59b6e3a9205906a03bc"),
+    Timestamp: NumberLong("1583019419624"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af59b6e3a9205906a03bd"),
+    Timestamp: NumberLong("1583019419624"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af59b6e3a9205906a03be"),
+    Timestamp: NumberLong("1583019419624"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af59b6e3a9205906a03bf"),
+    Timestamp: NumberLong("1583019419624"),
+    id: NumberInt("1583019300"),
+    high: 222,
+    low: 221.1,
+    open: 221.9,
+    close: 221.1,
+    volume: 258413.779999763,
+    amount: 1166.8943654905
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5d76e3a9205906a03cc"),
+    Timestamp: NumberLong("1583019479703"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5d76e3a9205906a03cd"),
+    Timestamp: NumberLong("1583019479703"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5d76e3a9205906a03ce"),
+    Timestamp: NumberLong("1583019479703"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5d76e3a9205906a03cf"),
+    Timestamp: NumberLong("1583019479703"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5d76e3a9205906a03d0"),
+    Timestamp: NumberLong("1583019479703"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af5d76e3a9205906a03d1"),
+    Timestamp: NumberLong("1583019479703"),
+    id: NumberInt("1583019300"),
+    high: 222,
+    low: 219.22,
+    open: 221.9,
+    close: 219.8,
+    volume: 1864273.46067488,
+    amount: 8462.55981875507
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6136e3a9205906a03d2"),
+    Timestamp: NumberLong("1583019539705"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6136e3a9205906a03d3"),
+    Timestamp: NumberLong("1583019539705"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6136e3a9205906a03d4"),
+    Timestamp: NumberLong("1583019539705"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6136e3a9205906a03d5"),
+    Timestamp: NumberLong("1583019539705"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6136e3a9205906a03d6"),
+    Timestamp: NumberLong("1583019539705"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6136e3a9205906a03d7"),
+    Timestamp: NumberLong("1583019539705"),
+    id: NumberInt("1583019300"),
+    high: 222,
+    low: 219.22,
+    open: 221.9,
+    close: 219.79,
+    volume: 2119287.31505488,
+    amount: 9622.79281656201
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af64f6e3a9205906a03e4"),
+    Timestamp: NumberLong("1583019599765"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af64f6e3a9205906a03e5"),
+    Timestamp: NumberLong("1583019599765"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af64f6e3a9205906a03e6"),
+    Timestamp: NumberLong("1583019599765"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af64f6e3a9205906a03e7"),
+    Timestamp: NumberLong("1583019599765"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af64f6e3a9205906a03e8"),
+    Timestamp: NumberLong("1583019599765"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af64f6e3a9205906a03e9"),
+    Timestamp: NumberLong("1583019599765"),
+    id: NumberInt("1583019300"),
+    high: 222,
+    low: 218.77,
+    open: 221.9,
+    close: 219.12,
+    volume: 2760589.86657628,
+    amount: 12549.2716445736
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af68c6e3a9205906a0402"),
+    Timestamp: NumberLong("1583019659834"),
+    id: NumberInt("1583017800"),
+    high: 223.7,
+    low: 222.86,
+    open: 223.57,
+    close: 222.89,
+    volume: 267155.93078908,
+    amount: 1195.46141062836
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af68c6e3a9205906a0403"),
+    Timestamp: NumberLong("1583019659834"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af68c6e3a9205906a0404"),
+    Timestamp: NumberLong("1583019659834"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af68c6e3a9205906a0405"),
+    Timestamp: NumberLong("1583019659834"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af68c6e3a9205906a0406"),
+    Timestamp: NumberLong("1583019659834"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af68c6e3a9205906a0407"),
+    Timestamp: NumberLong("1583019659834"),
+    id: NumberInt("1583019300"),
+    high: 222,
+    low: 218.77,
+    open: 221.9,
+    close: 219.25,
+    volume: 2767743.49720228,
+    amount: 12581.9053445736
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af68c6e3a9205906a0408"),
+    Timestamp: NumberLong("1583019659834"),
+    id: NumberInt("1583019600"),
+    high: 219.56,
+    low: 219.13,
+    open: 219.21,
+    close: 219.46,
+    volume: 295221.56282534,
+    amount: 1345.71576763788
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6c86e3a9205906a0409"),
+    Timestamp: NumberLong("1583019719844"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6c86e3a9205906a040a"),
+    Timestamp: NumberLong("1583019719844"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6c86e3a9205906a040b"),
+    Timestamp: NumberLong("1583019719844"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6c86e3a9205906a040c"),
+    Timestamp: NumberLong("1583019719844"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6c86e3a9205906a040d"),
+    Timestamp: NumberLong("1583019719844"),
+    id: NumberInt("1583019300"),
+    high: 222,
+    low: 218.77,
+    open: 221.9,
+    close: 219.25,
+    volume: 2767743.49720228,
+    amount: 12581.9053445736
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af6c86e3a9205906a040e"),
+    Timestamp: NumberLong("1583019719844"),
+    id: NumberInt("1583019600"),
+    high: 219.8,
+    low: 219.13,
+    open: 219.21,
+    close: 219.57,
+    volume: 380445.24073834,
+    amount: 1733.68505533452
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7046e3a9205906a041b"),
+    Timestamp: NumberLong("1583019779918"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7046e3a9205906a041c"),
+    Timestamp: NumberLong("1583019779918"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7046e3a9205906a041d"),
+    Timestamp: NumberLong("1583019779918"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7046e3a9205906a041e"),
+    Timestamp: NumberLong("1583019779918"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7046e3a9205906a041f"),
+    Timestamp: NumberLong("1583019779918"),
+    id: NumberInt("1583019300"),
+    high: 222,
+    low: 218.77,
+    open: 221.9,
+    close: 219.25,
+    volume: 2767743.49720228,
+    amount: 12581.9053445736
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7046e3a9205906a0420"),
+    Timestamp: NumberLong("1583019779918"),
+    id: NumberInt("1583019600"),
+    high: 219.8,
+    low: 219.13,
+    open: 219.21,
+    close: 219.41,
+    volume: 882596.243562422,
+    amount: 4023.30889721663
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7406e3a9205906a0439"),
+    Timestamp: NumberLong("1583019839940"),
+    id: NumberInt("1583018100"),
+    high: 223.18,
+    low: 222.8,
+    open: 222.87,
+    close: 223.13,
+    volume: 106820.5499214,
+    amount: 479.030335151174
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7406e3a9205906a043a"),
+    Timestamp: NumberLong("1583019839940"),
+    id: NumberInt("1583018400"),
+    high: 223.33,
+    low: 223.07,
+    open: 223.12,
+    close: 223.08,
+    volume: 199998.362174,
+    amount: 895.9387
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7406e3a9205906a043b"),
+    Timestamp: NumberLong("1583019839940"),
+    id: NumberInt("1583018700"),
+    high: 223.08,
+    low: 222.38,
+    open: 223.07,
+    close: 222.45,
+    volume: 673659.994760865,
+    amount: 3021.9491
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7406e3a9205906a043c"),
+    Timestamp: NumberLong("1583019839940"),
+    id: NumberInt("1583019000"),
+    high: 222.45,
+    low: 221.82,
+    open: 222.45,
+    close: 221.92,
+    volume: 370025.580895,
+    amount: 1665.70889414839
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7406e3a9205906a043d"),
+    Timestamp: NumberLong("1583019839940"),
+    id: NumberInt("1583019300"),
+    high: 222,
+    low: 218.77,
+    open: 221.9,
+    close: 219.25,
+    volume: 2767743.49720228,
+    amount: 12581.9053445736
+} ]);
+db.getCollection("candle").insert([ {
+    _id: ObjectId("5e5af7406e3a9205906a043e"),
+    Timestamp: NumberLong("1583019839940"),
+    id: NumberInt("1583019600"),
+    high: 219.8,
+    low: 218.84,
+    open: 219.21,
+    close: 218.84,
+    volume: 1248356.82951722,
+    amount: 5692.532141609
+} ]);
