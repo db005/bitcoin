@@ -1,4 +1,4 @@
-Flask==1.1.1
+Flask==2.3.2
 huobi-client==1.0.10
 huobitrade==0.5.6
 numpy==1.16.3
